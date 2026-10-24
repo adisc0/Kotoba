@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#faf7f2" />
+    <meta
+      name="description"
+      content="A personal Japanese reference with vocabulary, grammar, lessons, kana charts, and an interactive clock."
+    />
+    <title>Kotoba | Alken's Notebook</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTciIGZpbGw9IiNkMTZiNGQiLz48dGV4dCB4PSIzMiIgeT0iNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJOb3RvIFNhbnMgQ0pLIEpQLCBZdSBHb3RoaWMsIEhpcmFnaW5vIEtha3UgR290aGljIFByb04sIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjZmZmZmZmIj7oqIA8L3RleHQ+PC9zdmc+"
+    />
+    <link rel="stylesheet" href="./assets/reference.37d3352e0e.css">
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar" aria-label="Kotoba navigation">
+        <div class="brand">
+          <div class="brand-mark">言</div>
+          <div>
+            <div class="brand-title">
+              kotoba<span style="color: var(--accent)">.</span>
+            </div>
+            <div class="brand-sub">ALKEN'S NOTEBOOK</div>
+          </div>
+        </div>
+        <div class="eyebrow">YOUR NOTEBOOK</div>
+        <nav class="nav" aria-label="Main navigation">
+          <button
+            type="button"
+            data-page="library"
+            class="active"
+            title="Japanese dictionary"
+            aria-label="Vocabulary library"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="3" y="4" width="18" height="17" rx="2" />
+              <path d="M8 4v17M11 9h7M11 13h7" /></svg
+            >Dictionary
+          </button>
+          <div class="yuma-nav-group">
+            <button
+              type="button"
+              data-page="lessons"
+              id="yumaNavToggle"
+              title="Lessons"
+              aria-label="Lessons, expand or collapse"
+              aria-expanded="false"
+              aria-controls="lessonSideNav"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 5v15M3 4c4-1 6 0 9 2 3-2 5-3 9-2v15c-4-1-6 0-9 2-3-2-5-3-9-2Z"
+                />
+                <path d="M6 8h3M6 12h3m6-4h3m-3 4h3" /></svg
+              ><span>Lessons</span
+              ><svg
+                class="yuma-chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </button>
+            <div
+              class="lesson-nav"
+              id="lessonSideNav"
+              aria-label="Individual Yuma lesson shortcuts"
+            ></div>
+          </div>
+          <button
+            type="button"
+            data-page="kana"
+            title="Hiragana and katakana"
+            aria-label="Kana charts"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <rect x="3" y="3" width="18" height="18" rx="4" />
+              <path
+                d="M7 8h10M10 6v9c0 4 7 4 7 0 0-4-7-4-9-1m6-5c0 4-2 7-5 8"
+              /></svg
+            >Kana
+          </button>
+          <button
+            type="button"
+            data-page="numbers"
+            title="Numbers and time"
+            aria-label="Numbers and time"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 6v6l4 2" /></svg
+            >Numbers &amp; Time
+          </button>
+          <button
+            type="button"
+            data-page="grammar"
+            title="Grammar reference"
+            aria-label="Grammar reference"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M4 5h16v14H4zM8 9h8M8 13h5" /></svg
+            >Grammar
+          </button>
+          <button
+            type="button"
+            data-page="settings"
+            title="Backup and settings"
+            aria-label="Backup and settings"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M5 7h14M5 12h14M5 17h14" />
+              <circle cx="9" cy="7" r="2" fill="var(--paper)" />
+              <circle cx="15" cy="12" r="2" fill="var(--paper)" />
+              <circle cx="10" cy="17" r="2" fill="var(--paper)" /></svg
+            >Display & about
+          </button>
+        </nav>
+        <div class="sidebar-spacer"></div>
+        <div class="sidebar-progress">
+          <div class="sidebar-progress-heading">
+            <span>Your growing vocabulary</span
+            ><span aria-hidden="true">🌱</span>
+          </div>
+          <p>
+            <strong id="sidebarTotalWords">0</strong
+            ><span> words collected</span>
+          </p>
+        </div>
+
+        <div class="sidebar-bottom">
+          <span>ことば帳</span
+          ><a
+            class="sidebar-instagram"
+            href="https://www.instagram.com/alkn.co/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="@alkn.co on Instagram (opens in a new tab)"
+            >@alkn.co ↗</a
+          >
+        </div>
+      </aside>
+      <main>
+        <div class="topbar">
+          <span class="tiny-label"
+            ><span class="dot"></span> MY JAPANESE REFERENCE</span
+          >
+          <div class="top-actions">
+            <button
+              class="btn icon-btn"
+              id="themeBtn"
+              title="Toggle dark mode"
+              aria-label="Toggle dark mode"
+            >
+              ☾
+            </button>
+          </div>
+        </div>
+        <div
+          class="study-preferences"
+          id="studyPreferences"
+          role="region"
+          aria-label="Japanese reading display"
+        >
+          <div class="reading-identity">
+            <span class="reading-icon" aria-hidden="true">あ</span>
+            <div>
+              <strong>Reading helper</strong
+              ><span>Show a hint, then try without it ✿</span>
+            </div>
+          </div>
+          <div
+            class="reading-modes"
+            role="group"
+            aria-label="Reading display mode"
+          >
+            <button
+              type="button"
+              data-reading-mode="furigana"
+              aria-pressed="true"
+            >
+              ふ <span>Furigana</span></button
+            ><button
+              type="button"
+              data-reading-mode="kana"
+              aria-pressed="false"
+            >
+              あ <span>Kana</span></button
+            ><button
+              type="button"
+              data-reading-mode="clean"
+              aria-pressed="false"
+            >
+              漢 <span>Kanji</span>
+            </button>
+          </div>
+          <label class="text-size-control" for="textSizeSelect"
+            >Text size
+            <select id="textSizeSelect">
+              <option value="16">Comfortable</option>
+              <option value="18">Large</option>
+              <option value="20">Extra large</option>
+            </select></label
+          >
+        </div>
+        <section id="libraryPage">
+          <div class="hero">
+            <div class="hero-text">
+              <div class="hero-kicker">✦ あなたの日本語ノート</div>
+              <h1>Your Japanese,<br /><em>all together.</em></h1>
+              <p>
+                Your growing Japanese reference. Look up a word, explore its
+                forms, revisit a lesson, or find the reading you need.
+              </p>
+              <span class="hero-chip"
+                >ことば帳 · Made to explore, built to grow</span
+              >
+            </div>
+            <div
+              class="hero-stickers"
+              id="heroStickers"
+              aria-hidden="true"
+            ></div>
+          </div>
+          <div
+            class="reference-shortcuts"
+            role="group"
+            aria-label="Explore the reference"
+          >
+            <button type="button" data-reference="library">
+              Dictionary <span id="dictionaryCount"></span></button
+            ><button type="button" data-reference="grammar">
+              Grammar <span>Patterns & explanations</span></button
+            ><button type="button" data-reference="lessons">
+              Lessons <span>Yuma-san’s notebook</span></button
+            ><button type="button" data-reference="kana">
+              Kana <span>Charts & sound cues</span></button
+            ><button type="button" data-reference="numbers">
+              Numbers & Time <span>Explore & listen</span>
+            </button>
+          </div>
+          <div class="section-title">
+            <div>
+              <h2 id="vocabularyTitle" tabindex="-1">Dictionary</h2>
+              <p id="collectionDescription">
+                Search Japanese, kana, romaji or English. Browse by category.
+              </p>
+              <button
+                type="button"
+                class="btn small ghost hidden"
+                id="allWordsBack"
+              >
+                ← All words
+              </button>
+            </div>
+            <button class="btn small" id="randomWordBtn">↗ Surprise me</button>
+          </div>
+          <div class="toolbar">
+            <label class="searchbox" aria-label="Search vocabulary"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              >
+                <circle cx="11" cy="11" r="7" />
+                <path d="m16 16 5 5" /></svg
+              ><input
+                id="searchInput"
+                type="search"
+                placeholder="Search Japanese, romaji or English…"
+                autocomplete="off"
+              /><span class="search-shortcut">/</span></label
+            ><button
+              class="btn small picture-toggle"
+              id="pictureToggle"
+              type="button"
+              aria-pressed="true"
+              title="Show or hide cute picture cues"
+            >
+              ✿ Pictures on
+            </button>
+          </div>
+          <div
+            class="categories"
+            id="categories"
+            role="group"
+            aria-label="Vocabulary categories"
+          ></div>
+          <div class="resultsbar">
+            <span id="resultCount">Showing all words</span
+            ><select id="sortFilter" aria-label="Sort vocabulary">
+              <option value="default">Recommended order</option>
+              <option value="az">A → Z (romaji)</option>
+              <option value="recent">Recently added</option>
+            </select>
+          </div>
+          <div id="wordGrid" class="word-grid"></div>
+          <div id="emptyState" class="empty hidden">
+            <h3>No matching entries</h3>
+            <p>Try another word, reading, or category.</p>
+          </div>
+        </section>
+        <section
+          id="lessonsPage"
+          class="hidden"
+          aria-label="Lessons with Yuma-san"
+        >
+          <div id="lessonsContent"></div>
+        </section>
+        <section
+          id="kanaPage"
+          class="hidden"
+          aria-label="Learn hiragana and katakana"
+        >
+          <div class="kana-hero">
+            <div class="hero-kicker">あ → ア · ONE SOUND, TWO SCRIPTS</div>
+            <h1>A little kana, every day.</h1>
+            <p>
+              Learn the shapes, say the sounds, and connect them with a picture.
+            </p>
+          </div>
+          <div
+            class="kana-tabs"
+            id="kanaTabs"
+            role="tablist"
+            aria-label="Choose kana script"
+          >
+            <button
+              type="button"
+              id="hiraganaTab"
+              role="tab"
+              aria-controls="kanaPanel"
+              aria-selected="true"
+              data-kana-script="hiragana"
+            >
+              あ Hiragana</button
+            ><button
+              type="button"
+              id="katakanaTab"
+              role="tab"
+              aria-controls="kanaPanel"
+              aria-selected="false"
+              tabindex="-1"
+              data-kana-script="katakana"
+            >
+              ア Katakana
+            </button>
+          </div>
+          <div
+            id="kanaSetToggle"
+            class="kana-set-toggle"
+            role="group"
+            aria-label="Kana sound set"
+          >
+            <button type="button" data-kana-set="basic" aria-pressed="true">
+              Basic · あ</button
+            ><button type="button" data-kana-set="voiced" aria-pressed="false">
+              Voiced / P · が ぱ</button
+            ><button
+              type="button"
+              data-kana-set="combinations"
+              aria-pressed="false"
+            >
+              Combinations · きゅ
+            </button>
+          </div>
+          <div
+            id="kanaViewToggle"
+            class="kana-view-toggle"
+            role="group"
+            aria-label="Chart layout"
+          >
+            <button type="button" data-kana-view="compact" aria-pressed="true">
+              ▦ At a glance</button
+            ><button
+              type="button"
+              data-kana-view="pictures"
+              aria-pressed="false"
+            >
+              ✿ Picture cards
+            </button>
+          </div>
+          <div
+            id="kanaPanel"
+            role="tabpanel"
+            aria-labelledby="hiraganaTab"
+          ></div>
+          <p class="kana-source">
+            Picture words are original study cues. Chart reference:
+            <a
+              href="https://www.jpf.go.jp/j/kansai/clip/kanamemoryhint/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Japan Foundation kana resources ↗</a
+            >
+          </p>
+        </section>
+        <section id="numbersPage" class="hidden" aria-label="Numbers and time">
+          <div class="kana-hero">
+            <div class="hero-kicker">いち、に、さん · TICK, TOCK</div>
+            <h1>Make time for Japanese.</h1>
+            <p>Move the clock hands, say the time, or explore your numbers.</p>
+          </div>
+          <div
+            class="kana-tabs"
+            id="numbersTimeTabs"
+            role="group"
+            aria-label="Choose numbers or time"
+          >
+            <button type="button" data-number-tab="time" aria-pressed="true">
+              ◷ Time playground</button
+            ><button
+              type="button"
+              data-number-tab="numbers"
+              aria-pressed="false"
+            >
+              123 Numbers
+            </button>
+          </div>
+          <div id="timeStudyPanel">
+            <div class="time-playground">
+              <div class="interactive-clock-panel">
+                <div class="clock-digital-display">
+                  <span class="clock-digital-caption">24-HOUR TIME</span>
+                  <div id="timeDigital"></div>
+                </div>
+                <h2>What time is it?</h2>
+                <p class="time-help">Drag a hand to explore the time.</p>
+                <svg
+                  id="learningClock"
+                  viewBox="0 0 300 300"
+                  role="img"
+                  aria-label="Interactive learning clock"
+                >
+                  <circle
+                    class="learning-clock-rim"
+                    cx="150"
+                    cy="150"
+                    r="145"
+                  />
+                  <circle
+                    class="learning-clock-face"
+                    cx="150"
+                    cy="150"
+                    r="133"
+                  />
+                  <g id="clockFaceMarks"></g>
+                  <g id="clockHourHand" data-clock-hand="hour">
+                    <line
+                      class="clock-hand-hit"
+                      x1="150"
+                      y1="150"
+                      x2="150"
+                      y2="80"
+                    />
+                    <line
+                      class="learning-hour-hand"
+                      x1="150"
+                      y1="160"
+                      x2="150"
+                      y2="80"
+                    />
+                  </g>
+                  <g id="clockMinuteHand" data-clock-hand="minute">
+                    <line
+                      class="clock-hand-hit"
+                      x1="150"
+                      y1="150"
+                      x2="150"
+                      y2="48"
+                    />
+                    <line
+                      class="learning-minute-hand"
+                      x1="150"
+                      y1="165"
+                      x2="150"
+                      y2="48"
+                    />
+                  </g>
+                  <circle class="learning-clock-pin" cx="150" cy="150" r="7" />
+                </svg>
+                <div class="clock-mode">
+                  <label for="clockHandMode">Move</label
+                  ><select id="clockHandMode">
+                    <option value="minute">Mint minute hand</option>
+                    <option value="hour">Purple hour hand</option>
+                  </select>
+                </div>
+              </div>
+              <div class="clock-controls-panel">
+                <div class="time-reading" aria-live="polite" aria-atomic="true">
+                  <div id="timeJapanese" lang="ja"></div>
+                  <div id="timeKana" lang="ja"></div>
+                  <div id="timeRomaji"></div>
+                  <p id="timeHalf" class="hidden"></p>
+                </div>
+                <button type="button" class="btn primary" id="timeListen">
+                  ♫ Hear the time
+                </button>
+                <div class="clock-settings">
+                  <h3>Set the time</h3>
+                  <div class="clock-time-fields">
+                    <label for="hourControl"
+                      >Hour <span>00–23</span
+                      ><select
+                        id="hourControl"
+                        aria-label="Hour, 24-hour format"
+                      ></select></label
+                    ><span class="clock-field-colon" aria-hidden="true">:</span
+                    ><label for="minuteControl"
+                      >Minute <span>00–59</span
+                      ><select id="minuteControl" aria-label="Minute"></select
+                    ></label>
+                  </div>
+                  <button type="button" class="btn" id="randomTime">
+                    ✦ Surprise me
+                  </button>
+                </div>
+                <details class="clock-study-tip">
+                  <summary>Reading tips</summary>
+                  <p>時 = hour · 分 = minute</p>
+                  <p>午前 (gozen) = AM<br />午後 (gogo) = PM</p>
+                  <p>
+                    Watch the special hours: <b>四時 よじ</b>,
+                    <b>七時 しちじ</b>, <b>九時 くじ</b>.
+                  </p>
+                  <p>At :30 you can also use 半 (han), “half past.”</p>
+                </details>
+              </div>
+            </div>
+          </div>
+          <div id="numberStudyPanel" class="hidden">
+            <div class="number-explorer">
+              <h2>Build a number</h2>
+              <label for="numberInput"
+                >Choose any whole number from 0 to 9,999</label
+              ><input
+                id="numberInput"
+                type="number"
+                min="0"
+                max="9999"
+                step="1"
+                value="1"
+              />
+              <div id="numberResult" aria-live="polite"></div>
+              <button type="button" class="btn primary" id="numberListen">
+                ♫ Listen
+              </button>
+            </div>
+            <div class="section-title">
+              <div>
+                <h2>Your number reference</h2>
+                <p>
+                  Tap a number to hear it. Watch the special hundreds and
+                  thousands.
+                </p>
+              </div>
+            </div>
+            <div class="number-chart" id="numberChart"></div>
+          </div>
+          <p class="kana-source">
+            Time reading reference:
+            <a
+              href="https://japansociety.org/news/japanese-language-lesson-9-telling-time/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Japan Society ↗</a
+            >
+          </p>
+        </section>
+        <section id="grammarPage" class="hidden" aria-label="Grammar reference">
+          <div class="kana-hero">
+            <div class="hero-kicker">文法 · GRAMMAR REFERENCE</div>
+            <h1>See how Japanese fits together.</h1>
+            <p>Patterns and explanations from your lessons, in one place.</p>
+          </div>
+          <div id="grammarContent"></div>
+        </section>
+        <section
+          id="settingsPage"
+          class="hidden"
+          aria-label="Display and about"
+        >
+          <div class="section-title">
+            <div>
+              <h2>Display & about</h2>
+              <p>A personal reference, available on every device.</p>
+            </div>
+          </div>
+          <div class="setting-card">
+            <h3>Make yourself comfortable</h3>
+            <p>
+              Theme, text size and reading hints are display preferences for
+              this browser. The reference content is shared by the published
+              site.
+            </p>
+            <button type="button" class="btn" id="themeBtn2">
+              Toggle light / dark
+            </button>
+          </div>
+          <div class="setting-card" style="margin-top: 18px">
+            <h3>Built to keep growing</h3>
+            <p>
+              New words, examples and lesson material are added to the source
+              content and published together. No account or progress syncing is
+              needed.
+            </p>
+            <p>Pronunciation uses a Japanese voice available on your device.</p>
+          </div>
+          <div
+            id="legacyRecovery"
+            class="setting-card hidden"
+            style="margin-top: 18px"
+          >
+            <h3>Earlier browser-only material</h3>
+            <p>
+              Your previous personal material is still stored in this browser.
+              Download a copy so useful entries can be added to the shared
+              reference.
+            </p>
+            <button type="button" class="btn" id="downloadLegacy">
+              Download earlier material
+            </button>
+          </div>
+        </section>
+        <div class="footer">
+          <span>ことば帳 · Your Japanese vocabulary notebook</span
+          ><span>A growing reference · ことばのある暮らし</span>
+        </div>
+      </main>
+    </div>
+    <dialog id="wordDetailsDialog" aria-labelledby="wordDetailsTitle">
+      <div class="modal-head">
+        <h2 id="wordDetailsTitle" lang="ja"></h2>
+        <button
+          type="button"
+          class="btn icon-btn"
+          id="closeWordDetails"
+          aria-label="Close word details"
+          autofocus
+        >
+          ✕
+        </button>
+      </div>
+      <div id="wordDetailsContent" class="modal-form"></div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./assets/reference.9e2036457a.js" defer></script>
+  </body>
+</html>

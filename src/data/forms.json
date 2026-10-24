@@ -1,0 +1,7877 @@
+{
+  "食べる": {
+    "dictionary": "食べる",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "食べる",
+        "taberu",
+        "To eat",
+        {
+          "jp": "うどんを食べる。",
+          "romaji": "udon o taberu",
+          "en": "I eat udon / I will eat udon."
+        }
+      ],
+      [
+        "Polite",
+        "食べます",
+        "tabemasu",
+        "I eat / I will eat",
+        {
+          "jp": "うどんを食べます。",
+          "romaji": "udon o tabemasu",
+          "en": "I eat udon / I will eat udon."
+        }
+      ],
+      [
+        "Polite negative",
+        "食べません",
+        "tabemasen",
+        "I don’t eat",
+        {
+          "jp": "うどんを食べません。",
+          "romaji": "udon o tabemasen",
+          "en": "I don’t eat udon."
+        }
+      ],
+      [
+        "Polite past",
+        "食べました",
+        "tabemashita",
+        "I ate",
+        {
+          "jp": "うどんを食べました。",
+          "romaji": "udon o tabemashita",
+          "en": "I ate udon."
+        }
+      ],
+      [
+        "Polite past negative",
+        "食べませんでした",
+        "tabemasendeshita",
+        "I didn’t eat",
+        {
+          "jp": "うどんを食べませんでした。",
+          "romaji": "udon o tabemasen deshita",
+          "en": "I didn’t eat udon."
+        }
+      ],
+      [
+        "て-form",
+        "食べて",
+        "tabete",
+        "Connects actions / requests",
+        {
+          "jp": "うどんを食べてください。",
+          "romaji": "udon o tabe te kudasai",
+          "en": "Please eat udon."
+        }
+      ],
+      [
+        "Casual present / future",
+        "食べる",
+        "taberu",
+        "I eat / I will eat",
+        {
+          "jp": "うどんを食べる。",
+          "romaji": "udon o taberu",
+          "en": "I eat udon / I will eat udon."
+        }
+      ],
+      [
+        "Casual negative",
+        "食べない",
+        "tabenai",
+        "I don’t eat",
+        {
+          "jp": "うどんを食べない。",
+          "romaji": "udon o tabenai",
+          "en": "I don’t eat udon."
+        }
+      ],
+      [
+        "Casual past",
+        "食べた",
+        "tabeta",
+        "I ate",
+        {
+          "jp": "うどんを食べた。",
+          "romaji": "udon o tabeta",
+          "en": "I ate udon."
+        }
+      ],
+      [
+        "Casual past negative",
+        "食べなかった",
+        "tabenakatta",
+        "I didn’t eat",
+        {
+          "jp": "うどんを食べなかった。",
+          "romaji": "udon o tabenakatsuta",
+          "en": "I didn’t eat udon."
+        }
+      ],
+      [
+        "Want to",
+        "食べたい",
+        "tabetai",
+        "I want to eat",
+        {
+          "jp": "うどんを食べたい。",
+          "romaji": "udon o tabetai",
+          "en": "I want to eat udon."
+        }
+      ],
+      [
+        "Potential",
+        "食べられる",
+        "taberareru",
+        "I can eat",
+        {
+          "jp": "うどんを食べられる。",
+          "romaji": "udon o taberareru",
+          "en": "I can eat udon."
+        }
+      ],
+      [
+        "Volitional",
+        "食べよう",
+        "tabeyou",
+        "Let’s eat",
+        {
+          "jp": "うどんを食べよう。",
+          "romaji": "udon o tabeyou",
+          "en": "Let’s eat udon."
+        }
+      ]
+    ]
+  },
+  "飲む": {
+    "dictionary": "飲む",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "飲む",
+        "nomu",
+        "To drink",
+        {
+          "jp": "水を飲む。",
+          "romaji": "mizu o nomu",
+          "en": "I drink water / I will drink water."
+        }
+      ],
+      [
+        "Polite",
+        "飲みます",
+        "nomimasu",
+        "I drink / I will drink",
+        {
+          "jp": "水を飲みます。",
+          "romaji": "mizu o nomimasu",
+          "en": "I drink water / I will drink water."
+        }
+      ],
+      [
+        "Polite negative",
+        "飲みません",
+        "nomimasen",
+        "I don’t drink",
+        {
+          "jp": "水を飲みません。",
+          "romaji": "mizu o nomimasen",
+          "en": "I don’t drink water."
+        }
+      ],
+      [
+        "Polite past",
+        "飲みました",
+        "nomimashita",
+        "I drank",
+        {
+          "jp": "水を飲みました。",
+          "romaji": "mizu o nomimashita",
+          "en": "I drank water."
+        }
+      ],
+      [
+        "Polite past negative",
+        "飲みませんでした",
+        "nomimasendeshita",
+        "I didn’t drink",
+        {
+          "jp": "水を飲みませんでした。",
+          "romaji": "mizu o nomimasen deshita",
+          "en": "I didn’t drink water."
+        }
+      ],
+      [
+        "て-form",
+        "飲んで",
+        "nonde",
+        "Connects actions / requests",
+        {
+          "jp": "水を飲んでください。",
+          "romaji": "mizu o non de kudasai",
+          "en": "Please drink water."
+        }
+      ],
+      [
+        "Casual present / future",
+        "飲む",
+        "nomu",
+        "I drink / I will drink",
+        {
+          "jp": "水を飲む。",
+          "romaji": "mizu o nomu",
+          "en": "I drink water / I will drink water."
+        }
+      ],
+      [
+        "Casual negative",
+        "飲まない",
+        "nomanai",
+        "I don’t drink",
+        {
+          "jp": "水を飲まない。",
+          "romaji": "mizu o nomanai",
+          "en": "I don’t drink water."
+        }
+      ],
+      [
+        "Casual past",
+        "飲んだ",
+        "nonda",
+        "I drank",
+        {
+          "jp": "水を飲んだ。",
+          "romaji": "mizu o nonda",
+          "en": "I drank water."
+        }
+      ],
+      [
+        "Casual past negative",
+        "飲まなかった",
+        "nomanakatta",
+        "I didn’t drink",
+        {
+          "jp": "水を飲まなかった。",
+          "romaji": "mizu o nomanakatsuta",
+          "en": "I didn’t drink water."
+        }
+      ],
+      [
+        "Want to",
+        "飲みたい",
+        "nomitai",
+        "I want to drink",
+        {
+          "jp": "水を飲みたい。",
+          "romaji": "mizu o nomitai",
+          "en": "I want to drink water."
+        }
+      ],
+      [
+        "Potential",
+        "飲める",
+        "nomeru",
+        "I can drink",
+        {
+          "jp": "水を飲める。",
+          "romaji": "mizu o nomeru",
+          "en": "I can drink water."
+        }
+      ],
+      [
+        "Volitional",
+        "飲もう",
+        "nomou",
+        "Let’s drink",
+        {
+          "jp": "水を飲もう。",
+          "romaji": "mizu o nomou",
+          "en": "Let’s drink water."
+        }
+      ]
+    ]
+  },
+  "見る": {
+    "dictionary": "見る",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "見る",
+        "miru",
+        "To watch",
+        {
+          "jp": "映画を見る。",
+          "romaji": "eiga o miru",
+          "en": "I watch a movie / I will watch a movie."
+        }
+      ],
+      [
+        "Polite",
+        "見ます",
+        "mimasu",
+        "I watch / I will watch",
+        {
+          "jp": "映画を見ます。",
+          "romaji": "eiga o mimasu",
+          "en": "I watch a movie / I will watch a movie."
+        }
+      ],
+      [
+        "Polite negative",
+        "見ません",
+        "mimasen",
+        "I don’t watch",
+        {
+          "jp": "映画を見ません。",
+          "romaji": "eiga o mimasen",
+          "en": "I don’t watch a movie."
+        }
+      ],
+      [
+        "Polite past",
+        "見ました",
+        "mimashita",
+        "I watched",
+        {
+          "jp": "映画を見ました。",
+          "romaji": "eiga o mimashita",
+          "en": "I watched a movie."
+        }
+      ],
+      [
+        "Polite past negative",
+        "見ませんでした",
+        "mimasendeshita",
+        "I didn’t watch",
+        {
+          "jp": "映画を見ませんでした。",
+          "romaji": "eiga o mimasen deshita",
+          "en": "I didn’t watch a movie."
+        }
+      ],
+      [
+        "て-form",
+        "見て",
+        "mite",
+        "Connects actions / requests",
+        {
+          "jp": "映画を見てください。",
+          "romaji": "eiga o mi te kudasai",
+          "en": "Please watch a movie."
+        }
+      ],
+      [
+        "Casual present / future",
+        "見る",
+        "miru",
+        "I watch / I will watch",
+        {
+          "jp": "映画を見る。",
+          "romaji": "eiga o miru",
+          "en": "I watch a movie / I will watch a movie."
+        }
+      ],
+      [
+        "Casual negative",
+        "見ない",
+        "minai",
+        "I don’t watch",
+        {
+          "jp": "映画を見ない。",
+          "romaji": "eiga o minai",
+          "en": "I don’t watch a movie."
+        }
+      ],
+      [
+        "Casual past",
+        "見た",
+        "mita",
+        "I watched",
+        {
+          "jp": "映画を見た。",
+          "romaji": "eiga o mita",
+          "en": "I watched a movie."
+        }
+      ],
+      [
+        "Casual past negative",
+        "見なかった",
+        "minakatta",
+        "I didn’t watch",
+        {
+          "jp": "映画を見なかった。",
+          "romaji": "eiga o minakatsuta",
+          "en": "I didn’t watch a movie."
+        }
+      ],
+      [
+        "Want to",
+        "見たい",
+        "mitai",
+        "I want to watch",
+        {
+          "jp": "映画を見たい。",
+          "romaji": "eiga o mitai",
+          "en": "I want to watch a movie."
+        }
+      ],
+      [
+        "Potential",
+        "見られる",
+        "mirareru",
+        "I can watch",
+        {
+          "jp": "映画を見られる。",
+          "romaji": "eiga o mirareru",
+          "en": "I can watch a movie."
+        }
+      ],
+      [
+        "Volitional",
+        "見よう",
+        "miyou",
+        "Let’s watch",
+        {
+          "jp": "映画を見よう。",
+          "romaji": "eiga o miyou",
+          "en": "Let’s watch a movie."
+        }
+      ]
+    ]
+  },
+  "聞く": {
+    "dictionary": "聞く",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "聞く",
+        "kiku",
+        "To listen",
+        {
+          "jp": "音楽を聞く。",
+          "romaji": "ongaku o kiku",
+          "en": "I listen to music / I will listen to music."
+        }
+      ],
+      [
+        "Polite",
+        "聞きます",
+        "kikimasu",
+        "I listen / I will listen",
+        {
+          "jp": "音楽を聞きます。",
+          "romaji": "ongaku o kikimasu",
+          "en": "I listen to music / I will listen to music."
+        }
+      ],
+      [
+        "Polite negative",
+        "聞きません",
+        "kikimasen",
+        "I don’t listen",
+        {
+          "jp": "音楽を聞きません。",
+          "romaji": "ongaku o kikimasen",
+          "en": "I don’t listen to music."
+        }
+      ],
+      [
+        "Polite past",
+        "聞きました",
+        "kikimashita",
+        "I listened",
+        {
+          "jp": "音楽を聞きました。",
+          "romaji": "ongaku o kikimashita",
+          "en": "I listened to music."
+        }
+      ],
+      [
+        "Polite past negative",
+        "聞きませんでした",
+        "kikimasendeshita",
+        "I didn’t listen",
+        {
+          "jp": "音楽を聞きませんでした。",
+          "romaji": "ongaku o kikimasen deshita",
+          "en": "I didn’t listen to music."
+        }
+      ],
+      [
+        "て-form",
+        "聞いて",
+        "kiite",
+        "Connects actions / requests",
+        {
+          "jp": "音楽を聞いてください。",
+          "romaji": "ongaku o kii te kudasai",
+          "en": "Please listen to music."
+        }
+      ],
+      [
+        "Casual present / future",
+        "聞く",
+        "kiku",
+        "I listen / I will listen",
+        {
+          "jp": "音楽を聞く。",
+          "romaji": "ongaku o kiku",
+          "en": "I listen to music / I will listen to music."
+        }
+      ],
+      [
+        "Casual negative",
+        "聞かない",
+        "kikanai",
+        "I don’t listen",
+        {
+          "jp": "音楽を聞かない。",
+          "romaji": "ongaku o kikanai",
+          "en": "I don’t listen to music."
+        }
+      ],
+      [
+        "Casual past",
+        "聞いた",
+        "kiita",
+        "I listened",
+        {
+          "jp": "音楽を聞いた。",
+          "romaji": "ongaku o kiita",
+          "en": "I listened to music."
+        }
+      ],
+      [
+        "Casual past negative",
+        "聞かなかった",
+        "kikanakatta",
+        "I didn’t listen",
+        {
+          "jp": "音楽を聞かなかった。",
+          "romaji": "ongaku o kikanakatsuta",
+          "en": "I didn’t listen to music."
+        }
+      ],
+      [
+        "Want to",
+        "聞きたい",
+        "kikitai",
+        "I want to listen",
+        {
+          "jp": "音楽を聞きたい。",
+          "romaji": "ongaku o kikitai",
+          "en": "I want to listen to music."
+        }
+      ],
+      [
+        "Potential",
+        "聞ける",
+        "kikeru",
+        "I can listen",
+        {
+          "jp": "音楽を聞ける。",
+          "romaji": "ongaku o kikeru",
+          "en": "I can listen to music."
+        }
+      ],
+      [
+        "Volitional",
+        "聞こう",
+        "kikou",
+        "Let’s listen",
+        {
+          "jp": "音楽を聞こう。",
+          "romaji": "ongaku o kikou",
+          "en": "Let’s listen to music."
+        }
+      ]
+    ]
+  },
+  "読む": {
+    "dictionary": "読む",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "読む",
+        "yomu",
+        "To read",
+        {
+          "jp": "本を読む。",
+          "romaji": "hon o yomu",
+          "en": "I read a book / I will read a book."
+        }
+      ],
+      [
+        "Polite",
+        "読みます",
+        "yomimasu",
+        "I read / I will read",
+        {
+          "jp": "本を読みます。",
+          "romaji": "hon o yomimasu",
+          "en": "I read a book / I will read a book."
+        }
+      ],
+      [
+        "Polite negative",
+        "読みません",
+        "yomimasen",
+        "I don’t read",
+        {
+          "jp": "本を読みません。",
+          "romaji": "hon o yomimasen",
+          "en": "I don’t read a book."
+        }
+      ],
+      [
+        "Polite past",
+        "読みました",
+        "yomimashita",
+        "I read",
+        {
+          "jp": "本を読みました。",
+          "romaji": "hon o yomimashita",
+          "en": "I read a book."
+        }
+      ],
+      [
+        "Polite past negative",
+        "読みませんでした",
+        "yomimasendeshita",
+        "I didn’t read",
+        {
+          "jp": "本を読みませんでした。",
+          "romaji": "hon o yomimasen deshita",
+          "en": "I didn’t read a book."
+        }
+      ],
+      [
+        "て-form",
+        "読んで",
+        "yonde",
+        "Connects actions / requests",
+        {
+          "jp": "本を読んでください。",
+          "romaji": "hon o yon de kudasai",
+          "en": "Please read a book."
+        }
+      ],
+      [
+        "Casual present / future",
+        "読む",
+        "yomu",
+        "I read / I will read",
+        {
+          "jp": "本を読む。",
+          "romaji": "hon o yomu",
+          "en": "I read a book / I will read a book."
+        }
+      ],
+      [
+        "Casual negative",
+        "読まない",
+        "yomanai",
+        "I don’t read",
+        {
+          "jp": "本を読まない。",
+          "romaji": "hon o yomanai",
+          "en": "I don’t read a book."
+        }
+      ],
+      [
+        "Casual past",
+        "読んだ",
+        "yonda",
+        "I read",
+        {
+          "jp": "本を読んだ。",
+          "romaji": "hon o yonda",
+          "en": "I read a book."
+        }
+      ],
+      [
+        "Casual past negative",
+        "読まなかった",
+        "yomanakatta",
+        "I didn’t read",
+        {
+          "jp": "本を読まなかった。",
+          "romaji": "hon o yomanakatsuta",
+          "en": "I didn’t read a book."
+        }
+      ],
+      [
+        "Want to",
+        "読みたい",
+        "yomitai",
+        "I want to read",
+        {
+          "jp": "本を読みたい。",
+          "romaji": "hon o yomitai",
+          "en": "I want to read a book."
+        }
+      ],
+      [
+        "Potential",
+        "読める",
+        "yomeru",
+        "I can read",
+        {
+          "jp": "本を読める。",
+          "romaji": "hon o yomeru",
+          "en": "I can read a book."
+        }
+      ],
+      [
+        "Volitional",
+        "読もう",
+        "yomou",
+        "Let’s read",
+        {
+          "jp": "本を読もう。",
+          "romaji": "hon o yomou",
+          "en": "Let’s read a book."
+        }
+      ]
+    ]
+  },
+  "する": {
+    "dictionary": "する",
+    "group": "Group 3 · Irregular",
+    "rows": [
+      [
+        "Dictionary",
+        "する",
+        "suru",
+        "To do it",
+        {
+          "jp": "する。",
+          "romaji": "suru",
+          "en": "I do it / I will do it."
+        }
+      ],
+      [
+        "Polite",
+        "します",
+        "shimasu",
+        "I do it / I will do it",
+        {
+          "jp": "します。",
+          "romaji": "shimasu",
+          "en": "I do it / I will do it."
+        }
+      ],
+      [
+        "Polite negative",
+        "しません",
+        "shimasen",
+        "I don’t do it",
+        {
+          "jp": "しません。",
+          "romaji": "shimasen",
+          "en": "I don’t do it."
+        }
+      ],
+      [
+        "Polite past",
+        "しました",
+        "shimashita",
+        "I did it",
+        {
+          "jp": "しました。",
+          "romaji": "shimashita",
+          "en": "I did it."
+        }
+      ],
+      [
+        "Polite past negative",
+        "しませんでした",
+        "shimasendeshita",
+        "I didn’t do it",
+        {
+          "jp": "しませんでした。",
+          "romaji": "shimasen deshita",
+          "en": "I didn’t do it."
+        }
+      ],
+      [
+        "て-form",
+        "して",
+        "shite",
+        "Connects actions / requests",
+        {
+          "jp": "してください。",
+          "romaji": "shi te kudasai",
+          "en": "Please do it."
+        }
+      ],
+      [
+        "Casual present / future",
+        "する",
+        "suru",
+        "I do it / I will do it",
+        {
+          "jp": "する。",
+          "romaji": "suru",
+          "en": "I do it / I will do it."
+        }
+      ],
+      [
+        "Casual negative",
+        "しない",
+        "shinai",
+        "I don’t do it",
+        {
+          "jp": "しない。",
+          "romaji": "shinai",
+          "en": "I don’t do it."
+        }
+      ],
+      [
+        "Casual past",
+        "した",
+        "shita",
+        "I did it",
+        {
+          "jp": "した。",
+          "romaji": "shita",
+          "en": "I did it."
+        }
+      ],
+      [
+        "Casual past negative",
+        "しなかった",
+        "shinakatta",
+        "I didn’t do it",
+        {
+          "jp": "しなかった。",
+          "romaji": "shinakatsuta",
+          "en": "I didn’t do it."
+        }
+      ],
+      [
+        "Want to",
+        "したい",
+        "shitai",
+        "I want to do it",
+        {
+          "jp": "したい。",
+          "romaji": "shitai",
+          "en": "I want to do it."
+        }
+      ],
+      [
+        "Potential",
+        "できる",
+        "dekiru",
+        "I can do it",
+        {
+          "jp": "できる。",
+          "romaji": "dekiru",
+          "en": "I can do it."
+        }
+      ],
+      [
+        "Volitional",
+        "しよう",
+        "shiyou",
+        "Let’s do it",
+        {
+          "jp": "しよう。",
+          "romaji": "shiyou",
+          "en": "Let’s do it."
+        }
+      ]
+    ]
+  },
+  "行く": {
+    "dictionary": "行く",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "行く",
+        "iku",
+        "To go",
+        {
+          "jp": "学校に行く。",
+          "romaji": "gakkou ni iku",
+          "en": "I go to school / I will go to school."
+        }
+      ],
+      [
+        "Polite",
+        "行きます",
+        "ikimasu",
+        "I go / I will go",
+        {
+          "jp": "学校に行きます。",
+          "romaji": "gakkou ni ikimasu",
+          "en": "I go to school / I will go to school."
+        }
+      ],
+      [
+        "Polite negative",
+        "行きません",
+        "ikimasen",
+        "I don’t go",
+        {
+          "jp": "学校に行きません。",
+          "romaji": "gakkou ni ikimasen",
+          "en": "I don’t go to school."
+        }
+      ],
+      [
+        "Polite past",
+        "行きました",
+        "ikimashita",
+        "I went",
+        {
+          "jp": "学校に行きました。",
+          "romaji": "gakkou ni ikimashita",
+          "en": "I went to school."
+        }
+      ],
+      [
+        "Polite past negative",
+        "行きませんでした",
+        "ikimasendeshita",
+        "I didn’t go",
+        {
+          "jp": "学校に行きませんでした。",
+          "romaji": "gakkou ni ikimasen deshita",
+          "en": "I didn’t go to school."
+        }
+      ],
+      [
+        "て-form",
+        "行って",
+        "itte",
+        "Connects actions / requests",
+        {
+          "jp": "学校に行ってください。",
+          "romaji": "gakkou ni itsu te kudasai",
+          "en": "Please go to school."
+        }
+      ],
+      [
+        "Casual present / future",
+        "行く",
+        "iku",
+        "I go / I will go",
+        {
+          "jp": "学校に行く。",
+          "romaji": "gakkou ni iku",
+          "en": "I go to school / I will go to school."
+        }
+      ],
+      [
+        "Casual negative",
+        "行かない",
+        "ikanai",
+        "I don’t go",
+        {
+          "jp": "学校に行かない。",
+          "romaji": "gakkou ni ikanai",
+          "en": "I don’t go to school."
+        }
+      ],
+      [
+        "Casual past",
+        "行った",
+        "itta",
+        "I went",
+        {
+          "jp": "学校に行った。",
+          "romaji": "gakkou ni itsuta",
+          "en": "I went to school."
+        }
+      ],
+      [
+        "Casual past negative",
+        "行かなかった",
+        "ikanakatta",
+        "I didn’t go",
+        {
+          "jp": "学校に行かなかった。",
+          "romaji": "gakkou ni ikanakatsuta",
+          "en": "I didn’t go to school."
+        }
+      ],
+      [
+        "Want to",
+        "行きたい",
+        "ikitai",
+        "I want to go",
+        {
+          "jp": "学校に行きたい。",
+          "romaji": "gakkou ni ikitai",
+          "en": "I want to go to school."
+        }
+      ],
+      [
+        "Potential",
+        "行ける",
+        "ikeru",
+        "I can go",
+        {
+          "jp": "学校に行ける。",
+          "romaji": "gakkou ni ikeru",
+          "en": "I can go to school."
+        }
+      ],
+      [
+        "Volitional",
+        "行こう",
+        "ikou",
+        "Let’s go",
+        {
+          "jp": "学校に行こう。",
+          "romaji": "gakkou ni ikou",
+          "en": "Let’s go to school."
+        }
+      ]
+    ]
+  },
+  "来る": {
+    "dictionary": "来る",
+    "group": "Group 3 · Irregular",
+    "rows": [
+      [
+        "Dictionary",
+        "来る",
+        "kuru",
+        "To come",
+        {
+          "jp": "来る。",
+          "romaji": "kuru",
+          "en": "I come / I will come."
+        }
+      ],
+      [
+        "Polite",
+        "来ます",
+        "kimasu",
+        "I come / I will come",
+        {
+          "jp": "来ます。",
+          "romaji": "kimasu",
+          "en": "I come / I will come."
+        }
+      ],
+      [
+        "Polite negative",
+        "来ません",
+        "kimasen",
+        "I don’t come",
+        {
+          "jp": "来ません。",
+          "romaji": "kimasen",
+          "en": "I don’t come."
+        }
+      ],
+      [
+        "Polite past",
+        "来ました",
+        "kimashita",
+        "I came",
+        {
+          "jp": "来ました。",
+          "romaji": "kimashita",
+          "en": "I came."
+        }
+      ],
+      [
+        "Polite past negative",
+        "来ませんでした",
+        "kimasendeshita",
+        "I didn’t come",
+        {
+          "jp": "来ませんでした。",
+          "romaji": "kimasen deshita",
+          "en": "I didn’t come."
+        }
+      ],
+      [
+        "て-form",
+        "来て",
+        "kite",
+        "Connects actions / requests",
+        {
+          "jp": "来てください。",
+          "romaji": "ki te kudasai",
+          "en": "Please come."
+        }
+      ],
+      [
+        "Casual present / future",
+        "来る",
+        "kuru",
+        "I come / I will come",
+        {
+          "jp": "来る。",
+          "romaji": "kuru",
+          "en": "I come / I will come."
+        }
+      ],
+      [
+        "Casual negative",
+        "来ない",
+        "konai",
+        "I don’t come",
+        {
+          "jp": "来ない。",
+          "romaji": "konai",
+          "en": "I don’t come."
+        }
+      ],
+      [
+        "Casual past",
+        "来た",
+        "kita",
+        "I came",
+        {
+          "jp": "来た。",
+          "romaji": "kita",
+          "en": "I came."
+        }
+      ],
+      [
+        "Casual past negative",
+        "来なかった",
+        "konakatta",
+        "I didn’t come",
+        {
+          "jp": "来なかった。",
+          "romaji": "konakatsuta",
+          "en": "I didn’t come."
+        }
+      ],
+      [
+        "Want to",
+        "来たい",
+        "kitai",
+        "I want to come",
+        {
+          "jp": "来たい。",
+          "romaji": "kitai",
+          "en": "I want to come."
+        }
+      ],
+      [
+        "Potential",
+        "来られる",
+        "korareru",
+        "I can come",
+        {
+          "jp": "来られる。",
+          "romaji": "korareru",
+          "en": "I can come."
+        }
+      ],
+      [
+        "Volitional",
+        "来よう",
+        "koyou",
+        "Let’s come",
+        {
+          "jp": "来よう。",
+          "romaji": "koyou",
+          "en": "Let’s come."
+        }
+      ]
+    ]
+  },
+  "帰る": {
+    "dictionary": "帰る",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "帰る",
+        "kaeru",
+        "To go home",
+        {
+          "jp": "帰る。",
+          "romaji": "kaeru",
+          "en": "I go home / I will go home."
+        }
+      ],
+      [
+        "Polite",
+        "帰ります",
+        "kaerimasu",
+        "I go home / I will go home",
+        {
+          "jp": "帰ります。",
+          "romaji": "kaerimasu",
+          "en": "I go home / I will go home."
+        }
+      ],
+      [
+        "Polite negative",
+        "帰りません",
+        "kaerimasen",
+        "I don’t go home",
+        {
+          "jp": "帰りません。",
+          "romaji": "kaerimasen",
+          "en": "I don’t go home."
+        }
+      ],
+      [
+        "Polite past",
+        "帰りました",
+        "kaerimashita",
+        "I went home",
+        {
+          "jp": "帰りました。",
+          "romaji": "kaerimashita",
+          "en": "I went home."
+        }
+      ],
+      [
+        "Polite past negative",
+        "帰りませんでした",
+        "kaerimasendeshita",
+        "I didn’t go home",
+        {
+          "jp": "帰りませんでした。",
+          "romaji": "kaerimasen deshita",
+          "en": "I didn’t go home."
+        }
+      ],
+      [
+        "て-form",
+        "帰って",
+        "kaette",
+        "Connects actions / requests",
+        {
+          "jp": "帰ってください。",
+          "romaji": "kaetsu te kudasai",
+          "en": "Please go home."
+        }
+      ],
+      [
+        "Casual present / future",
+        "帰る",
+        "kaeru",
+        "I go home / I will go home",
+        {
+          "jp": "帰る。",
+          "romaji": "kaeru",
+          "en": "I go home / I will go home."
+        }
+      ],
+      [
+        "Casual negative",
+        "帰らない",
+        "kaeranai",
+        "I don’t go home",
+        {
+          "jp": "帰らない。",
+          "romaji": "kaeranai",
+          "en": "I don’t go home."
+        }
+      ],
+      [
+        "Casual past",
+        "帰った",
+        "kaetta",
+        "I went home",
+        {
+          "jp": "帰った。",
+          "romaji": "kaetsuta",
+          "en": "I went home."
+        }
+      ],
+      [
+        "Casual past negative",
+        "帰らなかった",
+        "kaeranakatta",
+        "I didn’t go home",
+        {
+          "jp": "帰らなかった。",
+          "romaji": "kaeranakatsuta",
+          "en": "I didn’t go home."
+        }
+      ],
+      [
+        "Want to",
+        "帰りたい",
+        "kaeritai",
+        "I want to go home",
+        {
+          "jp": "帰りたい。",
+          "romaji": "kaeritai",
+          "en": "I want to go home."
+        }
+      ],
+      [
+        "Potential",
+        "帰れる",
+        "kaereru",
+        "I can go home",
+        {
+          "jp": "帰れる。",
+          "romaji": "kaereru",
+          "en": "I can go home."
+        }
+      ],
+      [
+        "Volitional",
+        "帰ろう",
+        "kaerou",
+        "Let’s go home",
+        {
+          "jp": "帰ろう。",
+          "romaji": "kaerou",
+          "en": "Let’s go home."
+        }
+      ]
+    ]
+  },
+  "話す": {
+    "dictionary": "話す",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "話す",
+        "hanasu",
+        "To speak",
+        {
+          "jp": "話す。",
+          "romaji": "hanasu",
+          "en": "I speak / I will speak."
+        }
+      ],
+      [
+        "Polite",
+        "話します",
+        "hanashimasu",
+        "I speak / I will speak",
+        {
+          "jp": "話します。",
+          "romaji": "hanashimasu",
+          "en": "I speak / I will speak."
+        }
+      ],
+      [
+        "Polite negative",
+        "話しません",
+        "hanashimasen",
+        "I don’t speak",
+        {
+          "jp": "話しません。",
+          "romaji": "hanashimasen",
+          "en": "I don’t speak."
+        }
+      ],
+      [
+        "Polite past",
+        "話しました",
+        "hanashimashita",
+        "I spoke",
+        {
+          "jp": "話しました。",
+          "romaji": "hanashimashita",
+          "en": "I spoke."
+        }
+      ],
+      [
+        "Polite past negative",
+        "話しませんでした",
+        "hanashimasendeshita",
+        "I didn’t speak",
+        {
+          "jp": "話しませんでした。",
+          "romaji": "hanashimasen deshita",
+          "en": "I didn’t speak."
+        }
+      ],
+      [
+        "て-form",
+        "話して",
+        "hanashite",
+        "Connects actions / requests",
+        {
+          "jp": "話してください。",
+          "romaji": "hanashi te kudasai",
+          "en": "Please speak."
+        }
+      ],
+      [
+        "Casual present / future",
+        "話す",
+        "hanasu",
+        "I speak / I will speak",
+        {
+          "jp": "話す。",
+          "romaji": "hanasu",
+          "en": "I speak / I will speak."
+        }
+      ],
+      [
+        "Casual negative",
+        "話さない",
+        "hanasanai",
+        "I don’t speak",
+        {
+          "jp": "話さない。",
+          "romaji": "hanasanai",
+          "en": "I don’t speak."
+        }
+      ],
+      [
+        "Casual past",
+        "話した",
+        "hanashita",
+        "I spoke",
+        {
+          "jp": "話した。",
+          "romaji": "hanashita",
+          "en": "I spoke."
+        }
+      ],
+      [
+        "Casual past negative",
+        "話さなかった",
+        "hanasanakatta",
+        "I didn’t speak",
+        {
+          "jp": "話さなかった。",
+          "romaji": "hanasanakatsuta",
+          "en": "I didn’t speak."
+        }
+      ],
+      [
+        "Want to",
+        "話したい",
+        "hanashitai",
+        "I want to speak",
+        {
+          "jp": "話したい。",
+          "romaji": "hanashitai",
+          "en": "I want to speak."
+        }
+      ],
+      [
+        "Potential",
+        "話せる",
+        "hanaseru",
+        "I can speak",
+        {
+          "jp": "話せる。",
+          "romaji": "hanaseru",
+          "en": "I can speak."
+        }
+      ],
+      [
+        "Volitional",
+        "話そう",
+        "hanasou",
+        "Let’s speak",
+        {
+          "jp": "話そう。",
+          "romaji": "hanasou",
+          "en": "Let’s speak."
+        }
+      ]
+    ]
+  },
+  "休む": {
+    "dictionary": "休む",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "休む",
+        "yasumu",
+        "To rest",
+        {
+          "jp": "休む。",
+          "romaji": "yasumu",
+          "en": "I rest / I will rest."
+        }
+      ],
+      [
+        "Polite",
+        "休みます",
+        "yasumimasu",
+        "I rest / I will rest",
+        {
+          "jp": "休みます。",
+          "romaji": "yasumimasu",
+          "en": "I rest / I will rest."
+        }
+      ],
+      [
+        "Polite negative",
+        "休みません",
+        "yasumimasen",
+        "I don’t rest",
+        {
+          "jp": "休みません。",
+          "romaji": "yasumimasen",
+          "en": "I don’t rest."
+        }
+      ],
+      [
+        "Polite past",
+        "休みました",
+        "yasumimashita",
+        "I rested",
+        {
+          "jp": "休みました。",
+          "romaji": "yasumimashita",
+          "en": "I rested."
+        }
+      ],
+      [
+        "Polite past negative",
+        "休みませんでした",
+        "yasumimasendeshita",
+        "I didn’t rest",
+        {
+          "jp": "休みませんでした。",
+          "romaji": "yasumimasen deshita",
+          "en": "I didn’t rest."
+        }
+      ],
+      [
+        "て-form",
+        "休んで",
+        "yasunde",
+        "Connects actions / requests",
+        {
+          "jp": "休んでください。",
+          "romaji": "yasun de kudasai",
+          "en": "Please rest."
+        }
+      ],
+      [
+        "Casual present / future",
+        "休む",
+        "yasumu",
+        "I rest / I will rest",
+        {
+          "jp": "休む。",
+          "romaji": "yasumu",
+          "en": "I rest / I will rest."
+        }
+      ],
+      [
+        "Casual negative",
+        "休まない",
+        "yasumanai",
+        "I don’t rest",
+        {
+          "jp": "休まない。",
+          "romaji": "yasumanai",
+          "en": "I don’t rest."
+        }
+      ],
+      [
+        "Casual past",
+        "休んだ",
+        "yasunda",
+        "I rested",
+        {
+          "jp": "休んだ。",
+          "romaji": "yasunda",
+          "en": "I rested."
+        }
+      ],
+      [
+        "Casual past negative",
+        "休まなかった",
+        "yasumanakatta",
+        "I didn’t rest",
+        {
+          "jp": "休まなかった。",
+          "romaji": "yasumanakatsuta",
+          "en": "I didn’t rest."
+        }
+      ],
+      [
+        "Want to",
+        "休みたい",
+        "yasumitai",
+        "I want to rest",
+        {
+          "jp": "休みたい。",
+          "romaji": "yasumitai",
+          "en": "I want to rest."
+        }
+      ],
+      [
+        "Potential",
+        "休める",
+        "yasumeru",
+        "I can rest",
+        {
+          "jp": "休める。",
+          "romaji": "yasumeru",
+          "en": "I can rest."
+        }
+      ],
+      [
+        "Volitional",
+        "休もう",
+        "yasumou",
+        "Let’s rest",
+        {
+          "jp": "休もう。",
+          "romaji": "yasumou",
+          "en": "Let’s rest."
+        }
+      ]
+    ]
+  },
+  "走る": {
+    "dictionary": "走る",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "走る",
+        "hashiru",
+        "To run",
+        {
+          "jp": "走る。",
+          "romaji": "hashiru",
+          "en": "I run / I will run."
+        }
+      ],
+      [
+        "Polite",
+        "走ります",
+        "hashirimasu",
+        "I run / I will run",
+        {
+          "jp": "走ります。",
+          "romaji": "hashirimasu",
+          "en": "I run / I will run."
+        }
+      ],
+      [
+        "Polite negative",
+        "走りません",
+        "hashirimasen",
+        "I don’t run",
+        {
+          "jp": "走りません。",
+          "romaji": "hashirimasen",
+          "en": "I don’t run."
+        }
+      ],
+      [
+        "Polite past",
+        "走りました",
+        "hashirimashita",
+        "I ran",
+        {
+          "jp": "走りました。",
+          "romaji": "hashirimashita",
+          "en": "I ran."
+        }
+      ],
+      [
+        "Polite past negative",
+        "走りませんでした",
+        "hashirimasendeshita",
+        "I didn’t run",
+        {
+          "jp": "走りませんでした。",
+          "romaji": "hashirimasen deshita",
+          "en": "I didn’t run."
+        }
+      ],
+      [
+        "て-form",
+        "走って",
+        "hashitte",
+        "Connects actions / requests",
+        {
+          "jp": "走ってください。",
+          "romaji": "hashitsu te kudasai",
+          "en": "Please run."
+        }
+      ],
+      [
+        "Casual present / future",
+        "走る",
+        "hashiru",
+        "I run / I will run",
+        {
+          "jp": "走る。",
+          "romaji": "hashiru",
+          "en": "I run / I will run."
+        }
+      ],
+      [
+        "Casual negative",
+        "走らない",
+        "hashiranai",
+        "I don’t run",
+        {
+          "jp": "走らない。",
+          "romaji": "hashiranai",
+          "en": "I don’t run."
+        }
+      ],
+      [
+        "Casual past",
+        "走った",
+        "hashitta",
+        "I ran",
+        {
+          "jp": "走った。",
+          "romaji": "hashitsuta",
+          "en": "I ran."
+        }
+      ],
+      [
+        "Casual past negative",
+        "走らなかった",
+        "hashiranakatta",
+        "I didn’t run",
+        {
+          "jp": "走らなかった。",
+          "romaji": "hashiranakatsuta",
+          "en": "I didn’t run."
+        }
+      ],
+      [
+        "Want to",
+        "走りたい",
+        "hashiritai",
+        "I want to run",
+        {
+          "jp": "走りたい。",
+          "romaji": "hashiritai",
+          "en": "I want to run."
+        }
+      ],
+      [
+        "Potential",
+        "走れる",
+        "hashireru",
+        "I can run",
+        {
+          "jp": "走れる。",
+          "romaji": "hashireru",
+          "en": "I can run."
+        }
+      ],
+      [
+        "Volitional",
+        "走ろう",
+        "hashirou",
+        "Let’s run",
+        {
+          "jp": "走ろう。",
+          "romaji": "hashirou",
+          "en": "Let’s run."
+        }
+      ]
+    ]
+  },
+  "始める": {
+    "dictionary": "始める",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "始める",
+        "hajimeru",
+        "To start",
+        {
+          "jp": "始める。",
+          "romaji": "hajimeru",
+          "en": "I start / I will start."
+        }
+      ],
+      [
+        "Polite",
+        "始めます",
+        "hajimemasu",
+        "I start / I will start",
+        {
+          "jp": "始めます。",
+          "romaji": "hajimemasu",
+          "en": "I start / I will start."
+        }
+      ],
+      [
+        "Polite negative",
+        "始めません",
+        "hajimemasen",
+        "I don’t start",
+        {
+          "jp": "始めません。",
+          "romaji": "hajimemasen",
+          "en": "I don’t start."
+        }
+      ],
+      [
+        "Polite past",
+        "始めました",
+        "hajimemashita",
+        "I started",
+        {
+          "jp": "始めました。",
+          "romaji": "hajimemashita",
+          "en": "I started."
+        }
+      ],
+      [
+        "Polite past negative",
+        "始めませんでした",
+        "hajimemasendeshita",
+        "I didn’t start",
+        {
+          "jp": "始めませんでした。",
+          "romaji": "hajimemasen deshita",
+          "en": "I didn’t start."
+        }
+      ],
+      [
+        "て-form",
+        "始めて",
+        "hajimete",
+        "Connects actions / requests",
+        {
+          "jp": "始めてください。",
+          "romaji": "hajime te kudasai",
+          "en": "Please start."
+        }
+      ],
+      [
+        "Casual present / future",
+        "始める",
+        "hajimeru",
+        "I start / I will start",
+        {
+          "jp": "始める。",
+          "romaji": "hajimeru",
+          "en": "I start / I will start."
+        }
+      ],
+      [
+        "Casual negative",
+        "始めない",
+        "hajimenai",
+        "I don’t start",
+        {
+          "jp": "始めない。",
+          "romaji": "hajimenai",
+          "en": "I don’t start."
+        }
+      ],
+      [
+        "Casual past",
+        "始めた",
+        "hajimeta",
+        "I started",
+        {
+          "jp": "始めた。",
+          "romaji": "hajimeta",
+          "en": "I started."
+        }
+      ],
+      [
+        "Casual past negative",
+        "始めなかった",
+        "hajimenakatta",
+        "I didn’t start",
+        {
+          "jp": "始めなかった。",
+          "romaji": "hajimenakatsuta",
+          "en": "I didn’t start."
+        }
+      ],
+      [
+        "Want to",
+        "始めたい",
+        "hajimetai",
+        "I want to start",
+        {
+          "jp": "始めたい。",
+          "romaji": "hajimetai",
+          "en": "I want to start."
+        }
+      ],
+      [
+        "Potential",
+        "始められる",
+        "hajimerareru",
+        "I can start",
+        {
+          "jp": "始められる。",
+          "romaji": "hajimerareru",
+          "en": "I can start."
+        }
+      ],
+      [
+        "Volitional",
+        "始めよう",
+        "hajimeyou",
+        "Let’s start",
+        {
+          "jp": "始めよう。",
+          "romaji": "hajimeyou",
+          "en": "Let’s start."
+        }
+      ]
+    ]
+  },
+  "作る": {
+    "dictionary": "作る",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "作る",
+        "tsukuru",
+        "To make it",
+        {
+          "jp": "作る。",
+          "romaji": "tsukuru",
+          "en": "I make it / I will make it."
+        }
+      ],
+      [
+        "Polite",
+        "作ります",
+        "tsukurimasu",
+        "I make it / I will make it",
+        {
+          "jp": "作ります。",
+          "romaji": "tsukurimasu",
+          "en": "I make it / I will make it."
+        }
+      ],
+      [
+        "Polite negative",
+        "作りません",
+        "tsukurimasen",
+        "I don’t make it",
+        {
+          "jp": "作りません。",
+          "romaji": "tsukurimasen",
+          "en": "I don’t make it."
+        }
+      ],
+      [
+        "Polite past",
+        "作りました",
+        "tsukurimashita",
+        "I made it",
+        {
+          "jp": "作りました。",
+          "romaji": "tsukurimashita",
+          "en": "I made it."
+        }
+      ],
+      [
+        "Polite past negative",
+        "作りませんでした",
+        "tsukurimasendeshita",
+        "I didn’t make it",
+        {
+          "jp": "作りませんでした。",
+          "romaji": "tsukurimasen deshita",
+          "en": "I didn’t make it."
+        }
+      ],
+      [
+        "て-form",
+        "作って",
+        "tsukutte",
+        "Connects actions / requests",
+        {
+          "jp": "作ってください。",
+          "romaji": "tsukutsu te kudasai",
+          "en": "Please make it."
+        }
+      ],
+      [
+        "Casual present / future",
+        "作る",
+        "tsukuru",
+        "I make it / I will make it",
+        {
+          "jp": "作る。",
+          "romaji": "tsukuru",
+          "en": "I make it / I will make it."
+        }
+      ],
+      [
+        "Casual negative",
+        "作らない",
+        "tsukuranai",
+        "I don’t make it",
+        {
+          "jp": "作らない。",
+          "romaji": "tsukuranai",
+          "en": "I don’t make it."
+        }
+      ],
+      [
+        "Casual past",
+        "作った",
+        "tsukutta",
+        "I made it",
+        {
+          "jp": "作った。",
+          "romaji": "tsukutsuta",
+          "en": "I made it."
+        }
+      ],
+      [
+        "Casual past negative",
+        "作らなかった",
+        "tsukuranakatta",
+        "I didn’t make it",
+        {
+          "jp": "作らなかった。",
+          "romaji": "tsukuranakatsuta",
+          "en": "I didn’t make it."
+        }
+      ],
+      [
+        "Want to",
+        "作りたい",
+        "tsukuritai",
+        "I want to make it",
+        {
+          "jp": "作りたい。",
+          "romaji": "tsukuritai",
+          "en": "I want to make it."
+        }
+      ],
+      [
+        "Potential",
+        "作れる",
+        "tsukureru",
+        "I can make it",
+        {
+          "jp": "作れる。",
+          "romaji": "tsukureru",
+          "en": "I can make it."
+        }
+      ],
+      [
+        "Volitional",
+        "作ろう",
+        "tsukurou",
+        "Let’s make it",
+        {
+          "jp": "作ろう。",
+          "romaji": "tsukurou",
+          "en": "Let’s make it."
+        }
+      ]
+    ]
+  },
+  "遊ぶ": {
+    "dictionary": "遊ぶ",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "遊ぶ",
+        "asobu",
+        "To play",
+        {
+          "jp": "遊ぶ。",
+          "romaji": "asobu",
+          "en": "I play / I will play."
+        }
+      ],
+      [
+        "Polite",
+        "遊びます",
+        "asobimasu",
+        "I play / I will play",
+        {
+          "jp": "遊びます。",
+          "romaji": "asobimasu",
+          "en": "I play / I will play."
+        }
+      ],
+      [
+        "Polite negative",
+        "遊びません",
+        "asobimasen",
+        "I don’t play",
+        {
+          "jp": "遊びません。",
+          "romaji": "asobimasen",
+          "en": "I don’t play."
+        }
+      ],
+      [
+        "Polite past",
+        "遊びました",
+        "asobimashita",
+        "I played",
+        {
+          "jp": "遊びました。",
+          "romaji": "asobimashita",
+          "en": "I played."
+        }
+      ],
+      [
+        "Polite past negative",
+        "遊びませんでした",
+        "asobimasendeshita",
+        "I didn’t play",
+        {
+          "jp": "遊びませんでした。",
+          "romaji": "asobimasen deshita",
+          "en": "I didn’t play."
+        }
+      ],
+      [
+        "て-form",
+        "遊んで",
+        "asonde",
+        "Connects actions / requests",
+        {
+          "jp": "遊んでください。",
+          "romaji": "ason de kudasai",
+          "en": "Please play."
+        }
+      ],
+      [
+        "Casual present / future",
+        "遊ぶ",
+        "asobu",
+        "I play / I will play",
+        {
+          "jp": "遊ぶ。",
+          "romaji": "asobu",
+          "en": "I play / I will play."
+        }
+      ],
+      [
+        "Casual negative",
+        "遊ばない",
+        "asobanai",
+        "I don’t play",
+        {
+          "jp": "遊ばない。",
+          "romaji": "asobanai",
+          "en": "I don’t play."
+        }
+      ],
+      [
+        "Casual past",
+        "遊んだ",
+        "asonda",
+        "I played",
+        {
+          "jp": "遊んだ。",
+          "romaji": "asonda",
+          "en": "I played."
+        }
+      ],
+      [
+        "Casual past negative",
+        "遊ばなかった",
+        "asobanakatta",
+        "I didn’t play",
+        {
+          "jp": "遊ばなかった。",
+          "romaji": "asobanakatsuta",
+          "en": "I didn’t play."
+        }
+      ],
+      [
+        "Want to",
+        "遊びたい",
+        "asobitai",
+        "I want to play",
+        {
+          "jp": "遊びたい。",
+          "romaji": "asobitai",
+          "en": "I want to play."
+        }
+      ],
+      [
+        "Potential",
+        "遊べる",
+        "asoberu",
+        "I can play",
+        {
+          "jp": "遊べる。",
+          "romaji": "asoberu",
+          "en": "I can play."
+        }
+      ],
+      [
+        "Volitional",
+        "遊ぼう",
+        "asobou",
+        "Let’s play",
+        {
+          "jp": "遊ぼう。",
+          "romaji": "asobou",
+          "en": "Let’s play."
+        }
+      ]
+    ]
+  },
+  "寝る": {
+    "dictionary": "寝る",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "寝る",
+        "neru",
+        "To sleep",
+        {
+          "jp": "寝る。",
+          "romaji": "neru",
+          "en": "I sleep / I will sleep."
+        }
+      ],
+      [
+        "Polite",
+        "寝ます",
+        "nemasu",
+        "I sleep / I will sleep",
+        {
+          "jp": "寝ます。",
+          "romaji": "nemasu",
+          "en": "I sleep / I will sleep."
+        }
+      ],
+      [
+        "Polite negative",
+        "寝ません",
+        "nemasen",
+        "I don’t sleep",
+        {
+          "jp": "寝ません。",
+          "romaji": "nemasen",
+          "en": "I don’t sleep."
+        }
+      ],
+      [
+        "Polite past",
+        "寝ました",
+        "nemashita",
+        "I slept",
+        {
+          "jp": "寝ました。",
+          "romaji": "nemashita",
+          "en": "I slept."
+        }
+      ],
+      [
+        "Polite past negative",
+        "寝ませんでした",
+        "nemasendeshita",
+        "I didn’t sleep",
+        {
+          "jp": "寝ませんでした。",
+          "romaji": "nemasen deshita",
+          "en": "I didn’t sleep."
+        }
+      ],
+      [
+        "て-form",
+        "寝て",
+        "nete",
+        "Connects actions / requests",
+        {
+          "jp": "寝てください。",
+          "romaji": "ne te kudasai",
+          "en": "Please sleep."
+        }
+      ],
+      [
+        "Casual present / future",
+        "寝る",
+        "neru",
+        "I sleep / I will sleep",
+        {
+          "jp": "寝る。",
+          "romaji": "neru",
+          "en": "I sleep / I will sleep."
+        }
+      ],
+      [
+        "Casual negative",
+        "寝ない",
+        "nenai",
+        "I don’t sleep",
+        {
+          "jp": "寝ない。",
+          "romaji": "nenai",
+          "en": "I don’t sleep."
+        }
+      ],
+      [
+        "Casual past",
+        "寝た",
+        "neta",
+        "I slept",
+        {
+          "jp": "寝た。",
+          "romaji": "neta",
+          "en": "I slept."
+        }
+      ],
+      [
+        "Casual past negative",
+        "寝なかった",
+        "nenakatta",
+        "I didn’t sleep",
+        {
+          "jp": "寝なかった。",
+          "romaji": "nenakatsuta",
+          "en": "I didn’t sleep."
+        }
+      ],
+      [
+        "Want to",
+        "寝たい",
+        "netai",
+        "I want to sleep",
+        {
+          "jp": "寝たい。",
+          "romaji": "netai",
+          "en": "I want to sleep."
+        }
+      ],
+      [
+        "Potential",
+        "寝られる",
+        "nerareru",
+        "I can sleep",
+        {
+          "jp": "寝られる。",
+          "romaji": "nerareru",
+          "en": "I can sleep."
+        }
+      ],
+      [
+        "Volitional",
+        "寝よう",
+        "neyou",
+        "Let’s sleep",
+        {
+          "jp": "寝よう。",
+          "romaji": "neyou",
+          "en": "Let’s sleep."
+        }
+      ]
+    ]
+  },
+  "起きる": {
+    "dictionary": "起きる",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "起きる",
+        "okiru",
+        "To wake up",
+        {
+          "jp": "起きる。",
+          "romaji": "okiru",
+          "en": "I wake up / I will wake up."
+        }
+      ],
+      [
+        "Polite",
+        "起きます",
+        "okimasu",
+        "I wake up / I will wake up",
+        {
+          "jp": "起きます。",
+          "romaji": "okimasu",
+          "en": "I wake up / I will wake up."
+        }
+      ],
+      [
+        "Polite negative",
+        "起きません",
+        "okimasen",
+        "I don’t wake up",
+        {
+          "jp": "起きません。",
+          "romaji": "okimasen",
+          "en": "I don’t wake up."
+        }
+      ],
+      [
+        "Polite past",
+        "起きました",
+        "okimashita",
+        "I woke up",
+        {
+          "jp": "起きました。",
+          "romaji": "okimashita",
+          "en": "I woke up."
+        }
+      ],
+      [
+        "Polite past negative",
+        "起きませんでした",
+        "okimasendeshita",
+        "I didn’t wake up",
+        {
+          "jp": "起きませんでした。",
+          "romaji": "okimasen deshita",
+          "en": "I didn’t wake up."
+        }
+      ],
+      [
+        "て-form",
+        "起きて",
+        "okite",
+        "Connects actions / requests",
+        {
+          "jp": "起きてください。",
+          "romaji": "oki te kudasai",
+          "en": "Please wake up."
+        }
+      ],
+      [
+        "Casual present / future",
+        "起きる",
+        "okiru",
+        "I wake up / I will wake up",
+        {
+          "jp": "起きる。",
+          "romaji": "okiru",
+          "en": "I wake up / I will wake up."
+        }
+      ],
+      [
+        "Casual negative",
+        "起きない",
+        "okinai",
+        "I don’t wake up",
+        {
+          "jp": "起きない。",
+          "romaji": "okinai",
+          "en": "I don’t wake up."
+        }
+      ],
+      [
+        "Casual past",
+        "起きた",
+        "okita",
+        "I woke up",
+        {
+          "jp": "起きた。",
+          "romaji": "okita",
+          "en": "I woke up."
+        }
+      ],
+      [
+        "Casual past negative",
+        "起きなかった",
+        "okinakatta",
+        "I didn’t wake up",
+        {
+          "jp": "起きなかった。",
+          "romaji": "okinakatsuta",
+          "en": "I didn’t wake up."
+        }
+      ],
+      [
+        "Want to",
+        "起きたい",
+        "okitai",
+        "I want to wake up",
+        {
+          "jp": "起きたい。",
+          "romaji": "okitai",
+          "en": "I want to wake up."
+        }
+      ],
+      [
+        "Potential",
+        "起きられる",
+        "okirareru",
+        "I can wake up",
+        {
+          "jp": "起きられる。",
+          "romaji": "okirareru",
+          "en": "I can wake up."
+        }
+      ],
+      [
+        "Volitional",
+        "起きよう",
+        "okiyou",
+        "Let’s wake up",
+        {
+          "jp": "起きよう。",
+          "romaji": "okiyou",
+          "en": "Let’s wake up."
+        }
+      ]
+    ]
+  },
+  "ある": {
+    "dictionary": "ある",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "ある",
+        "aru",
+        "To exist / there is",
+        {
+          "jp": "ある。",
+          "romaji": "aru",
+          "en": "I exist / I will exist."
+        }
+      ],
+      [
+        "Polite",
+        "あります",
+        "arimasu",
+        "There is / will be",
+        {
+          "jp": "あります。",
+          "romaji": "arimasu",
+          "en": "There is / will be."
+        }
+      ],
+      [
+        "Polite negative",
+        "ありません",
+        "arimasen",
+        "There isn’t",
+        {
+          "jp": "ありません。",
+          "romaji": "arimasen",
+          "en": "There isn’t."
+        }
+      ],
+      [
+        "Polite past",
+        "ありました",
+        "arimashita",
+        "There was",
+        {
+          "jp": "ありました。",
+          "romaji": "arimashita",
+          "en": "There was."
+        }
+      ],
+      [
+        "Polite past negative",
+        "ありませんでした",
+        "arimasendeshita",
+        "There wasn’t",
+        {
+          "jp": "ありませんでした。",
+          "romaji": "arimasen deshita",
+          "en": "There wasn’t."
+        }
+      ],
+      [
+        "て-form",
+        "あって",
+        "atte",
+        "Connects actions / requests",
+        {
+          "jp": "あってください。",
+          "romaji": "atsu te kudasai",
+          "en": "Please exist."
+        }
+      ],
+      [
+        "Casual present / future",
+        "ある",
+        "aru",
+        "There is / will be",
+        {
+          "jp": "ある。",
+          "romaji": "aru",
+          "en": "There is / will be."
+        }
+      ],
+      [
+        "Casual negative",
+        "ない",
+        "nai",
+        "There isn’t",
+        {
+          "jp": "ない。",
+          "romaji": "nai",
+          "en": "There isn’t."
+        }
+      ],
+      [
+        "Casual past",
+        "あった",
+        "atta",
+        "There was",
+        {
+          "jp": "あった。",
+          "romaji": "atsuta",
+          "en": "There was."
+        }
+      ],
+      [
+        "Casual past negative",
+        "なかった",
+        "nakatta",
+        "There wasn’t",
+        {
+          "jp": "なかった。",
+          "romaji": "nakatsuta",
+          "en": "There wasn’t."
+        }
+      ],
+      [
+        "Want to",
+        "ありたい",
+        "aritai",
+        "I want to exist",
+        {
+          "jp": "ありたい。",
+          "romaji": "aritai",
+          "en": "I want to exist."
+        }
+      ],
+      [
+        "Volitional",
+        "あろう",
+        "arou",
+        "Let’s exist",
+        {
+          "jp": "あろう。",
+          "romaji": "arou",
+          "en": "Let’s exist."
+        }
+      ]
+    ]
+  },
+  "いる": {
+    "dictionary": "いる",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "いる",
+        "iru",
+        "To be here",
+        {
+          "jp": "いる。",
+          "romaji": "iru",
+          "en": "I be here / I will be here."
+        }
+      ],
+      [
+        "Polite",
+        "います",
+        "imasu",
+        "I am here / I will be here",
+        {
+          "jp": "います。",
+          "romaji": "imasu",
+          "en": "I am here / I will be here."
+        }
+      ],
+      [
+        "Polite negative",
+        "いません",
+        "imasen",
+        "I am not here",
+        {
+          "jp": "いません。",
+          "romaji": "imasen",
+          "en": "I am not here."
+        }
+      ],
+      [
+        "Polite past",
+        "いました",
+        "imashita",
+        "I was here",
+        {
+          "jp": "いました。",
+          "romaji": "imashita",
+          "en": "I was here."
+        }
+      ],
+      [
+        "Polite past negative",
+        "いませんでした",
+        "imasendeshita",
+        "I wasn’t here",
+        {
+          "jp": "いませんでした。",
+          "romaji": "imasen deshita",
+          "en": "I wasn’t here."
+        }
+      ],
+      [
+        "て-form",
+        "いて",
+        "ite",
+        "Connects actions / requests",
+        {
+          "jp": "いてください。",
+          "romaji": "i te kudasai",
+          "en": "Please be here."
+        }
+      ],
+      [
+        "Casual present / future",
+        "いる",
+        "iru",
+        "I am here / I will be here",
+        {
+          "jp": "いる。",
+          "romaji": "iru",
+          "en": "I am here / I will be here."
+        }
+      ],
+      [
+        "Casual negative",
+        "いない",
+        "inai",
+        "I am not here",
+        {
+          "jp": "いない。",
+          "romaji": "inai",
+          "en": "I am not here."
+        }
+      ],
+      [
+        "Casual past",
+        "いた",
+        "ita",
+        "I was here",
+        {
+          "jp": "いた。",
+          "romaji": "ita",
+          "en": "I was here."
+        }
+      ],
+      [
+        "Casual past negative",
+        "いなかった",
+        "inakatta",
+        "I wasn’t here",
+        {
+          "jp": "いなかった。",
+          "romaji": "inakatsuta",
+          "en": "I wasn’t here."
+        }
+      ],
+      [
+        "Want to",
+        "いたい",
+        "itai",
+        "I want to be here",
+        {
+          "jp": "いたい。",
+          "romaji": "itai",
+          "en": "I want to be here."
+        }
+      ],
+      [
+        "Potential",
+        "いられる",
+        "irareru",
+        "I can be here",
+        {
+          "jp": "いられる。",
+          "romaji": "irareru",
+          "en": "I can be here."
+        }
+      ],
+      [
+        "Volitional",
+        "いよう",
+        "iyou",
+        "Let’s be here",
+        {
+          "jp": "いよう。",
+          "romaji": "iyou",
+          "en": "Let’s be here."
+        }
+      ]
+    ]
+  },
+  "疲れる": {
+    "dictionary": "疲れる",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "疲れる",
+        "tsukareru",
+        "To get tired",
+        {
+          "jp": "疲れる。",
+          "romaji": "tsukareru",
+          "en": "I get tired / I will get tired."
+        }
+      ],
+      [
+        "Polite",
+        "疲れます",
+        "tsukaremasu",
+        "I get tired / I will get tired",
+        {
+          "jp": "疲れます。",
+          "romaji": "tsukaremasu",
+          "en": "I get tired / I will get tired."
+        }
+      ],
+      [
+        "Polite negative",
+        "疲れません",
+        "tsukaremasen",
+        "I don’t get tired",
+        {
+          "jp": "疲れません。",
+          "romaji": "tsukaremasen",
+          "en": "I don’t get tired."
+        }
+      ],
+      [
+        "Polite past",
+        "疲れました",
+        "tsukaremashita",
+        "I got tired",
+        {
+          "jp": "疲れました。",
+          "romaji": "tsukaremashita",
+          "en": "I got tired."
+        }
+      ],
+      [
+        "Polite past negative",
+        "疲れませんでした",
+        "tsukaremasendeshita",
+        "I didn’t get tired",
+        {
+          "jp": "疲れませんでした。",
+          "romaji": "tsukaremasen deshita",
+          "en": "I didn’t get tired."
+        }
+      ],
+      [
+        "て-form",
+        "疲れて",
+        "tsukarete",
+        "Connects actions / requests",
+        {
+          "jp": "疲れてください。",
+          "romaji": "tsukare te kudasai",
+          "en": "Please get tired."
+        }
+      ],
+      [
+        "Casual present / future",
+        "疲れる",
+        "tsukareru",
+        "I get tired / I will get tired",
+        {
+          "jp": "疲れる。",
+          "romaji": "tsukareru",
+          "en": "I get tired / I will get tired."
+        }
+      ],
+      [
+        "Casual negative",
+        "疲れない",
+        "tsukarenai",
+        "I don’t get tired",
+        {
+          "jp": "疲れない。",
+          "romaji": "tsukarenai",
+          "en": "I don’t get tired."
+        }
+      ],
+      [
+        "Casual past",
+        "疲れた",
+        "tsukareta",
+        "I got tired",
+        {
+          "jp": "疲れた。",
+          "romaji": "tsukareta",
+          "en": "I got tired."
+        }
+      ],
+      [
+        "Casual past negative",
+        "疲れなかった",
+        "tsukarenakatta",
+        "I didn’t get tired",
+        {
+          "jp": "疲れなかった。",
+          "romaji": "tsukarenakatsuta",
+          "en": "I didn’t get tired."
+        }
+      ],
+      [
+        "Want to",
+        "疲れたい",
+        "tsukaretai",
+        "I want to get tired",
+        {
+          "jp": "疲れたい。",
+          "romaji": "tsukaretai",
+          "en": "I want to get tired."
+        }
+      ],
+      [
+        "Potential",
+        "疲れられる",
+        "tsukarerareru",
+        "I can get tired",
+        {
+          "jp": "疲れられる。",
+          "romaji": "tsukarerareru",
+          "en": "I can get tired."
+        }
+      ],
+      [
+        "Volitional",
+        "疲れよう",
+        "tsukareyou",
+        "Let’s get tired",
+        {
+          "jp": "疲れよう。",
+          "romaji": "tsukareyou",
+          "en": "Let’s get tired."
+        }
+      ]
+    ]
+  },
+  "頼む": {
+    "dictionary": "頼む",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "頼む",
+        "tanomu",
+        "To ask a favor",
+        {
+          "jp": "頼む。",
+          "romaji": "tanomu",
+          "en": "I ask a favor / I will ask a favor."
+        }
+      ],
+      [
+        "Polite",
+        "頼みます",
+        "tanomimasu",
+        "I ask a favor / I will ask a favor",
+        {
+          "jp": "頼みます。",
+          "romaji": "tanomimasu",
+          "en": "I ask a favor / I will ask a favor."
+        }
+      ],
+      [
+        "Polite negative",
+        "頼みません",
+        "tanomimasen",
+        "I don’t ask a favor",
+        {
+          "jp": "頼みません。",
+          "romaji": "tanomimasen",
+          "en": "I don’t ask a favor."
+        }
+      ],
+      [
+        "Polite past",
+        "頼みました",
+        "tanomimashita",
+        "I asked a favor",
+        {
+          "jp": "頼みました。",
+          "romaji": "tanomimashita",
+          "en": "I asked a favor."
+        }
+      ],
+      [
+        "Polite past negative",
+        "頼みませんでした",
+        "tanomimasendeshita",
+        "I didn’t ask a favor",
+        {
+          "jp": "頼みませんでした。",
+          "romaji": "tanomimasen deshita",
+          "en": "I didn’t ask a favor."
+        }
+      ],
+      [
+        "て-form",
+        "頼んで",
+        "tanonde",
+        "Connects actions / requests",
+        {
+          "jp": "頼んでください。",
+          "romaji": "tanon de kudasai",
+          "en": "Please ask a favor."
+        }
+      ],
+      [
+        "Casual present / future",
+        "頼む",
+        "tanomu",
+        "I ask a favor / I will ask a favor",
+        {
+          "jp": "頼む。",
+          "romaji": "tanomu",
+          "en": "I ask a favor / I will ask a favor."
+        }
+      ],
+      [
+        "Casual negative",
+        "頼まない",
+        "tanomanai",
+        "I don’t ask a favor",
+        {
+          "jp": "頼まない。",
+          "romaji": "tanomanai",
+          "en": "I don’t ask a favor."
+        }
+      ],
+      [
+        "Casual past",
+        "頼んだ",
+        "tanonda",
+        "I asked a favor",
+        {
+          "jp": "頼んだ。",
+          "romaji": "tanonda",
+          "en": "I asked a favor."
+        }
+      ],
+      [
+        "Casual past negative",
+        "頼まなかった",
+        "tanomanakatta",
+        "I didn’t ask a favor",
+        {
+          "jp": "頼まなかった。",
+          "romaji": "tanomanakatsuta",
+          "en": "I didn’t ask a favor."
+        }
+      ],
+      [
+        "Want to",
+        "頼みたい",
+        "tanomitai",
+        "I want to ask a favor",
+        {
+          "jp": "頼みたい。",
+          "romaji": "tanomitai",
+          "en": "I want to ask a favor."
+        }
+      ],
+      [
+        "Potential",
+        "頼める",
+        "tanomeru",
+        "I can ask a favor",
+        {
+          "jp": "頼める。",
+          "romaji": "tanomeru",
+          "en": "I can ask a favor."
+        }
+      ],
+      [
+        "Volitional",
+        "頼もう",
+        "tanomou",
+        "Let’s ask a favor",
+        {
+          "jp": "頼もう。",
+          "romaji": "tanomou",
+          "en": "Let’s ask a favor."
+        }
+      ]
+    ]
+  },
+  "動く": {
+    "dictionary": "動く",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "動く",
+        "ugoku",
+        "To move",
+        {
+          "jp": "動く。",
+          "romaji": "ugoku",
+          "en": "I move / I will move."
+        }
+      ],
+      [
+        "Polite",
+        "動きます",
+        "ugokimasu",
+        "I move / I will move",
+        {
+          "jp": "動きます。",
+          "romaji": "ugokimasu",
+          "en": "I move / I will move."
+        }
+      ],
+      [
+        "Polite negative",
+        "動きません",
+        "ugokimasen",
+        "I don’t move",
+        {
+          "jp": "動きません。",
+          "romaji": "ugokimasen",
+          "en": "I don’t move."
+        }
+      ],
+      [
+        "Polite past",
+        "動きました",
+        "ugokimashita",
+        "I moved",
+        {
+          "jp": "動きました。",
+          "romaji": "ugokimashita",
+          "en": "I moved."
+        }
+      ],
+      [
+        "Polite past negative",
+        "動きませんでした",
+        "ugokimasendeshita",
+        "I didn’t move",
+        {
+          "jp": "動きませんでした。",
+          "romaji": "ugokimasen deshita",
+          "en": "I didn’t move."
+        }
+      ],
+      [
+        "て-form",
+        "動いて",
+        "ugoite",
+        "Connects actions / requests",
+        {
+          "jp": "動いてください。",
+          "romaji": "ugoi te kudasai",
+          "en": "Please move."
+        }
+      ],
+      [
+        "Casual present / future",
+        "動く",
+        "ugoku",
+        "I move / I will move",
+        {
+          "jp": "動く。",
+          "romaji": "ugoku",
+          "en": "I move / I will move."
+        }
+      ],
+      [
+        "Casual negative",
+        "動かない",
+        "ugokanai",
+        "I don’t move",
+        {
+          "jp": "動かない。",
+          "romaji": "ugokanai",
+          "en": "I don’t move."
+        }
+      ],
+      [
+        "Casual past",
+        "動いた",
+        "ugoita",
+        "I moved",
+        {
+          "jp": "動いた。",
+          "romaji": "ugoita",
+          "en": "I moved."
+        }
+      ],
+      [
+        "Casual past negative",
+        "動かなかった",
+        "ugokanakatta",
+        "I didn’t move",
+        {
+          "jp": "動かなかった。",
+          "romaji": "ugokanakatsuta",
+          "en": "I didn’t move."
+        }
+      ],
+      [
+        "Want to",
+        "動きたい",
+        "ugokitai",
+        "I want to move",
+        {
+          "jp": "動きたい。",
+          "romaji": "ugokitai",
+          "en": "I want to move."
+        }
+      ],
+      [
+        "Potential",
+        "動ける",
+        "ugokeru",
+        "I can move",
+        {
+          "jp": "動ける。",
+          "romaji": "ugokeru",
+          "en": "I can move."
+        }
+      ],
+      [
+        "Volitional",
+        "動こう",
+        "ugokou",
+        "Let’s move",
+        {
+          "jp": "動こう。",
+          "romaji": "ugokou",
+          "en": "Let’s move."
+        }
+      ]
+    ]
+  },
+  "引っ越す": {
+    "dictionary": "引っ越す",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "引っ越す",
+        "hikkosu",
+        "To move house",
+        {
+          "jp": "引っ越す。",
+          "romaji": "hikkosu",
+          "en": "I move house / I will move house."
+        }
+      ],
+      [
+        "Polite",
+        "引っ越します",
+        "hikkoshimasu",
+        "I move house / I will move house",
+        {
+          "jp": "引っ越します。",
+          "romaji": "hikkoshimasu",
+          "en": "I move house / I will move house."
+        }
+      ],
+      [
+        "Polite negative",
+        "引っ越しません",
+        "hikkoshimasen",
+        "I don’t move house",
+        {
+          "jp": "引っ越しません。",
+          "romaji": "hikkoshimasen",
+          "en": "I don’t move house."
+        }
+      ],
+      [
+        "Polite past",
+        "引っ越しました",
+        "hikkoshimashita",
+        "I moved house",
+        {
+          "jp": "引っ越しました。",
+          "romaji": "hikkoshimashita",
+          "en": "I moved house."
+        }
+      ],
+      [
+        "Polite past negative",
+        "引っ越しませんでした",
+        "hikkoshimasendeshita",
+        "I didn’t move house",
+        {
+          "jp": "引っ越しませんでした。",
+          "romaji": "hikkoshimasen deshita",
+          "en": "I didn’t move house."
+        }
+      ],
+      [
+        "て-form",
+        "引っ越して",
+        "hikkoshite",
+        "Connects actions / requests",
+        {
+          "jp": "引っ越してください。",
+          "romaji": "hikkoshi te kudasai",
+          "en": "Please move house."
+        }
+      ],
+      [
+        "Casual present / future",
+        "引っ越す",
+        "hikkosu",
+        "I move house / I will move house",
+        {
+          "jp": "引っ越す。",
+          "romaji": "hikkosu",
+          "en": "I move house / I will move house."
+        }
+      ],
+      [
+        "Casual negative",
+        "引っ越さない",
+        "hikkosanai",
+        "I don’t move house",
+        {
+          "jp": "引っ越さない。",
+          "romaji": "hikkosanai",
+          "en": "I don’t move house."
+        }
+      ],
+      [
+        "Casual past",
+        "引っ越した",
+        "hikkoshita",
+        "I moved house",
+        {
+          "jp": "引っ越した。",
+          "romaji": "hikkoshita",
+          "en": "I moved house."
+        }
+      ],
+      [
+        "Casual past negative",
+        "引っ越さなかった",
+        "hikkosanakatta",
+        "I didn’t move house",
+        {
+          "jp": "引っ越さなかった。",
+          "romaji": "hikkosanakatsuta",
+          "en": "I didn’t move house."
+        }
+      ],
+      [
+        "Want to",
+        "引っ越したい",
+        "hikkoshitai",
+        "I want to move house",
+        {
+          "jp": "引っ越したい。",
+          "romaji": "hikkoshitai",
+          "en": "I want to move house."
+        }
+      ],
+      [
+        "Potential",
+        "引っ越せる",
+        "hikkoseru",
+        "I can move house",
+        {
+          "jp": "引っ越せる。",
+          "romaji": "hikkoseru",
+          "en": "I can move house."
+        }
+      ],
+      [
+        "Volitional",
+        "引っ越そう",
+        "hikkosou",
+        "Let’s move house",
+        {
+          "jp": "引っ越そう。",
+          "romaji": "hikkosou",
+          "en": "Let’s move house."
+        }
+      ]
+    ]
+  },
+  "住む": {
+    "dictionary": "住む",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "住む",
+        "sumu",
+        "To live here",
+        {
+          "jp": "住む。",
+          "romaji": "sumu",
+          "en": "I live here / I will live here."
+        }
+      ],
+      [
+        "Polite",
+        "住みます",
+        "sumimasu",
+        "I live here / I will live here",
+        {
+          "jp": "住みます。",
+          "romaji": "sumimasu",
+          "en": "I live here / I will live here."
+        }
+      ],
+      [
+        "Polite negative",
+        "住みません",
+        "sumimasen",
+        "I don’t live here",
+        {
+          "jp": "住みません。",
+          "romaji": "sumimasen",
+          "en": "I don’t live here."
+        }
+      ],
+      [
+        "Polite past",
+        "住みました",
+        "sumimashita",
+        "I lived here",
+        {
+          "jp": "住みました。",
+          "romaji": "sumimashita",
+          "en": "I lived here."
+        }
+      ],
+      [
+        "Polite past negative",
+        "住みませんでした",
+        "sumimasendeshita",
+        "I didn’t live here",
+        {
+          "jp": "住みませんでした。",
+          "romaji": "sumimasen deshita",
+          "en": "I didn’t live here."
+        }
+      ],
+      [
+        "て-form",
+        "住んで",
+        "sunde",
+        "Connects actions / requests",
+        {
+          "jp": "住んでください。",
+          "romaji": "sun de kudasai",
+          "en": "Please live here."
+        }
+      ],
+      [
+        "Casual present / future",
+        "住む",
+        "sumu",
+        "I live here / I will live here",
+        {
+          "jp": "住む。",
+          "romaji": "sumu",
+          "en": "I live here / I will live here."
+        }
+      ],
+      [
+        "Casual negative",
+        "住まない",
+        "sumanai",
+        "I don’t live here",
+        {
+          "jp": "住まない。",
+          "romaji": "sumanai",
+          "en": "I don’t live here."
+        }
+      ],
+      [
+        "Casual past",
+        "住んだ",
+        "sunda",
+        "I lived here",
+        {
+          "jp": "住んだ。",
+          "romaji": "sunda",
+          "en": "I lived here."
+        }
+      ],
+      [
+        "Casual past negative",
+        "住まなかった",
+        "sumanakatta",
+        "I didn’t live here",
+        {
+          "jp": "住まなかった。",
+          "romaji": "sumanakatsuta",
+          "en": "I didn’t live here."
+        }
+      ],
+      [
+        "Want to",
+        "住みたい",
+        "sumitai",
+        "I want to live here",
+        {
+          "jp": "住みたい。",
+          "romaji": "sumitai",
+          "en": "I want to live here."
+        }
+      ],
+      [
+        "Potential",
+        "住める",
+        "sumeru",
+        "I can live here",
+        {
+          "jp": "住める。",
+          "romaji": "sumeru",
+          "en": "I can live here."
+        }
+      ],
+      [
+        "Volitional",
+        "住もう",
+        "sumou",
+        "Let’s live here",
+        {
+          "jp": "住もう。",
+          "romaji": "sumou",
+          "en": "Let’s live here."
+        }
+      ]
+    ]
+  },
+  "もらう": {
+    "dictionary": "もらう",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "もらう",
+        "morau",
+        "To receive it",
+        {
+          "jp": "もらう。",
+          "romaji": "morau",
+          "en": "I receive it / I will receive it."
+        }
+      ],
+      [
+        "Polite",
+        "もらいます",
+        "moraimasu",
+        "I receive it / I will receive it",
+        {
+          "jp": "もらいます。",
+          "romaji": "moraimasu",
+          "en": "I receive it / I will receive it."
+        }
+      ],
+      [
+        "Polite negative",
+        "もらいません",
+        "moraimasen",
+        "I don’t receive it",
+        {
+          "jp": "もらいません。",
+          "romaji": "moraimasen",
+          "en": "I don’t receive it."
+        }
+      ],
+      [
+        "Polite past",
+        "もらいました",
+        "moraimashita",
+        "I received it",
+        {
+          "jp": "もらいました。",
+          "romaji": "moraimashita",
+          "en": "I received it."
+        }
+      ],
+      [
+        "Polite past negative",
+        "もらいませんでした",
+        "moraimasendeshita",
+        "I didn’t receive it",
+        {
+          "jp": "もらいませんでした。",
+          "romaji": "moraimasen deshita",
+          "en": "I didn’t receive it."
+        }
+      ],
+      [
+        "て-form",
+        "もらって",
+        "moratte",
+        "Connects actions / requests",
+        {
+          "jp": "もらってください。",
+          "romaji": "moratsu te kudasai",
+          "en": "Please receive it."
+        }
+      ],
+      [
+        "Casual present / future",
+        "もらう",
+        "morau",
+        "I receive it / I will receive it",
+        {
+          "jp": "もらう。",
+          "romaji": "morau",
+          "en": "I receive it / I will receive it."
+        }
+      ],
+      [
+        "Casual negative",
+        "もらわない",
+        "morawanai",
+        "I don’t receive it",
+        {
+          "jp": "もらわない。",
+          "romaji": "morawanai",
+          "en": "I don’t receive it."
+        }
+      ],
+      [
+        "Casual past",
+        "もらった",
+        "moratta",
+        "I received it",
+        {
+          "jp": "もらった。",
+          "romaji": "moratsuta",
+          "en": "I received it."
+        }
+      ],
+      [
+        "Casual past negative",
+        "もらわなかった",
+        "morawanakatta",
+        "I didn’t receive it",
+        {
+          "jp": "もらわなかった。",
+          "romaji": "morawanakatsuta",
+          "en": "I didn’t receive it."
+        }
+      ],
+      [
+        "Want to",
+        "もらいたい",
+        "moraitai",
+        "I want to receive it",
+        {
+          "jp": "もらいたい。",
+          "romaji": "moraitai",
+          "en": "I want to receive it."
+        }
+      ],
+      [
+        "Potential",
+        "もらえる",
+        "moraeru",
+        "I can receive it",
+        {
+          "jp": "もらえる。",
+          "romaji": "moraeru",
+          "en": "I can receive it."
+        }
+      ],
+      [
+        "Volitional",
+        "もらおう",
+        "moraou",
+        "Let’s receive it",
+        {
+          "jp": "もらおう。",
+          "romaji": "moraou",
+          "en": "Let’s receive it."
+        }
+      ]
+    ]
+  },
+  "聞こえる": {
+    "dictionary": "聞こえる",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "聞こえる",
+        "kikoeru",
+        "To hear it",
+        {
+          "jp": "聞こえる。",
+          "romaji": "kikoeru",
+          "en": "I hear it / I will hear it."
+        }
+      ],
+      [
+        "Polite",
+        "聞こえます",
+        "kikoemasu",
+        "I hear it / I will hear it",
+        {
+          "jp": "聞こえます。",
+          "romaji": "kikoemasu",
+          "en": "I hear it / I will hear it."
+        }
+      ],
+      [
+        "Polite negative",
+        "聞こえません",
+        "kikoemasen",
+        "I don’t hear it",
+        {
+          "jp": "聞こえません。",
+          "romaji": "kikoemasen",
+          "en": "I don’t hear it."
+        }
+      ],
+      [
+        "Polite past",
+        "聞こえました",
+        "kikoemashita",
+        "I heard it",
+        {
+          "jp": "聞こえました。",
+          "romaji": "kikoemashita",
+          "en": "I heard it."
+        }
+      ],
+      [
+        "Polite past negative",
+        "聞こえませんでした",
+        "kikoemasendeshita",
+        "I didn’t hear it",
+        {
+          "jp": "聞こえませんでした。",
+          "romaji": "kikoemasen deshita",
+          "en": "I didn’t hear it."
+        }
+      ],
+      [
+        "て-form",
+        "聞こえて",
+        "kikoete",
+        "Connects actions / requests",
+        {
+          "jp": "聞こえてください。",
+          "romaji": "kikoe te kudasai",
+          "en": "Please hear it."
+        }
+      ],
+      [
+        "Casual present / future",
+        "聞こえる",
+        "kikoeru",
+        "I hear it / I will hear it",
+        {
+          "jp": "聞こえる。",
+          "romaji": "kikoeru",
+          "en": "I hear it / I will hear it."
+        }
+      ],
+      [
+        "Casual negative",
+        "聞こえない",
+        "kikoenai",
+        "I don’t hear it",
+        {
+          "jp": "聞こえない。",
+          "romaji": "kikoenai",
+          "en": "I don’t hear it."
+        }
+      ],
+      [
+        "Casual past",
+        "聞こえた",
+        "kikoeta",
+        "I heard it",
+        {
+          "jp": "聞こえた。",
+          "romaji": "kikoeta",
+          "en": "I heard it."
+        }
+      ],
+      [
+        "Casual past negative",
+        "聞こえなかった",
+        "kikoenakatta",
+        "I didn’t hear it",
+        {
+          "jp": "聞こえなかった。",
+          "romaji": "kikoenakatsuta",
+          "en": "I didn’t hear it."
+        }
+      ],
+      [
+        "Want to",
+        "聞こえたい",
+        "kikoetai",
+        "I want to hear it",
+        {
+          "jp": "聞こえたい。",
+          "romaji": "kikoetai",
+          "en": "I want to hear it."
+        }
+      ],
+      [
+        "Potential",
+        "聞こえられる",
+        "kikoerareru",
+        "I can hear it",
+        {
+          "jp": "聞こえられる。",
+          "romaji": "kikoerareru",
+          "en": "I can hear it."
+        }
+      ],
+      [
+        "Volitional",
+        "聞こえよう",
+        "kikoeyou",
+        "Let’s hear it",
+        {
+          "jp": "聞こえよう。",
+          "romaji": "kikoeyou",
+          "en": "Let’s hear it."
+        }
+      ]
+    ]
+  },
+  "できる": {
+    "dictionary": "できる",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "できる",
+        "dekiru",
+        "Can do it",
+        {
+          "jp": "できる。",
+          "romaji": "dekiru",
+          "en": "I do it / I will do it."
+        }
+      ],
+      [
+        "Polite",
+        "できます",
+        "dekimasu",
+        "I can do it",
+        {
+          "jp": "できます。",
+          "romaji": "dekimasu",
+          "en": "I can do it."
+        }
+      ],
+      [
+        "Polite negative",
+        "できません",
+        "dekimasen",
+        "I can’t do it",
+        {
+          "jp": "できません。",
+          "romaji": "dekimasen",
+          "en": "I can’t do it."
+        }
+      ],
+      [
+        "Polite past",
+        "できました",
+        "dekimashita",
+        "I could do it",
+        {
+          "jp": "できました。",
+          "romaji": "dekimashita",
+          "en": "I could do it."
+        }
+      ],
+      [
+        "Polite past negative",
+        "できませんでした",
+        "dekimasendeshita",
+        "I couldn’t do it",
+        {
+          "jp": "できませんでした。",
+          "romaji": "dekimasen deshita",
+          "en": "I couldn’t do it."
+        }
+      ],
+      [
+        "て-form",
+        "できて",
+        "dekite",
+        "Connects actions / requests",
+        {
+          "jp": "できてください。",
+          "romaji": "deki te kudasai",
+          "en": "Please do it."
+        }
+      ],
+      [
+        "Casual present / future",
+        "できる",
+        "dekiru",
+        "I can do it",
+        {
+          "jp": "できる。",
+          "romaji": "dekiru",
+          "en": "I can do it."
+        }
+      ],
+      [
+        "Casual negative",
+        "できない",
+        "dekinai",
+        "I can’t do it",
+        {
+          "jp": "できない。",
+          "romaji": "dekinai",
+          "en": "I can’t do it."
+        }
+      ],
+      [
+        "Casual past",
+        "できた",
+        "dekita",
+        "I could do it",
+        {
+          "jp": "できた。",
+          "romaji": "dekita",
+          "en": "I could do it."
+        }
+      ],
+      [
+        "Casual past negative",
+        "できなかった",
+        "dekinakatta",
+        "I couldn’t do it",
+        {
+          "jp": "できなかった。",
+          "romaji": "dekinakatsuta",
+          "en": "I couldn’t do it."
+        }
+      ],
+      [
+        "Want to",
+        "できたい",
+        "dekitai",
+        "I want to do it",
+        {
+          "jp": "できたい。",
+          "romaji": "dekitai",
+          "en": "I want to do it."
+        }
+      ],
+      [
+        "Volitional",
+        "できよう",
+        "dekiyou",
+        "Let’s do it",
+        {
+          "jp": "できよう。",
+          "romaji": "dekiyou",
+          "en": "Let’s do it."
+        }
+      ]
+    ]
+  },
+  "なる": {
+    "dictionary": "なる",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "なる",
+        "naru",
+        "To become that",
+        {
+          "jp": "なる。",
+          "romaji": "naru",
+          "en": "I become that / I will become that."
+        }
+      ],
+      [
+        "Polite",
+        "なります",
+        "narimasu",
+        "I become that / I will become that",
+        {
+          "jp": "なります。",
+          "romaji": "narimasu",
+          "en": "I become that / I will become that."
+        }
+      ],
+      [
+        "Polite negative",
+        "なりません",
+        "narimasen",
+        "I don’t become that",
+        {
+          "jp": "なりません。",
+          "romaji": "narimasen",
+          "en": "I don’t become that."
+        }
+      ],
+      [
+        "Polite past",
+        "なりました",
+        "narimashita",
+        "I became that",
+        {
+          "jp": "なりました。",
+          "romaji": "narimashita",
+          "en": "I became that."
+        }
+      ],
+      [
+        "Polite past negative",
+        "なりませんでした",
+        "narimasendeshita",
+        "I didn’t become that",
+        {
+          "jp": "なりませんでした。",
+          "romaji": "narimasen deshita",
+          "en": "I didn’t become that."
+        }
+      ],
+      [
+        "て-form",
+        "なって",
+        "natte",
+        "Connects actions / requests",
+        {
+          "jp": "なってください。",
+          "romaji": "natsu te kudasai",
+          "en": "Please become that."
+        }
+      ],
+      [
+        "Casual present / future",
+        "なる",
+        "naru",
+        "I become that / I will become that",
+        {
+          "jp": "なる。",
+          "romaji": "naru",
+          "en": "I become that / I will become that."
+        }
+      ],
+      [
+        "Casual negative",
+        "ならない",
+        "naranai",
+        "I don’t become that",
+        {
+          "jp": "ならない。",
+          "romaji": "naranai",
+          "en": "I don’t become that."
+        }
+      ],
+      [
+        "Casual past",
+        "なった",
+        "natta",
+        "I became that",
+        {
+          "jp": "なった。",
+          "romaji": "natsuta",
+          "en": "I became that."
+        }
+      ],
+      [
+        "Casual past negative",
+        "ならなかった",
+        "naranakatta",
+        "I didn’t become that",
+        {
+          "jp": "ならなかった。",
+          "romaji": "naranakatsuta",
+          "en": "I didn’t become that."
+        }
+      ],
+      [
+        "Want to",
+        "なりたい",
+        "naritai",
+        "I want to become that",
+        {
+          "jp": "なりたい。",
+          "romaji": "naritai",
+          "en": "I want to become that."
+        }
+      ],
+      [
+        "Potential",
+        "なれる",
+        "nareru",
+        "I can become that",
+        {
+          "jp": "なれる。",
+          "romaji": "nareru",
+          "en": "I can become that."
+        }
+      ],
+      [
+        "Volitional",
+        "なろう",
+        "narou",
+        "Let’s become that",
+        {
+          "jp": "なろう。",
+          "romaji": "narou",
+          "en": "Let’s become that."
+        }
+      ]
+    ]
+  },
+  "信じる": {
+    "dictionary": "信じる",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "信じる",
+        "shinjiru",
+        "To believe it",
+        {
+          "jp": "信じる。",
+          "romaji": "shinjiru",
+          "en": "I believe it / I will believe it."
+        }
+      ],
+      [
+        "Polite",
+        "信じます",
+        "shinjimasu",
+        "I believe it / I will believe it",
+        {
+          "jp": "信じます。",
+          "romaji": "shinjimasu",
+          "en": "I believe it / I will believe it."
+        }
+      ],
+      [
+        "Polite negative",
+        "信じません",
+        "shinjimasen",
+        "I don’t believe it",
+        {
+          "jp": "信じません。",
+          "romaji": "shinjimasen",
+          "en": "I don’t believe it."
+        }
+      ],
+      [
+        "Polite past",
+        "信じました",
+        "shinjimashita",
+        "I believed it",
+        {
+          "jp": "信じました。",
+          "romaji": "shinjimashita",
+          "en": "I believed it."
+        }
+      ],
+      [
+        "Polite past negative",
+        "信じませんでした",
+        "shinjimasendeshita",
+        "I didn’t believe it",
+        {
+          "jp": "信じませんでした。",
+          "romaji": "shinjimasen deshita",
+          "en": "I didn’t believe it."
+        }
+      ],
+      [
+        "て-form",
+        "信じて",
+        "shinjite",
+        "Connects actions / requests",
+        {
+          "jp": "信じてください。",
+          "romaji": "shinji te kudasai",
+          "en": "Please believe it."
+        }
+      ],
+      [
+        "Casual present / future",
+        "信じる",
+        "shinjiru",
+        "I believe it / I will believe it",
+        {
+          "jp": "信じる。",
+          "romaji": "shinjiru",
+          "en": "I believe it / I will believe it."
+        }
+      ],
+      [
+        "Casual negative",
+        "信じない",
+        "shinjinai",
+        "I don’t believe it",
+        {
+          "jp": "信じない。",
+          "romaji": "shinjinai",
+          "en": "I don’t believe it."
+        }
+      ],
+      [
+        "Casual past",
+        "信じた",
+        "shinjita",
+        "I believed it",
+        {
+          "jp": "信じた。",
+          "romaji": "shinjita",
+          "en": "I believed it."
+        }
+      ],
+      [
+        "Casual past negative",
+        "信じなかった",
+        "shinjinakatta",
+        "I didn’t believe it",
+        {
+          "jp": "信じなかった。",
+          "romaji": "shinjinakatsuta",
+          "en": "I didn’t believe it."
+        }
+      ],
+      [
+        "Want to",
+        "信じたい",
+        "shinjitai",
+        "I want to believe it",
+        {
+          "jp": "信じたい。",
+          "romaji": "shinjitai",
+          "en": "I want to believe it."
+        }
+      ],
+      [
+        "Potential",
+        "信じられる",
+        "shinjirareru",
+        "I can believe it",
+        {
+          "jp": "信じられる。",
+          "romaji": "shinjirareru",
+          "en": "I can believe it."
+        }
+      ],
+      [
+        "Volitional",
+        "信じよう",
+        "shinjiyou",
+        "Let’s believe it",
+        {
+          "jp": "信じよう。",
+          "romaji": "shinjiyou",
+          "en": "Let’s believe it."
+        }
+      ]
+    ]
+  },
+  "忘れる": {
+    "dictionary": "忘れる",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "忘れる",
+        "wasureru",
+        "To forget",
+        {
+          "jp": "忘れる。",
+          "romaji": "wasureru",
+          "en": "I forget / I will forget."
+        }
+      ],
+      [
+        "Polite",
+        "忘れます",
+        "wasuremasu",
+        "I forget / I will forget",
+        {
+          "jp": "忘れます。",
+          "romaji": "wasuremasu",
+          "en": "I forget / I will forget."
+        }
+      ],
+      [
+        "Polite negative",
+        "忘れません",
+        "wasuremasen",
+        "I don’t forget",
+        {
+          "jp": "忘れません。",
+          "romaji": "wasuremasen",
+          "en": "I don’t forget."
+        }
+      ],
+      [
+        "Polite past",
+        "忘れました",
+        "wasuremashita",
+        "I forgot",
+        {
+          "jp": "忘れました。",
+          "romaji": "wasuremashita",
+          "en": "I forgot."
+        }
+      ],
+      [
+        "Polite past negative",
+        "忘れませんでした",
+        "wasuremasendeshita",
+        "I didn’t forget",
+        {
+          "jp": "忘れませんでした。",
+          "romaji": "wasuremasen deshita",
+          "en": "I didn’t forget."
+        }
+      ],
+      [
+        "て-form",
+        "忘れて",
+        "wasurete",
+        "Connects actions / requests",
+        {
+          "jp": "忘れてください。",
+          "romaji": "wasure te kudasai",
+          "en": "Please forget."
+        }
+      ],
+      [
+        "Casual present / future",
+        "忘れる",
+        "wasureru",
+        "I forget / I will forget",
+        {
+          "jp": "忘れる。",
+          "romaji": "wasureru",
+          "en": "I forget / I will forget."
+        }
+      ],
+      [
+        "Casual negative",
+        "忘れない",
+        "wasurenai",
+        "I don’t forget",
+        {
+          "jp": "忘れない。",
+          "romaji": "wasurenai",
+          "en": "I don’t forget."
+        }
+      ],
+      [
+        "Casual past",
+        "忘れた",
+        "wasureta",
+        "I forgot",
+        {
+          "jp": "忘れた。",
+          "romaji": "wasureta",
+          "en": "I forgot."
+        }
+      ],
+      [
+        "Casual past negative",
+        "忘れなかった",
+        "wasurenakatta",
+        "I didn’t forget",
+        {
+          "jp": "忘れなかった。",
+          "romaji": "wasurenakatsuta",
+          "en": "I didn’t forget."
+        }
+      ],
+      [
+        "Want to",
+        "忘れたい",
+        "wasuretai",
+        "I want to forget",
+        {
+          "jp": "忘れたい。",
+          "romaji": "wasuretai",
+          "en": "I want to forget."
+        }
+      ],
+      [
+        "Potential",
+        "忘れられる",
+        "wasurerareru",
+        "I can forget",
+        {
+          "jp": "忘れられる。",
+          "romaji": "wasurerareru",
+          "en": "I can forget."
+        }
+      ],
+      [
+        "Volitional",
+        "忘れよう",
+        "wasureyou",
+        "Let’s forget",
+        {
+          "jp": "忘れよう。",
+          "romaji": "wasureyou",
+          "en": "Let’s forget."
+        }
+      ]
+    ]
+  },
+  "掃除する": {
+    "dictionary": "掃除する",
+    "group": "Group 3 · Irregular",
+    "rows": [
+      [
+        "Dictionary",
+        "掃除する",
+        "soujisuru",
+        "To clean",
+        {
+          "jp": "掃除する。",
+          "romaji": "soujisuru",
+          "en": "I clean / I will clean."
+        }
+      ],
+      [
+        "Polite",
+        "掃除します",
+        "soujishimasu",
+        "I clean / I will clean",
+        {
+          "jp": "掃除します。",
+          "romaji": "soujishimasu",
+          "en": "I clean / I will clean."
+        }
+      ],
+      [
+        "Polite negative",
+        "掃除しません",
+        "soujishimasen",
+        "I don’t clean",
+        {
+          "jp": "掃除しません。",
+          "romaji": "soujishimasen",
+          "en": "I don’t clean."
+        }
+      ],
+      [
+        "Polite past",
+        "掃除しました",
+        "soujishimashita",
+        "I cleaned",
+        {
+          "jp": "掃除しました。",
+          "romaji": "soujishimashita",
+          "en": "I cleaned."
+        }
+      ],
+      [
+        "Polite past negative",
+        "掃除しませんでした",
+        "soujishimasendeshita",
+        "I didn’t clean",
+        {
+          "jp": "掃除しませんでした。",
+          "romaji": "soujishimasen deshita",
+          "en": "I didn’t clean."
+        }
+      ],
+      [
+        "て-form",
+        "掃除して",
+        "soujishite",
+        "Connects actions / requests",
+        {
+          "jp": "掃除してください。",
+          "romaji": "soujishi te kudasai",
+          "en": "Please clean."
+        }
+      ],
+      [
+        "Casual present / future",
+        "掃除する",
+        "soujisuru",
+        "I clean / I will clean",
+        {
+          "jp": "掃除する。",
+          "romaji": "soujisuru",
+          "en": "I clean / I will clean."
+        }
+      ],
+      [
+        "Casual negative",
+        "掃除しない",
+        "soujishinai",
+        "I don’t clean",
+        {
+          "jp": "掃除しない。",
+          "romaji": "soujishinai",
+          "en": "I don’t clean."
+        }
+      ],
+      [
+        "Casual past",
+        "掃除した",
+        "soujishita",
+        "I cleaned",
+        {
+          "jp": "掃除した。",
+          "romaji": "soujishita",
+          "en": "I cleaned."
+        }
+      ],
+      [
+        "Casual past negative",
+        "掃除しなかった",
+        "soujishinakatta",
+        "I didn’t clean",
+        {
+          "jp": "掃除しなかった。",
+          "romaji": "soujishinakatsuta",
+          "en": "I didn’t clean."
+        }
+      ],
+      [
+        "Want to",
+        "掃除したい",
+        "soujishitai",
+        "I want to clean",
+        {
+          "jp": "掃除したい。",
+          "romaji": "soujishitai",
+          "en": "I want to clean."
+        }
+      ],
+      [
+        "Potential",
+        "掃除できる",
+        "soujidekiru",
+        "I can clean",
+        {
+          "jp": "掃除できる。",
+          "romaji": "souji dekiru",
+          "en": "I can clean."
+        }
+      ],
+      [
+        "Volitional",
+        "掃除しよう",
+        "soujishiyou",
+        "Let’s clean",
+        {
+          "jp": "掃除しよう。",
+          "romaji": "soujishiyou",
+          "en": "Let’s clean."
+        }
+      ]
+    ]
+  },
+  "料理する": {
+    "dictionary": "料理する",
+    "group": "Group 3 · Irregular",
+    "rows": [
+      [
+        "Dictionary",
+        "料理する",
+        "ryourisuru",
+        "To cook",
+        {
+          "jp": "料理する。",
+          "romaji": "ryourisuru",
+          "en": "I cook / I will cook."
+        }
+      ],
+      [
+        "Polite",
+        "料理します",
+        "ryourishimasu",
+        "I cook / I will cook",
+        {
+          "jp": "料理します。",
+          "romaji": "ryourishimasu",
+          "en": "I cook / I will cook."
+        }
+      ],
+      [
+        "Polite negative",
+        "料理しません",
+        "ryourishimasen",
+        "I don’t cook",
+        {
+          "jp": "料理しません。",
+          "romaji": "ryourishimasen",
+          "en": "I don’t cook."
+        }
+      ],
+      [
+        "Polite past",
+        "料理しました",
+        "ryourishimashita",
+        "I cooked",
+        {
+          "jp": "料理しました。",
+          "romaji": "ryourishimashita",
+          "en": "I cooked."
+        }
+      ],
+      [
+        "Polite past negative",
+        "料理しませんでした",
+        "ryourishimasendeshita",
+        "I didn’t cook",
+        {
+          "jp": "料理しませんでした。",
+          "romaji": "ryourishimasen deshita",
+          "en": "I didn’t cook."
+        }
+      ],
+      [
+        "て-form",
+        "料理して",
+        "ryourishite",
+        "Connects actions / requests",
+        {
+          "jp": "料理してください。",
+          "romaji": "ryourishi te kudasai",
+          "en": "Please cook."
+        }
+      ],
+      [
+        "Casual present / future",
+        "料理する",
+        "ryourisuru",
+        "I cook / I will cook",
+        {
+          "jp": "料理する。",
+          "romaji": "ryourisuru",
+          "en": "I cook / I will cook."
+        }
+      ],
+      [
+        "Casual negative",
+        "料理しない",
+        "ryourishinai",
+        "I don’t cook",
+        {
+          "jp": "料理しない。",
+          "romaji": "ryourishinai",
+          "en": "I don’t cook."
+        }
+      ],
+      [
+        "Casual past",
+        "料理した",
+        "ryourishita",
+        "I cooked",
+        {
+          "jp": "料理した。",
+          "romaji": "ryourishita",
+          "en": "I cooked."
+        }
+      ],
+      [
+        "Casual past negative",
+        "料理しなかった",
+        "ryourishinakatta",
+        "I didn’t cook",
+        {
+          "jp": "料理しなかった。",
+          "romaji": "ryourishinakatsuta",
+          "en": "I didn’t cook."
+        }
+      ],
+      [
+        "Want to",
+        "料理したい",
+        "ryourishitai",
+        "I want to cook",
+        {
+          "jp": "料理したい。",
+          "romaji": "ryourishitai",
+          "en": "I want to cook."
+        }
+      ],
+      [
+        "Potential",
+        "料理できる",
+        "ryouridekiru",
+        "I can cook",
+        {
+          "jp": "料理できる。",
+          "romaji": "ryouri dekiru",
+          "en": "I can cook."
+        }
+      ],
+      [
+        "Volitional",
+        "料理しよう",
+        "ryourishiyou",
+        "Let’s cook",
+        {
+          "jp": "料理しよう。",
+          "romaji": "ryourishiyou",
+          "en": "Let’s cook."
+        }
+      ]
+    ]
+  },
+  "勉強する": {
+    "dictionary": "勉強する",
+    "group": "Group 3 · Irregular",
+    "rows": [
+      [
+        "Dictionary",
+        "勉強する",
+        "benkyousuru",
+        "To study",
+        {
+          "jp": "勉強する。",
+          "romaji": "benkyousuru",
+          "en": "I study / I will study."
+        }
+      ],
+      [
+        "Polite",
+        "勉強します",
+        "benkyoushimasu",
+        "I study / I will study",
+        {
+          "jp": "勉強します。",
+          "romaji": "benkyoushimasu",
+          "en": "I study / I will study."
+        }
+      ],
+      [
+        "Polite negative",
+        "勉強しません",
+        "benkyoushimasen",
+        "I don’t study",
+        {
+          "jp": "勉強しません。",
+          "romaji": "benkyoushimasen",
+          "en": "I don’t study."
+        }
+      ],
+      [
+        "Polite past",
+        "勉強しました",
+        "benkyoushimashita",
+        "I studied",
+        {
+          "jp": "勉強しました。",
+          "romaji": "benkyoushimashita",
+          "en": "I studied."
+        }
+      ],
+      [
+        "Polite past negative",
+        "勉強しませんでした",
+        "benkyoushimasendeshita",
+        "I didn’t study",
+        {
+          "jp": "勉強しませんでした。",
+          "romaji": "benkyoushimasen deshita",
+          "en": "I didn’t study."
+        }
+      ],
+      [
+        "て-form",
+        "勉強して",
+        "benkyoushite",
+        "Connects actions / requests",
+        {
+          "jp": "勉強してください。",
+          "romaji": "benkyoushi te kudasai",
+          "en": "Please study."
+        }
+      ],
+      [
+        "Casual present / future",
+        "勉強する",
+        "benkyousuru",
+        "I study / I will study",
+        {
+          "jp": "勉強する。",
+          "romaji": "benkyousuru",
+          "en": "I study / I will study."
+        }
+      ],
+      [
+        "Casual negative",
+        "勉強しない",
+        "benkyoushinai",
+        "I don’t study",
+        {
+          "jp": "勉強しない。",
+          "romaji": "benkyoushinai",
+          "en": "I don’t study."
+        }
+      ],
+      [
+        "Casual past",
+        "勉強した",
+        "benkyoushita",
+        "I studied",
+        {
+          "jp": "勉強した。",
+          "romaji": "benkyoushita",
+          "en": "I studied."
+        }
+      ],
+      [
+        "Casual past negative",
+        "勉強しなかった",
+        "benkyoushinakatta",
+        "I didn’t study",
+        {
+          "jp": "勉強しなかった。",
+          "romaji": "benkyoushinakatsuta",
+          "en": "I didn’t study."
+        }
+      ],
+      [
+        "Want to",
+        "勉強したい",
+        "benkyoushitai",
+        "I want to study",
+        {
+          "jp": "勉強したい。",
+          "romaji": "benkyoushitai",
+          "en": "I want to study."
+        }
+      ],
+      [
+        "Potential",
+        "勉強できる",
+        "benkyoudekiru",
+        "I can study",
+        {
+          "jp": "勉強できる。",
+          "romaji": "benkyou dekiru",
+          "en": "I can study."
+        }
+      ],
+      [
+        "Volitional",
+        "勉強しよう",
+        "benkyoushiyou",
+        "Let’s study",
+        {
+          "jp": "勉強しよう。",
+          "romaji": "benkyoushiyou",
+          "en": "Let’s study."
+        }
+      ]
+    ]
+  },
+  "働く": {
+    "dictionary": "働く",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "働く",
+        "hataraku",
+        "To work",
+        {
+          "jp": "働く。",
+          "romaji": "hataraku",
+          "en": "I work / I will work."
+        }
+      ],
+      [
+        "Polite",
+        "働きます",
+        "hatarakimasu",
+        "I work / I will work",
+        {
+          "jp": "働きます。",
+          "romaji": "hatarakimasu",
+          "en": "I work / I will work."
+        }
+      ],
+      [
+        "Polite negative",
+        "働きません",
+        "hatarakimasen",
+        "I don’t work",
+        {
+          "jp": "働きません。",
+          "romaji": "hatarakimasen",
+          "en": "I don’t work."
+        }
+      ],
+      [
+        "Polite past",
+        "働きました",
+        "hatarakimashita",
+        "I worked",
+        {
+          "jp": "働きました。",
+          "romaji": "hatarakimashita",
+          "en": "I worked."
+        }
+      ],
+      [
+        "Polite past negative",
+        "働きませんでした",
+        "hatarakimasendeshita",
+        "I didn’t work",
+        {
+          "jp": "働きませんでした。",
+          "romaji": "hatarakimasen deshita",
+          "en": "I didn’t work."
+        }
+      ],
+      [
+        "て-form",
+        "働いて",
+        "hataraite",
+        "Connects actions / requests",
+        {
+          "jp": "働いてください。",
+          "romaji": "hatarai te kudasai",
+          "en": "Please work."
+        }
+      ],
+      [
+        "Casual present / future",
+        "働く",
+        "hataraku",
+        "I work / I will work",
+        {
+          "jp": "働く。",
+          "romaji": "hataraku",
+          "en": "I work / I will work."
+        }
+      ],
+      [
+        "Casual negative",
+        "働かない",
+        "hatarakanai",
+        "I don’t work",
+        {
+          "jp": "働かない。",
+          "romaji": "hatarakanai",
+          "en": "I don’t work."
+        }
+      ],
+      [
+        "Casual past",
+        "働いた",
+        "hataraita",
+        "I worked",
+        {
+          "jp": "働いた。",
+          "romaji": "hataraita",
+          "en": "I worked."
+        }
+      ],
+      [
+        "Casual past negative",
+        "働かなかった",
+        "hatarakanakatta",
+        "I didn’t work",
+        {
+          "jp": "働かなかった。",
+          "romaji": "hatarakanakatsuta",
+          "en": "I didn’t work."
+        }
+      ],
+      [
+        "Want to",
+        "働きたい",
+        "hatarakitai",
+        "I want to work",
+        {
+          "jp": "働きたい。",
+          "romaji": "hatarakitai",
+          "en": "I want to work."
+        }
+      ],
+      [
+        "Potential",
+        "働ける",
+        "hatarakeru",
+        "I can work",
+        {
+          "jp": "働ける。",
+          "romaji": "hatarakeru",
+          "en": "I can work."
+        }
+      ],
+      [
+        "Volitional",
+        "働こう",
+        "hatarakou",
+        "Let’s work",
+        {
+          "jp": "働こう。",
+          "romaji": "hatarakou",
+          "en": "Let’s work."
+        }
+      ]
+    ]
+  },
+  "手伝う": {
+    "dictionary": "手伝う",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "手伝う",
+        "tetsudau",
+        "To help",
+        {
+          "jp": "手伝う。",
+          "romaji": "tetsudau",
+          "en": "I help / I will help."
+        }
+      ],
+      [
+        "Polite",
+        "手伝います",
+        "tetsudaimasu",
+        "I help / I will help",
+        {
+          "jp": "手伝います。",
+          "romaji": "tetsudaimasu",
+          "en": "I help / I will help."
+        }
+      ],
+      [
+        "Polite negative",
+        "手伝いません",
+        "tetsudaimasen",
+        "I don’t help",
+        {
+          "jp": "手伝いません。",
+          "romaji": "tetsudaimasen",
+          "en": "I don’t help."
+        }
+      ],
+      [
+        "Polite past",
+        "手伝いました",
+        "tetsudaimashita",
+        "I helped",
+        {
+          "jp": "手伝いました。",
+          "romaji": "tetsudaimashita",
+          "en": "I helped."
+        }
+      ],
+      [
+        "Polite past negative",
+        "手伝いませんでした",
+        "tetsudaimasendeshita",
+        "I didn’t help",
+        {
+          "jp": "手伝いませんでした。",
+          "romaji": "tetsudaimasen deshita",
+          "en": "I didn’t help."
+        }
+      ],
+      [
+        "て-form",
+        "手伝って",
+        "tetsudatte",
+        "Connects actions / requests",
+        {
+          "jp": "手伝ってください。",
+          "romaji": "tetsudatsu te kudasai",
+          "en": "Please help."
+        }
+      ],
+      [
+        "Casual present / future",
+        "手伝う",
+        "tetsudau",
+        "I help / I will help",
+        {
+          "jp": "手伝う。",
+          "romaji": "tetsudau",
+          "en": "I help / I will help."
+        }
+      ],
+      [
+        "Casual negative",
+        "手伝わない",
+        "tetsudawanai",
+        "I don’t help",
+        {
+          "jp": "手伝わない。",
+          "romaji": "tetsudawanai",
+          "en": "I don’t help."
+        }
+      ],
+      [
+        "Casual past",
+        "手伝った",
+        "tetsudatta",
+        "I helped",
+        {
+          "jp": "手伝った。",
+          "romaji": "tetsudatsuta",
+          "en": "I helped."
+        }
+      ],
+      [
+        "Casual past negative",
+        "手伝わなかった",
+        "tetsudawanakatta",
+        "I didn’t help",
+        {
+          "jp": "手伝わなかった。",
+          "romaji": "tetsudawanakatsuta",
+          "en": "I didn’t help."
+        }
+      ],
+      [
+        "Want to",
+        "手伝いたい",
+        "tetsudaitai",
+        "I want to help",
+        {
+          "jp": "手伝いたい。",
+          "romaji": "tetsudaitai",
+          "en": "I want to help."
+        }
+      ],
+      [
+        "Potential",
+        "手伝える",
+        "tetsudaeru",
+        "I can help",
+        {
+          "jp": "手伝える。",
+          "romaji": "tetsudaeru",
+          "en": "I can help."
+        }
+      ],
+      [
+        "Volitional",
+        "手伝おう",
+        "tetsudaou",
+        "Let’s help",
+        {
+          "jp": "手伝おう。",
+          "romaji": "tetsudaou",
+          "en": "Let’s help."
+        }
+      ]
+    ]
+  },
+  "書く": {
+    "dictionary": "書く",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "書く",
+        "kaku",
+        "To write",
+        {
+          "jp": "手紙を書く。",
+          "romaji": "tegami o kaku",
+          "en": "I write a letter / I will write a letter."
+        }
+      ],
+      [
+        "Polite",
+        "書きます",
+        "kakimasu",
+        "I write / I will write",
+        {
+          "jp": "手紙を書きます。",
+          "romaji": "tegami o kakimasu",
+          "en": "I write a letter / I will write a letter."
+        }
+      ],
+      [
+        "Polite negative",
+        "書きません",
+        "kakimasen",
+        "I don’t write",
+        {
+          "jp": "手紙を書きません。",
+          "romaji": "tegami o kakimasen",
+          "en": "I don’t write a letter."
+        }
+      ],
+      [
+        "Polite past",
+        "書きました",
+        "kakimashita",
+        "I wrote",
+        {
+          "jp": "手紙を書きました。",
+          "romaji": "tegami o kakimashita",
+          "en": "I wrote a letter."
+        }
+      ],
+      [
+        "Polite past negative",
+        "書きませんでした",
+        "kakimasendeshita",
+        "I didn’t write",
+        {
+          "jp": "手紙を書きませんでした。",
+          "romaji": "tegami o kakimasen deshita",
+          "en": "I didn’t write a letter."
+        }
+      ],
+      [
+        "て-form",
+        "書いて",
+        "kaite",
+        "Connects actions / requests",
+        {
+          "jp": "手紙を書いてください。",
+          "romaji": "tegami o kai te kudasai",
+          "en": "Please write a letter."
+        }
+      ],
+      [
+        "Casual present / future",
+        "書く",
+        "kaku",
+        "I write / I will write",
+        {
+          "jp": "手紙を書く。",
+          "romaji": "tegami o kaku",
+          "en": "I write a letter / I will write a letter."
+        }
+      ],
+      [
+        "Casual negative",
+        "書かない",
+        "kakanai",
+        "I don’t write",
+        {
+          "jp": "手紙を書かない。",
+          "romaji": "tegami o kakanai",
+          "en": "I don’t write a letter."
+        }
+      ],
+      [
+        "Casual past",
+        "書いた",
+        "kaita",
+        "I wrote",
+        {
+          "jp": "手紙を書いた。",
+          "romaji": "tegami o kaita",
+          "en": "I wrote a letter."
+        }
+      ],
+      [
+        "Casual past negative",
+        "書かなかった",
+        "kakanakatta",
+        "I didn’t write",
+        {
+          "jp": "手紙を書かなかった。",
+          "romaji": "tegami o kakanakatsuta",
+          "en": "I didn’t write a letter."
+        }
+      ],
+      [
+        "Want to",
+        "書きたい",
+        "kakitai",
+        "I want to write",
+        {
+          "jp": "手紙を書きたい。",
+          "romaji": "tegami o kakitai",
+          "en": "I want to write a letter."
+        }
+      ],
+      [
+        "Potential",
+        "書ける",
+        "kakeru",
+        "I can write",
+        {
+          "jp": "手紙を書ける。",
+          "romaji": "tegami o kakeru",
+          "en": "I can write a letter."
+        }
+      ],
+      [
+        "Volitional",
+        "書こう",
+        "kakou",
+        "Let’s write",
+        {
+          "jp": "手紙を書こう。",
+          "romaji": "tegami o kakou",
+          "en": "Let’s write a letter."
+        }
+      ]
+    ]
+  },
+  "思う": {
+    "dictionary": "思う",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "思う",
+        "omou",
+        "To think so",
+        {
+          "jp": "思う。",
+          "romaji": "omou",
+          "en": "I think so / I will think so."
+        }
+      ],
+      [
+        "Polite",
+        "思います",
+        "omoimasu",
+        "I think so / I will think so",
+        {
+          "jp": "思います。",
+          "romaji": "omoimasu",
+          "en": "I think so / I will think so."
+        }
+      ],
+      [
+        "Polite negative",
+        "思いません",
+        "omoimasen",
+        "I don’t think so",
+        {
+          "jp": "思いません。",
+          "romaji": "omoimasen",
+          "en": "I don’t think so."
+        }
+      ],
+      [
+        "Polite past",
+        "思いました",
+        "omoimashita",
+        "I thought so",
+        {
+          "jp": "思いました。",
+          "romaji": "omoimashita",
+          "en": "I thought so."
+        }
+      ],
+      [
+        "Polite past negative",
+        "思いませんでした",
+        "omoimasendeshita",
+        "I didn’t think so",
+        {
+          "jp": "思いませんでした。",
+          "romaji": "omoimasen deshita",
+          "en": "I didn’t think so."
+        }
+      ],
+      [
+        "て-form",
+        "思って",
+        "omotte",
+        "Connects actions / requests",
+        {
+          "jp": "思ってください。",
+          "romaji": "omotsu te kudasai",
+          "en": "Please think so."
+        }
+      ],
+      [
+        "Casual present / future",
+        "思う",
+        "omou",
+        "I think so / I will think so",
+        {
+          "jp": "思う。",
+          "romaji": "omou",
+          "en": "I think so / I will think so."
+        }
+      ],
+      [
+        "Casual negative",
+        "思わない",
+        "omowanai",
+        "I don’t think so",
+        {
+          "jp": "思わない。",
+          "romaji": "omowanai",
+          "en": "I don’t think so."
+        }
+      ],
+      [
+        "Casual past",
+        "思った",
+        "omotta",
+        "I thought so",
+        {
+          "jp": "思った。",
+          "romaji": "omotsuta",
+          "en": "I thought so."
+        }
+      ],
+      [
+        "Casual past negative",
+        "思わなかった",
+        "omowanakatta",
+        "I didn’t think so",
+        {
+          "jp": "思わなかった。",
+          "romaji": "omowanakatsuta",
+          "en": "I didn’t think so."
+        }
+      ],
+      [
+        "Want to",
+        "思いたい",
+        "omoitai",
+        "I want to think so",
+        {
+          "jp": "思いたい。",
+          "romaji": "omoitai",
+          "en": "I want to think so."
+        }
+      ],
+      [
+        "Potential",
+        "思える",
+        "omoeru",
+        "I can think so",
+        {
+          "jp": "思える。",
+          "romaji": "omoeru",
+          "en": "I can think so."
+        }
+      ],
+      [
+        "Volitional",
+        "思おう",
+        "omoou",
+        "Let’s think so",
+        {
+          "jp": "思おう。",
+          "romaji": "omoou",
+          "en": "Let’s think so."
+        }
+      ]
+    ]
+  },
+  "会う": {
+    "dictionary": "会う",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "会う",
+        "au",
+        "To meet someone",
+        {
+          "jp": "会う。",
+          "romaji": "au",
+          "en": "I meet someone / I will meet someone."
+        }
+      ],
+      [
+        "Polite",
+        "会います",
+        "aimasu",
+        "I meet someone / I will meet someone",
+        {
+          "jp": "会います。",
+          "romaji": "aimasu",
+          "en": "I meet someone / I will meet someone."
+        }
+      ],
+      [
+        "Polite negative",
+        "会いません",
+        "aimasen",
+        "I don’t meet someone",
+        {
+          "jp": "会いません。",
+          "romaji": "aimasen",
+          "en": "I don’t meet someone."
+        }
+      ],
+      [
+        "Polite past",
+        "会いました",
+        "aimashita",
+        "I met someone",
+        {
+          "jp": "会いました。",
+          "romaji": "aimashita",
+          "en": "I met someone."
+        }
+      ],
+      [
+        "Polite past negative",
+        "会いませんでした",
+        "aimasendeshita",
+        "I didn’t meet someone",
+        {
+          "jp": "会いませんでした。",
+          "romaji": "aimasen deshita",
+          "en": "I didn’t meet someone."
+        }
+      ],
+      [
+        "て-form",
+        "会って",
+        "atte",
+        "Connects actions / requests",
+        {
+          "jp": "会ってください。",
+          "romaji": "atsu te kudasai",
+          "en": "Please meet someone."
+        }
+      ],
+      [
+        "Casual present / future",
+        "会う",
+        "au",
+        "I meet someone / I will meet someone",
+        {
+          "jp": "会う。",
+          "romaji": "au",
+          "en": "I meet someone / I will meet someone."
+        }
+      ],
+      [
+        "Casual negative",
+        "会わない",
+        "awanai",
+        "I don’t meet someone",
+        {
+          "jp": "会わない。",
+          "romaji": "awanai",
+          "en": "I don’t meet someone."
+        }
+      ],
+      [
+        "Casual past",
+        "会った",
+        "atta",
+        "I met someone",
+        {
+          "jp": "会った。",
+          "romaji": "atsuta",
+          "en": "I met someone."
+        }
+      ],
+      [
+        "Casual past negative",
+        "会わなかった",
+        "awanakatta",
+        "I didn’t meet someone",
+        {
+          "jp": "会わなかった。",
+          "romaji": "awanakatsuta",
+          "en": "I didn’t meet someone."
+        }
+      ],
+      [
+        "Want to",
+        "会いたい",
+        "aitai",
+        "I want to meet someone",
+        {
+          "jp": "会いたい。",
+          "romaji": "aitai",
+          "en": "I want to meet someone."
+        }
+      ],
+      [
+        "Potential",
+        "会える",
+        "aeru",
+        "I can meet someone",
+        {
+          "jp": "会える。",
+          "romaji": "aeru",
+          "en": "I can meet someone."
+        }
+      ],
+      [
+        "Volitional",
+        "会おう",
+        "aou",
+        "Let’s meet someone",
+        {
+          "jp": "会おう。",
+          "romaji": "aou",
+          "en": "Let’s meet someone."
+        }
+      ]
+    ]
+  },
+  "言う": {
+    "dictionary": "言う",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "言う",
+        "yuu",
+        "To say it",
+        {
+          "jp": "言う。",
+          "romaji": "yuu",
+          "en": "I say it / I will say it."
+        }
+      ],
+      [
+        "Polite",
+        "言います",
+        "iimasu",
+        "I say it / I will say it",
+        {
+          "jp": "言います。",
+          "romaji": "iimasu",
+          "en": "I say it / I will say it."
+        }
+      ],
+      [
+        "Polite negative",
+        "言いません",
+        "iimasen",
+        "I don’t say it",
+        {
+          "jp": "言いません。",
+          "romaji": "iimasen",
+          "en": "I don’t say it."
+        }
+      ],
+      [
+        "Polite past",
+        "言いました",
+        "iimashita",
+        "I said it",
+        {
+          "jp": "言いました。",
+          "romaji": "iimashita",
+          "en": "I said it."
+        }
+      ],
+      [
+        "Polite past negative",
+        "言いませんでした",
+        "iimasendeshita",
+        "I didn’t say it",
+        {
+          "jp": "言いませんでした。",
+          "romaji": "iimasen deshita",
+          "en": "I didn’t say it."
+        }
+      ],
+      [
+        "て-form",
+        "言って",
+        "itte",
+        "Connects actions / requests",
+        {
+          "jp": "言ってください。",
+          "romaji": "itsu te kudasai",
+          "en": "Please say it."
+        }
+      ],
+      [
+        "Casual present / future",
+        "言う",
+        "yuu",
+        "I say it / I will say it",
+        {
+          "jp": "言う。",
+          "romaji": "yuu",
+          "en": "I say it / I will say it."
+        }
+      ],
+      [
+        "Casual negative",
+        "言わない",
+        "iwanai",
+        "I don’t say it",
+        {
+          "jp": "言わない。",
+          "romaji": "iwanai",
+          "en": "I don’t say it."
+        }
+      ],
+      [
+        "Casual past",
+        "言った",
+        "itta",
+        "I said it",
+        {
+          "jp": "言った。",
+          "romaji": "itsuta",
+          "en": "I said it."
+        }
+      ],
+      [
+        "Casual past negative",
+        "言わなかった",
+        "iwanakatta",
+        "I didn’t say it",
+        {
+          "jp": "言わなかった。",
+          "romaji": "iwanakatsuta",
+          "en": "I didn’t say it."
+        }
+      ],
+      [
+        "Want to",
+        "言いたい",
+        "iitai",
+        "I want to say it",
+        {
+          "jp": "言いたい。",
+          "romaji": "iitai",
+          "en": "I want to say it."
+        }
+      ],
+      [
+        "Potential",
+        "言える",
+        "ieru",
+        "I can say it",
+        {
+          "jp": "言える。",
+          "romaji": "ieru",
+          "en": "I can say it."
+        }
+      ],
+      [
+        "Volitional",
+        "言おう",
+        "iou",
+        "Let’s say it",
+        {
+          "jp": "言おう。",
+          "romaji": "iou",
+          "en": "Let’s say it."
+        }
+      ]
+    ]
+  },
+  "話せる": {
+    "dictionary": "話せる",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "話せる",
+        "hanaseru",
+        "Can speak",
+        {
+          "jp": "話せる。",
+          "romaji": "hanaseru",
+          "en": "I speak / I will speak."
+        }
+      ],
+      [
+        "Polite",
+        "話せます",
+        "hanasemasu",
+        "I can speak",
+        {
+          "jp": "話せます。",
+          "romaji": "hanasemasu",
+          "en": "I can speak."
+        }
+      ],
+      [
+        "Polite negative",
+        "話せません",
+        "hanasemasen",
+        "I can’t speak",
+        {
+          "jp": "話せません。",
+          "romaji": "hanasemasen",
+          "en": "I can’t speak."
+        }
+      ],
+      [
+        "Polite past",
+        "話せました",
+        "hanasemashita",
+        "I could speak",
+        {
+          "jp": "話せました。",
+          "romaji": "hanasemashita",
+          "en": "I could speak."
+        }
+      ],
+      [
+        "Polite past negative",
+        "話せませんでした",
+        "hanasemasendeshita",
+        "I couldn’t speak",
+        {
+          "jp": "話せませんでした。",
+          "romaji": "hanasemasen deshita",
+          "en": "I couldn’t speak."
+        }
+      ],
+      [
+        "て-form",
+        "話せて",
+        "hanasete",
+        "Connects actions / requests",
+        {
+          "jp": "話せてください。",
+          "romaji": "hanase te kudasai",
+          "en": "Please speak."
+        }
+      ],
+      [
+        "Casual present / future",
+        "話せる",
+        "hanaseru",
+        "I can speak",
+        {
+          "jp": "話せる。",
+          "romaji": "hanaseru",
+          "en": "I can speak."
+        }
+      ],
+      [
+        "Casual negative",
+        "話せない",
+        "hanasenai",
+        "I can’t speak",
+        {
+          "jp": "話せない。",
+          "romaji": "hanasenai",
+          "en": "I can’t speak."
+        }
+      ],
+      [
+        "Casual past",
+        "話せた",
+        "hanaseta",
+        "I could speak",
+        {
+          "jp": "話せた。",
+          "romaji": "hanaseta",
+          "en": "I could speak."
+        }
+      ],
+      [
+        "Casual past negative",
+        "話せなかった",
+        "hanasenakatta",
+        "I couldn’t speak",
+        {
+          "jp": "話せなかった。",
+          "romaji": "hanasenakatsuta",
+          "en": "I couldn’t speak."
+        }
+      ],
+      [
+        "Want to",
+        "話せたい",
+        "hanasetai",
+        "I want to speak",
+        {
+          "jp": "話せたい。",
+          "romaji": "hanasetai",
+          "en": "I want to speak."
+        }
+      ],
+      [
+        "Potential",
+        "話せられる",
+        "hanaserareru",
+        "I can speak",
+        {
+          "jp": "話せられる。",
+          "romaji": "hanaserareru",
+          "en": "I can speak."
+        }
+      ],
+      [
+        "Volitional",
+        "話せよう",
+        "hanaseyou",
+        "Let’s speak",
+        {
+          "jp": "話せよう。",
+          "romaji": "hanaseyou",
+          "en": "Let’s speak."
+        }
+      ]
+    ]
+  },
+  "続ける": {
+    "dictionary": "続ける",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "続ける",
+        "tsuzukeru",
+        "To continue",
+        {
+          "jp": "続ける。",
+          "romaji": "tsuzukeru",
+          "en": "I continue / I will continue."
+        }
+      ],
+      [
+        "Polite",
+        "続けます",
+        "tsuzukemasu",
+        "I continue / I will continue",
+        {
+          "jp": "続けます。",
+          "romaji": "tsuzukemasu",
+          "en": "I continue / I will continue."
+        }
+      ],
+      [
+        "Polite negative",
+        "続けません",
+        "tsuzukemasen",
+        "I don’t continue",
+        {
+          "jp": "続けません。",
+          "romaji": "tsuzukemasen",
+          "en": "I don’t continue."
+        }
+      ],
+      [
+        "Polite past",
+        "続けました",
+        "tsuzukemashita",
+        "I continued",
+        {
+          "jp": "続けました。",
+          "romaji": "tsuzukemashita",
+          "en": "I continued."
+        }
+      ],
+      [
+        "Polite past negative",
+        "続けませんでした",
+        "tsuzukemasendeshita",
+        "I didn’t continue",
+        {
+          "jp": "続けませんでした。",
+          "romaji": "tsuzukemasen deshita",
+          "en": "I didn’t continue."
+        }
+      ],
+      [
+        "て-form",
+        "続けて",
+        "tsuzukete",
+        "Connects actions / requests",
+        {
+          "jp": "続けてください。",
+          "romaji": "tsuzuke te kudasai",
+          "en": "Please continue."
+        }
+      ],
+      [
+        "Casual present / future",
+        "続ける",
+        "tsuzukeru",
+        "I continue / I will continue",
+        {
+          "jp": "続ける。",
+          "romaji": "tsuzukeru",
+          "en": "I continue / I will continue."
+        }
+      ],
+      [
+        "Casual negative",
+        "続けない",
+        "tsuzukenai",
+        "I don’t continue",
+        {
+          "jp": "続けない。",
+          "romaji": "tsuzukenai",
+          "en": "I don’t continue."
+        }
+      ],
+      [
+        "Casual past",
+        "続けた",
+        "tsuzuketa",
+        "I continued",
+        {
+          "jp": "続けた。",
+          "romaji": "tsuzuketa",
+          "en": "I continued."
+        }
+      ],
+      [
+        "Casual past negative",
+        "続けなかった",
+        "tsuzukenakatta",
+        "I didn’t continue",
+        {
+          "jp": "続けなかった。",
+          "romaji": "tsuzukenakatsuta",
+          "en": "I didn’t continue."
+        }
+      ],
+      [
+        "Want to",
+        "続けたい",
+        "tsuzuketai",
+        "I want to continue",
+        {
+          "jp": "続けたい。",
+          "romaji": "tsuzuketai",
+          "en": "I want to continue."
+        }
+      ],
+      [
+        "Potential",
+        "続けられる",
+        "tsuzukerareru",
+        "I can continue",
+        {
+          "jp": "続けられる。",
+          "romaji": "tsuzukerareru",
+          "en": "I can continue."
+        }
+      ],
+      [
+        "Volitional",
+        "続けよう",
+        "tsuzukeyou",
+        "Let’s continue",
+        {
+          "jp": "続けよう。",
+          "romaji": "tsuzukeyou",
+          "en": "Let’s continue."
+        }
+      ]
+    ]
+  },
+  "戻る": {
+    "dictionary": "戻る",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "戻る",
+        "modoru",
+        "To go back",
+        {
+          "jp": "戻る。",
+          "romaji": "modoru",
+          "en": "I go back / I will go back."
+        }
+      ],
+      [
+        "Polite",
+        "戻ります",
+        "modorimasu",
+        "I go back / I will go back",
+        {
+          "jp": "戻ります。",
+          "romaji": "modorimasu",
+          "en": "I go back / I will go back."
+        }
+      ],
+      [
+        "Polite negative",
+        "戻りません",
+        "modorimasen",
+        "I don’t go back",
+        {
+          "jp": "戻りません。",
+          "romaji": "modorimasen",
+          "en": "I don’t go back."
+        }
+      ],
+      [
+        "Polite past",
+        "戻りました",
+        "modorimashita",
+        "I went back",
+        {
+          "jp": "戻りました。",
+          "romaji": "modorimashita",
+          "en": "I went back."
+        }
+      ],
+      [
+        "Polite past negative",
+        "戻りませんでした",
+        "modorimasendeshita",
+        "I didn’t go back",
+        {
+          "jp": "戻りませんでした。",
+          "romaji": "modorimasen deshita",
+          "en": "I didn’t go back."
+        }
+      ],
+      [
+        "て-form",
+        "戻って",
+        "modotte",
+        "Connects actions / requests",
+        {
+          "jp": "戻ってください。",
+          "romaji": "modotsu te kudasai",
+          "en": "Please go back."
+        }
+      ],
+      [
+        "Casual present / future",
+        "戻る",
+        "modoru",
+        "I go back / I will go back",
+        {
+          "jp": "戻る。",
+          "romaji": "modoru",
+          "en": "I go back / I will go back."
+        }
+      ],
+      [
+        "Casual negative",
+        "戻らない",
+        "modoranai",
+        "I don’t go back",
+        {
+          "jp": "戻らない。",
+          "romaji": "modoranai",
+          "en": "I don’t go back."
+        }
+      ],
+      [
+        "Casual past",
+        "戻った",
+        "modotta",
+        "I went back",
+        {
+          "jp": "戻った。",
+          "romaji": "modotsuta",
+          "en": "I went back."
+        }
+      ],
+      [
+        "Casual past negative",
+        "戻らなかった",
+        "modoranakatta",
+        "I didn’t go back",
+        {
+          "jp": "戻らなかった。",
+          "romaji": "modoranakatsuta",
+          "en": "I didn’t go back."
+        }
+      ],
+      [
+        "Want to",
+        "戻りたい",
+        "modoritai",
+        "I want to go back",
+        {
+          "jp": "戻りたい。",
+          "romaji": "modoritai",
+          "en": "I want to go back."
+        }
+      ],
+      [
+        "Potential",
+        "戻れる",
+        "modoreru",
+        "I can go back",
+        {
+          "jp": "戻れる。",
+          "romaji": "modoreru",
+          "en": "I can go back."
+        }
+      ],
+      [
+        "Volitional",
+        "戻ろう",
+        "modorou",
+        "Let’s go back",
+        {
+          "jp": "戻ろう。",
+          "romaji": "modorou",
+          "en": "Let’s go back."
+        }
+      ]
+    ]
+  },
+  "覚える": {
+    "dictionary": "覚える",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "覚える",
+        "oboeru",
+        "To remember",
+        {
+          "jp": "覚える。",
+          "romaji": "oboeru",
+          "en": "I remember / I will remember."
+        }
+      ],
+      [
+        "Polite",
+        "覚えます",
+        "oboemasu",
+        "I remember / I will remember",
+        {
+          "jp": "覚えます。",
+          "romaji": "oboemasu",
+          "en": "I remember / I will remember."
+        }
+      ],
+      [
+        "Polite negative",
+        "覚えません",
+        "oboemasen",
+        "I don’t remember",
+        {
+          "jp": "覚えません。",
+          "romaji": "oboemasen",
+          "en": "I don’t remember."
+        }
+      ],
+      [
+        "Polite past",
+        "覚えました",
+        "oboemashita",
+        "I remembered",
+        {
+          "jp": "覚えました。",
+          "romaji": "oboemashita",
+          "en": "I remembered."
+        }
+      ],
+      [
+        "Polite past negative",
+        "覚えませんでした",
+        "oboemasendeshita",
+        "I didn’t remember",
+        {
+          "jp": "覚えませんでした。",
+          "romaji": "oboemasen deshita",
+          "en": "I didn’t remember."
+        }
+      ],
+      [
+        "て-form",
+        "覚えて",
+        "oboete",
+        "Connects actions / requests",
+        {
+          "jp": "覚えてください。",
+          "romaji": "oboe te kudasai",
+          "en": "Please remember."
+        }
+      ],
+      [
+        "Casual present / future",
+        "覚える",
+        "oboeru",
+        "I remember / I will remember",
+        {
+          "jp": "覚える。",
+          "romaji": "oboeru",
+          "en": "I remember / I will remember."
+        }
+      ],
+      [
+        "Casual negative",
+        "覚えない",
+        "oboenai",
+        "I don’t remember",
+        {
+          "jp": "覚えない。",
+          "romaji": "oboenai",
+          "en": "I don’t remember."
+        }
+      ],
+      [
+        "Casual past",
+        "覚えた",
+        "oboeta",
+        "I remembered",
+        {
+          "jp": "覚えた。",
+          "romaji": "oboeta",
+          "en": "I remembered."
+        }
+      ],
+      [
+        "Casual past negative",
+        "覚えなかった",
+        "oboenakatta",
+        "I didn’t remember",
+        {
+          "jp": "覚えなかった。",
+          "romaji": "oboenakatsuta",
+          "en": "I didn’t remember."
+        }
+      ],
+      [
+        "Want to",
+        "覚えたい",
+        "oboetai",
+        "I want to remember",
+        {
+          "jp": "覚えたい。",
+          "romaji": "oboetai",
+          "en": "I want to remember."
+        }
+      ],
+      [
+        "Potential",
+        "覚えられる",
+        "oboerareru",
+        "I can remember",
+        {
+          "jp": "覚えられる。",
+          "romaji": "oboerareru",
+          "en": "I can remember."
+        }
+      ],
+      [
+        "Volitional",
+        "覚えよう",
+        "oboeyou",
+        "Let’s remember",
+        {
+          "jp": "覚えよう。",
+          "romaji": "oboeyou",
+          "en": "Let’s remember."
+        }
+      ]
+    ]
+  },
+  "分かる": {
+    "dictionary": "分かる",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "分かる",
+        "wakaru",
+        "To understand",
+        {
+          "jp": "分かる。",
+          "romaji": "wakaru",
+          "en": "I understand / I will understand."
+        }
+      ],
+      [
+        "Polite",
+        "分かります",
+        "wakarimasu",
+        "I understand / I will understand",
+        {
+          "jp": "分かります。",
+          "romaji": "wakarimasu",
+          "en": "I understand / I will understand."
+        }
+      ],
+      [
+        "Polite negative",
+        "分かりません",
+        "wakarimasen",
+        "I don’t understand",
+        {
+          "jp": "分かりません。",
+          "romaji": "wakarimasen",
+          "en": "I don’t understand."
+        }
+      ],
+      [
+        "Polite past",
+        "分かりました",
+        "wakarimashita",
+        "I understood",
+        {
+          "jp": "分かりました。",
+          "romaji": "wakarimashita",
+          "en": "I understood."
+        }
+      ],
+      [
+        "Polite past negative",
+        "分かりませんでした",
+        "wakarimasendeshita",
+        "I didn’t understand",
+        {
+          "jp": "分かりませんでした。",
+          "romaji": "wakarimasen deshita",
+          "en": "I didn’t understand."
+        }
+      ],
+      [
+        "て-form",
+        "分かって",
+        "wakatte",
+        "Connects actions / requests",
+        {
+          "jp": "分かってください。",
+          "romaji": "wakatsu te kudasai",
+          "en": "Please understand."
+        }
+      ],
+      [
+        "Casual present / future",
+        "分かる",
+        "wakaru",
+        "I understand / I will understand",
+        {
+          "jp": "分かる。",
+          "romaji": "wakaru",
+          "en": "I understand / I will understand."
+        }
+      ],
+      [
+        "Casual negative",
+        "分からない",
+        "wakaranai",
+        "I don’t understand",
+        {
+          "jp": "分からない。",
+          "romaji": "wakaranai",
+          "en": "I don’t understand."
+        }
+      ],
+      [
+        "Casual past",
+        "分かった",
+        "wakatta",
+        "I understood",
+        {
+          "jp": "分かった。",
+          "romaji": "wakatsuta",
+          "en": "I understood."
+        }
+      ],
+      [
+        "Casual past negative",
+        "分からなかった",
+        "wakaranakatta",
+        "I didn’t understand",
+        {
+          "jp": "分からなかった。",
+          "romaji": "wakaranakatsuta",
+          "en": "I didn’t understand."
+        }
+      ],
+      [
+        "Want to",
+        "分かりたい",
+        "wakaritai",
+        "I want to understand",
+        {
+          "jp": "分かりたい。",
+          "romaji": "wakaritai",
+          "en": "I want to understand."
+        }
+      ],
+      [
+        "Potential",
+        "分かれる",
+        "wakareru",
+        "I can understand",
+        {
+          "jp": "分かれる。",
+          "romaji": "wakareru",
+          "en": "I can understand."
+        }
+      ],
+      [
+        "Volitional",
+        "分かろう",
+        "wakarou",
+        "Let’s understand",
+        {
+          "jp": "分かろう。",
+          "romaji": "wakarou",
+          "en": "Let’s understand."
+        }
+      ]
+    ]
+  },
+  "買う": {
+    "dictionary": "買う",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "買う",
+        "kau",
+        "To buy it",
+        {
+          "jp": "パンを買う。",
+          "romaji": "pan o kau",
+          "en": "I buy bread / I will buy bread."
+        }
+      ],
+      [
+        "Polite",
+        "買います",
+        "kaimasu",
+        "I buy it / I will buy it",
+        {
+          "jp": "パンを買います。",
+          "romaji": "pan o kaimasu",
+          "en": "I buy bread / I will buy bread."
+        }
+      ],
+      [
+        "Polite negative",
+        "買いません",
+        "kaimasen",
+        "I don’t buy it",
+        {
+          "jp": "パンを買いません。",
+          "romaji": "pan o kaimasen",
+          "en": "I don’t buy bread."
+        }
+      ],
+      [
+        "Polite past",
+        "買いました",
+        "kaimashita",
+        "I bought it",
+        {
+          "jp": "パンを買いました。",
+          "romaji": "pan o kaimashita",
+          "en": "I bought bread."
+        }
+      ],
+      [
+        "Polite past negative",
+        "買いませんでした",
+        "kaimasendeshita",
+        "I didn’t buy it",
+        {
+          "jp": "パンを買いませんでした。",
+          "romaji": "pan o kaimasen deshita",
+          "en": "I didn’t buy bread."
+        }
+      ],
+      [
+        "て-form",
+        "買って",
+        "katte",
+        "Connects actions / requests",
+        {
+          "jp": "パンを買ってください。",
+          "romaji": "pan o katsu te kudasai",
+          "en": "Please buy bread."
+        }
+      ],
+      [
+        "Casual present / future",
+        "買う",
+        "kau",
+        "I buy it / I will buy it",
+        {
+          "jp": "パンを買う。",
+          "romaji": "pan o kau",
+          "en": "I buy bread / I will buy bread."
+        }
+      ],
+      [
+        "Casual negative",
+        "買わない",
+        "kawanai",
+        "I don’t buy it",
+        {
+          "jp": "パンを買わない。",
+          "romaji": "pan o kawanai",
+          "en": "I don’t buy bread."
+        }
+      ],
+      [
+        "Casual past",
+        "買った",
+        "katta",
+        "I bought it",
+        {
+          "jp": "パンを買った。",
+          "romaji": "pan o katsuta",
+          "en": "I bought bread."
+        }
+      ],
+      [
+        "Casual past negative",
+        "買わなかった",
+        "kawanakatta",
+        "I didn’t buy it",
+        {
+          "jp": "パンを買わなかった。",
+          "romaji": "pan o kawanakatsuta",
+          "en": "I didn’t buy bread."
+        }
+      ],
+      [
+        "Want to",
+        "買いたい",
+        "kaitai",
+        "I want to buy it",
+        {
+          "jp": "パンを買いたい。",
+          "romaji": "pan o kaitai",
+          "en": "I want to buy bread."
+        }
+      ],
+      [
+        "Potential",
+        "買える",
+        "kaeru",
+        "I can buy it",
+        {
+          "jp": "パンを買える。",
+          "romaji": "pan o kaeru",
+          "en": "I can buy bread."
+        }
+      ],
+      [
+        "Volitional",
+        "買おう",
+        "kaou",
+        "Let’s buy it",
+        {
+          "jp": "パンを買おう。",
+          "romaji": "pan o kaou",
+          "en": "Let’s buy bread."
+        }
+      ]
+    ]
+  },
+  "歌う": {
+    "dictionary": "歌う",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "歌う",
+        "utau",
+        "To sing",
+        {
+          "jp": "歌う。",
+          "romaji": "utau",
+          "en": "I sing / I will sing."
+        }
+      ],
+      [
+        "Polite",
+        "歌います",
+        "utaimasu",
+        "I sing / I will sing",
+        {
+          "jp": "歌います。",
+          "romaji": "utaimasu",
+          "en": "I sing / I will sing."
+        }
+      ],
+      [
+        "Polite negative",
+        "歌いません",
+        "utaimasen",
+        "I don’t sing",
+        {
+          "jp": "歌いません。",
+          "romaji": "utaimasen",
+          "en": "I don’t sing."
+        }
+      ],
+      [
+        "Polite past",
+        "歌いました",
+        "utaimashita",
+        "I sang",
+        {
+          "jp": "歌いました。",
+          "romaji": "utaimashita",
+          "en": "I sang."
+        }
+      ],
+      [
+        "Polite past negative",
+        "歌いませんでした",
+        "utaimasendeshita",
+        "I didn’t sing",
+        {
+          "jp": "歌いませんでした。",
+          "romaji": "utaimasen deshita",
+          "en": "I didn’t sing."
+        }
+      ],
+      [
+        "て-form",
+        "歌って",
+        "utatte",
+        "Connects actions / requests",
+        {
+          "jp": "歌ってください。",
+          "romaji": "utatsu te kudasai",
+          "en": "Please sing."
+        }
+      ],
+      [
+        "Casual present / future",
+        "歌う",
+        "utau",
+        "I sing / I will sing",
+        {
+          "jp": "歌う。",
+          "romaji": "utau",
+          "en": "I sing / I will sing."
+        }
+      ],
+      [
+        "Casual negative",
+        "歌わない",
+        "utawanai",
+        "I don’t sing",
+        {
+          "jp": "歌わない。",
+          "romaji": "utawanai",
+          "en": "I don’t sing."
+        }
+      ],
+      [
+        "Casual past",
+        "歌った",
+        "utatta",
+        "I sang",
+        {
+          "jp": "歌った。",
+          "romaji": "utatsuta",
+          "en": "I sang."
+        }
+      ],
+      [
+        "Casual past negative",
+        "歌わなかった",
+        "utawanakatta",
+        "I didn’t sing",
+        {
+          "jp": "歌わなかった。",
+          "romaji": "utawanakatsuta",
+          "en": "I didn’t sing."
+        }
+      ],
+      [
+        "Want to",
+        "歌いたい",
+        "utaitai",
+        "I want to sing",
+        {
+          "jp": "歌いたい。",
+          "romaji": "utaitai",
+          "en": "I want to sing."
+        }
+      ],
+      [
+        "Potential",
+        "歌える",
+        "utaeru",
+        "I can sing",
+        {
+          "jp": "歌える。",
+          "romaji": "utaeru",
+          "en": "I can sing."
+        }
+      ],
+      [
+        "Volitional",
+        "歌おう",
+        "utaou",
+        "Let’s sing",
+        {
+          "jp": "歌おう。",
+          "romaji": "utaou",
+          "en": "Let’s sing."
+        }
+      ]
+    ]
+  },
+  "見せる": {
+    "dictionary": "見せる",
+    "group": "Group 2 · Ru-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "見せる",
+        "miseru",
+        "To show it",
+        {
+          "jp": "見せる。",
+          "romaji": "miseru",
+          "en": "I show it / I will show it."
+        }
+      ],
+      [
+        "Polite",
+        "見せます",
+        "misemasu",
+        "I show it / I will show it",
+        {
+          "jp": "見せます。",
+          "romaji": "misemasu",
+          "en": "I show it / I will show it."
+        }
+      ],
+      [
+        "Polite negative",
+        "見せません",
+        "misemasen",
+        "I don’t show it",
+        {
+          "jp": "見せません。",
+          "romaji": "misemasen",
+          "en": "I don’t show it."
+        }
+      ],
+      [
+        "Polite past",
+        "見せました",
+        "misemashita",
+        "I showed it",
+        {
+          "jp": "見せました。",
+          "romaji": "misemashita",
+          "en": "I showed it."
+        }
+      ],
+      [
+        "Polite past negative",
+        "見せませんでした",
+        "misemasendeshita",
+        "I didn’t show it",
+        {
+          "jp": "見せませんでした。",
+          "romaji": "misemasen deshita",
+          "en": "I didn’t show it."
+        }
+      ],
+      [
+        "て-form",
+        "見せて",
+        "misete",
+        "Connects actions / requests",
+        {
+          "jp": "見せてください。",
+          "romaji": "mise te kudasai",
+          "en": "Please show it."
+        }
+      ],
+      [
+        "Casual present / future",
+        "見せる",
+        "miseru",
+        "I show it / I will show it",
+        {
+          "jp": "見せる。",
+          "romaji": "miseru",
+          "en": "I show it / I will show it."
+        }
+      ],
+      [
+        "Casual negative",
+        "見せない",
+        "misenai",
+        "I don’t show it",
+        {
+          "jp": "見せない。",
+          "romaji": "misenai",
+          "en": "I don’t show it."
+        }
+      ],
+      [
+        "Casual past",
+        "見せた",
+        "miseta",
+        "I showed it",
+        {
+          "jp": "見せた。",
+          "romaji": "miseta",
+          "en": "I showed it."
+        }
+      ],
+      [
+        "Casual past negative",
+        "見せなかった",
+        "misenakatta",
+        "I didn’t show it",
+        {
+          "jp": "見せなかった。",
+          "romaji": "misenakatsuta",
+          "en": "I didn’t show it."
+        }
+      ],
+      [
+        "Want to",
+        "見せたい",
+        "misetai",
+        "I want to show it",
+        {
+          "jp": "見せたい。",
+          "romaji": "misetai",
+          "en": "I want to show it."
+        }
+      ],
+      [
+        "Potential",
+        "見せられる",
+        "miserareru",
+        "I can show it",
+        {
+          "jp": "見せられる。",
+          "romaji": "miserareru",
+          "en": "I can show it."
+        }
+      ],
+      [
+        "Volitional",
+        "見せよう",
+        "miseyou",
+        "Let’s show it",
+        {
+          "jp": "見せよう。",
+          "romaji": "miseyou",
+          "en": "Let’s show it."
+        }
+      ]
+    ]
+  },
+  "待つ": {
+    "dictionary": "待つ",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "待つ",
+        "matsu",
+        "To wait",
+        {
+          "jp": "待つ。",
+          "romaji": "matsu",
+          "en": "I wait / I will wait."
+        }
+      ],
+      [
+        "Polite",
+        "待ちます",
+        "machimasu",
+        "I wait / I will wait",
+        {
+          "jp": "待ちます。",
+          "romaji": "machimasu",
+          "en": "I wait / I will wait."
+        }
+      ],
+      [
+        "Polite negative",
+        "待ちません",
+        "machimasen",
+        "I don’t wait",
+        {
+          "jp": "待ちません。",
+          "romaji": "machimasen",
+          "en": "I don’t wait."
+        }
+      ],
+      [
+        "Polite past",
+        "待ちました",
+        "machimashita",
+        "I waited",
+        {
+          "jp": "待ちました。",
+          "romaji": "machimashita",
+          "en": "I waited."
+        }
+      ],
+      [
+        "Polite past negative",
+        "待ちませんでした",
+        "machimasendeshita",
+        "I didn’t wait",
+        {
+          "jp": "待ちませんでした。",
+          "romaji": "machimasen deshita",
+          "en": "I didn’t wait."
+        }
+      ],
+      [
+        "て-form",
+        "待って",
+        "matte",
+        "Connects actions / requests",
+        {
+          "jp": "待ってください。",
+          "romaji": "matsu te kudasai",
+          "en": "Please wait."
+        }
+      ],
+      [
+        "Casual present / future",
+        "待つ",
+        "matsu",
+        "I wait / I will wait",
+        {
+          "jp": "待つ。",
+          "romaji": "matsu",
+          "en": "I wait / I will wait."
+        }
+      ],
+      [
+        "Casual negative",
+        "待たない",
+        "matanai",
+        "I don’t wait",
+        {
+          "jp": "待たない。",
+          "romaji": "matanai",
+          "en": "I don’t wait."
+        }
+      ],
+      [
+        "Casual past",
+        "待った",
+        "matta",
+        "I waited",
+        {
+          "jp": "待った。",
+          "romaji": "matsuta",
+          "en": "I waited."
+        }
+      ],
+      [
+        "Casual past negative",
+        "待たなかった",
+        "matanakatta",
+        "I didn’t wait",
+        {
+          "jp": "待たなかった。",
+          "romaji": "matanakatsuta",
+          "en": "I didn’t wait."
+        }
+      ],
+      [
+        "Want to",
+        "待ちたい",
+        "machitai",
+        "I want to wait",
+        {
+          "jp": "待ちたい。",
+          "romaji": "machitai",
+          "en": "I want to wait."
+        }
+      ],
+      [
+        "Potential",
+        "待てる",
+        "materu",
+        "I can wait",
+        {
+          "jp": "待てる。",
+          "romaji": "materu",
+          "en": "I can wait."
+        }
+      ],
+      [
+        "Volitional",
+        "待とう",
+        "matou",
+        "Let’s wait",
+        {
+          "jp": "待とう。",
+          "romaji": "matou",
+          "en": "Let’s wait."
+        }
+      ]
+    ]
+  },
+  "歩く": {
+    "dictionary": "歩く",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "歩く",
+        "aruku",
+        "To walk",
+        {
+          "jp": "歩く。",
+          "romaji": "aruku",
+          "en": "I walk / I will walk."
+        }
+      ],
+      [
+        "Polite",
+        "歩きます",
+        "arukimasu",
+        "I walk / I will walk",
+        {
+          "jp": "歩きます。",
+          "romaji": "arukimasu",
+          "en": "I walk / I will walk."
+        }
+      ],
+      [
+        "Polite negative",
+        "歩きません",
+        "arukimasen",
+        "I don’t walk",
+        {
+          "jp": "歩きません。",
+          "romaji": "arukimasen",
+          "en": "I don’t walk."
+        }
+      ],
+      [
+        "Polite past",
+        "歩きました",
+        "arukimashita",
+        "I walked",
+        {
+          "jp": "歩きました。",
+          "romaji": "arukimashita",
+          "en": "I walked."
+        }
+      ],
+      [
+        "Polite past negative",
+        "歩きませんでした",
+        "arukimasendeshita",
+        "I didn’t walk",
+        {
+          "jp": "歩きませんでした。",
+          "romaji": "arukimasen deshita",
+          "en": "I didn’t walk."
+        }
+      ],
+      [
+        "て-form",
+        "歩いて",
+        "aruite",
+        "Connects actions / requests",
+        {
+          "jp": "歩いてください。",
+          "romaji": "arui te kudasai",
+          "en": "Please walk."
+        }
+      ],
+      [
+        "Casual present / future",
+        "歩く",
+        "aruku",
+        "I walk / I will walk",
+        {
+          "jp": "歩く。",
+          "romaji": "aruku",
+          "en": "I walk / I will walk."
+        }
+      ],
+      [
+        "Casual negative",
+        "歩かない",
+        "arukanai",
+        "I don’t walk",
+        {
+          "jp": "歩かない。",
+          "romaji": "arukanai",
+          "en": "I don’t walk."
+        }
+      ],
+      [
+        "Casual past",
+        "歩いた",
+        "aruita",
+        "I walked",
+        {
+          "jp": "歩いた。",
+          "romaji": "aruita",
+          "en": "I walked."
+        }
+      ],
+      [
+        "Casual past negative",
+        "歩かなかった",
+        "arukanakatta",
+        "I didn’t walk",
+        {
+          "jp": "歩かなかった。",
+          "romaji": "arukanakatsuta",
+          "en": "I didn’t walk."
+        }
+      ],
+      [
+        "Want to",
+        "歩きたい",
+        "arukitai",
+        "I want to walk",
+        {
+          "jp": "歩きたい。",
+          "romaji": "arukitai",
+          "en": "I want to walk."
+        }
+      ],
+      [
+        "Potential",
+        "歩ける",
+        "arukeru",
+        "I can walk",
+        {
+          "jp": "歩ける。",
+          "romaji": "arukeru",
+          "en": "I can walk."
+        }
+      ],
+      [
+        "Volitional",
+        "歩こう",
+        "arukou",
+        "Let’s walk",
+        {
+          "jp": "歩こう。",
+          "romaji": "fu kou",
+          "en": "Let’s walk."
+        }
+      ]
+    ]
+  },
+  "焼く": {
+    "dictionary": "焼く",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "焼く",
+        "yaku",
+        "To grill it",
+        {
+          "jp": "焼く。",
+          "romaji": "yaku",
+          "en": "I grill it / I will grill it."
+        }
+      ],
+      [
+        "Polite",
+        "焼きます",
+        "yakimasu",
+        "I grill it / I will grill it",
+        {
+          "jp": "焼きます。",
+          "romaji": "yakimasu",
+          "en": "I grill it / I will grill it."
+        }
+      ],
+      [
+        "Polite negative",
+        "焼きません",
+        "yakimasen",
+        "I don’t grill it",
+        {
+          "jp": "焼きません。",
+          "romaji": "yakimasen",
+          "en": "I don’t grill it."
+        }
+      ],
+      [
+        "Polite past",
+        "焼きました",
+        "yakimashita",
+        "I grilled it",
+        {
+          "jp": "焼きました。",
+          "romaji": "yakimashita",
+          "en": "I grilled it."
+        }
+      ],
+      [
+        "Polite past negative",
+        "焼きませんでした",
+        "yakimasendeshita",
+        "I didn’t grill it",
+        {
+          "jp": "焼きませんでした。",
+          "romaji": "yakimasen deshita",
+          "en": "I didn’t grill it."
+        }
+      ],
+      [
+        "て-form",
+        "焼いて",
+        "yaite",
+        "Connects actions / requests",
+        {
+          "jp": "焼いてください。",
+          "romaji": "yai te kudasai",
+          "en": "Please grill it."
+        }
+      ],
+      [
+        "Casual present / future",
+        "焼く",
+        "yaku",
+        "I grill it / I will grill it",
+        {
+          "jp": "焼く。",
+          "romaji": "yaku",
+          "en": "I grill it / I will grill it."
+        }
+      ],
+      [
+        "Casual negative",
+        "焼かない",
+        "yakanai",
+        "I don’t grill it",
+        {
+          "jp": "焼かない。",
+          "romaji": "yakanai",
+          "en": "I don’t grill it."
+        }
+      ],
+      [
+        "Casual past",
+        "焼いた",
+        "yaita",
+        "I grilled it",
+        {
+          "jp": "焼いた。",
+          "romaji": "yaita",
+          "en": "I grilled it."
+        }
+      ],
+      [
+        "Casual past negative",
+        "焼かなかった",
+        "yakanakatta",
+        "I didn’t grill it",
+        {
+          "jp": "焼かなかった。",
+          "romaji": "yakanakatsuta",
+          "en": "I didn’t grill it."
+        }
+      ],
+      [
+        "Want to",
+        "焼きたい",
+        "yakitai",
+        "I want to grill it",
+        {
+          "jp": "焼きたい。",
+          "romaji": "yakitai",
+          "en": "I want to grill it."
+        }
+      ],
+      [
+        "Potential",
+        "焼ける",
+        "yakeru",
+        "I can grill it",
+        {
+          "jp": "焼ける。",
+          "romaji": "yakeru",
+          "en": "I can grill it."
+        }
+      ],
+      [
+        "Volitional",
+        "焼こう",
+        "yakou",
+        "Let’s grill it",
+        {
+          "jp": "焼こう。",
+          "romaji": "yakou",
+          "en": "Let’s grill it."
+        }
+      ]
+    ]
+  },
+  "旅行する": {
+    "dictionary": "旅行する",
+    "group": "Group 3 · Irregular",
+    "rows": [
+      [
+        "Dictionary",
+        "旅行する",
+        "ryokousuru",
+        "To travel",
+        {
+          "jp": "旅行する。",
+          "romaji": "ryokousuru",
+          "en": "I travel / I will travel."
+        }
+      ],
+      [
+        "Polite",
+        "旅行します",
+        "ryokoushimasu",
+        "I travel / I will travel",
+        {
+          "jp": "旅行します。",
+          "romaji": "ryokoushimasu",
+          "en": "I travel / I will travel."
+        }
+      ],
+      [
+        "Polite negative",
+        "旅行しません",
+        "ryokoushimasen",
+        "I don’t travel",
+        {
+          "jp": "旅行しません。",
+          "romaji": "ryokoushimasen",
+          "en": "I don’t travel."
+        }
+      ],
+      [
+        "Polite past",
+        "旅行しました",
+        "ryokoushimashita",
+        "I traveled",
+        {
+          "jp": "旅行しました。",
+          "romaji": "ryokoushimashita",
+          "en": "I traveled."
+        }
+      ],
+      [
+        "Polite past negative",
+        "旅行しませんでした",
+        "ryokoushimasendeshita",
+        "I didn’t travel",
+        {
+          "jp": "旅行しませんでした。",
+          "romaji": "ryokoushimasen deshita",
+          "en": "I didn’t travel."
+        }
+      ],
+      [
+        "て-form",
+        "旅行して",
+        "ryokoushite",
+        "Connects actions / requests",
+        {
+          "jp": "旅行してください。",
+          "romaji": "ryokoushi te kudasai",
+          "en": "Please travel."
+        }
+      ],
+      [
+        "Casual present / future",
+        "旅行する",
+        "ryokousuru",
+        "I travel / I will travel",
+        {
+          "jp": "旅行する。",
+          "romaji": "ryokousuru",
+          "en": "I travel / I will travel."
+        }
+      ],
+      [
+        "Casual negative",
+        "旅行しない",
+        "ryokoushinai",
+        "I don’t travel",
+        {
+          "jp": "旅行しない。",
+          "romaji": "ryokoushinai",
+          "en": "I don’t travel."
+        }
+      ],
+      [
+        "Casual past",
+        "旅行した",
+        "ryokoushita",
+        "I traveled",
+        {
+          "jp": "旅行した。",
+          "romaji": "ryokoushita",
+          "en": "I traveled."
+        }
+      ],
+      [
+        "Casual past negative",
+        "旅行しなかった",
+        "ryokoushinakatta",
+        "I didn’t travel",
+        {
+          "jp": "旅行しなかった。",
+          "romaji": "ryokoushinakatsuta",
+          "en": "I didn’t travel."
+        }
+      ],
+      [
+        "Want to",
+        "旅行したい",
+        "ryokoushitai",
+        "I want to travel",
+        {
+          "jp": "旅行したい。",
+          "romaji": "ryokoushitai",
+          "en": "I want to travel."
+        }
+      ],
+      [
+        "Potential",
+        "旅行できる",
+        "ryokoudekiru",
+        "I can travel",
+        {
+          "jp": "旅行できる。",
+          "romaji": "ryokou dekiru",
+          "en": "I can travel."
+        }
+      ],
+      [
+        "Volitional",
+        "旅行しよう",
+        "ryokoushiyou",
+        "Let’s travel",
+        {
+          "jp": "旅行しよう。",
+          "romaji": "ryokoushiyou",
+          "en": "Let’s travel."
+        }
+      ]
+    ]
+  },
+  "運転する": {
+    "dictionary": "運転する",
+    "group": "Group 3 · Irregular",
+    "rows": [
+      [
+        "Dictionary",
+        "運転する",
+        "untensuru",
+        "To drive",
+        {
+          "jp": "運転する。",
+          "romaji": "untensuru",
+          "en": "I drive / I will drive."
+        }
+      ],
+      [
+        "Polite",
+        "運転します",
+        "untenshimasu",
+        "I drive / I will drive",
+        {
+          "jp": "運転します。",
+          "romaji": "untenshimasu",
+          "en": "I drive / I will drive."
+        }
+      ],
+      [
+        "Polite negative",
+        "運転しません",
+        "untenshimasen",
+        "I don’t drive",
+        {
+          "jp": "運転しません。",
+          "romaji": "untenshimasen",
+          "en": "I don’t drive."
+        }
+      ],
+      [
+        "Polite past",
+        "運転しました",
+        "untenshimashita",
+        "I drove",
+        {
+          "jp": "運転しました。",
+          "romaji": "untenshimashita",
+          "en": "I drove."
+        }
+      ],
+      [
+        "Polite past negative",
+        "運転しませんでした",
+        "untenshimasendeshita",
+        "I didn’t drive",
+        {
+          "jp": "運転しませんでした。",
+          "romaji": "untenshimasen deshita",
+          "en": "I didn’t drive."
+        }
+      ],
+      [
+        "て-form",
+        "運転して",
+        "untenshite",
+        "Connects actions / requests",
+        {
+          "jp": "運転してください。",
+          "romaji": "untenshi te kudasai",
+          "en": "Please drive."
+        }
+      ],
+      [
+        "Casual present / future",
+        "運転する",
+        "untensuru",
+        "I drive / I will drive",
+        {
+          "jp": "運転する。",
+          "romaji": "untensuru",
+          "en": "I drive / I will drive."
+        }
+      ],
+      [
+        "Casual negative",
+        "運転しない",
+        "untenshinai",
+        "I don’t drive",
+        {
+          "jp": "運転しない。",
+          "romaji": "untenshinai",
+          "en": "I don’t drive."
+        }
+      ],
+      [
+        "Casual past",
+        "運転した",
+        "untenshita",
+        "I drove",
+        {
+          "jp": "運転した。",
+          "romaji": "untenshita",
+          "en": "I drove."
+        }
+      ],
+      [
+        "Casual past negative",
+        "運転しなかった",
+        "untenshinakatta",
+        "I didn’t drive",
+        {
+          "jp": "運転しなかった。",
+          "romaji": "untenshinakatsuta",
+          "en": "I didn’t drive."
+        }
+      ],
+      [
+        "Want to",
+        "運転したい",
+        "untenshitai",
+        "I want to drive",
+        {
+          "jp": "運転したい。",
+          "romaji": "untenshitai",
+          "en": "I want to drive."
+        }
+      ],
+      [
+        "Potential",
+        "運転できる",
+        "untendekiru",
+        "I can drive",
+        {
+          "jp": "運転できる。",
+          "romaji": "unten dekiru",
+          "en": "I can drive."
+        }
+      ],
+      [
+        "Volitional",
+        "運転しよう",
+        "untenshiyou",
+        "Let’s drive",
+        {
+          "jp": "運転しよう。",
+          "romaji": "untenshiyou",
+          "en": "Let’s drive."
+        }
+      ]
+    ]
+  },
+  "えさをやる": {
+    "dictionary": "えさをやる",
+    "group": "Group 1 · U-verb",
+    "rows": [
+      [
+        "Dictionary",
+        "えさをやる",
+        "esawoyaru",
+        "To feed the pet",
+        {
+          "jp": "えさをやる。",
+          "romaji": "esa o yaru",
+          "en": "I feed the pet / I will feed the pet."
+        }
+      ],
+      [
+        "Polite",
+        "えさをやります",
+        "esawoyarimasu",
+        "I feed the pet / I will feed the pet",
+        {
+          "jp": "えさをやります。",
+          "romaji": "esa o yarimasu",
+          "en": "I feed the pet / I will feed the pet."
+        }
+      ],
+      [
+        "Polite negative",
+        "えさをやりません",
+        "esawoyarimasen",
+        "I don’t feed the pet",
+        {
+          "jp": "えさをやりません。",
+          "romaji": "esa o yarimasen",
+          "en": "I don’t feed the pet."
+        }
+      ],
+      [
+        "Polite past",
+        "えさをやりました",
+        "esawoyarimashita",
+        "I fed the pet",
+        {
+          "jp": "えさをやりました。",
+          "romaji": "esa o yarimashita",
+          "en": "I fed the pet."
+        }
+      ],
+      [
+        "Polite past negative",
+        "えさをやりませんでした",
+        "esawoyarimasendeshita",
+        "I didn’t feed the pet",
+        {
+          "jp": "えさをやりませんでした。",
+          "romaji": "esa o yarimasen deshita",
+          "en": "I didn’t feed the pet."
+        }
+      ],
+      [
+        "て-form",
+        "えさをやって",
+        "esawoyatte",
+        "Connects actions / requests",
+        {
+          "jp": "えさをやってください。",
+          "romaji": "esa o yatsu te kudasai",
+          "en": "Please feed the pet."
+        }
+      ],
+      [
+        "Casual present / future",
+        "えさをやる",
+        "esawoyaru",
+        "I feed the pet / I will feed the pet",
+        {
+          "jp": "えさをやる。",
+          "romaji": "esa o yaru",
+          "en": "I feed the pet / I will feed the pet."
+        }
+      ],
+      [
+        "Casual negative",
+        "えさをやらない",
+        "esawoyaranai",
+        "I don’t feed the pet",
+        {
+          "jp": "えさをやらない。",
+          "romaji": "esa o yaranai",
+          "en": "I don’t feed the pet."
+        }
+      ],
+      [
+        "Casual past",
+        "えさをやった",
+        "esawoyatta",
+        "I fed the pet",
+        {
+          "jp": "えさをやった。",
+          "romaji": "esa o yatsuta",
+          "en": "I fed the pet."
+        }
+      ],
+      [
+        "Casual past negative",
+        "えさをやらなかった",
+        "esawoyaranakatta",
+        "I didn’t feed the pet",
+        {
+          "jp": "えさをやらなかった。",
+          "romaji": "esa o yaranakatsuta",
+          "en": "I didn’t feed the pet."
+        }
+      ],
+      [
+        "Want to",
+        "えさをやりたい",
+        "esawoyaritai",
+        "I want to feed the pet",
+        {
+          "jp": "えさをやりたい。",
+          "romaji": "esa o yaritai",
+          "en": "I want to feed the pet."
+        }
+      ],
+      [
+        "Potential",
+        "えさをやれる",
+        "esawoyareru",
+        "I can feed the pet",
+        {
+          "jp": "えさをやれる。",
+          "romaji": "esa o yareru",
+          "en": "I can feed the pet."
+        }
+      ],
+      [
+        "Volitional",
+        "えさをやろう",
+        "esawoyarou",
+        "Let’s feed the pet",
+        {
+          "jp": "えさをやろう。",
+          "romaji": "esa o yarou",
+          "en": "Let’s feed the pet."
+        }
+      ]
+    ]
+  }
+}

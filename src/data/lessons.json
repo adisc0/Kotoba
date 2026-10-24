@@ -1,0 +1,2352 @@
+[
+  {
+    "id": "trial",
+    "tag": "TRIAL",
+    "number": "00",
+    "date": "27 Aug 2026",
+    "title": "Hello, Yuma-san!",
+    "ja": "はじめまして！",
+    "theme": "Introductions, greetings & useful expressions",
+    "short": "First greetings, asking for repetition, and everyday reactions.",
+    "goal": "Introduce yourself and use simple greetings and polite classroom phrases.",
+    "art": "flower",
+    "accent": "#f4e0d7",
+    "label": "Greetings",
+    "vocab": [
+      {
+        "word": "おはよう",
+        "reading": "おはよう",
+        "romaji": "ohayou",
+        "meaning": "good morning (casual)",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "おはようございます",
+        "reading": "おはようございます",
+        "romaji": "ohayou gozaimasu",
+        "meaning": "good morning (polite)",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "こんにちは",
+        "reading": "こんにちは",
+        "romaji": "konnichiwa",
+        "meaning": "hello / good afternoon",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "こんばんは",
+        "reading": "こんばんは",
+        "romaji": "konbanwa",
+        "meaning": "good evening",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "元気",
+        "reading": "げんき",
+        "romaji": "genki",
+        "meaning": "well; healthy",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "さようなら",
+        "reading": "さようなら",
+        "romaji": "sayounara",
+        "meaning": "goodbye",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "またね",
+        "reading": "またね",
+        "romaji": "mata ne",
+        "meaning": "see you later (casual)",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "大丈夫",
+        "reading": "だいじょうぶ",
+        "romaji": "daijoubu",
+        "meaning": "okay; all right",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "いい",
+        "reading": "いい",
+        "romaji": "ii",
+        "meaning": "good",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "すごい",
+        "reading": "すごい",
+        "romaji": "sugoi",
+        "meaning": "amazing; great",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "同じ",
+        "reading": "おなじ",
+        "romaji": "onaji",
+        "meaning": "same",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "もちろん",
+        "reading": "もちろん",
+        "romaji": "mochiron",
+        "meaning": "of course",
+        "category": "Adverbs",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "お願いします",
+        "reading": "おねがいします",
+        "romaji": "onegaishimasu",
+        "meaning": "please; I request your help",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "もう一度",
+        "reading": "もういちど",
+        "romaji": "mou ichido",
+        "meaning": "one more time",
+        "category": "Adverbs",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "おいしい",
+        "reading": "おいしい",
+        "romaji": "oishii",
+        "meaning": "delicious",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "暑い",
+        "reading": "あつい",
+        "romaji": "atsui",
+        "meaning": "hot",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "蒸し暑い",
+        "reading": "むしあつい",
+        "romaji": "mushiatsui",
+        "meaning": "hot and humid",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "めっちゃ",
+        "reading": "めっちゃ",
+        "romaji": "meccha",
+        "meaning": "very; really (casual, Kansai)",
+        "category": "Adverbs",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "romaji": "namae",
+        "meaning": "name",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "出身",
+        "reading": "しゅっしん",
+        "romaji": "shusshin",
+        "meaning": "hometown; origin",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "仕事",
+        "reading": "しごと",
+        "romaji": "shigoto",
+        "meaning": "work; job",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "romaji": "kazoku",
+        "meaning": "family",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      }
+    ],
+    "sentences": [
+      {
+        "jp": "おはようございます。",
+        "romaji": "Ohayou gozaimasu.",
+        "en": "Good morning.",
+        "tip": "The polite form of おはよう.",
+        "parts": [
+          {
+            "jp": "おはよう",
+            "reading": "ohayou",
+            "meaning": "good morning"
+          },
+          {
+            "jp": "ございます",
+            "reading": "gozaimasu",
+            "meaning": "polite completion"
+          }
+        ],
+        "art": "sun",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "元気ですか？",
+        "romaji": "Genki desu ka?",
+        "en": "How are you?",
+        "tip": "A simple check-in question.",
+        "parts": [
+          {
+            "jp": "元気",
+            "reading": "genki",
+            "meaning": "well",
+            "kana": "げんき"
+          },
+          {
+            "jp": "です",
+            "reading": "desu",
+            "meaning": "polite"
+          },
+          {
+            "jp": "か",
+            "reading": "ka",
+            "meaning": "question marker"
+          }
+        ],
+        "art": "happy",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "もう一度お願いします。",
+        "romaji": "Mou ichido onegaishimasu.",
+        "en": "One more time, please.",
+        "tip": "Useful when you need Yuma-san to repeat something.",
+        "parts": [
+          {
+            "jp": "もう一度",
+            "reading": "mou ichido",
+            "meaning": "one more time",
+            "kana": "もういちど"
+          },
+          {
+            "jp": "お願いします",
+            "reading": "onegaishimasu",
+            "meaning": "please",
+            "kana": "おねがいします"
+          }
+        ],
+        "art": "arrows",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "めっちゃ暑い！",
+        "romaji": "Meccha atsui!",
+        "en": "It’s really hot!",
+        "tip": "めっちゃ is casual Kansai-flavored emphasis.",
+        "parts": [
+          {
+            "jp": "めっちゃ",
+            "reading": "meccha",
+            "meaning": "very"
+          },
+          {
+            "jp": "暑い",
+            "reading": "atsui",
+            "meaning": "hot",
+            "kana": "あつい"
+          }
+        ],
+        "art": "sun",
+        "source": "From Yuma’s notes"
+      }
+    ],
+    "focus": [
+      {
+        "label": "Useful requests",
+        "jp": "もう一度お願いします",
+        "romaji": "mou ichido onegaishimasu",
+        "en": "One more time, please."
+      },
+      {
+        "label": "Polite greeting",
+        "jp": "おはようございます",
+        "romaji": "ohayou gozaimasu",
+        "en": "Good morning."
+      }
+    ],
+    "upnext": "X は Y です (X is Y) was the next step."
+  },
+  {
+    "id": "l1",
+    "tag": "LESSON 01",
+    "number": "01",
+    "date": "03 Sep 2026",
+    "title": "Let me introduce myself",
+    "ja": "自己紹介",
+    "theme": "Self-introduction & noun sentences",
+    "short": "Introduce your nationality, work, hobbies, and learn positive and negative です.",
+    "goal": "Make positive X は Y です and negative X は Y じゃないです sentences.",
+    "art": "people",
+    "accent": "#e7efe5",
+    "label": "Self-introduction",
+    "vocab": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "romaji": "watashi",
+        "meaning": "I; me",
+        "category": "Questions & pronouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "フィリピン人",
+        "reading": "フィリピンじん",
+        "romaji": "firipinjin",
+        "meaning": "Filipino person",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "出身",
+        "reading": "しゅっしん",
+        "romaji": "shusshin",
+        "meaning": "hometown; origin",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "趣味",
+        "reading": "しゅみ",
+        "romaji": "shumi",
+        "meaning": "hobby",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "仕事",
+        "reading": "しごと",
+        "romaji": "shigoto",
+        "meaning": "job / work",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "サッカー",
+        "reading": "サッカー",
+        "romaji": "sakkaa",
+        "meaning": "soccer",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "romaji": "sensei",
+        "meaning": "teacher",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "romaji": "namae",
+        "meaning": "name",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "おすすめ",
+        "reading": "おすすめ",
+        "romaji": "osusume",
+        "meaning": "recommendation",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "何",
+        "reading": "なん",
+        "romaji": "nan",
+        "meaning": "what",
+        "category": "Questions & pronouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "今日",
+        "reading": "きょう",
+        "romaji": "kyou",
+        "meaning": "today",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "暑い",
+        "reading": "あつい",
+        "romaji": "atsui",
+        "meaning": "hot",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "は",
+        "reading": "は",
+        "romaji": "wa",
+        "meaning": "topic marker",
+        "category": "Particles & grammar",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "です",
+        "reading": "です",
+        "romaji": "desu",
+        "meaning": "polite ending",
+        "category": "Particles & grammar",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "じゃないです",
+        "reading": "じゃないです",
+        "romaji": "janai desu",
+        "meaning": "is/am not",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      }
+    ],
+    "sentences": [
+      {
+        "jp": "アルケンです。",
+        "romaji": "Aruken desu.",
+        "en": "I am Alken.",
+        "tip": "The subject “I” is understood from context.",
+        "parts": [
+          {
+            "jp": "アルケン",
+            "reading": "Aruken",
+            "meaning": "Alken"
+          },
+          {
+            "jp": "です",
+            "reading": "desu",
+            "meaning": "am / polite ending"
+          }
+        ],
+        "art": "people",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "趣味はサッカーです。",
+        "romaji": "Shumi wa sakkaa desu.",
+        "en": "My hobby is soccer.",
+        "tip": "The basic X は Y です pattern.",
+        "parts": [
+          {
+            "jp": "趣味",
+            "reading": "shumi",
+            "meaning": "hobby",
+            "kana": "しゅみ"
+          },
+          {
+            "jp": "は",
+            "reading": "wa",
+            "meaning": "topic"
+          },
+          {
+            "jp": "サッカー",
+            "reading": "sakkaa",
+            "meaning": "soccer"
+          },
+          {
+            "jp": "です",
+            "reading": "desu",
+            "meaning": "is"
+          }
+        ],
+        "art": "soccer",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "私は先生じゃないです。",
+        "romaji": "Watashi wa sensei janai desu.",
+        "en": "I am not a teacher.",
+        "tip": "じゃないです negates a noun sentence.",
+        "parts": [
+          {
+            "jp": "私",
+            "reading": "watashi",
+            "meaning": "I",
+            "kana": "わたし"
+          },
+          {
+            "jp": "は",
+            "reading": "wa",
+            "meaning": "topic"
+          },
+          {
+            "jp": "先生",
+            "reading": "sensei",
+            "meaning": "teacher",
+            "kana": "せんせい"
+          },
+          {
+            "jp": "じゃないです",
+            "reading": "janai desu",
+            "meaning": "am not"
+          }
+        ],
+        "art": "book",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "おすすめは何ですか？",
+        "romaji": "Osusume wa nan desu ka?",
+        "en": "What is your recommendation?",
+        "tip": "A question listed in the Lesson 1 notes.",
+        "parts": [
+          {
+            "jp": "おすすめ",
+            "reading": "osusume",
+            "meaning": "recommendation"
+          },
+          {
+            "jp": "は",
+            "reading": "wa",
+            "meaning": "topic"
+          },
+          {
+            "jp": "何",
+            "reading": "nan",
+            "meaning": "what",
+            "kana": "なん"
+          },
+          {
+            "jp": "ですか",
+            "reading": "desu ka",
+            "meaning": "polite question"
+          }
+        ],
+        "art": "gift",
+        "source": "From Yuma’s notes"
+      }
+    ],
+    "focus": [
+      {
+        "label": "Positive",
+        "jp": "X は Y です",
+        "romaji": "X wa Y desu",
+        "en": "X is Y"
+      },
+      {
+        "label": "Negative",
+        "jp": "X は Y じゃないです",
+        "romaji": "X wa Y janai desu",
+        "en": "X is not Y"
+      },
+      {
+        "label": "Question",
+        "jp": "趣味は何ですか？",
+        "romaji": "shumi wa nan desu ka?",
+        "en": "What is your hobby?"
+      }
+    ],
+    "upnext": "X が好きです / X が好きじゃないです."
+  },
+  {
+    "id": "l2",
+    "tag": "LESSON 02",
+    "number": "02",
+    "date": "10 Sep 2026",
+    "title": "How do you say it?",
+    "ja": "日本語で何ですか？",
+    "theme": "Asking for translations & understanding",
+    "short": "Ask what something is called in Japanese or English, and say when you understand.",
+    "goal": "Use X は日本語で何ですか / 英語で何ですか and わかりません.",
+    "art": "speech",
+    "accent": "#f9e8d8",
+    "label": "Language questions",
+    "vocab": [
+      {
+        "word": "日本語",
+        "reading": "にほんご",
+        "romaji": "nihongo",
+        "meaning": "Japanese language",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "英語",
+        "reading": "えいご",
+        "romaji": "eigo",
+        "meaning": "English language",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "わかりません",
+        "reading": "わかりません",
+        "romaji": "wakarimasen",
+        "meaning": "I do not understand / I’m not sure",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "わからない",
+        "reading": "わからない",
+        "romaji": "wakaranai",
+        "meaning": "I do not understand (casual)",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "わかりました",
+        "reading": "わかりました",
+        "romaji": "wakarimashita",
+        "meaning": "I got it / understood",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "旅行",
+        "reading": "りょこう",
+        "romaji": "ryokou",
+        "meaning": "travel",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "romaji": "tomodachi",
+        "meaning": "friend",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "卵",
+        "reading": "たまご",
+        "romaji": "tamago",
+        "meaning": "egg",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "野球",
+        "reading": "やきゅう",
+        "romaji": "yakyuu",
+        "meaning": "baseball",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "肉",
+        "reading": "にく",
+        "romaji": "niku",
+        "meaning": "meat",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "愛",
+        "reading": "あい",
+        "romaji": "ai",
+        "meaning": "love",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "家",
+        "reading": "いえ",
+        "romaji": "ie",
+        "meaning": "house",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "上",
+        "reading": "うえ",
+        "romaji": "ue",
+        "meaning": "up; above",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "絵",
+        "reading": "え",
+        "romaji": "e",
+        "meaning": "painting; drawing",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "イカ",
+        "reading": "いか",
+        "romaji": "ika",
+        "meaning": "squid",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "貝",
+        "reading": "かい",
+        "romaji": "kai",
+        "meaning": "shellfish / shell",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "焼く",
+        "reading": "やく",
+        "romaji": "yaku",
+        "meaning": "to grill",
+        "category": "Verbs",
+        "polite": "焼きます",
+        "te": "焼いて"
+      }
+    ],
+    "sentences": [
+      {
+        "jp": "これは日本語で何ですか？",
+        "romaji": "Kore wa nihongo de nan desu ka?",
+        "en": "What is this called in Japanese?",
+        "tip": "The key translation-question pattern in Yuma-san’s notes.",
+        "parts": [
+          {
+            "jp": "これ",
+            "reading": "kore",
+            "meaning": "this"
+          },
+          {
+            "jp": "は",
+            "reading": "wa",
+            "meaning": "topic"
+          },
+          {
+            "jp": "日本語",
+            "reading": "nihongo",
+            "meaning": "Japanese",
+            "kana": "にほんご"
+          },
+          {
+            "jp": "で",
+            "reading": "de",
+            "meaning": "in [language]"
+          },
+          {
+            "jp": "何ですか",
+            "reading": "nan desu ka",
+            "meaning": "what is it?",
+            "kana": "なんですか"
+          }
+        ],
+        "art": "question",
+        "source": "Pattern from notes · practice wording"
+      },
+      {
+        "jp": "わかりません。",
+        "romaji": "Wakarimasen.",
+        "en": "I don’t understand.",
+        "tip": "Polite. Casual version: わからない.",
+        "parts": [
+          {
+            "jp": "わかりません",
+            "reading": "wakarimasen",
+            "meaning": "I don’t understand"
+          }
+        ],
+        "art": "speech",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "わかりました。",
+        "romaji": "Wakarimashita.",
+        "en": "I understood / got it.",
+        "tip": "A handy answer when Yuma explains something.",
+        "parts": [
+          {
+            "jp": "わかりました",
+            "reading": "wakarimashita",
+            "meaning": "understood"
+          }
+        ],
+        "art": "happy",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "趣味は旅行です。",
+        "romaji": "Shumi wa ryokou desu.",
+        "en": "My hobby is traveling.",
+        "tip": "Example from Lesson 2 vocabulary.",
+        "parts": [
+          {
+            "jp": "趣味",
+            "reading": "shumi",
+            "meaning": "hobby",
+            "kana": "しゅみ"
+          },
+          {
+            "jp": "は",
+            "reading": "wa",
+            "meaning": "topic"
+          },
+          {
+            "jp": "旅行",
+            "reading": "ryokou",
+            "meaning": "travel",
+            "kana": "りょこう"
+          },
+          {
+            "jp": "です",
+            "reading": "desu",
+            "meaning": "is"
+          }
+        ],
+        "art": "mountain",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "友達は日本人です。",
+        "romaji": "Tomodachi wa nihonjin desu.",
+        "en": "My friend is Japanese.",
+        "tip": "Example from Lesson 2 vocabulary.",
+        "parts": [
+          {
+            "jp": "友達",
+            "reading": "tomodachi",
+            "meaning": "friend",
+            "kana": "ともだち"
+          },
+          {
+            "jp": "は",
+            "reading": "wa",
+            "meaning": "topic"
+          },
+          {
+            "jp": "日本人",
+            "reading": "nihonjin",
+            "meaning": "Japanese person",
+            "kana": "にほんjいん"
+          },
+          {
+            "jp": "です",
+            "reading": "desu",
+            "meaning": "is"
+          }
+        ],
+        "art": "people",
+        "source": "From Yuma’s notes"
+      }
+    ],
+    "focus": [
+      {
+        "label": "Japanese translation",
+        "jp": "X は日本語で何ですか？",
+        "romaji": "X wa nihongo de nan desu ka?",
+        "en": "What is X in Japanese?"
+      },
+      {
+        "label": "English translation",
+        "jp": "X は英語で何ですか？",
+        "romaji": "X wa eigo de nan desu ka?",
+        "en": "What is X in English?"
+      },
+      {
+        "label": "Polite / casual",
+        "jp": "わかりません / わからない",
+        "romaji": "wakarimasen / wakaranai",
+        "en": "I don’t understand."
+      }
+    ],
+    "upnext": "X が好きです / X が好きじゃないです."
+  },
+  {
+    "id": "l3",
+    "tag": "LESSON 03",
+    "number": "03",
+    "date": "15 Sep 2026",
+    "title": "What do you like?",
+    "ja": "好きです・好きじゃないです",
+    "theme": "Likes, dislikes & past-tense です",
+    "short": "Talk about likes, negative descriptions, yesterday’s weather, and past-tense です.",
+    "goal": "Practice 好きです, 好きじゃないです, でした and じゃなかったです.",
+    "art": "heart",
+    "accent": "#fae2e7",
+    "label": "Likes & past です",
+    "vocab": [
+      {
+        "word": "好き",
+        "reading": "すき",
+        "romaji": "suki",
+        "meaning": "like; fond of",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "好きじゃないです",
+        "reading": "すきじゃないです",
+        "romaji": "suki janai desu",
+        "meaning": "do not like",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "明日",
+        "reading": "あした",
+        "romaji": "ashita",
+        "meaning": "tomorrow",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "昨日",
+        "reading": "きのう",
+        "romaji": "kinou",
+        "meaning": "yesterday",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "曇り",
+        "reading": "くもり",
+        "romaji": "kumori",
+        "meaning": "cloudy weather",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "雲",
+        "reading": "くも",
+        "romaji": "kumo",
+        "meaning": "cloud",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "蜘蛛",
+        "reading": "くも",
+        "romaji": "kumo",
+        "meaning": "spider",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "雨",
+        "reading": "あめ",
+        "romaji": "ame",
+        "meaning": "rain",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "昼ご飯",
+        "reading": "ひるごはん",
+        "romaji": "hirugohan",
+        "meaning": "lunch",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "完璧",
+        "reading": "かんぺき",
+        "romaji": "kanpeki",
+        "meaning": "perfect",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "寒い",
+        "reading": "さむい",
+        "romaji": "samui",
+        "meaning": "cold (weather)",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "同じ",
+        "reading": "おなじ",
+        "romaji": "onaji",
+        "meaning": "same",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "まあまあ",
+        "reading": "まあまあ",
+        "romaji": "maa maa",
+        "meaning": "so-so; not bad",
+        "category": "Adverbs",
+        "polite": "",
+        "te": ""
+      }
+    ],
+    "sentences": [
+      {
+        "jp": "明日は仕事です。",
+        "romaji": "Ashita wa shigoto desu.",
+        "en": "Tomorrow is a workday for me.",
+        "tip": "Example from Yuma-san’s lesson.",
+        "parts": [
+          {
+            "jp": "明日",
+            "reading": "ashita",
+            "meaning": "tomorrow",
+            "kana": "あした"
+          },
+          {
+            "jp": "は",
+            "reading": "wa",
+            "meaning": "topic"
+          },
+          {
+            "jp": "仕事",
+            "reading": "shigoto",
+            "meaning": "work",
+            "kana": "しごと"
+          },
+          {
+            "jp": "です",
+            "reading": "desu",
+            "meaning": "is"
+          }
+        ],
+        "art": "laptop",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "昨日は雨でした。",
+        "romaji": "Kinou wa ame deshita.",
+        "en": "It was rainy yesterday.",
+        "tip": "でした makes a noun sentence past positive.",
+        "parts": [
+          {
+            "jp": "昨日",
+            "reading": "kinou",
+            "meaning": "yesterday",
+            "kana": "きのう"
+          },
+          {
+            "jp": "は",
+            "reading": "wa",
+            "meaning": "topic"
+          },
+          {
+            "jp": "雨",
+            "reading": "ame",
+            "meaning": "rain",
+            "kana": "あめ"
+          },
+          {
+            "jp": "でした",
+            "reading": "deshita",
+            "meaning": "was"
+          }
+        ],
+        "art": "rain",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "今日は曇りです。",
+        "romaji": "Kyou wa kumori desu.",
+        "en": "It is cloudy today.",
+        "tip": "曇り (くもり) means cloudy weather.",
+        "parts": [
+          {
+            "jp": "今日",
+            "reading": "kyou",
+            "meaning": "today",
+            "kana": "きょう"
+          },
+          {
+            "jp": "は",
+            "reading": "wa",
+            "meaning": "topic"
+          },
+          {
+            "jp": "曇り",
+            "reading": "kumori",
+            "meaning": "cloudy",
+            "kana": "くもり"
+          },
+          {
+            "jp": "です",
+            "reading": "desu",
+            "meaning": "is"
+          }
+        ],
+        "art": "cloud",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "今日は寒いです。",
+        "romaji": "Kyou wa samui desu.",
+        "en": "It is cold today.",
+        "tip": "寒い is an い-adjective.",
+        "parts": [
+          {
+            "jp": "今日",
+            "reading": "kyou",
+            "meaning": "today",
+            "kana": "きょう"
+          },
+          {
+            "jp": "は",
+            "reading": "wa",
+            "meaning": "topic"
+          },
+          {
+            "jp": "寒い",
+            "reading": "samui",
+            "meaning": "cold",
+            "kana": "さむい"
+          },
+          {
+            "jp": "です",
+            "reading": "desu",
+            "meaning": "polite ending"
+          }
+        ],
+        "art": "snow",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "昨日は休みじゃなかったです。",
+        "romaji": "Kinou wa yasumi janakatta desu.",
+        "en": "Yesterday was not a day off.",
+        "tip": "Extra practice for the past negative pattern.",
+        "parts": [
+          {
+            "jp": "昨日",
+            "reading": "kinou",
+            "meaning": "yesterday",
+            "kana": "きのう"
+          },
+          {
+            "jp": "は",
+            "reading": "wa",
+            "meaning": "topic"
+          },
+          {
+            "jp": "休み",
+            "reading": "yasumi",
+            "meaning": "day off",
+            "kana": "やすみ"
+          },
+          {
+            "jp": "じゃなかったです",
+            "reading": "janakatta desu",
+            "meaning": "was not"
+          }
+        ],
+        "art": "calendar",
+        "source": "Extra practice · grammar from notes"
+      }
+    ],
+    "focus": [
+      {
+        "label": "Present positive",
+        "jp": "～です",
+        "romaji": "desu",
+        "en": "is / am / are"
+      },
+      {
+        "label": "Present negative",
+        "jp": "～じゃないです",
+        "romaji": "janai desu",
+        "en": "is not"
+      },
+      {
+        "label": "Past positive",
+        "jp": "～でした",
+        "romaji": "deshita",
+        "en": "was / were"
+      },
+      {
+        "label": "Past negative",
+        "jp": "～じゃなかったです",
+        "romaji": "janakatta desu",
+        "en": "was not / were not"
+      }
+    ],
+    "upnext": "Basic verbs: present positive ます and present negative ません."
+  },
+  {
+    "id": "l4",
+    "tag": "LESSON 04",
+    "number": "04",
+    "date": "22 Sep 2026",
+    "title": "Everyday actions",
+    "ja": "食べます・飲みます",
+    "theme": "Basic verbs: ます / ません",
+    "short": "Practice eating, drinking, watching, listening, and how often things happen.",
+    "goal": "Use present positive ～ます and negative ～ません with daily habits.",
+    "art": "ramen",
+    "accent": "#fbe7d4",
+    "label": "Present-tense verbs",
+    "vocab": [
+      {
+        "word": "疲れた",
+        "reading": "つかれた",
+        "romaji": "tsukareta",
+        "meaning": "tired; got tired (casual)",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "疲れました",
+        "reading": "つかれました",
+        "romaji": "tsukaremashita",
+        "meaning": "got tired (polite)",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "牛乳",
+        "reading": "ぎゅうにゅう",
+        "romaji": "gyuunyuu",
+        "meaning": "milk",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "面白い",
+        "reading": "おもしろい",
+        "romaji": "omoshiroi",
+        "meaning": "funny; interesting",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "romaji": "mainichi",
+        "meaning": "every day",
+        "category": "Adverbs",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "時々",
+        "reading": "ときどき",
+        "romaji": "tokidoki",
+        "meaning": "sometimes",
+        "category": "Adverbs",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "あんまり",
+        "reading": "あんまり",
+        "romaji": "anmari",
+        "meaning": "not very much (with negative)",
+        "category": "Adverbs",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "全然",
+        "reading": "ぜんぜん",
+        "romaji": "zenzen",
+        "meaning": "not at all (often with negative)",
+        "category": "Adverbs",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "romaji": "taberu",
+        "meaning": "to eat",
+        "category": "Verbs",
+        "polite": "食べます",
+        "te": "食べて"
+      },
+      {
+        "word": "飲む",
+        "reading": "のむ",
+        "romaji": "nomu",
+        "meaning": "to drink",
+        "category": "Verbs",
+        "polite": "飲みます",
+        "te": "飲んで"
+      },
+      {
+        "word": "見る",
+        "reading": "みる",
+        "romaji": "miru",
+        "meaning": "to watch / see",
+        "category": "Verbs",
+        "polite": "見ます",
+        "te": "見て"
+      },
+      {
+        "word": "聞く",
+        "reading": "きく",
+        "romaji": "kiku",
+        "meaning": "to listen / ask",
+        "category": "Verbs",
+        "polite": "聞きます",
+        "te": "聞いて"
+      },
+      {
+        "word": "お酒",
+        "reading": "おさけ",
+        "romaji": "osake",
+        "meaning": "alcoholic drinks",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "音楽",
+        "reading": "おんがく",
+        "romaji": "ongaku",
+        "meaning": "music",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "テレビ",
+        "reading": "テレビ",
+        "romaji": "terebi",
+        "meaning": "television",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "アニメ",
+        "reading": "アニメ",
+        "romaji": "anime",
+        "meaning": "anime",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      }
+    ],
+    "sentences": [
+      {
+        "jp": "毎日牛乳を飲みます。",
+        "romaji": "Mainichi gyuunyuu o nomimasu.",
+        "en": "I drink milk every day.",
+        "tip": "The basic polite present affirmative.",
+        "parts": [
+          {
+            "jp": "毎日",
+            "reading": "mainichi",
+            "meaning": "every day",
+            "kana": "まいにち"
+          },
+          {
+            "jp": "牛乳",
+            "reading": "gyuunyuu",
+            "meaning": "milk",
+            "kana": "ぎゅうにゅう"
+          },
+          {
+            "jp": "を",
+            "reading": "o",
+            "meaning": "object"
+          },
+          {
+            "jp": "飲みます",
+            "reading": "nomimasu",
+            "meaning": "drink",
+            "kana": "のみます"
+          }
+        ],
+        "art": "milk",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "時々アニメを見ます。",
+        "romaji": "Tokidoki anime o mimasu.",
+        "en": "I sometimes watch anime.",
+        "tip": "時々 means sometimes.",
+        "parts": [
+          {
+            "jp": "時々",
+            "reading": "tokidoki",
+            "meaning": "sometimes",
+            "kana": "ときどき"
+          },
+          {
+            "jp": "アニメ",
+            "reading": "anime",
+            "meaning": "anime"
+          },
+          {
+            "jp": "を",
+            "reading": "o",
+            "meaning": "object"
+          },
+          {
+            "jp": "見ます",
+            "reading": "mimasu",
+            "meaning": "watch",
+            "kana": "みます"
+          }
+        ],
+        "art": "movie",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "あんまりお酒を飲みません。",
+        "romaji": "Anmari osake o nomimasen.",
+        "en": "I do not drink much alcohol.",
+        "tip": "あんまり is often paired with a negative verb.",
+        "parts": [
+          {
+            "jp": "あんまり",
+            "reading": "anmari",
+            "meaning": "not very much"
+          },
+          {
+            "jp": "お酒",
+            "reading": "osake",
+            "meaning": "alcohol",
+            "kana": "おさけ"
+          },
+          {
+            "jp": "を",
+            "reading": "o",
+            "meaning": "object"
+          },
+          {
+            "jp": "飲みません",
+            "reading": "nomimasen",
+            "meaning": "do not drink",
+            "kana": "のみません"
+          }
+        ],
+        "art": "cup",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "音楽を聞きます。",
+        "romaji": "Ongaku o kikimasu.",
+        "en": "I listen to music.",
+        "tip": "聞きます means listen or ask, depending on context.",
+        "parts": [
+          {
+            "jp": "音楽",
+            "reading": "ongaku",
+            "meaning": "music",
+            "kana": "おんがく"
+          },
+          {
+            "jp": "を",
+            "reading": "o",
+            "meaning": "object"
+          },
+          {
+            "jp": "聞きます",
+            "reading": "kikimasu",
+            "meaning": "listen",
+            "kana": "ききます"
+          }
+        ],
+        "art": "music",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "めっちゃ疲れました。",
+        "romaji": "Meccha tsukaremashita.",
+        "en": "I got really tired.",
+        "tip": "Example in the notes, using 疲れました.",
+        "parts": [
+          {
+            "jp": "めっちゃ",
+            "reading": "meccha",
+            "meaning": "really"
+          },
+          {
+            "jp": "疲れました",
+            "reading": "tsukaremashita",
+            "meaning": "got tired",
+            "kana": "つかれました"
+          }
+        ],
+        "art": "sleep",
+        "source": "From Yuma’s notes"
+      }
+    ],
+    "focus": [
+      {
+        "label": "Present positive",
+        "jp": "～ます",
+        "romaji": "masu",
+        "en": "eat → 食べます (tabemasu)"
+      },
+      {
+        "label": "Present negative",
+        "jp": "～ません",
+        "romaji": "masen",
+        "en": "do not eat → 食べません (tabemasen)"
+      },
+      {
+        "label": "Frequency",
+        "jp": "毎日・時々・あんまり・全然",
+        "romaji": "mainichi · tokidoki · anmari · zenzen",
+        "en": "Every day · sometimes · not very · not at all"
+      }
+    ],
+    "upnext": "More basic verbs."
+  },
+  {
+    "id": "l5",
+    "tag": "LESSON 05",
+    "number": "05",
+    "date": "06 Oct 2026",
+    "title": "What did you do?",
+    "ja": "～ました・～ませんでした",
+    "theme": "Basic verbs & polite past tense",
+    "short": "Learn cooking, traveling, driving, studying, singing, and using ました / ませんでした.",
+    "goal": "Use polite past positive ～ました and past negative ～ませんでした.",
+    "art": "movie",
+    "accent": "#e5edfa",
+    "label": "Past-tense verbs",
+    "vocab": [
+      {
+        "word": "料理する",
+        "reading": "りょうりする",
+        "romaji": "ryouri suru",
+        "meaning": "to cook",
+        "category": "Verbs",
+        "polite": "料理します",
+        "te": "料理して"
+      },
+      {
+        "word": "旅行する",
+        "reading": "りょこうする",
+        "romaji": "ryokou suru",
+        "meaning": "to travel",
+        "category": "Verbs",
+        "polite": "旅行します",
+        "te": "旅行して"
+      },
+      {
+        "word": "運転する",
+        "reading": "うんてんする",
+        "romaji": "unten suru",
+        "meaning": "to drive",
+        "category": "Verbs",
+        "polite": "運転します",
+        "te": "運転して"
+      },
+      {
+        "word": "勉強する",
+        "reading": "べんきょうする",
+        "romaji": "benkyou suru",
+        "meaning": "to study",
+        "category": "Verbs",
+        "polite": "勉強します",
+        "te": "勉強して"
+      },
+      {
+        "word": "歌う",
+        "reading": "うたう",
+        "romaji": "utau",
+        "meaning": "to sing",
+        "category": "Verbs",
+        "polite": "歌います",
+        "te": "歌って"
+      },
+      {
+        "word": "歌",
+        "reading": "うた",
+        "romaji": "uta",
+        "meaning": "song",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "踊り",
+        "reading": "おどり",
+        "romaji": "odori",
+        "meaning": "dance",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "イカ",
+        "reading": "いか",
+        "romaji": "ika",
+        "meaning": "squid",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "車",
+        "reading": "くるま",
+        "romaji": "kuruma",
+        "meaning": "car",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "romaji": "kotoshi",
+        "meaning": "this year",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "三回",
+        "reading": "さんかい",
+        "romaji": "sankai",
+        "meaning": "three times",
+        "category": "Adverbs",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "romaji": "rainen",
+        "meaning": "next year",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "名古屋",
+        "reading": "なごや",
+        "romaji": "nagoya",
+        "meaning": "Nagoya",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "ました",
+        "reading": "ました",
+        "romaji": "mashita",
+        "meaning": "polite past-positive ending",
+        "category": "Particles & grammar",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "ませんでした",
+        "reading": "ませんでした",
+        "romaji": "masen deshita",
+        "meaning": "polite past-negative ending",
+        "category": "Particles & grammar",
+        "polite": "",
+        "te": ""
+      }
+    ],
+    "sentences": [
+      {
+        "jp": "毎日料理します。",
+        "romaji": "Mainichi ryouri shimasu.",
+        "en": "I cook every day.",
+        "tip": "料理する combines a noun with する.",
+        "parts": [
+          {
+            "jp": "毎日",
+            "reading": "mainichi",
+            "meaning": "every day",
+            "kana": "まいにち"
+          },
+          {
+            "jp": "料理します",
+            "reading": "ryouri shimasu",
+            "meaning": "cook",
+            "kana": "りょうりします"
+          }
+        ],
+        "art": "rice",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "時々旅行します。",
+        "romaji": "Tokidoki ryokou shimasu.",
+        "en": "I sometimes travel.",
+        "tip": "Example in the notes.",
+        "parts": [
+          {
+            "jp": "時々",
+            "reading": "tokidoki",
+            "meaning": "sometimes",
+            "kana": "ときどき"
+          },
+          {
+            "jp": "旅行します",
+            "reading": "ryokou shimasu",
+            "meaning": "travel",
+            "kana": "りょこうします"
+          }
+        ],
+        "art": "mountain",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "昨日勉強しませんでした。",
+        "romaji": "Kinou benkyou shimasen deshita.",
+        "en": "I did not study yesterday.",
+        "tip": "Past negative ～ませんでした.",
+        "parts": [
+          {
+            "jp": "昨日",
+            "reading": "kinou",
+            "meaning": "yesterday",
+            "kana": "きのう"
+          },
+          {
+            "jp": "勉強しませんでした",
+            "reading": "benkyou shimasen deshita",
+            "meaning": "did not study",
+            "kana": "べんきょうしませんでした"
+          }
+        ],
+        "art": "book",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "歌を歌います。",
+        "romaji": "Uta o utaimasu.",
+        "en": "I sing a song.",
+        "tip": "歌 is the noun “song”; 歌う is the verb.",
+        "parts": [
+          {
+            "jp": "歌",
+            "reading": "uta",
+            "meaning": "song",
+            "kana": "うた"
+          },
+          {
+            "jp": "を",
+            "reading": "o",
+            "meaning": "object"
+          },
+          {
+            "jp": "歌います",
+            "reading": "utaimasu",
+            "meaning": "sing",
+            "kana": "うたいます"
+          }
+        ],
+        "art": "music",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "今年三回日本に行きました。",
+        "romaji": "Kotoshi sankai nihon ni ikimashita.",
+        "en": "I went to Japan three times this year.",
+        "tip": "An example from Yuma-san’s notes for 三回.",
+        "parts": [
+          {
+            "jp": "今年",
+            "reading": "kotoshi",
+            "meaning": "this year",
+            "kana": "ことし"
+          },
+          {
+            "jp": "三回",
+            "reading": "sankai",
+            "meaning": "three times",
+            "kana": "さんかい"
+          },
+          {
+            "jp": "日本",
+            "reading": "nihon",
+            "meaning": "Japan",
+            "kana": "にほん"
+          },
+          {
+            "jp": "に",
+            "reading": "ni",
+            "meaning": "to"
+          },
+          {
+            "jp": "行きました",
+            "reading": "ikimashita",
+            "meaning": "went",
+            "kana": "いきました"
+          }
+        ],
+        "art": "japan",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "来年名古屋に行きます。",
+        "romaji": "Rainen Nagoya ni ikimasu.",
+        "en": "I will go to Nagoya next year.",
+        "tip": "A future statement with polite ます.",
+        "parts": [
+          {
+            "jp": "来年",
+            "reading": "rainen",
+            "meaning": "next year",
+            "kana": "らいねん"
+          },
+          {
+            "jp": "名古屋",
+            "reading": "Nagoya",
+            "meaning": "Nagoya",
+            "kana": "なごや"
+          },
+          {
+            "jp": "に",
+            "reading": "ni",
+            "meaning": "to"
+          },
+          {
+            "jp": "行きます",
+            "reading": "ikimasu",
+            "meaning": "will go",
+            "kana": "いきます"
+          }
+        ],
+        "art": "japan",
+        "source": "From Yuma’s notes"
+      }
+    ],
+    "focus": [
+      {
+        "label": "Past positive",
+        "jp": "～ました",
+        "romaji": "mashita",
+        "en": "did · 勉強しました"
+      },
+      {
+        "label": "Past negative",
+        "jp": "～ませんでした",
+        "romaji": "masen deshita",
+        "en": "did not · 勉強しませんでした"
+      },
+      {
+        "label": "Basic verb family",
+        "jp": "料理する・旅行する・運転する・勉強する",
+        "romaji": "ryouri suru · ryokou suru · unten suru · benkyou suru",
+        "en": "cook, travel, drive, study"
+      }
+    ],
+    "upnext": "More basic verbs and time."
+  },
+  {
+    "id": "l6",
+    "tag": "LESSON 06",
+    "number": "06",
+    "date": "13 Oct 2026",
+    "title": "Numbers & telling time",
+    "ja": "何時に起きますか？",
+    "theme": "Numbers 1–12, clocks & time に",
+    "short": "Learn numbers, special hour readings, half past, and the times you wake up or sleep.",
+    "goal": "Read clock times and use [time] に [verb] for daily routines.",
+    "art": "clock",
+    "accent": "#e3f0ed",
+    "label": "Numbers & clock time",
+    "vocab": [
+      {
+        "word": "一",
+        "reading": "いち",
+        "romaji": "ichi",
+        "meaning": "one",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "二",
+        "reading": "に",
+        "romaji": "ni",
+        "meaning": "two",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "三",
+        "reading": "さん",
+        "romaji": "san",
+        "meaning": "three",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "四",
+        "reading": "よん",
+        "romaji": "yon",
+        "meaning": "four",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "五",
+        "reading": "ご",
+        "romaji": "go",
+        "meaning": "five",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "六",
+        "reading": "ろく",
+        "romaji": "roku",
+        "meaning": "six",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "七",
+        "reading": "なな",
+        "romaji": "nana",
+        "meaning": "seven",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "八",
+        "reading": "はち",
+        "romaji": "hachi",
+        "meaning": "eight",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "九",
+        "reading": "きゅう",
+        "romaji": "kyuu",
+        "meaning": "nine",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "十",
+        "reading": "じゅう",
+        "romaji": "juu",
+        "meaning": "ten",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "十一",
+        "reading": "じゅういち",
+        "romaji": "juuichi",
+        "meaning": "eleven",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "十二",
+        "reading": "じゅうに",
+        "romaji": "juuni",
+        "meaning": "twelve",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "時",
+        "reading": "じ",
+        "romaji": "ji",
+        "meaning": "o’clock; hour",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "半",
+        "reading": "はん",
+        "romaji": "han",
+        "meaning": "half; half past",
+        "category": "Numbers",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "何時",
+        "reading": "なんじ",
+        "romaji": "nanji",
+        "meaning": "what time",
+        "category": "Questions & pronouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "に",
+        "reading": "に",
+        "romaji": "ni",
+        "meaning": "at (specific time)",
+        "category": "Particles & grammar",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "乾燥している",
+        "reading": "かんそうしている",
+        "romaji": "kansou shite iru",
+        "meaning": "dry (ongoing state)",
+        "category": "Expressions",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "作る",
+        "reading": "つくる",
+        "romaji": "tsukuru",
+        "meaning": "to make",
+        "category": "Verbs",
+        "polite": "作ります",
+        "te": "作って"
+      },
+      {
+        "word": "料理",
+        "reading": "りょうり",
+        "romaji": "ryouri",
+        "meaning": "cooking; cuisine",
+        "category": "Nouns",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "早い",
+        "reading": "はやい",
+        "romaji": "hayai",
+        "meaning": "early / fast",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "遅い",
+        "reading": "おそい",
+        "romaji": "osoi",
+        "meaning": "late / slow",
+        "category": "Adjectives",
+        "polite": "",
+        "te": ""
+      },
+      {
+        "word": "えさをやる",
+        "reading": "えさをやる",
+        "romaji": "esa o yaru",
+        "meaning": "to feed an animal",
+        "category": "Verbs",
+        "polite": "えさをやります",
+        "te": "えさをやって"
+      },
+      {
+        "word": "寝る",
+        "reading": "ねる",
+        "romaji": "neru",
+        "meaning": "to sleep / go to bed",
+        "category": "Verbs",
+        "polite": "寝ます",
+        "te": "寝て"
+      },
+      {
+        "word": "起きる",
+        "reading": "おきる",
+        "romaji": "okiru",
+        "meaning": "to wake up / get up",
+        "category": "Verbs",
+        "polite": "起きます",
+        "te": "起きて"
+      }
+    ],
+    "sentences": [
+      {
+        "jp": "昨日何時に寝ましたか？",
+        "romaji": "Kinou nanji ni nemashita ka?",
+        "en": "What time did you go to sleep yesterday?",
+        "tip": "The question from Yuma-san’s notes. に marks the specific time.",
+        "parts": [
+          {
+            "jp": "昨日",
+            "reading": "kinou",
+            "meaning": "yesterday",
+            "kana": "きのう"
+          },
+          {
+            "jp": "何時",
+            "reading": "nanji",
+            "meaning": "what time",
+            "kana": "なんじ"
+          },
+          {
+            "jp": "に",
+            "reading": "ni",
+            "meaning": "at"
+          },
+          {
+            "jp": "寝ましたか",
+            "reading": "nemashita ka",
+            "meaning": "did you sleep?",
+            "kana": "ねましたか"
+          }
+        ],
+        "art": "moon",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "昨日何時に起きましたか？",
+        "romaji": "Kinou nanji ni okimashita ka?",
+        "en": "What time did you wake up yesterday?",
+        "tip": "Another question from the notes.",
+        "parts": [
+          {
+            "jp": "昨日",
+            "reading": "kinou",
+            "meaning": "yesterday",
+            "kana": "きのう"
+          },
+          {
+            "jp": "何時",
+            "reading": "nanji",
+            "meaning": "what time",
+            "kana": "なんじ"
+          },
+          {
+            "jp": "に",
+            "reading": "ni",
+            "meaning": "at"
+          },
+          {
+            "jp": "起きましたか",
+            "reading": "okimashita ka",
+            "meaning": "did you get up?",
+            "kana": "おきましたか"
+          }
+        ],
+        "art": "sun",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "ドジャーにえさをやります。",
+        "romaji": "Dojaa ni esa o yarimasu.",
+        "en": "I feed Doja.",
+        "tip": "An example from Yuma-san’s notes!",
+        "parts": [
+          {
+            "jp": "ドジャー",
+            "reading": "Dojaa",
+            "meaning": "Doja"
+          },
+          {
+            "jp": "に",
+            "reading": "ni",
+            "meaning": "recipient"
+          },
+          {
+            "jp": "えさ",
+            "reading": "esa",
+            "meaning": "animal food"
+          },
+          {
+            "jp": "を",
+            "reading": "o",
+            "meaning": "object"
+          },
+          {
+            "jp": "やります",
+            "reading": "yarimasu",
+            "meaning": "give"
+          }
+        ],
+        "art": "cat",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "料理を作ります。",
+        "romaji": "Ryouri o tsukurimasu.",
+        "en": "I make a dish / cook food.",
+        "tip": "An example in the notes for 作ります.",
+        "parts": [
+          {
+            "jp": "料理",
+            "reading": "ryouri",
+            "meaning": "a dish / food",
+            "kana": "りょうり"
+          },
+          {
+            "jp": "を",
+            "reading": "o",
+            "meaning": "object"
+          },
+          {
+            "jp": "作ります",
+            "reading": "tsukurimasu",
+            "meaning": "make",
+            "kana": "つくります"
+          }
+        ],
+        "art": "rice",
+        "source": "From Yuma’s notes"
+      },
+      {
+        "jp": "六時半に起きます。",
+        "romaji": "Rokuji han ni okimasu.",
+        "en": "I wake up at 6:30.",
+        "tip": "Uses 六時半, the half-past time form listed in the lesson.",
+        "parts": [
+          {
+            "jp": "六時半",
+            "reading": "rokuji han",
+            "meaning": "6:30",
+            "kana": "ろくjい はん"
+          },
+          {
+            "jp": "に",
+            "reading": "ni",
+            "meaning": "at"
+          },
+          {
+            "jp": "起きます",
+            "reading": "okimasu",
+            "meaning": "wake up",
+            "kana": "おきます"
+          }
+        ],
+        "art": "clock",
+        "source": "Extra practice · 6:30 from notes"
+      }
+    ],
+    "focus": [
+      {
+        "label": "Time marker",
+        "jp": "[時間] に [動詞]",
+        "romaji": "[jikan] ni [doushi]",
+        "en": "Do an action at a specific time"
+      },
+      {
+        "label": "Asking the time",
+        "jp": "何時ですか？",
+        "romaji": "nanji desu ka?",
+        "en": "What time is it?"
+      },
+      {
+        "label": "Half past",
+        "jp": "六時半",
+        "romaji": "rokuji han",
+        "en": "6:30"
+      },
+      {
+        "label": "Important readings",
+        "jp": "四時・七時・九時",
+        "romaji": "yoji · shichiji · kuji",
+        "en": "4, 7, and 9 o’clock sound special"
+      }
+    ],
+    "upnext": "～時から～時まで (from ... until ...), planned for a later lesson.",
+    "clock": [
+      ["1", "いち", "ichi", "一時", "いちじ", "ichiji"],
+      ["2", "に", "ni", "二時", "にじ", "niji"],
+      ["3", "さん", "san", "三時", "さんじ", "sanji"],
+      ["4", "よん / し", "yon / shi", "四時", "よじ", "yoji"],
+      ["5", "ご", "go", "五時", "ごじ", "goji"],
+      ["6", "ろく", "roku", "六時", "ろくじ", "rokuji"],
+      ["7", "なな / しち", "nana / shichi", "七時", "しちじ", "shichiji"],
+      ["8", "はち", "hachi", "八時", "はちじ", "hachiji"],
+      ["9", "きゅう / く", "kyuu / ku", "九時", "くじ", "kuji"],
+      ["10", "じゅう", "juu", "十時", "じゅうじ", "juuji"],
+      ["11", "じゅういち", "juuichi", "十一時", "じゅういちじ", "juuichiji"],
+      ["12", "じゅうに", "juuni", "十二時", "じゅうにじ", "juuniji"]
+    ]
+  }
+]

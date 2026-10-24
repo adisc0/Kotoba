@@ -1,0 +1,8026 @@
+{
+  "11時に寝ます。": [
+    ["11", "regular"],
+    ["時", "regular"],
+    ["に", "particle"],
+    ["寝", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "5時に起きます。": [
+    ["5", "regular"],
+    ["時", "regular"],
+    ["に", "particle"],
+    ["起き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "8時から仕事をします。": [
+    ["8", "regular"],
+    ["時", "regular"],
+    ["から", "particle"],
+    ["仕事", "regular"],
+    ["を", "particle"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "X は Y じゃないです": [
+    ["X", "regular"],
+    [" ", "regular"],
+    ["は", "particle"],
+    [" ", "regular"],
+    ["Y", "regular"],
+    [" ", "regular"],
+    ["じゃ", "ending"],
+    ["ない", "ending"],
+    ["です", "ending"]
+  ],
+  "X は Y です": [
+    ["X", "regular"],
+    [" ", "regular"],
+    ["は", "particle"],
+    [" ", "regular"],
+    ["Y", "regular"],
+    [" ", "regular"],
+    ["です", "ending"]
+  ],
+  "X は日本語で何ですか？": [
+    ["X", "regular"],
+    [" ", "regular"],
+    ["は", "particle"],
+    ["日本語", "regular"],
+    ["で", "particle"],
+    ["何", "regular"],
+    ["です", "ending"],
+    ["か", "particle"],
+    ["？", "regular"]
+  ],
+  "X は英語で何ですか？": [
+    ["X", "regular"],
+    [" ", "regular"],
+    ["は", "particle"],
+    ["英語", "regular"],
+    ["で", "particle"],
+    ["何", "regular"],
+    ["です", "ending"],
+    ["か", "particle"],
+    ["？", "regular"]
+  ],
+  "[時間] に [動詞]": [
+    ["[", "regular"],
+    ["時間", "regular"],
+    ["]", "regular"],
+    [" ", "regular"],
+    ["に", "particle"],
+    [" ", "regular"],
+    ["[", "regular"],
+    ["動詞", "regular"],
+    ["]", "regular"]
+  ],
+  "あそこ": [["あそこ", "regular"]],
+  "あなた": [["あなた", "regular"]],
+  "あまり": [["あまり", "regular"]],
+  "あまり食べません。": [
+    ["あまり", "regular"],
+    ["食べ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "ありがとう": [["ありがとう", "regular"]],
+  "ある": [
+    ["あ", "verb"],
+    ["る", "ending"]
+  ],
+  "あれ": [["あれ", "regular"]],
+  "あんまり": [["あんまり", "regular"]],
+  "あんまりお酒を飲みません。": [
+    ["あんまり", "regular"],
+    ["お", "regular"],
+    ["酒", "regular"],
+    ["を", "particle"],
+    ["飲み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "いい": [["いい", "adjective"]],
+  "いいですね": [
+    ["いい", "adjective"],
+    ["です", "ending"],
+    ["ね", "particle"]
+  ],
+  "いつ": [["いつ", "regular"]],
+  "いつも": [["いつも", "regular"]],
+  "いる": [
+    ["い", "verb"],
+    ["る", "ending"]
+  ],
+  "うどん": [["うどん", "regular"]],
+  "うどんを食べます。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "えさ": [["えさ", "regular"]],
+  "えさをやる": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["や", "verb"],
+    ["る", "ending"]
+  ],
+  "おいしい": [["おいしい", "adjective"]],
+  "おすすめ": [["おすすめ", "regular"]],
+  "おすすめはありますか。": [
+    ["おすすめ", "regular"],
+    ["は", "particle"],
+    ["あり", "verb"],
+    ["ます", "ending"],
+    ["か", "particle"],
+    ["。", "regular"]
+  ],
+  "おすすめは何ですか": [
+    ["おすすめ", "regular"],
+    ["は", "particle"],
+    ["何", "regular"],
+    ["です", "ending"],
+    ["か", "particle"]
+  ],
+  "おすすめは何ですか？": [
+    ["おすすめ", "regular"],
+    ["は", "particle"],
+    ["何", "regular"],
+    ["です", "ending"],
+    ["か", "particle"],
+    ["？", "regular"]
+  ],
+  "おはよう": [["おはよう", "regular"]],
+  "おはようございます": [["おはようございます", "regular"]],
+  "おはようございます。": [
+    ["おはようございます", "regular"],
+    ["。", "regular"]
+  ],
+  "おやすみ": [["おやすみ", "regular"]],
+  "お姉さん": [["お姉さん", "regular"]],
+  "お昼ご飯": [
+    ["お", "regular"],
+    ["昼ご飯", "regular"]
+  ],
+  "お母さん": [["お母さん", "regular"]],
+  "お父さん": [["お父さん", "regular"]],
+  "お疲れ様": [["お疲れ様", "regular"]],
+  "お腹いっぱい": [
+    ["お腹", "regular"],
+    ["いっぱい", "regular"]
+  ],
+  "お酒": [
+    ["お", "regular"],
+    ["酒", "regular"]
+  ],
+  "お願いします": [
+    ["お", "regular"],
+    ["願い", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"]
+  ],
+  "か": [["か", "particle"]],
+  "から": [["から", "regular"]],
+  "が": [["が", "regular"]],
+  "けど": [["けど", "regular"]],
+  "ここ": [["ここ", "regular"]],
+  "ここに座ってもいいですか。": [
+    ["ここ", "regular"],
+    ["に", "particle"],
+    ["座っ", "verb"],
+    ["て", "ending"],
+    ["も", "particle"],
+    ["いい", "adjective"],
+    ["です", "ending"],
+    ["か", "particle"],
+    ["。", "regular"]
+  ],
+  "こちら": [["こちら", "regular"]],
+  "こっち": [["こっち", "regular"]],
+  "このラーメンは美味しいです。": [
+    ["この", "regular"],
+    ["ラーメン", "regular"],
+    ["は", "particle"],
+    ["美味しい", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "この後": [
+    ["この", "regular"],
+    ["後", "regular"]
+  ],
+  "この映画は面白いです。": [
+    ["この", "regular"],
+    ["映画", "regular"],
+    ["は", "particle"],
+    ["面白い", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "これ": [["これ", "regular"]],
+  "これは日本語で何ですか？": [
+    ["これ", "regular"],
+    ["は", "particle"],
+    ["日本語", "regular"],
+    ["で", "particle"],
+    ["何", "regular"],
+    ["です", "ending"],
+    ["か", "particle"],
+    ["？", "regular"]
+  ],
+  "こんにちは": [["こんにちは", "regular"]],
+  "こんばんは": [["こんばんは", "regular"]],
+  "ございます": [
+    ["ござい", "verb"],
+    ["ます", "ending"]
+  ],
+  "ご飯": [["ご飯", "regular"]],
+  "ご飯を食べてから、寝ます。": [
+    ["ご飯", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["て", "ending"],
+    ["から", "particle"],
+    ["、", "regular"],
+    ["寝", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "ご飯を食べながら、ネットフリックスを見ます。": [
+    ["ご飯", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["ながら", "particle"],
+    ["、", "regular"],
+    ["ネットフリックス", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "さっき": [["さっき", "regular"]],
+  "さっき昼ご飯を食べました。": [
+    ["さっき", "regular"],
+    ["昼ご飯", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "さようなら": [["さようなら", "regular"]],
+  "しか": [["しか", "particle"]],
+  "しゃしん": [["しゃしん", "regular"]],
+  "じゃないです": [
+    ["じゃ", "ending"],
+    ["ない", "ending"],
+    ["です", "ending"]
+  ],
+  "じゃなかったです": [
+    ["じゃ", "ending"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["です", "ending"]
+  ],
+  "すごい": [["すごい", "adjective"]],
+  "する": [["する", "verb"]],
+  "そうですか": [
+    ["そう", "regular"],
+    ["です", "ending"],
+    ["か", "particle"]
+  ],
+  "そう思います。": [
+    ["そう", "regular"],
+    ["思い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "そこ": [["そこ", "regular"]],
+  "そして": [["そして", "regular"]],
+  "それ": [["それ", "regular"]],
+  "それから": [
+    ["それ", "regular"],
+    ["から", "particle"]
+  ],
+  "たい": [["たい", "ending"]],
+  "たくさん": [["たくさん", "adjective"]],
+  "だから": [
+    ["だ", "ending"],
+    ["から", "particle"]
+  ],
+  "だけ": [["だけ", "particle"]],
+  "ちょっと": [["ちょっと", "regular"]],
+  "つまらない": [
+    ["つまら", "verb"],
+    ["ない", "ending"]
+  ],
+  "ています": [
+    ["て", "particle"],
+    ["い", "ending"],
+    ["ます", "ending"]
+  ],
+  "てから": [
+    ["て", "ending"],
+    ["から", "particle"]
+  ],
+  "てもいいですか": [
+    ["て", "particle"],
+    ["も", "particle"],
+    ["いい", "adjective"],
+    ["です", "ending"],
+    ["か", "particle"]
+  ],
+  "で": [["で", "regular"]],
+  "できる": [
+    ["でき", "verb"],
+    ["る", "ending"]
+  ],
+  "でした": [
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "です": [["です", "ending"]],
+  "ですか": [
+    ["です", "ending"],
+    ["か", "particle"]
+  ],
+  "でも": [
+    ["で", "particle"],
+    ["も", "particle"]
+  ],
+  "と": [["と", "particle"]],
+  "とても": [["とても", "regular"]],
+  "どういう意味": [
+    ["どういう", "regular"],
+    ["意味", "regular"]
+  ],
+  "どうして": [
+    ["どう", "regular"],
+    ["し", "verb"],
+    ["て", "ending"]
+  ],
+  "どうしてですか。": [
+    ["どう", "regular"],
+    ["し", "verb"],
+    ["て", "ending"],
+    ["です", "ending"],
+    ["か", "particle"],
+    ["。", "regular"]
+  ],
+  "どこ": [["どこ", "regular"]],
+  "どこに住んでいますか。": [
+    ["どこ", "regular"],
+    ["に", "particle"],
+    ["住ん", "verb"],
+    ["で", "ending"],
+    ["い", "ending"],
+    ["ます", "ending"],
+    ["か", "particle"],
+    ["。", "regular"]
+  ],
+  "どれ": [["どれ", "regular"]],
+  "どんな": [["どんな", "adjective"]],
+  "ないといけません": [
+    ["ない", "adjective"],
+    ["と", "particle"],
+    ["いけ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "ながら": [["ながら", "particle"]],
+  "なる": [
+    ["な", "verb"],
+    ["る", "ending"]
+  ],
+  "なんで": [
+    ["なん", "regular"],
+    ["で", "particle"]
+  ],
+  "なんとなく": [
+    ["なん", "regular"],
+    ["と", "particle"],
+    ["なく", "adjective"]
+  ],
+  "なんとなく疲れています。": [
+    ["なん", "regular"],
+    ["と", "particle"],
+    ["なく", "adjective"],
+    ["疲れ", "verb"],
+    ["て", "ending"],
+    ["い", "ending"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "に": [["に", "particle"]],
+  "の": [["の", "particle"]],
+  "は": [["は", "particle"]],
+  "まあまあ": [["まあまあ", "regular"]],
+  "ました": [
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "ましょう": [["ましょう", "ending"]],
+  "ませんでした": [
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "またね": [
+    ["また", "regular"],
+    ["ね", "particle"]
+  ],
+  "まだ": [["まだ", "regular"]],
+  "まで": [
+    ["ま", "regular"],
+    ["で", "regular"]
+  ],
+  "めっちゃ": [["めっちゃ", "regular"]],
+  "めっちゃ嬉しいです。": [
+    ["めっちゃ", "regular"],
+    ["嬉しい", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "めっちゃ暑い！": [
+    ["めっちゃ", "regular"],
+    ["暑い", "adjective"],
+    ["！", "regular"]
+  ],
+  "めっちゃ疲れました。": [
+    ["めっちゃ", "regular"],
+    ["疲れ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "も": [["も", "particle"]],
+  "もう": [["もう", "regular"]],
+  "もう一度": [
+    ["もう", "regular"],
+    ["一度", "regular"]
+  ],
+  "もう一度お願いします": [
+    ["もう", "regular"],
+    ["一度", "regular"],
+    ["お", "regular"],
+    ["願い", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"]
+  ],
+  "もう一度お願いします。": [
+    ["もう", "regular"],
+    ["一度", "regular"],
+    ["お", "regular"],
+    ["願い", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "もちろん": [["もちろん", "regular"]],
+  "もらう": [
+    ["もら", "verb"],
+    ["う", "ending"]
+  ],
+  "やります": [
+    ["やり", "verb"],
+    ["ます", "ending"]
+  ],
+  "よく": [["よく", "regular"]],
+  "より": [["より", "regular"]],
+  "よろしくお願いします": [
+    ["よろしく", "regular"],
+    ["お", "regular"],
+    ["願い", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"]
+  ],
+  "よろしくお願いします。": [
+    ["よろしく", "regular"],
+    ["お", "regular"],
+    ["願い", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "わからない": [
+    ["わから", "verb"],
+    ["ない", "ending"]
+  ],
+  "わかりました": [
+    ["わかり", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "わかりました。": [
+    ["わかり", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "わかりません": [
+    ["わかり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "わかりません / わからない": [
+    ["わかり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    [" ", "regular"],
+    ["/", "regular"],
+    [" ", "regular"],
+    ["わから", "verb"],
+    ["ない", "ending"]
+  ],
+  "わかりません。": [
+    ["わかり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "を": [["を", "particle"]],
+  "アニメ": [["アニメ", "regular"]],
+  "アルケン": [["アルケン", "regular"]],
+  "アルケンです。": [
+    ["アルケン", "regular"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "イカ": [["イカ", "regular"]],
+  "ゲーム": [["ゲーム", "regular"]],
+  "コンビニ": [["コンビニ", "regular"]],
+  "コーヒー": [["コーヒー", "regular"]],
+  "コーヒーを飲みました。": [
+    ["コーヒー", "regular"],
+    ["を", "particle"],
+    ["飲み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "サッカー": [["サッカー", "regular"]],
+  "ジム": [["ジム", "regular"]],
+  "ジムで走ります。": [
+    ["ジム", "regular"],
+    ["で", "particle"],
+    ["走り", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "ジムに行きます。それから、仕事をします。": [
+    ["ジム", "regular"],
+    ["に", "particle"],
+    ["行き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"],
+    ["それ", "regular"],
+    ["から", "particle"],
+    ["、", "regular"],
+    ["仕事", "regular"],
+    ["を", "particle"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "スクランブルエッグ": [["スクランブルエッグ", "regular"]],
+  "テレビ": [["テレビ", "regular"]],
+  "ドジャー": [["ドジャー", "regular"]],
+  "ドジャーにえさをやります。": [
+    ["ドジャー", "regular"],
+    ["に", "particle"],
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やり", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "ネットフリックスを見ます。": [
+    ["ネットフリックス", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "バナナ": [["バナナ", "regular"]],
+  "パンダサル": [["パンダサル", "regular"]],
+  "フィリピン": [["フィリピン", "regular"]],
+  "フィリピン人": [
+    ["フィリピン", "regular"],
+    ["人", "regular"]
+  ],
+  "プレゼントを買います。": [
+    ["プレゼント", "regular"],
+    ["を", "particle"],
+    ["買い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "ラーメン": [["ラーメン", "regular"]],
+  "一": [["一", "regular"]],
+  "七": [["七", "regular"]],
+  "三": [["三", "regular"]],
+  "三回": [
+    ["三", "regular"],
+    ["回", "regular"]
+  ],
+  "上": [["上", "regular"]],
+  "九": [["九", "regular"]],
+  "乾燥している": [
+    ["乾燥", "verb"],
+    ["し", "verb"],
+    ["て", "ending"],
+    ["いる", "ending"]
+  ],
+  "事": [["事", "regular"]],
+  "二": [["二", "regular"]],
+  "五": [["五", "regular"]],
+  "京都は奈良より大きいです。": [
+    ["京都", "regular"],
+    ["は", "particle"],
+    ["奈良", "regular"],
+    ["より", "particle"],
+    ["大きい", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "今": [["今", "regular"]],
+  "今何をしていますか。": [
+    ["今", "regular"],
+    ["何", "regular"],
+    ["を", "particle"],
+    ["し", "verb"],
+    ["て", "ending"],
+    ["い", "ending"],
+    ["ます", "ending"],
+    ["か", "particle"],
+    ["。", "regular"]
+  ],
+  "今夜": [["今夜", "regular"]],
+  "今年": [["今年", "regular"]],
+  "今年三回日本に行きました。": [
+    ["今年", "regular"],
+    ["三", "regular"],
+    ["回", "regular"],
+    ["日本", "regular"],
+    ["に", "particle"],
+    ["行き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "今日": [["今日", "regular"]],
+  "今日は元気です。": [
+    ["今日", "regular"],
+    ["は", "particle"],
+    ["元気", "regular"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "今日は家で働きます。": [
+    ["今日", "regular"],
+    ["は", "particle"],
+    ["家", "regular"],
+    ["で", "particle"],
+    ["働き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "今日は寒いです。": [
+    ["今日", "regular"],
+    ["は", "particle"],
+    ["寒い", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "今日は忙しいです。": [
+    ["今日", "regular"],
+    ["は", "particle"],
+    ["忙しい", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "今日は料理しませんでした。": [
+    ["今日", "regular"],
+    ["は", "particle"],
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "今日は暑いです。": [
+    ["今日", "regular"],
+    ["は", "particle"],
+    ["暑い", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "今日は曇りです。": [
+    ["今日", "regular"],
+    ["は", "particle"],
+    ["曇り", "regular"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "今日は涼しいです。": [
+    ["今日", "regular"],
+    ["は", "particle"],
+    ["涼しい", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "今日は疲れました。": [
+    ["今日", "regular"],
+    ["は", "particle"],
+    ["疲れ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "今朝": [["今朝", "regular"]],
+  "今朝コーヒーを飲みました。": [
+    ["今朝", "regular"],
+    ["コーヒー", "regular"],
+    ["を", "particle"],
+    ["飲み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "仕事": [["仕事", "regular"]],
+  "仕事で眠かったです。": [
+    ["仕事", "regular"],
+    ["で", "ending"],
+    ["眠かっ", "adjective"],
+    ["た", "ending"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "仕事はつまらなかったです。": [
+    ["仕事", "regular"],
+    ["は", "particle"],
+    ["つまら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "休み": [["休み", "regular"]],
+  "休む": [
+    ["休", "verb"],
+    ["む", "ending"]
+  ],
+  "会う": [
+    ["会", "verb"],
+    ["う", "ending"]
+  ],
+  "会えて嬉しいです。": [
+    ["会え", "verb"],
+    ["て", "ending"],
+    ["嬉しい", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "住む": [
+    ["住", "verb"],
+    ["む", "ending"]
+  ],
+  "何": [["何", "regular"]],
+  "何ですか": [
+    ["何", "regular"],
+    ["です", "ending"],
+    ["か", "particle"]
+  ],
+  "何時": [["何時", "regular"]],
+  "何時ですか？": [
+    ["何時", "regular"],
+    ["です", "ending"],
+    ["か", "particle"],
+    ["？", "regular"]
+  ],
+  "作ります": [
+    ["作り", "verb"],
+    ["ます", "ending"]
+  ],
+  "作る": [
+    ["作", "verb"],
+    ["る", "ending"]
+  ],
+  "信じます。": [
+    ["信じ", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "信じる": [
+    ["信じ", "verb"],
+    ["る", "ending"]
+  ],
+  "働く": [
+    ["働", "verb"],
+    ["く", "ending"]
+  ],
+  "元気": [["元気", "regular"]],
+  "元気ですか？": [
+    ["元気", "regular"],
+    ["です", "ending"],
+    ["か", "particle"],
+    ["？", "regular"]
+  ],
+  "兄": [["兄", "regular"]],
+  "先生": [["先生", "regular"]],
+  "先週": [["先週", "regular"]],
+  "全然": [["全然", "regular"]],
+  "八": [["八", "regular"]],
+  "公園": [["公園", "regular"]],
+  "公園で走ります。": [
+    ["公園", "regular"],
+    ["で", "particle"],
+    ["走り", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "六": [["六", "regular"]],
+  "六時半": [
+    ["六", "regular"],
+    ["時半", "regular"]
+  ],
+  "六時半に起きます。": [
+    ["六", "regular"],
+    ["時半", "regular"],
+    ["に", "particle"],
+    ["起き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "出身": [["出身", "regular"]],
+  "分かりました": [
+    ["分かり", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "分かりません。": [
+    ["分かり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "分かる": [
+    ["分か", "verb"],
+    ["る", "ending"]
+  ],
+  "初めまして": [["初めまして", "regular"]],
+  "前に": [
+    ["前", "regular"],
+    ["に", "particle"]
+  ],
+  "勉強": [["勉強", "regular"]],
+  "勉強しないといけません。": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ない", "ending"],
+    ["と", "particle"],
+    ["いけ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "勉強しませんでした": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "勉強する": [
+    ["勉強", "verb"],
+    ["する", "verb"]
+  ],
+  "勉強を始めます。": [
+    ["勉強", "regular"],
+    ["を", "particle"],
+    ["始め", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "動く": [
+    ["動", "verb"],
+    ["く", "ending"]
+  ],
+  "十": [["十", "regular"]],
+  "十一": [["十一", "regular"]],
+  "十二": [["十二", "regular"]],
+  "午前": [["午前", "regular"]],
+  "午後": [["午後", "regular"]],
+  "半": [["半", "regular"]],
+  "卵": [["卵", "regular"]],
+  "友達": [["友達", "regular"]],
+  "友達が来ます。": [
+    ["友達", "regular"],
+    ["が", "particle"],
+    ["来", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "友達に会いました。": [
+    ["友達", "regular"],
+    ["に", "particle"],
+    ["会い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "友達に頼みました。": [
+    ["友達", "regular"],
+    ["に", "particle"],
+    ["頼み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "友達は日本人です。": [
+    ["友達", "regular"],
+    ["は", "particle"],
+    ["日本人", "regular"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "同じ": [["同じ", "adjective"]],
+  "名前": [["名前", "regular"]],
+  "名古屋": [["名古屋", "regular"]],
+  "四": [["四", "regular"]],
+  "四時・七時・九時": [
+    ["四", "regular"],
+    ["時", "regular"],
+    ["・", "regular"],
+    ["七", "regular"],
+    ["時", "regular"],
+    ["・", "regular"],
+    ["九", "regular"],
+    ["時", "regular"]
+  ],
+  "多い": [["多い", "adjective"]],
+  "夜": [["夜", "regular"]],
+  "大きい": [["大きい", "adjective"]],
+  "大丈夫": [["大丈夫", "adjective"]],
+  "大変": [["大変", "adjective"]],
+  "大好き": [["大好き", "adjective"]],
+  "大阪": [["大阪", "regular"]],
+  "大阪に住みたいです。": [
+    ["大阪", "regular"],
+    ["に", "particle"],
+    ["住み", "verb"],
+    ["たい", "ending"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "大阪のおすすめは何ですか。": [
+    ["大阪", "regular"],
+    ["の", "particle"],
+    ["おすすめ", "regular"],
+    ["は", "particle"],
+    ["何", "regular"],
+    ["です", "ending"],
+    ["か", "particle"],
+    ["。", "regular"]
+  ],
+  "大阪は雨が多いです。": [
+    ["大阪", "regular"],
+    ["は", "particle"],
+    ["雨", "regular"],
+    ["が", "particle"],
+    ["多い", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "大雨": [["大雨", "regular"]],
+  "天気": [["天気", "regular"]],
+  "好き": [["好き", "adjective"]],
+  "好きじゃないです": [
+    ["好き", "adjective"],
+    ["じゃ", "ending"],
+    ["ない", "ending"],
+    ["です", "ending"]
+  ],
+  "姉": [["姉", "regular"]],
+  "姉からプレゼントをもらいました。": [
+    ["姉", "regular"],
+    ["から", "particle"],
+    ["プレゼント", "regular"],
+    ["を", "particle"],
+    ["もらい", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "始める": [
+    ["始め", "verb"],
+    ["る", "ending"]
+  ],
+  "嬉しい": [["嬉しい", "adjective"]],
+  "完璧": [["完璧", "regular"]],
+  "家": [["家", "regular"]],
+  "家に帰ります。": [
+    ["家", "regular"],
+    ["に", "particle"],
+    ["帰り", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "家族": [["家族", "regular"]],
+  "寒い": [["寒い", "adjective"]],
+  "寝ましたか": [
+    ["寝", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["か", "particle"]
+  ],
+  "寝る": [
+    ["寝", "verb"],
+    ["る", "ending"]
+  ],
+  "小さい": [["小さい", "adjective"]],
+  "少し": [["少し", "regular"]],
+  "帰る": [
+    ["帰", "verb"],
+    ["る", "ending"]
+  ],
+  "平仮名": [["平仮名", "regular"]],
+  "幸せになりたいです。": [
+    ["幸せ", "regular"],
+    ["に", "ending"],
+    ["なり", "verb"],
+    ["たい", "ending"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越す": [
+    ["引っ越", "verb"],
+    ["す", "ending"]
+  ],
+  "待つ": [
+    ["待", "verb"],
+    ["つ", "ending"]
+  ],
+  "後で": [
+    ["後", "regular"],
+    ["で", "particle"]
+  ],
+  "忘れないでください。": [
+    ["忘れ", "verb"],
+    ["ない", "ending"],
+    ["で", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れる": [
+    ["忘れ", "verb"],
+    ["る", "ending"]
+  ],
+  "忙しい": [["忙しい", "adjective"]],
+  "思う": [
+    ["思", "verb"],
+    ["う", "ending"]
+  ],
+  "意味": [["意味", "regular"]],
+  "愛": [["愛", "regular"]],
+  "戻る": [
+    ["戻", "verb"],
+    ["る", "ending"]
+  ],
+  "手伝う": [
+    ["手伝", "verb"],
+    ["う", "ending"]
+  ],
+  "手伝ってください。": [
+    ["手伝っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "掃除する": [
+    ["掃除", "verb"],
+    ["する", "verb"]
+  ],
+  "料理": [["料理", "regular"]],
+  "料理します": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"]
+  ],
+  "料理する": [
+    ["料理", "verb"],
+    ["する", "verb"]
+  ],
+  "料理する・旅行する・運転する・勉強する": [
+    ["料理", "verb"],
+    ["する", "verb"],
+    ["・", "regular"],
+    ["旅行", "verb"],
+    ["する", "verb"],
+    ["・", "regular"],
+    ["運転", "verb"],
+    ["する", "verb"],
+    ["・", "regular"],
+    ["勉強", "verb"],
+    ["する", "verb"]
+  ],
+  "料理を作ります。": [
+    ["料理", "regular"],
+    ["を", "particle"],
+    ["作り", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "旅行": [["旅行", "regular"]],
+  "旅行します": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"]
+  ],
+  "旅行する": [
+    ["旅行", "verb"],
+    ["する", "verb"]
+  ],
+  "日本": [["日本", "regular"]],
+  "日本に引っ越したいです。": [
+    ["日本", "regular"],
+    ["に", "particle"],
+    ["引っ越し", "verb"],
+    ["たい", "ending"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "日本に行きます。": [
+    ["日本", "regular"],
+    ["に", "particle"],
+    ["行き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "日本人": [["日本人", "regular"]],
+  "日本語": [["日本語", "regular"]],
+  "日本語が好きです。": [
+    ["日本語", "regular"],
+    ["が", "particle"],
+    ["好き", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "日本語で言います。": [
+    ["日本語", "regular"],
+    ["で", "particle"],
+    ["言い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "日本語の勉強は楽しいです。": [
+    ["日本語", "regular"],
+    ["の", "particle"],
+    ["勉強", "regular"],
+    ["は", "particle"],
+    ["楽しい", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "日本語の勉強を続けます。": [
+    ["日本語", "regular"],
+    ["の", "particle"],
+    ["勉強", "regular"],
+    ["を", "particle"],
+    ["続け", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "日本語の勉強を頑張ります。": [
+    ["日本語", "regular"],
+    ["の", "particle"],
+    ["勉強", "regular"],
+    ["を", "particle"],
+    ["頑張り", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "日本語も勉強します。": [
+    ["日本語", "regular"],
+    ["も", "particle"],
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "日本語を少し話します。": [
+    ["日本語", "regular"],
+    ["を", "particle"],
+    ["少し", "regular"],
+    ["話し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "日本語を話すことが好きです。": [
+    ["日本語", "regular"],
+    ["を", "particle"],
+    ["話", "verb"],
+    ["す", "ending"],
+    ["こと", "regular"],
+    ["が", "particle"],
+    ["好き", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "早い": [["早い", "adjective"]],
+  "明日": [["明日", "regular"]],
+  "明日は仕事です。": [
+    ["明日", "regular"],
+    ["は", "particle"],
+    ["仕事", "regular"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "明日は休みます。": [
+    ["明日", "regular"],
+    ["は", "particle"],
+    ["休み", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "明日は勉強します。": [
+    ["明日", "regular"],
+    ["は", "particle"],
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "明日は忙しいです。": [
+    ["明日", "regular"],
+    ["は", "particle"],
+    ["忙しい", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "明日ジムに行きます。": [
+    ["明日", "regular"],
+    ["ジム", "regular"],
+    ["に", "particle"],
+    ["行き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "明日仕事をします。": [
+    ["明日", "regular"],
+    ["仕事", "regular"],
+    ["を", "particle"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "映画": [["映画", "regular"]],
+  "昨日": [["昨日", "regular"]],
+  "昨日の夜": [
+    ["昨日", "regular"],
+    ["の", "particle"],
+    ["夜", "regular"]
+  ],
+  "昨日はジムに行きました。": [
+    ["昨日", "regular"],
+    ["は", "particle"],
+    ["ジム", "regular"],
+    ["に", "particle"],
+    ["行き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "昨日は休みじゃなかったです。": [
+    ["昨日", "regular"],
+    ["は", "particle"],
+    ["休み", "regular"],
+    ["じゃ", "ending"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "昨日は雨でした。": [
+    ["昨日", "regular"],
+    ["は", "particle"],
+    ["雨", "regular"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "昨日何時に寝ましたか？": [
+    ["昨日", "regular"],
+    ["何時", "regular"],
+    ["に", "particle"],
+    ["寝", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["か", "particle"],
+    ["？", "regular"]
+  ],
+  "昨日何時に起きましたか？": [
+    ["昨日", "regular"],
+    ["何時", "regular"],
+    ["に", "particle"],
+    ["起き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["か", "particle"],
+    ["？", "regular"]
+  ],
+  "昨日勉強しませんでした。": [
+    ["昨日", "regular"],
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "昼ご飯": [["昼ご飯", "regular"]],
+  "時": [["時", "regular"]],
+  "時々": [["時々", "regular"]],
+  "時々アニメを見ます。": [
+    ["時々", "regular"],
+    ["アニメ", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "時々旅行します。": [
+    ["時々", "regular"],
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "晩ご飯": [["晩ご飯", "regular"]],
+  "晩ご飯を作ります。": [
+    ["晩ご飯", "regular"],
+    ["を", "particle"],
+    ["作り", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "晴れ": [["晴れ", "regular"]],
+  "暑い": [["暑い", "adjective"]],
+  "曇り": [["曇り", "regular"]],
+  "書く": [
+    ["書", "verb"],
+    ["く", "ending"]
+  ],
+  "朝": [["朝", "regular"]],
+  "朝ご飯": [["朝ご飯", "regular"]],
+  "朝ご飯はバナナを食べました。": [
+    ["朝ご飯", "regular"],
+    ["は", "particle"],
+    ["バナナ", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "本を読みます。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読み", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "来る": [
+    ["来", "verb"],
+    ["る", "ending"]
+  ],
+  "来年": [["来年", "regular"]],
+  "来年名古屋に行きます。": [
+    ["来年", "regular"],
+    ["名古屋", "regular"],
+    ["に", "particle"],
+    ["行き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "来週": [["来週", "regular"]],
+  "楽しい": [["楽しい", "adjective"]],
+  "歌": [["歌", "regular"]],
+  "歌います": [
+    ["歌い", "verb"],
+    ["ます", "ending"]
+  ],
+  "歌う": [
+    ["歌", "verb"],
+    ["う", "ending"]
+  ],
+  "歌を歌います。": [
+    ["歌", "regular"],
+    ["を", "particle"],
+    ["歌い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "歩く": [
+    ["歩", "verb"],
+    ["く", "ending"]
+  ],
+  "毎日": [["毎日", "regular"]],
+  "毎日・時々・あんまり・全然": [
+    ["毎日", "regular"],
+    ["・", "regular"],
+    ["時々", "regular"],
+    ["・", "regular"],
+    ["あんまり", "regular"],
+    ["・", "regular"],
+    ["全然", "regular"]
+  ],
+  "毎日料理します。": [
+    ["毎日", "regular"],
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "毎日日本語を勉強します。": [
+    ["毎日", "regular"],
+    ["日本語", "regular"],
+    ["を", "particle"],
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "毎日牛乳を飲みます。": [
+    ["毎日", "regular"],
+    ["牛乳", "regular"],
+    ["を", "particle"],
+    ["飲み", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "水": [["水", "regular"]],
+  "涼しい": [["涼しい", "adjective"]],
+  "漢字": [["漢字", "regular"]],
+  "漢字を書きます。": [
+    ["漢字", "regular"],
+    ["を", "particle"],
+    ["書き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "焼く": [
+    ["焼", "verb"],
+    ["く", "ending"]
+  ],
+  "片仮名": [["片仮名", "regular"]],
+  "牛乳": [["牛乳", "regular"]],
+  "牛肉": [["牛肉", "regular"]],
+  "物": [["物", "regular"]],
+  "特に": [["特に", "regular"]],
+  "猫": [["猫", "regular"]],
+  "猫がいます。": [
+    ["猫", "regular"],
+    ["が", "particle"],
+    ["い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "猫が動いています。": [
+    ["猫", "regular"],
+    ["が", "particle"],
+    ["動い", "verb"],
+    ["て", "ending"],
+    ["い", "ending"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "猫が大好きです。": [
+    ["猫", "regular"],
+    ["が", "particle"],
+    ["大好き", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れた": [
+    ["疲れ", "verb"],
+    ["た", "ending"]
+  ],
+  "疲れました": [
+    ["疲れ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "疲れましたけど、勉強します。": [
+    ["疲れ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["けど", "particle"],
+    ["、", "regular"],
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れる": [
+    ["疲れ", "verb"],
+    ["る", "ending"]
+  ],
+  "眠い": [["眠い", "adjective"]],
+  "私": [["私", "regular"]],
+  "私の猫です。": [
+    ["私", "regular"],
+    ["の", "particle"],
+    ["猫", "regular"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "私は先生じゃないです。": [
+    ["私", "regular"],
+    ["は", "particle"],
+    ["先生", "regular"],
+    ["じゃ", "ending"],
+    ["ない", "ending"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "簡単": [["簡単", "adjective"]],
+  "絵": [["絵", "regular"]],
+  "続ける": [
+    ["続け", "verb"],
+    ["る", "ending"]
+  ],
+  "綺麗": [["綺麗", "adjective"]],
+  "美味しい": [["美味しい", "adjective"]],
+  "聞きます": [
+    ["聞き", "verb"],
+    ["ます", "ending"]
+  ],
+  "聞く": [
+    ["聞", "verb"],
+    ["く", "ending"]
+  ],
+  "聞こえますか。": [
+    ["聞こえ", "verb"],
+    ["ます", "ending"],
+    ["か", "particle"],
+    ["。", "regular"]
+  ],
+  "聞こえる": [
+    ["聞こえ", "verb"],
+    ["る", "ending"]
+  ],
+  "肉": [["肉", "regular"]],
+  "自分": [["自分", "regular"]],
+  "自分で料理します。": [
+    ["自分", "regular"],
+    ["で", "particle"],
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "英語": [["英語", "regular"]],
+  "蒸し暑い": [["蒸し暑い", "adjective"]],
+  "蜘蛛": [["蜘蛛", "regular"]],
+  "行きたいです。でも、忙しいです。": [
+    ["行き", "verb"],
+    ["たい", "ending"],
+    ["です", "ending"],
+    ["。", "regular"],
+    ["で", "particle"],
+    ["も", "particle"],
+    ["、", "regular"],
+    ["忙しい", "adjective"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "行きました": [
+    ["行き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "行きます": [
+    ["行き", "verb"],
+    ["ます", "ending"]
+  ],
+  "行く": [
+    ["行", "verb"],
+    ["く", "ending"]
+  ],
+  "見せる": [
+    ["見せ", "verb"],
+    ["る", "ending"]
+  ],
+  "見ます": [
+    ["見", "verb"],
+    ["ます", "ending"]
+  ],
+  "見る": [
+    ["見", "verb"],
+    ["る", "ending"]
+  ],
+  "覚える": [
+    ["覚え", "verb"],
+    ["る", "ending"]
+  ],
+  "親子丼": [["親子丼", "regular"]],
+  "言う": [
+    ["言", "verb"],
+    ["う", "ending"]
+  ],
+  "話": [["話", "regular"]],
+  "話す": [
+    ["話", "verb"],
+    ["す", "ending"]
+  ],
+  "話せる": [
+    ["話せ", "verb"],
+    ["る", "ending"]
+  ],
+  "読む": [
+    ["読", "verb"],
+    ["む", "ending"]
+  ],
+  "貝": [["貝", "regular"]],
+  "買う": [
+    ["買", "verb"],
+    ["う", "ending"]
+  ],
+  "走る": [
+    ["走", "verb"],
+    ["る", "ending"]
+  ],
+  "起きましたか": [
+    ["起き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["か", "particle"]
+  ],
+  "起きます": [
+    ["起き", "verb"],
+    ["ます", "ending"]
+  ],
+  "起きる": [
+    ["起き", "verb"],
+    ["る", "ending"]
+  ],
+  "趣味": [["趣味", "regular"]],
+  "趣味はサッカーです。": [
+    ["趣味", "regular"],
+    ["は", "particle"],
+    ["サッカー", "regular"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "趣味は何ですか？": [
+    ["趣味", "regular"],
+    ["は", "particle"],
+    ["何", "regular"],
+    ["です", "ending"],
+    ["か", "particle"],
+    ["？", "regular"]
+  ],
+  "趣味は旅行です。": [
+    ["趣味", "regular"],
+    ["は", "particle"],
+    ["旅行", "regular"],
+    ["です", "ending"],
+    ["。", "regular"]
+  ],
+  "踊り": [["踊り", "regular"]],
+  "車": [["車", "regular"]],
+  "週": [["週", "regular"]],
+  "週末": [["週末", "regular"]],
+  "週末に友達と遊びます。": [
+    ["週末", "regular"],
+    ["に", "particle"],
+    ["友達", "regular"],
+    ["と", "particle"],
+    ["遊び", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "遅い": [["遅い", "adjective"]],
+  "遊ぶ": [
+    ["遊", "verb"],
+    ["ぶ", "ending"]
+  ],
+  "運転する": [
+    ["運転", "verb"],
+    ["する", "verb"]
+  ],
+  "部屋": [["部屋", "regular"]],
+  "部屋を掃除します。": [
+    ["部屋", "regular"],
+    ["を", "particle"],
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "野球": [["野球", "regular"]],
+  "雨": [["雨", "regular"]],
+  "雲": [["雲", "regular"]],
+  "雲 / 蜘蛛": [
+    ["雲", "regular"],
+    [" ", "regular"],
+    ["/", "regular"],
+    [" ", "regular"],
+    ["蜘蛛", "regular"]
+  ],
+  "面白い": [["面白い", "adjective"]],
+  "音": [["音", "regular"]],
+  "音楽": [["音楽", "regular"]],
+  "音楽を聞きます。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "頑張ります": [
+    ["頑張り", "verb"],
+    ["ます", "ending"]
+  ],
+  "頼む": [
+    ["頼", "verb"],
+    ["む", "ending"]
+  ],
+  "風": [["風", "regular"]],
+  "食べる": [
+    ["食べ", "verb"],
+    ["る", "ending"]
+  ],
+  "食べ物": [["食べ物", "regular"]],
+  "飲みます": [
+    ["飲み", "verb"],
+    ["ます", "ending"]
+  ],
+  "飲みません": [
+    ["飲み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "飲み物": [["飲み物", "regular"]],
+  "飲む": [
+    ["飲", "verb"],
+    ["む", "ending"]
+  ],
+  "駅": [["駅", "regular"]],
+  "鶏肉": [["鶏肉", "regular"]],
+  "～じゃないです": [
+    ["～", "regular"],
+    ["じゃ", "ending"],
+    ["ない", "ending"],
+    ["です", "ending"]
+  ],
+  "～じゃなかったです": [
+    ["～", "regular"],
+    ["じゃ", "ending"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["です", "ending"]
+  ],
+  "～でした": [
+    ["～", "regular"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "～です": [
+    ["～", "regular"],
+    ["です", "ending"]
+  ],
+  "～ました": [
+    ["～", "regular"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "～ます": [
+    ["～", "regular"],
+    ["ます", "ending"]
+  ],
+  "～ません": [
+    ["～", "regular"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "～ませんでした": [
+    ["～", "regular"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "うどんを食べる。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "食べます": [
+    ["食べ", "verb"],
+    ["ます", "ending"]
+  ],
+  "食べません": [
+    ["食べ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "うどんを食べません。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "食べました": [
+    ["食べ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "うどんを食べました。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "食べませんでした": [
+    ["食べ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "うどんを食べませんでした。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "食べて": [
+    ["食べ", "verb"],
+    ["て", "ending"]
+  ],
+  "うどんを食べてください。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "食べない": [
+    ["食べ", "verb"],
+    ["ない", "ending"]
+  ],
+  "うどんを食べない。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "食べた": [
+    ["食べ", "verb"],
+    ["た", "ending"]
+  ],
+  "うどんを食べた。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "食べなかった": [
+    ["食べ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "うどんを食べなかった。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "食べたい": [
+    ["食べ", "verb"],
+    ["たい", "ending"]
+  ],
+  "うどんを食べたい。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "食べられる": [
+    ["食べ", "verb"],
+    ["られる", "ending"]
+  ],
+  "うどんを食べられる。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べ", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "食べよう": [["食べよう", "verb"]],
+  "うどんを食べよう。": [
+    ["うどん", "regular"],
+    ["を", "particle"],
+    ["食べよう", "verb"],
+    ["。", "regular"]
+  ],
+  "水を飲む。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲", "verb"],
+    ["む", "ending"],
+    ["。", "regular"]
+  ],
+  "水を飲みます。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲み", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "水を飲みません。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "飲みました": [
+    ["飲み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "水を飲みました。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "飲みませんでした": [
+    ["飲み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "水を飲みませんでした。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "飲んで": [
+    ["飲ん", "verb"],
+    ["で", "ending"]
+  ],
+  "水を飲んでください。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲ん", "verb"],
+    ["で", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "飲まない": [
+    ["飲ま", "verb"],
+    ["ない", "ending"]
+  ],
+  "水を飲まない。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲ま", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "飲んだ": [
+    ["飲ん", "verb"],
+    ["だ", "ending"]
+  ],
+  "水を飲んだ。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲ん", "verb"],
+    ["だ", "ending"],
+    ["。", "regular"]
+  ],
+  "飲まなかった": [
+    ["飲ま", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "水を飲まなかった。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲ま", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "飲みたい": [
+    ["飲み", "verb"],
+    ["たい", "ending"]
+  ],
+  "水を飲みたい。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲み", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "飲める": [
+    ["飲め", "verb"],
+    ["る", "ending"]
+  ],
+  "水を飲める。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲め", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "飲もう": [["飲もう", "verb"]],
+  "水を飲もう。": [
+    ["水", "regular"],
+    ["を", "particle"],
+    ["飲もう", "verb"],
+    ["。", "regular"]
+  ],
+  "映画を見る。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "映画を見ます。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "見ません": [
+    ["見", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "映画を見ません。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "見ました": [
+    ["見", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "映画を見ました。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "見ませんでした": [
+    ["見", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "映画を見ませんでした。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "見て": [
+    ["見", "verb"],
+    ["て", "ending"]
+  ],
+  "映画を見てください。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "見ない": [
+    ["見", "verb"],
+    ["ない", "ending"]
+  ],
+  "映画を見ない。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "見た": [
+    ["見", "verb"],
+    ["た", "ending"]
+  ],
+  "映画を見た。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "見なかった": [
+    ["見", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "映画を見なかった。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "見たい": [
+    ["見", "verb"],
+    ["たい", "ending"]
+  ],
+  "映画を見たい。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "見られる": [
+    ["見", "verb"],
+    ["られる", "ending"]
+  ],
+  "映画を見られる。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "見よう": [["見よう", "verb"]],
+  "映画を見よう。": [
+    ["映画", "regular"],
+    ["を", "particle"],
+    ["見よう", "verb"],
+    ["。", "regular"]
+  ],
+  "音楽を聞く。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞", "verb"],
+    ["く", "ending"],
+    ["。", "regular"]
+  ],
+  "聞きません": [
+    ["聞き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "音楽を聞きません。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "聞きました": [
+    ["聞き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "音楽を聞きました。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "聞きませんでした": [
+    ["聞き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "音楽を聞きませんでした。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "聞いて": [
+    ["聞い", "verb"],
+    ["て", "ending"]
+  ],
+  "音楽を聞いてください。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞い", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "聞かない": [
+    ["聞か", "verb"],
+    ["ない", "ending"]
+  ],
+  "音楽を聞かない。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞か", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "聞いた": [
+    ["聞い", "verb"],
+    ["た", "ending"]
+  ],
+  "音楽を聞いた。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞い", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "聞かなかった": [
+    ["聞か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "音楽を聞かなかった。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "聞きたい": [
+    ["聞き", "verb"],
+    ["たい", "ending"]
+  ],
+  "音楽を聞きたい。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞き", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "聞ける": [
+    ["聞け", "verb"],
+    ["る", "ending"]
+  ],
+  "音楽を聞ける。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞け", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こう": [["聞こう", "verb"]],
+  "音楽を聞こう。": [
+    ["音楽", "regular"],
+    ["を", "particle"],
+    ["聞こう", "verb"],
+    ["。", "regular"]
+  ],
+  "本を読む。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読", "verb"],
+    ["む", "ending"],
+    ["。", "regular"]
+  ],
+  "読みます": [
+    ["読み", "verb"],
+    ["ます", "ending"]
+  ],
+  "読みません": [
+    ["読み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "本を読みません。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "読みました": [
+    ["読み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "本を読みました。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "読みませんでした": [
+    ["読み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "本を読みませんでした。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "読んで": [
+    ["読ん", "verb"],
+    ["で", "ending"]
+  ],
+  "本を読んでください。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読ん", "verb"],
+    ["で", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "読まない": [
+    ["読ま", "verb"],
+    ["ない", "ending"]
+  ],
+  "本を読まない。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読ま", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "読んだ": [
+    ["読ん", "verb"],
+    ["だ", "ending"]
+  ],
+  "本を読んだ。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読ん", "verb"],
+    ["だ", "ending"],
+    ["。", "regular"]
+  ],
+  "読まなかった": [
+    ["読ま", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "本を読まなかった。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読ま", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "読みたい": [
+    ["読み", "verb"],
+    ["たい", "ending"]
+  ],
+  "本を読みたい。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読み", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "読める": [
+    ["読め", "verb"],
+    ["る", "ending"]
+  ],
+  "本を読める。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読め", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "読もう": [["読もう", "verb"]],
+  "本を読もう。": [
+    ["本", "regular"],
+    ["を", "particle"],
+    ["読もう", "verb"],
+    ["。", "regular"]
+  ],
+  "する。": [
+    ["する", "verb"],
+    ["。", "regular"]
+  ],
+  "します": [
+    ["し", "verb"],
+    ["ます", "ending"]
+  ],
+  "します。": [
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "しません": [
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "しません。": [
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "しました": [
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "しました。": [
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "しませんでした": [
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "しませんでした。": [
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "して": [
+    ["し", "verb"],
+    ["て", "ending"]
+  ],
+  "してください。": [
+    ["し", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "しない": [
+    ["し", "verb"],
+    ["ない", "ending"]
+  ],
+  "しない。": [
+    ["し", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "した": [
+    ["し", "verb"],
+    ["た", "ending"]
+  ],
+  "した。": [
+    ["し", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "しなかった": [
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "しなかった。": [
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "したい": [
+    ["し", "verb"],
+    ["たい", "ending"]
+  ],
+  "したい。": [
+    ["し", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "できる。": [
+    ["でき", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "しよう": [["しよう", "regular"]],
+  "しよう。": [
+    ["しよう", "verb"],
+    ["。", "regular"]
+  ],
+  "学校に行く。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行", "verb"],
+    ["く", "ending"],
+    ["。", "regular"]
+  ],
+  "学校に行きます。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "行きません": [
+    ["行き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "学校に行きません。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "学校に行きました。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "行きませんでした": [
+    ["行き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "学校に行きませんでした。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "行って": [
+    ["行っ", "verb"],
+    ["て", "ending"]
+  ],
+  "学校に行ってください。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "行かない": [
+    ["行か", "verb"],
+    ["ない", "ending"]
+  ],
+  "学校に行かない。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行か", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "行った": [
+    ["行っ", "verb"],
+    ["た", "ending"]
+  ],
+  "学校に行った。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "行かなかった": [
+    ["行か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "学校に行かなかった。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "行きたい": [
+    ["行き", "verb"],
+    ["たい", "ending"]
+  ],
+  "学校に行きたい。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行き", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "行ける": [
+    ["行け", "verb"],
+    ["る", "ending"]
+  ],
+  "学校に行ける。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行け", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "行こう": [["行こう", "verb"]],
+  "学校に行こう。": [
+    ["学校", "regular"],
+    ["に", "particle"],
+    ["行こう", "verb"],
+    ["。", "regular"]
+  ],
+  "来る。": [
+    ["来", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "来ます": [
+    ["来", "verb"],
+    ["ます", "ending"]
+  ],
+  "来ます。": [
+    ["来", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "来ません": [
+    ["来", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "来ません。": [
+    ["来", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "来ました": [
+    ["来", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "来ました。": [
+    ["来", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "来ませんでした": [
+    ["来", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "来ませんでした。": [
+    ["来", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "来て": [
+    ["来", "verb"],
+    ["て", "ending"]
+  ],
+  "来てください。": [
+    ["来", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "来ない": [
+    ["来", "verb"],
+    ["ない", "ending"]
+  ],
+  "来ない。": [
+    ["来", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "来た": [
+    ["来", "verb"],
+    ["た", "ending"]
+  ],
+  "来た。": [
+    ["来", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "来なかった": [
+    ["来", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "来なかった。": [
+    ["来", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "来たい": [
+    ["来", "verb"],
+    ["たい", "ending"]
+  ],
+  "来たい。": [
+    ["来", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "来られる": [
+    ["来", "verb"],
+    ["られる", "ending"]
+  ],
+  "来られる。": [
+    ["来", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "来よう": [["来よう", "verb"]],
+  "来よう。": [
+    ["来よう", "verb"],
+    ["。", "regular"]
+  ],
+  "帰る。": [
+    ["帰", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "帰ります": [
+    ["帰り", "verb"],
+    ["ます", "ending"]
+  ],
+  "帰ります。": [
+    ["帰り", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "帰りません": [
+    ["帰り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "帰りません。": [
+    ["帰り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "帰りました": [
+    ["帰り", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "帰りました。": [
+    ["帰り", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "帰りませんでした": [
+    ["帰り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "帰りませんでした。": [
+    ["帰り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "帰って": [
+    ["帰っ", "verb"],
+    ["て", "ending"]
+  ],
+  "帰ってください。": [
+    ["帰っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "帰らない": [
+    ["帰ら", "verb"],
+    ["ない", "ending"]
+  ],
+  "帰らない。": [
+    ["帰ら", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "帰った": [
+    ["帰っ", "verb"],
+    ["た", "ending"]
+  ],
+  "帰った。": [
+    ["帰っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "帰らなかった": [
+    ["帰ら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "帰らなかった。": [
+    ["帰ら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "帰りたい": [
+    ["帰り", "verb"],
+    ["たい", "ending"]
+  ],
+  "帰りたい。": [
+    ["帰り", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "帰れる": [
+    ["帰れ", "verb"],
+    ["る", "ending"]
+  ],
+  "帰れる。": [
+    ["帰れ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "帰ろう": [["帰ろう", "verb"]],
+  "帰ろう。": [
+    ["帰ろう", "verb"],
+    ["。", "regular"]
+  ],
+  "話す。": [
+    ["話", "verb"],
+    ["す", "ending"],
+    ["。", "regular"]
+  ],
+  "話します": [
+    ["話し", "verb"],
+    ["ます", "ending"]
+  ],
+  "話します。": [
+    ["話し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "話しません": [
+    ["話し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "話しません。": [
+    ["話し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "話しました": [
+    ["話し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "話しました。": [
+    ["話し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "話しませんでした": [
+    ["話し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "話しませんでした。": [
+    ["話し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "話して": [
+    ["話し", "verb"],
+    ["て", "ending"]
+  ],
+  "話してください。": [
+    ["話し", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "話さない": [
+    ["話さ", "verb"],
+    ["ない", "ending"]
+  ],
+  "話さない。": [
+    ["話さ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "話した": [
+    ["話し", "verb"],
+    ["た", "ending"]
+  ],
+  "話した。": [
+    ["話し", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "話さなかった": [
+    ["話さ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "話さなかった。": [
+    ["話さ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "話したい": [
+    ["話し", "verb"],
+    ["たい", "ending"]
+  ],
+  "話したい。": [
+    ["話し", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "話せる。": [
+    ["話せ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "話そう": [["話そう", "verb"]],
+  "話そう。": [
+    ["話そう", "verb"],
+    ["。", "regular"]
+  ],
+  "休む。": [
+    ["休", "verb"],
+    ["む", "ending"],
+    ["。", "regular"]
+  ],
+  "休みます": [
+    ["休み", "verb"],
+    ["ます", "ending"]
+  ],
+  "休みます。": [
+    ["休み", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "休みません": [
+    ["休み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "休みません。": [
+    ["休み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "休みました": [
+    ["休み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "休みました。": [
+    ["休み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "休みませんでした": [
+    ["休み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "休みませんでした。": [
+    ["休み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "休んで": [
+    ["休ん", "verb"],
+    ["で", "ending"]
+  ],
+  "休んでください。": [
+    ["休ん", "verb"],
+    ["で", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "休まない": [
+    ["休ま", "verb"],
+    ["ない", "ending"]
+  ],
+  "休まない。": [
+    ["休ま", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "休んだ": [
+    ["休ん", "verb"],
+    ["だ", "ending"]
+  ],
+  "休んだ。": [
+    ["休ん", "verb"],
+    ["だ", "ending"],
+    ["。", "regular"]
+  ],
+  "休まなかった": [
+    ["休ま", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "休まなかった。": [
+    ["休ま", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "休みたい": [
+    ["休み", "verb"],
+    ["たい", "ending"]
+  ],
+  "休みたい。": [
+    ["休み", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "休める": [
+    ["休め", "verb"],
+    ["る", "ending"]
+  ],
+  "休める。": [
+    ["休め", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "休もう": [["休もう", "verb"]],
+  "休もう。": [
+    ["休もう", "verb"],
+    ["。", "regular"]
+  ],
+  "走る。": [
+    ["走", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "走ります": [
+    ["走り", "verb"],
+    ["ます", "ending"]
+  ],
+  "走ります。": [
+    ["走り", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "走りません": [
+    ["走り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "走りません。": [
+    ["走り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "走りました": [
+    ["走り", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "走りました。": [
+    ["走り", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "走りませんでした": [
+    ["走り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "走りませんでした。": [
+    ["走り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "走って": [
+    ["走っ", "verb"],
+    ["て", "ending"]
+  ],
+  "走ってください。": [
+    ["走っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "走らない": [
+    ["走ら", "verb"],
+    ["ない", "ending"]
+  ],
+  "走らない。": [
+    ["走ら", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "走った": [
+    ["走っ", "verb"],
+    ["た", "ending"]
+  ],
+  "走った。": [
+    ["走っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "走らなかった": [
+    ["走ら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "走らなかった。": [
+    ["走ら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "走りたい": [
+    ["走り", "verb"],
+    ["たい", "ending"]
+  ],
+  "走りたい。": [
+    ["走り", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "走れる": [
+    ["走れ", "verb"],
+    ["る", "ending"]
+  ],
+  "走れる。": [
+    ["走れ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "走ろう": [["走ろう", "verb"]],
+  "走ろう。": [
+    ["走ろう", "verb"],
+    ["。", "regular"]
+  ],
+  "始める。": [
+    ["始め", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "始めます": [
+    ["始め", "verb"],
+    ["ます", "ending"]
+  ],
+  "始めます。": [
+    ["始め", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "始めません": [
+    ["始め", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "始めません。": [
+    ["始め", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "始めました": [
+    ["始め", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "始めました。": [
+    ["始め", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "始めませんでした": [
+    ["始め", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "始めませんでした。": [
+    ["始め", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "始めて": [
+    ["始め", "verb"],
+    ["て", "ending"]
+  ],
+  "始めてください。": [
+    ["始め", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "始めない": [
+    ["始め", "verb"],
+    ["ない", "ending"]
+  ],
+  "始めない。": [
+    ["始め", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "始めた": [
+    ["始め", "verb"],
+    ["た", "ending"]
+  ],
+  "始めた。": [
+    ["始め", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "始めなかった": [
+    ["始め", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "始めなかった。": [
+    ["始め", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "始めたい": [
+    ["始め", "verb"],
+    ["たい", "ending"]
+  ],
+  "始めたい。": [
+    ["始め", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "始められる": [
+    ["始め", "verb"],
+    ["られる", "ending"]
+  ],
+  "始められる。": [
+    ["始め", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "始めよう": [["始めよう", "verb"]],
+  "始めよう。": [
+    ["始めよう", "verb"],
+    ["。", "regular"]
+  ],
+  "作る。": [
+    ["作", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "作ります。": [
+    ["作り", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "作りません": [
+    ["作り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "作りません。": [
+    ["作り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "作りました": [
+    ["作り", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "作りました。": [
+    ["作り", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "作りませんでした": [
+    ["作り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "作りませんでした。": [
+    ["作り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "作って": [
+    ["作っ", "verb"],
+    ["て", "ending"]
+  ],
+  "作ってください。": [
+    ["作っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "作らない": [
+    ["作ら", "verb"],
+    ["ない", "ending"]
+  ],
+  "作らない。": [
+    ["作ら", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "作った": [
+    ["作っ", "verb"],
+    ["た", "ending"]
+  ],
+  "作った。": [
+    ["作っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "作らなかった": [
+    ["作ら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "作らなかった。": [
+    ["作ら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "作りたい": [
+    ["作り", "verb"],
+    ["たい", "ending"]
+  ],
+  "作りたい。": [
+    ["作り", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "作れる": [
+    ["作れ", "verb"],
+    ["る", "ending"]
+  ],
+  "作れる。": [
+    ["作れ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "作ろう": [["作ろう", "verb"]],
+  "作ろう。": [
+    ["作ろう", "verb"],
+    ["。", "regular"]
+  ],
+  "遊ぶ。": [
+    ["遊", "verb"],
+    ["ぶ", "ending"],
+    ["。", "regular"]
+  ],
+  "遊びます": [
+    ["遊び", "verb"],
+    ["ます", "ending"]
+  ],
+  "遊びます。": [
+    ["遊び", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "遊びません": [
+    ["遊び", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "遊びません。": [
+    ["遊び", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "遊びました": [
+    ["遊び", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "遊びました。": [
+    ["遊び", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "遊びませんでした": [
+    ["遊び", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "遊びませんでした。": [
+    ["遊び", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "遊んで": [
+    ["遊ん", "verb"],
+    ["で", "ending"]
+  ],
+  "遊んでください。": [
+    ["遊ん", "verb"],
+    ["で", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "遊ばない": [
+    ["遊ば", "verb"],
+    ["ない", "ending"]
+  ],
+  "遊ばない。": [
+    ["遊ば", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "遊んだ": [
+    ["遊ん", "verb"],
+    ["だ", "ending"]
+  ],
+  "遊んだ。": [
+    ["遊ん", "verb"],
+    ["だ", "ending"],
+    ["。", "regular"]
+  ],
+  "遊ばなかった": [
+    ["遊ば", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "遊ばなかった。": [
+    ["遊ば", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "遊びたい": [
+    ["遊び", "verb"],
+    ["たい", "ending"]
+  ],
+  "遊びたい。": [
+    ["遊び", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "遊べる": [
+    ["遊べ", "verb"],
+    ["る", "ending"]
+  ],
+  "遊べる。": [
+    ["遊べ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "遊ぼう": [["遊ぼう", "verb"]],
+  "遊ぼう。": [
+    ["遊ぼう", "verb"],
+    ["。", "regular"]
+  ],
+  "寝る。": [
+    ["寝", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "寝ます": [
+    ["寝", "verb"],
+    ["ます", "ending"]
+  ],
+  "寝ます。": [
+    ["寝", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "寝ません": [
+    ["寝", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "寝ません。": [
+    ["寝", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "寝ました": [
+    ["寝", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "寝ました。": [
+    ["寝", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "寝ませんでした": [
+    ["寝", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "寝ませんでした。": [
+    ["寝", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "寝て": [
+    ["寝", "verb"],
+    ["て", "ending"]
+  ],
+  "寝てください。": [
+    ["寝", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "寝ない": [
+    ["寝", "verb"],
+    ["ない", "ending"]
+  ],
+  "寝ない。": [
+    ["寝", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "寝た": [
+    ["寝", "verb"],
+    ["た", "ending"]
+  ],
+  "寝た。": [
+    ["寝", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "寝なかった": [
+    ["寝", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "寝なかった。": [
+    ["寝", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "寝たい": [
+    ["寝", "verb"],
+    ["たい", "ending"]
+  ],
+  "寝たい。": [
+    ["寝", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "寝られる": [
+    ["寝", "verb"],
+    ["られる", "ending"]
+  ],
+  "寝られる。": [
+    ["寝", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "寝よう": [["寝よう", "verb"]],
+  "寝よう。": [
+    ["寝よう", "verb"],
+    ["。", "regular"]
+  ],
+  "起きる。": [
+    ["起き", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "起きます。": [
+    ["起き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "起きません": [
+    ["起き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "起きません。": [
+    ["起き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "起きました": [
+    ["起き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "起きました。": [
+    ["起き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "起きませんでした": [
+    ["起き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "起きませんでした。": [
+    ["起き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "起きて": [
+    ["起き", "verb"],
+    ["て", "ending"]
+  ],
+  "起きてください。": [
+    ["起き", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "起きない": [
+    ["起き", "verb"],
+    ["ない", "ending"]
+  ],
+  "起きない。": [
+    ["起き", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "起きた": [
+    ["起き", "verb"],
+    ["た", "ending"]
+  ],
+  "起きた。": [
+    ["起き", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "起きなかった": [
+    ["起き", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "起きなかった。": [
+    ["起き", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "起きたい": [
+    ["起き", "verb"],
+    ["たい", "ending"]
+  ],
+  "起きたい。": [
+    ["起き", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "起きられる": [
+    ["起き", "verb"],
+    ["られる", "ending"]
+  ],
+  "起きられる。": [
+    ["起き", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "起きよう": [["起きよう", "verb"]],
+  "起きよう。": [
+    ["起きよう", "verb"],
+    ["。", "regular"]
+  ],
+  "ある。": [
+    ["あ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "あります": [
+    ["あり", "verb"],
+    ["ます", "ending"]
+  ],
+  "あります。": [
+    ["あり", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "ありません": [
+    ["あり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "ありません。": [
+    ["あり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "ありました": [
+    ["あり", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "ありました。": [
+    ["あり", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "ありませんでした": [
+    ["あり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "ありませんでした。": [
+    ["あり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "あって": [
+    ["あっ", "verb"],
+    ["て", "ending"]
+  ],
+  "あってください。": [
+    ["あっ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "ない": [["ない", "adjective"]],
+  "ない。": [
+    ["ない", "adjective"],
+    ["。", "regular"]
+  ],
+  "あった": [
+    ["あっ", "verb"],
+    ["た", "ending"]
+  ],
+  "あった。": [
+    ["あっ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "なかった": [
+    ["なかっ", "adjective"],
+    ["た", "ending"]
+  ],
+  "なかった。": [
+    ["なかっ", "adjective"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "ありたい": [
+    ["あり", "verb"],
+    ["たい", "ending"]
+  ],
+  "ありたい。": [
+    ["あり", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "あろう": [["あろう", "verb"]],
+  "あろう。": [
+    ["あろう", "verb"],
+    ["。", "regular"]
+  ],
+  "いる。": [
+    ["い", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "います": [
+    ["い", "verb"],
+    ["ます", "ending"]
+  ],
+  "います。": [
+    ["い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "いません": [
+    ["い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "いません。": [
+    ["い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "いました": [
+    ["い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "いました。": [
+    ["い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "いませんでした": [
+    ["い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "いませんでした。": [
+    ["い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "いて": [
+    ["い", "verb"],
+    ["て", "ending"]
+  ],
+  "いてください。": [
+    ["い", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "いない": [
+    ["い", "verb"],
+    ["ない", "ending"]
+  ],
+  "いない。": [
+    ["い", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "いた": [
+    ["い", "verb"],
+    ["た", "ending"]
+  ],
+  "いた。": [
+    ["い", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "いなかった": [
+    ["い", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "いなかった。": [
+    ["い", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "いたい": [
+    ["い", "verb"],
+    ["たい", "ending"]
+  ],
+  "いたい。": [
+    ["い", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "いられる": [
+    ["い", "verb"],
+    ["られる", "ending"]
+  ],
+  "いられる。": [
+    ["い", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "いよう": [["いよう", "verb"]],
+  "いよう。": [
+    ["いよう", "verb"],
+    ["。", "regular"]
+  ],
+  "疲れる。": [
+    ["疲れ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れます": [
+    ["疲れ", "verb"],
+    ["ます", "ending"]
+  ],
+  "疲れます。": [
+    ["疲れ", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れません": [
+    ["疲れ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "疲れません。": [
+    ["疲れ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れました。": [
+    ["疲れ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れませんでした": [
+    ["疲れ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "疲れませんでした。": [
+    ["疲れ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れて": [
+    ["疲れ", "verb"],
+    ["て", "ending"]
+  ],
+  "疲れてください。": [
+    ["疲れ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れない": [
+    ["疲れ", "verb"],
+    ["ない", "ending"]
+  ],
+  "疲れない。": [
+    ["疲れ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れた。": [
+    ["疲れ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れなかった": [
+    ["疲れ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "疲れなかった。": [
+    ["疲れ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れたい": [
+    ["疲れ", "verb"],
+    ["たい", "ending"]
+  ],
+  "疲れたい。": [
+    ["疲れ", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れられる": [
+    ["疲れ", "verb"],
+    ["られる", "ending"]
+  ],
+  "疲れられる。": [
+    ["疲れ", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "疲れよう": [["疲れよう", "verb"]],
+  "疲れよう。": [
+    ["疲れよう", "verb"],
+    ["。", "regular"]
+  ],
+  "頼む。": [
+    ["頼", "verb"],
+    ["む", "ending"],
+    ["。", "regular"]
+  ],
+  "頼みます": [
+    ["頼み", "verb"],
+    ["ます", "ending"]
+  ],
+  "頼みます。": [
+    ["頼み", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "頼みません": [
+    ["頼み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "頼みません。": [
+    ["頼み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "頼みました": [
+    ["頼み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "頼みました。": [
+    ["頼み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "頼みませんでした": [
+    ["頼み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "頼みませんでした。": [
+    ["頼み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "頼んで": [
+    ["頼ん", "verb"],
+    ["で", "ending"]
+  ],
+  "頼んでください。": [
+    ["頼ん", "verb"],
+    ["で", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "頼まない": [
+    ["頼ま", "verb"],
+    ["ない", "ending"]
+  ],
+  "頼まない。": [
+    ["頼ま", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "頼んだ": [
+    ["頼ん", "verb"],
+    ["だ", "ending"]
+  ],
+  "頼んだ。": [
+    ["頼ん", "verb"],
+    ["だ", "ending"],
+    ["。", "regular"]
+  ],
+  "頼まなかった": [
+    ["頼ま", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "頼まなかった。": [
+    ["頼ま", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "頼みたい": [
+    ["頼み", "verb"],
+    ["たい", "ending"]
+  ],
+  "頼みたい。": [
+    ["頼み", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "頼める": [
+    ["頼め", "verb"],
+    ["る", "ending"]
+  ],
+  "頼める。": [
+    ["頼め", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "頼もう": [["頼もう", "verb"]],
+  "頼もう。": [
+    ["頼もう", "verb"],
+    ["。", "regular"]
+  ],
+  "動く。": [
+    ["動", "verb"],
+    ["く", "ending"],
+    ["。", "regular"]
+  ],
+  "動きます": [
+    ["動き", "verb"],
+    ["ます", "ending"]
+  ],
+  "動きます。": [
+    ["動き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "動きません": [
+    ["動き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "動きません。": [
+    ["動き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "動きました": [
+    ["動き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "動きました。": [
+    ["動き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "動きませんでした": [
+    ["動き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "動きませんでした。": [
+    ["動き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "動いて": [
+    ["動い", "verb"],
+    ["て", "ending"]
+  ],
+  "動いてください。": [
+    ["動い", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "動かない": [
+    ["動か", "verb"],
+    ["ない", "ending"]
+  ],
+  "動かない。": [
+    ["動か", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "動いた": [
+    ["動い", "verb"],
+    ["た", "ending"]
+  ],
+  "動いた。": [
+    ["動い", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "動かなかった": [
+    ["動か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "動かなかった。": [
+    ["動か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "動きたい": [
+    ["動き", "verb"],
+    ["たい", "ending"]
+  ],
+  "動きたい。": [
+    ["動き", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "動ける": [
+    ["動け", "verb"],
+    ["る", "ending"]
+  ],
+  "動ける。": [
+    ["動け", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "動こう": [["動こう", "verb"]],
+  "動こう。": [
+    ["動こう", "verb"],
+    ["。", "regular"]
+  ],
+  "引っ越す。": [
+    ["引っ越", "verb"],
+    ["す", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越します": [
+    ["引っ越し", "verb"],
+    ["ます", "ending"]
+  ],
+  "引っ越します。": [
+    ["引っ越し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越しません": [
+    ["引っ越し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "引っ越しません。": [
+    ["引っ越し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越しました": [
+    ["引っ越し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "引っ越しました。": [
+    ["引っ越し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越しませんでした": [
+    ["引っ越し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "引っ越しませんでした。": [
+    ["引っ越し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越して": [
+    ["引っ越し", "verb"],
+    ["て", "ending"]
+  ],
+  "引っ越してください。": [
+    ["引っ越し", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越さない": [
+    ["引っ越さ", "verb"],
+    ["ない", "ending"]
+  ],
+  "引っ越さない。": [
+    ["引っ越さ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越した": [
+    ["引っ越し", "verb"],
+    ["た", "ending"]
+  ],
+  "引っ越した。": [
+    ["引っ越し", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越さなかった": [
+    ["引っ越さ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "引っ越さなかった。": [
+    ["引っ越さ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越したい": [
+    ["引っ越し", "verb"],
+    ["たい", "ending"]
+  ],
+  "引っ越したい。": [
+    ["引っ越し", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越せる": [
+    ["引っ越せ", "verb"],
+    ["る", "ending"]
+  ],
+  "引っ越せる。": [
+    ["引っ越せ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "引っ越そう": [["引っ越そう", "verb"]],
+  "引っ越そう。": [
+    ["引っ越そう", "verb"],
+    ["。", "regular"]
+  ],
+  "住む。": [
+    ["住", "verb"],
+    ["む", "ending"],
+    ["。", "regular"]
+  ],
+  "住みます": [
+    ["住み", "verb"],
+    ["ます", "ending"]
+  ],
+  "住みます。": [
+    ["住み", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "住みません": [
+    ["住み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "住みません。": [
+    ["住み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "住みました": [
+    ["住み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "住みました。": [
+    ["住み", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "住みませんでした": [
+    ["住み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "住みませんでした。": [
+    ["住み", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "住んで": [
+    ["住ん", "verb"],
+    ["で", "ending"]
+  ],
+  "住んでください。": [
+    ["住ん", "verb"],
+    ["で", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "住まない": [
+    ["住ま", "verb"],
+    ["ない", "ending"]
+  ],
+  "住まない。": [
+    ["住ま", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "住んだ": [
+    ["住ん", "verb"],
+    ["だ", "ending"]
+  ],
+  "住んだ。": [
+    ["住ん", "verb"],
+    ["だ", "ending"],
+    ["。", "regular"]
+  ],
+  "住まなかった": [
+    ["住ま", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "住まなかった。": [
+    ["住ま", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "住みたい": [
+    ["住み", "verb"],
+    ["たい", "ending"]
+  ],
+  "住みたい。": [
+    ["住み", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "住める": [
+    ["住め", "verb"],
+    ["る", "ending"]
+  ],
+  "住める。": [
+    ["住め", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "住もう": [["住もう", "verb"]],
+  "住もう。": [
+    ["住もう", "verb"],
+    ["。", "regular"]
+  ],
+  "もらう。": [
+    ["もら", "verb"],
+    ["う", "ending"],
+    ["。", "regular"]
+  ],
+  "もらいます": [
+    ["もらい", "verb"],
+    ["ます", "ending"]
+  ],
+  "もらいます。": [
+    ["もらい", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "もらいません": [
+    ["もらい", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "もらいません。": [
+    ["もらい", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "もらいました": [
+    ["もらい", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "もらいました。": [
+    ["もらい", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "もらいませんでした": [
+    ["もらい", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "もらいませんでした。": [
+    ["もらい", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "もらって": [
+    ["もらっ", "verb"],
+    ["て", "ending"]
+  ],
+  "もらってください。": [
+    ["もらっ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "もらわない": [
+    ["もらわ", "verb"],
+    ["ない", "ending"]
+  ],
+  "もらわない。": [
+    ["もらわ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "もらった": [
+    ["もらっ", "verb"],
+    ["た", "ending"]
+  ],
+  "もらった。": [
+    ["もらっ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "もらわなかった": [
+    ["もらわ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "もらわなかった。": [
+    ["もらわ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "もらいたい": [
+    ["もらい", "verb"],
+    ["たい", "ending"]
+  ],
+  "もらいたい。": [
+    ["もらい", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "もらえる": [
+    ["もらえ", "verb"],
+    ["る", "ending"]
+  ],
+  "もらえる。": [
+    ["もらえ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "もらおう": [["もらおう", "verb"]],
+  "もらおう。": [
+    ["もらおう", "verb"],
+    ["。", "regular"]
+  ],
+  "聞こえる。": [
+    ["聞こえ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こえます": [
+    ["聞こえ", "verb"],
+    ["ます", "ending"]
+  ],
+  "聞こえます。": [
+    ["聞こえ", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こえません": [
+    ["聞こえ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "聞こえません。": [
+    ["聞こえ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こえました": [
+    ["聞こえ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "聞こえました。": [
+    ["聞こえ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こえませんでした": [
+    ["聞こえ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "聞こえませんでした。": [
+    ["聞こえ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こえて": [
+    ["聞こえ", "verb"],
+    ["て", "ending"]
+  ],
+  "聞こえてください。": [
+    ["聞こえ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こえない": [
+    ["聞こえ", "verb"],
+    ["ない", "ending"]
+  ],
+  "聞こえない。": [
+    ["聞こえ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こえた": [
+    ["聞こえ", "verb"],
+    ["た", "ending"]
+  ],
+  "聞こえた。": [
+    ["聞こえ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こえなかった": [
+    ["聞こえ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "聞こえなかった。": [
+    ["聞こえ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こえたい": [
+    ["聞こえ", "verb"],
+    ["たい", "ending"]
+  ],
+  "聞こえたい。": [
+    ["聞こえ", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こえられる": [
+    ["聞こえ", "verb"],
+    ["られる", "ending"]
+  ],
+  "聞こえられる。": [
+    ["聞こえ", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "聞こえよう": [["聞こえよう", "verb"]],
+  "聞こえよう。": [
+    ["聞こえよう", "verb"],
+    ["。", "regular"]
+  ],
+  "できます": [
+    ["でき", "verb"],
+    ["ます", "ending"]
+  ],
+  "できます。": [
+    ["でき", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "できません": [
+    ["でき", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "できません。": [
+    ["でき", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "できました": [
+    ["でき", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "できました。": [
+    ["でき", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "できませんでした": [
+    ["でき", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "できませんでした。": [
+    ["でき", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "できて": [
+    ["でき", "verb"],
+    ["て", "ending"]
+  ],
+  "できてください。": [
+    ["でき", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "できない": [
+    ["でき", "verb"],
+    ["ない", "ending"]
+  ],
+  "できない。": [
+    ["でき", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "できた": [
+    ["でき", "verb"],
+    ["た", "ending"]
+  ],
+  "できた。": [
+    ["でき", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "できなかった": [
+    ["でき", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "できなかった。": [
+    ["でき", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "できたい": [
+    ["でき", "verb"],
+    ["たい", "ending"]
+  ],
+  "できたい。": [
+    ["でき", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "できよう": [["できよう", "verb"]],
+  "できよう。": [
+    ["できよう", "verb"],
+    ["。", "regular"]
+  ],
+  "なる。": [
+    ["な", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "なります": [
+    ["なり", "verb"],
+    ["ます", "ending"]
+  ],
+  "なります。": [
+    ["なり", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "なりません": [
+    ["なり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "なりません。": [
+    ["なり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "なりました": [
+    ["なり", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "なりました。": [
+    ["なり", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "なりませんでした": [
+    ["なり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "なりませんでした。": [
+    ["なり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "なって": [
+    ["なっ", "verb"],
+    ["て", "ending"]
+  ],
+  "なってください。": [
+    ["なっ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "ならない": [
+    ["なら", "verb"],
+    ["ない", "ending"]
+  ],
+  "ならない。": [
+    ["なら", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "なった": [
+    ["なっ", "verb"],
+    ["た", "ending"]
+  ],
+  "なった。": [
+    ["なっ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "ならなかった": [
+    ["なら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "ならなかった。": [
+    ["なら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "なりたい": [
+    ["なり", "verb"],
+    ["たい", "ending"]
+  ],
+  "なりたい。": [
+    ["なり", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "なれる": [
+    ["なれ", "verb"],
+    ["る", "ending"]
+  ],
+  "なれる。": [
+    ["なれ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "なろう": [["なろう", "verb"]],
+  "なろう。": [
+    ["なろう", "verb"],
+    ["。", "regular"]
+  ],
+  "信じる。": [
+    ["信じ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "信じます": [
+    ["信じ", "verb"],
+    ["ます", "ending"]
+  ],
+  "信じません": [
+    ["信じ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "信じません。": [
+    ["信じ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "信じました": [
+    ["信じ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "信じました。": [
+    ["信じ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "信じませんでした": [
+    ["信じ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "信じませんでした。": [
+    ["信じ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "信じて": [
+    ["信じ", "verb"],
+    ["て", "ending"]
+  ],
+  "信じてください。": [
+    ["信じ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "信じない": [
+    ["信じ", "verb"],
+    ["ない", "ending"]
+  ],
+  "信じない。": [
+    ["信じ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "信じた": [
+    ["信じ", "verb"],
+    ["た", "ending"]
+  ],
+  "信じた。": [
+    ["信じ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "信じなかった": [
+    ["信じ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "信じなかった。": [
+    ["信じ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "信じたい": [
+    ["信じ", "verb"],
+    ["たい", "ending"]
+  ],
+  "信じたい。": [
+    ["信じ", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "信じられる": [
+    ["信じ", "verb"],
+    ["られる", "ending"]
+  ],
+  "信じられる。": [
+    ["信じ", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "信じよう": [["信じよう", "verb"]],
+  "信じよう。": [
+    ["信じよう", "verb"],
+    ["。", "regular"]
+  ],
+  "忘れる。": [
+    ["忘れ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れます": [
+    ["忘れ", "verb"],
+    ["ます", "ending"]
+  ],
+  "忘れます。": [
+    ["忘れ", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れません": [
+    ["忘れ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "忘れません。": [
+    ["忘れ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れました": [
+    ["忘れ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "忘れました。": [
+    ["忘れ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れませんでした": [
+    ["忘れ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "忘れませんでした。": [
+    ["忘れ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れて": [
+    ["忘れ", "verb"],
+    ["て", "ending"]
+  ],
+  "忘れてください。": [
+    ["忘れ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れない": [
+    ["忘れ", "verb"],
+    ["ない", "ending"]
+  ],
+  "忘れない。": [
+    ["忘れ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れた": [
+    ["忘れ", "verb"],
+    ["た", "ending"]
+  ],
+  "忘れた。": [
+    ["忘れ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れなかった": [
+    ["忘れ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "忘れなかった。": [
+    ["忘れ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れたい": [
+    ["忘れ", "verb"],
+    ["たい", "ending"]
+  ],
+  "忘れたい。": [
+    ["忘れ", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れられる": [
+    ["忘れ", "verb"],
+    ["られる", "ending"]
+  ],
+  "忘れられる。": [
+    ["忘れ", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "忘れよう": [["忘れよう", "verb"]],
+  "忘れよう。": [
+    ["忘れよう", "verb"],
+    ["。", "regular"]
+  ],
+  "掃除する。": [
+    ["掃除", "verb"],
+    ["する", "verb"],
+    ["。", "regular"]
+  ],
+  "掃除します": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"]
+  ],
+  "掃除します。": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "掃除しません": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "掃除しません。": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "掃除しました": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "掃除しました。": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "掃除しませんでした": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "掃除しませんでした。": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "掃除して": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["て", "ending"]
+  ],
+  "掃除してください。": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "掃除しない": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["ない", "ending"]
+  ],
+  "掃除しない。": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "掃除した": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["た", "ending"]
+  ],
+  "掃除した。": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "掃除しなかった": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "掃除しなかった。": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "掃除したい": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["たい", "ending"]
+  ],
+  "掃除したい。": [
+    ["掃除", "verb"],
+    ["し", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "掃除できる": [
+    ["掃除", "regular"],
+    ["でき", "verb"],
+    ["る", "ending"]
+  ],
+  "掃除できる。": [
+    ["掃除", "regular"],
+    ["でき", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "掃除しよう": [
+    ["掃除", "verb"],
+    ["しよう", "verb"]
+  ],
+  "掃除しよう。": [
+    ["掃除", "verb"],
+    ["しよう", "verb"],
+    ["。", "regular"]
+  ],
+  "料理する。": [
+    ["料理", "verb"],
+    ["する", "verb"],
+    ["。", "regular"]
+  ],
+  "料理します。": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "料理しません": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "料理しません。": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "料理しました": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "料理しました。": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "料理しませんでした": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "料理しませんでした。": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "料理して": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["て", "ending"]
+  ],
+  "料理してください。": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "料理しない": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["ない", "ending"]
+  ],
+  "料理しない。": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "料理した": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["た", "ending"]
+  ],
+  "料理した。": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "料理しなかった": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "料理しなかった。": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "料理したい": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["たい", "ending"]
+  ],
+  "料理したい。": [
+    ["料理", "verb"],
+    ["し", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "料理できる": [
+    ["料理", "regular"],
+    ["でき", "verb"],
+    ["る", "ending"]
+  ],
+  "料理できる。": [
+    ["料理", "regular"],
+    ["でき", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "料理しよう": [
+    ["料理", "verb"],
+    ["しよう", "verb"]
+  ],
+  "料理しよう。": [
+    ["料理", "verb"],
+    ["しよう", "verb"],
+    ["。", "regular"]
+  ],
+  "勉強する。": [
+    ["勉強", "verb"],
+    ["する", "verb"],
+    ["。", "regular"]
+  ],
+  "勉強します": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"]
+  ],
+  "勉強します。": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "勉強しません": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "勉強しません。": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "勉強しました": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "勉強しました。": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "勉強しませんでした。": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "勉強して": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["て", "ending"]
+  ],
+  "勉強してください。": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "勉強しない": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ない", "ending"]
+  ],
+  "勉強しない。": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "勉強した": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["た", "ending"]
+  ],
+  "勉強した。": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "勉強しなかった": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "勉強しなかった。": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "勉強したい": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["たい", "ending"]
+  ],
+  "勉強したい。": [
+    ["勉強", "verb"],
+    ["し", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "勉強できる": [
+    ["勉強", "regular"],
+    ["でき", "verb"],
+    ["る", "ending"]
+  ],
+  "勉強できる。": [
+    ["勉強", "regular"],
+    ["でき", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "勉強しよう": [
+    ["勉強", "verb"],
+    ["しよう", "verb"]
+  ],
+  "勉強しよう。": [
+    ["勉強", "verb"],
+    ["しよう", "verb"],
+    ["。", "regular"]
+  ],
+  "働く。": [
+    ["働", "verb"],
+    ["く", "ending"],
+    ["。", "regular"]
+  ],
+  "働きます": [
+    ["働き", "verb"],
+    ["ます", "ending"]
+  ],
+  "働きます。": [
+    ["働き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "働きません": [
+    ["働き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "働きません。": [
+    ["働き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "働きました": [
+    ["働き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "働きました。": [
+    ["働き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "働きませんでした": [
+    ["働き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "働きませんでした。": [
+    ["働き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "働いて": [
+    ["働い", "verb"],
+    ["て", "ending"]
+  ],
+  "働いてください。": [
+    ["働い", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "働かない": [
+    ["働か", "verb"],
+    ["ない", "ending"]
+  ],
+  "働かない。": [
+    ["働か", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "働いた": [
+    ["働い", "verb"],
+    ["た", "ending"]
+  ],
+  "働いた。": [
+    ["働い", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "働かなかった": [
+    ["働か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "働かなかった。": [
+    ["働か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "働きたい": [
+    ["働き", "verb"],
+    ["たい", "ending"]
+  ],
+  "働きたい。": [
+    ["働き", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "働ける": [
+    ["働け", "verb"],
+    ["る", "ending"]
+  ],
+  "働ける。": [
+    ["働け", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "働こう": [["働こう", "verb"]],
+  "働こう。": [
+    ["働こう", "verb"],
+    ["。", "regular"]
+  ],
+  "手伝う。": [
+    ["手伝", "verb"],
+    ["う", "ending"],
+    ["。", "regular"]
+  ],
+  "手伝います": [
+    ["手伝い", "verb"],
+    ["ます", "ending"]
+  ],
+  "手伝います。": [
+    ["手伝い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "手伝いません": [
+    ["手伝い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "手伝いません。": [
+    ["手伝い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "手伝いました": [
+    ["手伝い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "手伝いました。": [
+    ["手伝い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "手伝いませんでした": [
+    ["手伝い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "手伝いませんでした。": [
+    ["手伝い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "手伝って": [
+    ["手伝っ", "verb"],
+    ["て", "ending"]
+  ],
+  "手伝わない": [
+    ["手伝わ", "verb"],
+    ["ない", "ending"]
+  ],
+  "手伝わない。": [
+    ["手伝わ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "手伝った": [
+    ["手伝っ", "verb"],
+    ["た", "ending"]
+  ],
+  "手伝った。": [
+    ["手伝っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "手伝わなかった": [
+    ["手伝わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "手伝わなかった。": [
+    ["手伝わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "手伝いたい": [
+    ["手伝い", "verb"],
+    ["たい", "ending"]
+  ],
+  "手伝いたい。": [
+    ["手伝い", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "手伝える": [
+    ["手伝え", "verb"],
+    ["る", "ending"]
+  ],
+  "手伝える。": [
+    ["手伝え", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "手伝おう": [["手伝おう", "verb"]],
+  "手伝おう。": [
+    ["手伝おう", "verb"],
+    ["。", "regular"]
+  ],
+  "手紙を書く。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書", "verb"],
+    ["く", "ending"],
+    ["。", "regular"]
+  ],
+  "書きます": [
+    ["書き", "verb"],
+    ["ます", "ending"]
+  ],
+  "手紙を書きます。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "書きません": [
+    ["書き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "手紙を書きません。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "書きました": [
+    ["書き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "手紙を書きました。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "書きませんでした": [
+    ["書き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "手紙を書きませんでした。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "書いて": [
+    ["書い", "verb"],
+    ["て", "ending"]
+  ],
+  "手紙を書いてください。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書い", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "書かない": [
+    ["書か", "verb"],
+    ["ない", "ending"]
+  ],
+  "手紙を書かない。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書か", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "書いた": [
+    ["書い", "verb"],
+    ["た", "ending"]
+  ],
+  "手紙を書いた。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書い", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "書かなかった": [
+    ["書か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "手紙を書かなかった。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "書きたい": [
+    ["書き", "verb"],
+    ["たい", "ending"]
+  ],
+  "手紙を書きたい。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書き", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "書ける": [
+    ["書け", "verb"],
+    ["る", "ending"]
+  ],
+  "手紙を書ける。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書け", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "書こう": [["書こう", "verb"]],
+  "手紙を書こう。": [
+    ["手紙", "regular"],
+    ["を", "particle"],
+    ["書こう", "verb"],
+    ["。", "regular"]
+  ],
+  "思う。": [
+    ["思", "verb"],
+    ["う", "ending"],
+    ["。", "regular"]
+  ],
+  "思います": [
+    ["思い", "verb"],
+    ["ます", "ending"]
+  ],
+  "思います。": [
+    ["思い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "思いません": [
+    ["思い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "思いません。": [
+    ["思い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "思いました": [
+    ["思い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "思いました。": [
+    ["思い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "思いませんでした": [
+    ["思い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "思いませんでした。": [
+    ["思い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "思って": [
+    ["思っ", "verb"],
+    ["て", "ending"]
+  ],
+  "思ってください。": [
+    ["思っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "思わない": [
+    ["思わ", "verb"],
+    ["ない", "ending"]
+  ],
+  "思わない。": [
+    ["思わ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "思った": [
+    ["思っ", "verb"],
+    ["た", "ending"]
+  ],
+  "思った。": [
+    ["思っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "思わなかった": [
+    ["思わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "思わなかった。": [
+    ["思わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "思いたい": [
+    ["思い", "verb"],
+    ["たい", "ending"]
+  ],
+  "思いたい。": [
+    ["思い", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "思える": [
+    ["思え", "verb"],
+    ["る", "ending"]
+  ],
+  "思える。": [
+    ["思え", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "思おう": [["思おう", "verb"]],
+  "思おう。": [
+    ["思おう", "verb"],
+    ["。", "regular"]
+  ],
+  "会う。": [
+    ["会", "verb"],
+    ["う", "ending"],
+    ["。", "regular"]
+  ],
+  "会います": [
+    ["会い", "verb"],
+    ["ます", "ending"]
+  ],
+  "会います。": [
+    ["会い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "会いません": [
+    ["会い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "会いません。": [
+    ["会い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "会いました": [
+    ["会い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "会いました。": [
+    ["会い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "会いませんでした": [
+    ["会い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "会いませんでした。": [
+    ["会い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "会って": [
+    ["会っ", "verb"],
+    ["て", "ending"]
+  ],
+  "会ってください。": [
+    ["会っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "会わない": [
+    ["会わ", "verb"],
+    ["ない", "ending"]
+  ],
+  "会わない。": [
+    ["会わ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "会った": [
+    ["会っ", "verb"],
+    ["た", "ending"]
+  ],
+  "会った。": [
+    ["会っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "会わなかった": [
+    ["会わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "会わなかった。": [
+    ["会わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "会いたい": [
+    ["会い", "verb"],
+    ["たい", "ending"]
+  ],
+  "会いたい。": [
+    ["会い", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "会える": [
+    ["会え", "verb"],
+    ["る", "ending"]
+  ],
+  "会える。": [
+    ["会え", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "会おう": [["会おう", "verb"]],
+  "会おう。": [
+    ["会おう", "verb"],
+    ["。", "regular"]
+  ],
+  "言う。": [
+    ["言", "verb"],
+    ["う", "ending"],
+    ["。", "regular"]
+  ],
+  "言います": [
+    ["言い", "verb"],
+    ["ます", "ending"]
+  ],
+  "言います。": [
+    ["言い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "言いません": [
+    ["言い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "言いません。": [
+    ["言い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "言いました": [
+    ["言い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "言いました。": [
+    ["言い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "言いませんでした": [
+    ["言い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "言いませんでした。": [
+    ["言い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "言って": [
+    ["言っ", "verb"],
+    ["て", "ending"]
+  ],
+  "言ってください。": [
+    ["言っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "言わない": [
+    ["言わ", "verb"],
+    ["ない", "ending"]
+  ],
+  "言わない。": [
+    ["言わ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "言った": [
+    ["言っ", "verb"],
+    ["た", "ending"]
+  ],
+  "言った。": [
+    ["言っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "言わなかった": [
+    ["言わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "言わなかった。": [
+    ["言わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "言いたい": [
+    ["言い", "verb"],
+    ["たい", "ending"]
+  ],
+  "言いたい。": [
+    ["言い", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "言える": [
+    ["言え", "verb"],
+    ["る", "ending"]
+  ],
+  "言える。": [
+    ["言え", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "言おう": [["言おう", "verb"]],
+  "言おう。": [
+    ["言おう", "verb"],
+    ["。", "regular"]
+  ],
+  "話せます": [
+    ["話せ", "verb"],
+    ["ます", "ending"]
+  ],
+  "話せます。": [
+    ["話せ", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "話せません": [
+    ["話せ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "話せません。": [
+    ["話せ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "話せました": [
+    ["話せ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "話せました。": [
+    ["話せ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "話せませんでした": [
+    ["話せ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "話せませんでした。": [
+    ["話せ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "話せて": [
+    ["話せ", "verb"],
+    ["て", "ending"]
+  ],
+  "話せてください。": [
+    ["話せ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "話せない": [
+    ["話せ", "verb"],
+    ["ない", "ending"]
+  ],
+  "話せない。": [
+    ["話せ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "話せた": [
+    ["話せ", "verb"],
+    ["た", "ending"]
+  ],
+  "話せた。": [
+    ["話せ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "話せなかった": [
+    ["話せ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "話せなかった。": [
+    ["話せ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "話せたい": [
+    ["話せ", "verb"],
+    ["たい", "ending"]
+  ],
+  "話せたい。": [
+    ["話せ", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "話せられる": [
+    ["話せ", "verb"],
+    ["られる", "ending"]
+  ],
+  "話せられる。": [
+    ["話せ", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "話せよう": [["話せよう", "verb"]],
+  "話せよう。": [
+    ["話せよう", "verb"],
+    ["。", "regular"]
+  ],
+  "続ける。": [
+    ["続け", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "続けます": [
+    ["続け", "verb"],
+    ["ます", "ending"]
+  ],
+  "続けます。": [
+    ["続け", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "続けません": [
+    ["続け", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "続けません。": [
+    ["続け", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "続けました": [
+    ["続け", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "続けました。": [
+    ["続け", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "続けませんでした": [
+    ["続け", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "続けませんでした。": [
+    ["続け", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "続けて": [
+    ["続け", "verb"],
+    ["て", "ending"]
+  ],
+  "続けてください。": [
+    ["続け", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "続けない": [
+    ["続け", "verb"],
+    ["ない", "ending"]
+  ],
+  "続けない。": [
+    ["続け", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "続けた": [
+    ["続け", "verb"],
+    ["た", "ending"]
+  ],
+  "続けた。": [
+    ["続け", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "続けなかった": [
+    ["続け", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "続けなかった。": [
+    ["続け", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "続けたい": [
+    ["続け", "verb"],
+    ["たい", "ending"]
+  ],
+  "続けたい。": [
+    ["続け", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "続けられる": [
+    ["続け", "verb"],
+    ["られる", "ending"]
+  ],
+  "続けられる。": [
+    ["続け", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "続けよう": [["続けよう", "verb"]],
+  "続けよう。": [
+    ["続けよう", "verb"],
+    ["。", "regular"]
+  ],
+  "戻る。": [
+    ["戻", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "戻ります": [
+    ["戻り", "verb"],
+    ["ます", "ending"]
+  ],
+  "戻ります。": [
+    ["戻り", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "戻りません": [
+    ["戻り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "戻りません。": [
+    ["戻り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "戻りました": [
+    ["戻り", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "戻りました。": [
+    ["戻り", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "戻りませんでした": [
+    ["戻り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "戻りませんでした。": [
+    ["戻り", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "戻って": [
+    ["戻っ", "verb"],
+    ["て", "ending"]
+  ],
+  "戻ってください。": [
+    ["戻っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "戻らない": [
+    ["戻ら", "verb"],
+    ["ない", "ending"]
+  ],
+  "戻らない。": [
+    ["戻ら", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "戻った": [
+    ["戻っ", "verb"],
+    ["た", "ending"]
+  ],
+  "戻った。": [
+    ["戻っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "戻らなかった": [
+    ["戻ら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "戻らなかった。": [
+    ["戻ら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "戻りたい": [
+    ["戻り", "verb"],
+    ["たい", "ending"]
+  ],
+  "戻りたい。": [
+    ["戻り", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "戻れる": [
+    ["戻れ", "verb"],
+    ["る", "ending"]
+  ],
+  "戻れる。": [
+    ["戻れ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "戻ろう": [["戻ろう", "verb"]],
+  "戻ろう。": [
+    ["戻ろう", "verb"],
+    ["。", "regular"]
+  ],
+  "覚える。": [
+    ["覚え", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "覚えます": [
+    ["覚え", "verb"],
+    ["ます", "ending"]
+  ],
+  "覚えます。": [
+    ["覚え", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "覚えません": [
+    ["覚え", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "覚えません。": [
+    ["覚え", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "覚えました": [
+    ["覚え", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "覚えました。": [
+    ["覚え", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "覚えませんでした": [
+    ["覚え", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "覚えませんでした。": [
+    ["覚え", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "覚えて": [
+    ["覚え", "verb"],
+    ["て", "ending"]
+  ],
+  "覚えてください。": [
+    ["覚え", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "覚えない": [
+    ["覚え", "verb"],
+    ["ない", "ending"]
+  ],
+  "覚えない。": [
+    ["覚え", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "覚えた": [
+    ["覚え", "verb"],
+    ["た", "ending"]
+  ],
+  "覚えた。": [
+    ["覚え", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "覚えなかった": [
+    ["覚え", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "覚えなかった。": [
+    ["覚え", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "覚えたい": [
+    ["覚え", "verb"],
+    ["たい", "ending"]
+  ],
+  "覚えたい。": [
+    ["覚え", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "覚えられる": [
+    ["覚え", "verb"],
+    ["られる", "ending"]
+  ],
+  "覚えられる。": [
+    ["覚え", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "覚えよう": [["覚えよう", "verb"]],
+  "覚えよう。": [
+    ["覚えよう", "verb"],
+    ["。", "regular"]
+  ],
+  "分かる。": [
+    ["分か", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "分かります": [
+    ["分かり", "verb"],
+    ["ます", "ending"]
+  ],
+  "分かります。": [
+    ["分かり", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "分かりません": [
+    ["分かり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "分かりました。": [
+    ["分かり", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "分かりませんでした": [
+    ["分かり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "分かりませんでした。": [
+    ["分かり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "分かって": [
+    ["分かっ", "verb"],
+    ["て", "ending"]
+  ],
+  "分かってください。": [
+    ["分かっ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "分からない": [
+    ["分から", "verb"],
+    ["ない", "ending"]
+  ],
+  "分からない。": [
+    ["分から", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "分かった": [
+    ["分かっ", "verb"],
+    ["た", "ending"]
+  ],
+  "分かった。": [
+    ["分かっ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "分からなかった": [
+    ["分から", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "分からなかった。": [
+    ["分から", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "分かりたい": [
+    ["分かり", "verb"],
+    ["たい", "ending"]
+  ],
+  "分かりたい。": [
+    ["分かり", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "分かれる": [
+    ["分かれ", "verb"],
+    ["る", "ending"]
+  ],
+  "分かれる。": [
+    ["分かれ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "分かろう": [["分かろう", "verb"]],
+  "分かろう。": [
+    ["分かろう", "verb"],
+    ["。", "regular"]
+  ],
+  "パンを買う。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買", "verb"],
+    ["う", "ending"],
+    ["。", "regular"]
+  ],
+  "買います": [
+    ["買い", "verb"],
+    ["ます", "ending"]
+  ],
+  "パンを買います。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "買いません": [
+    ["買い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "パンを買いません。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "買いました": [
+    ["買い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "パンを買いました。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "買いませんでした": [
+    ["買い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "パンを買いませんでした。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "買って": [
+    ["買っ", "verb"],
+    ["て", "ending"]
+  ],
+  "パンを買ってください。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "買わない": [
+    ["買わ", "verb"],
+    ["ない", "ending"]
+  ],
+  "パンを買わない。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買わ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "買った": [
+    ["買っ", "verb"],
+    ["た", "ending"]
+  ],
+  "パンを買った。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "買わなかった": [
+    ["買わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "パンを買わなかった。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "買いたい": [
+    ["買い", "verb"],
+    ["たい", "ending"]
+  ],
+  "パンを買いたい。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買い", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "買える": [
+    ["買え", "verb"],
+    ["る", "ending"]
+  ],
+  "パンを買える。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買え", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "買おう": [["買おう", "verb"]],
+  "パンを買おう。": [
+    ["パン", "regular"],
+    ["を", "particle"],
+    ["買おう", "verb"],
+    ["。", "regular"]
+  ],
+  "歌う。": [
+    ["歌", "verb"],
+    ["う", "ending"],
+    ["。", "regular"]
+  ],
+  "歌います。": [
+    ["歌い", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "歌いません": [
+    ["歌い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "歌いません。": [
+    ["歌い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "歌いました": [
+    ["歌い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "歌いました。": [
+    ["歌い", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "歌いませんでした": [
+    ["歌い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "歌いませんでした。": [
+    ["歌い", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "歌って": [
+    ["歌っ", "verb"],
+    ["て", "ending"]
+  ],
+  "歌ってください。": [
+    ["歌っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "歌わない": [
+    ["歌わ", "verb"],
+    ["ない", "ending"]
+  ],
+  "歌わない。": [
+    ["歌わ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "歌った": [
+    ["歌っ", "verb"],
+    ["た", "ending"]
+  ],
+  "歌った。": [
+    ["歌っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "歌わなかった": [
+    ["歌わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "歌わなかった。": [
+    ["歌わ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "歌いたい": [
+    ["歌い", "verb"],
+    ["たい", "ending"]
+  ],
+  "歌いたい。": [
+    ["歌い", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "歌える": [
+    ["歌え", "verb"],
+    ["る", "ending"]
+  ],
+  "歌える。": [
+    ["歌え", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "歌おう": [["歌おう", "verb"]],
+  "歌おう。": [
+    ["歌おう", "verb"],
+    ["。", "regular"]
+  ],
+  "見せる。": [
+    ["見せ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "見せます": [
+    ["見せ", "verb"],
+    ["ます", "ending"]
+  ],
+  "見せます。": [
+    ["見せ", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "見せません": [
+    ["見せ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "見せません。": [
+    ["見せ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "見せました": [
+    ["見せ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "見せました。": [
+    ["見せ", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "見せませんでした": [
+    ["見せ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "見せませんでした。": [
+    ["見せ", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "見せて": [
+    ["見せ", "verb"],
+    ["て", "ending"]
+  ],
+  "見せてください。": [
+    ["見せ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "見せない": [
+    ["見せ", "verb"],
+    ["ない", "ending"]
+  ],
+  "見せない。": [
+    ["見せ", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "見せた": [
+    ["見せ", "verb"],
+    ["た", "ending"]
+  ],
+  "見せた。": [
+    ["見せ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "見せなかった": [
+    ["見せ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "見せなかった。": [
+    ["見せ", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "見せたい": [
+    ["見せ", "verb"],
+    ["たい", "ending"]
+  ],
+  "見せたい。": [
+    ["見せ", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "見せられる": [
+    ["見せ", "verb"],
+    ["られる", "ending"]
+  ],
+  "見せられる。": [
+    ["見せ", "verb"],
+    ["られる", "ending"],
+    ["。", "regular"]
+  ],
+  "見せよう": [["見せよう", "verb"]],
+  "見せよう。": [
+    ["見せよう", "verb"],
+    ["。", "regular"]
+  ],
+  "待つ。": [
+    ["待", "verb"],
+    ["つ", "ending"],
+    ["。", "regular"]
+  ],
+  "待ちます": [
+    ["待ち", "verb"],
+    ["ます", "ending"]
+  ],
+  "待ちます。": [
+    ["待ち", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "待ちません": [
+    ["待ち", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "待ちません。": [
+    ["待ち", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "待ちました": [
+    ["待ち", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "待ちました。": [
+    ["待ち", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "待ちませんでした": [
+    ["待ち", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "待ちませんでした。": [
+    ["待ち", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "待って": [
+    ["待っ", "verb"],
+    ["て", "ending"]
+  ],
+  "待ってください。": [
+    ["待っ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "待たない": [
+    ["待た", "verb"],
+    ["ない", "ending"]
+  ],
+  "待たない。": [
+    ["待た", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "待った": [
+    ["待っ", "verb"],
+    ["た", "ending"]
+  ],
+  "待った。": [
+    ["待っ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "待たなかった": [
+    ["待た", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "待たなかった。": [
+    ["待た", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "待ちたい": [
+    ["待ち", "verb"],
+    ["たい", "ending"]
+  ],
+  "待ちたい。": [
+    ["待ち", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "待てる": [
+    ["待て", "verb"],
+    ["る", "ending"]
+  ],
+  "待てる。": [
+    ["待て", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "待とう": [["待とう", "verb"]],
+  "待とう。": [
+    ["待とう", "verb"],
+    ["。", "regular"]
+  ],
+  "歩く。": [
+    ["歩", "verb"],
+    ["く", "ending"],
+    ["。", "regular"]
+  ],
+  "歩きます": [
+    ["歩き", "verb"],
+    ["ます", "ending"]
+  ],
+  "歩きます。": [
+    ["歩き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "歩きません": [
+    ["歩き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "歩きません。": [
+    ["歩き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "歩きました": [
+    ["歩き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "歩きました。": [
+    ["歩き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "歩きませんでした": [
+    ["歩き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "歩きませんでした。": [
+    ["歩き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "歩いて": [
+    ["歩い", "verb"],
+    ["て", "ending"]
+  ],
+  "歩いてください。": [
+    ["歩い", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "歩かない": [
+    ["歩か", "verb"],
+    ["ない", "ending"]
+  ],
+  "歩かない。": [
+    ["歩か", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "歩いた": [
+    ["歩い", "verb"],
+    ["た", "ending"]
+  ],
+  "歩いた。": [
+    ["歩い", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "歩かなかった": [
+    ["歩か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "歩かなかった。": [
+    ["歩か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "歩きたい": [
+    ["歩き", "verb"],
+    ["たい", "ending"]
+  ],
+  "歩きたい。": [
+    ["歩き", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "歩ける": [
+    ["歩け", "verb"],
+    ["る", "ending"]
+  ],
+  "歩ける。": [
+    ["歩け", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "歩こう": [["歩こう", "verb"]],
+  "歩こう。": [
+    ["歩", "regular"],
+    ["こう", "regular"],
+    ["。", "regular"]
+  ],
+  "焼く。": [
+    ["焼", "verb"],
+    ["く", "ending"],
+    ["。", "regular"]
+  ],
+  "焼きます": [
+    ["焼き", "verb"],
+    ["ます", "ending"]
+  ],
+  "焼きます。": [
+    ["焼き", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "焼きません": [
+    ["焼き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "焼きません。": [
+    ["焼き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "焼きました": [
+    ["焼き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "焼きました。": [
+    ["焼き", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "焼きませんでした": [
+    ["焼き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "焼きませんでした。": [
+    ["焼き", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "焼いて": [
+    ["焼い", "verb"],
+    ["て", "ending"]
+  ],
+  "焼いてください。": [
+    ["焼い", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "焼かない": [
+    ["焼か", "verb"],
+    ["ない", "ending"]
+  ],
+  "焼かない。": [
+    ["焼か", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "焼いた": [
+    ["焼い", "verb"],
+    ["た", "ending"]
+  ],
+  "焼いた。": [
+    ["焼い", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "焼かなかった": [
+    ["焼か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "焼かなかった。": [
+    ["焼か", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "焼きたい": [
+    ["焼き", "verb"],
+    ["たい", "ending"]
+  ],
+  "焼きたい。": [
+    ["焼き", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "焼ける": [
+    ["焼け", "verb"],
+    ["る", "ending"]
+  ],
+  "焼ける。": [
+    ["焼け", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "焼こう": [["焼こう", "verb"]],
+  "焼こう。": [
+    ["焼こう", "verb"],
+    ["。", "regular"]
+  ],
+  "旅行する。": [
+    ["旅行", "verb"],
+    ["する", "verb"],
+    ["。", "regular"]
+  ],
+  "旅行します。": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "旅行しません": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "旅行しません。": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "旅行しました": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "旅行しました。": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "旅行しませんでした": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "旅行しませんでした。": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "旅行して": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["て", "ending"]
+  ],
+  "旅行してください。": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "旅行しない": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["ない", "ending"]
+  ],
+  "旅行しない。": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "旅行した": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["た", "ending"]
+  ],
+  "旅行した。": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "旅行しなかった": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "旅行しなかった。": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "旅行したい": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["たい", "ending"]
+  ],
+  "旅行したい。": [
+    ["旅行", "verb"],
+    ["し", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "旅行できる": [
+    ["旅行", "regular"],
+    ["でき", "verb"],
+    ["る", "ending"]
+  ],
+  "旅行できる。": [
+    ["旅行", "regular"],
+    ["でき", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "旅行しよう": [
+    ["旅行", "verb"],
+    ["しよう", "verb"]
+  ],
+  "旅行しよう。": [
+    ["旅行", "verb"],
+    ["しよう", "verb"],
+    ["。", "regular"]
+  ],
+  "運転する。": [
+    ["運転", "verb"],
+    ["する", "verb"],
+    ["。", "regular"]
+  ],
+  "運転します": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"]
+  ],
+  "運転します。": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "運転しません": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "運転しません。": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "運転しました": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "運転しました。": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "運転しませんでした": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "運転しませんでした。": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "運転して": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["て", "ending"]
+  ],
+  "運転してください。": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "運転しない": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["ない", "ending"]
+  ],
+  "運転しない。": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "運転した": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["た", "ending"]
+  ],
+  "運転した。": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "運転しなかった": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "運転しなかった。": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "運転したい": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["たい", "ending"]
+  ],
+  "運転したい。": [
+    ["運転", "verb"],
+    ["し", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "運転できる": [
+    ["運転", "regular"],
+    ["でき", "verb"],
+    ["る", "ending"]
+  ],
+  "運転できる。": [
+    ["運転", "regular"],
+    ["でき", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "運転しよう": [
+    ["運転", "verb"],
+    ["しよう", "verb"]
+  ],
+  "運転しよう。": [
+    ["運転", "verb"],
+    ["しよう", "verb"],
+    ["。", "regular"]
+  ],
+  "えさをやる。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["や", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "えさをやります": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やり", "verb"],
+    ["ます", "ending"]
+  ],
+  "えさをやります。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やり", "verb"],
+    ["ます", "ending"],
+    ["。", "regular"]
+  ],
+  "えさをやりません": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"]
+  ],
+  "えさをやりません。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["。", "regular"]
+  ],
+  "えさをやりました": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やり", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"]
+  ],
+  "えさをやりました。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やり", "verb"],
+    ["まし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "えさをやりませんでした": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"]
+  ],
+  "えさをやりませんでした。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やり", "verb"],
+    ["ませ", "ending"],
+    ["ん", "ending"],
+    ["でし", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "えさをやって": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やっ", "verb"],
+    ["て", "ending"]
+  ],
+  "えさをやってください。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やっ", "verb"],
+    ["て", "ending"],
+    ["ください", "ending"],
+    ["。", "regular"]
+  ],
+  "えさをやらない": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やら", "verb"],
+    ["ない", "ending"]
+  ],
+  "えさをやらない。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やら", "verb"],
+    ["ない", "ending"],
+    ["。", "regular"]
+  ],
+  "えさをやった": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やっ", "verb"],
+    ["た", "ending"]
+  ],
+  "えさをやった。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やっ", "verb"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "えさをやらなかった": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"]
+  ],
+  "えさをやらなかった。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やら", "verb"],
+    ["なかっ", "ending"],
+    ["た", "ending"],
+    ["。", "regular"]
+  ],
+  "えさをやりたい": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やり", "verb"],
+    ["たい", "ending"]
+  ],
+  "えさをやりたい。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やり", "verb"],
+    ["たい", "ending"],
+    ["。", "regular"]
+  ],
+  "えさをやれる": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やれ", "verb"],
+    ["る", "ending"]
+  ],
+  "えさをやれる。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やれ", "verb"],
+    ["る", "ending"],
+    ["。", "regular"]
+  ],
+  "えさをやろう": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やろう", "verb"]
+  ],
+  "えさをやろう。": [
+    ["えさ", "regular"],
+    ["を", "particle"],
+    ["やろう", "verb"],
+    ["。", "regular"]
+  ]
+}

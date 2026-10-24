@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "acorn": "^8.19.0",
+    "esbuild": "^0.28.2",
+    "lightningcss": "^1.33.0",
+    "postcss": "^8.5.31",
+    "prettier": "^3.9.10"
+  },
+  "name": "kotoba-reference",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A personal Japanese reference book",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "build": "node build.mjs",
+    "format": "prettier --write src build.mjs tests",
+    "test": "node --test tests/*.test.cjs",
+    "preview": "node tools/serve.mjs"
+  }
+}
