@@ -95,6 +95,7 @@ test("reference navigation, word popup, lessons, kana, clock and display prefere
     const sidebarSize = await page
       .locator(".brand-title")
       .evaluate((e) => getComputedStyle(e).fontSize);
+    await page.locator('[data-page="settings"]').click();
     await page.locator("#textSizeSelect").selectOption("20");
     assert.equal(
       await page
@@ -106,10 +107,11 @@ test("reference navigation, word popup, lessons, kana, clock and display prefere
     await page.reload();
     assert.equal(await page.locator("#textSizeSelect").inputValue(), "20");
     await page.locator('[data-page="lessons"]').click();
-    await page.locator(".yuma-portrait").hover();
-    assert.equal(await page.locator(".yuma-celebration").count(), 1);
-    await page.keyboard.press("Escape");
-    assert.equal(await page.locator(".yuma-celebration").count(), 0);
+    assert.equal(await page.locator(".journal-entry").count(), 7);
+    assert.equal(
+      await page.locator(".journal-portrait .yuma-lady-doodle").count(),
+      1,
+    );
     await page.locator('[data-page="library"]').click();
     fs.mkdirSync(path.join(root, ".history", "qa"), { recursive: true });
     await page.screenshot({

@@ -4479,3 +4479,597 @@ body.dark .kana-chart .kana-cell[data-kana-group] {
     opacity: 0.04;
   }
 }
+
+/* Phone layout: useful content first, stable labeled navigation below. */
+#readingSettingsToggle {
+  display: none;
+}
+@media (max-width: 850px) {
+  .sidebar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 64px;
+    min-height: 64px;
+    padding: 12px 18px;
+    position: relative;
+    overflow: visible;
+    flex-wrap: nowrap;
+  }
+  .sidebar .brand {
+    padding: 0;
+    gap: 9px;
+  }
+  .sidebar .brand-title {
+    font-size: 25px;
+  }
+  .sidebar .brand-sub {
+    display: none;
+  }
+  .sidebar .brand-mark {
+    display: grid;
+    width: 32px;
+    height: 32px;
+    flex: 0 0 32px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .sidebar .nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 45;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 3px;
+    margin: 0;
+    padding: 7px 8px calc(7px + env(safe-area-inset-bottom, 0px));
+    border-top: 1px solid var(--line);
+    background: var(--paper);
+    box-shadow: 0 -4px 20px #34344b08;
+  }
+  .sidebar .nav > [data-page],
+  .sidebar .nav .yuma-nav-group > [data-page],
+  .sidebar .nav > [data-page="settings"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    min-height: 52px;
+    font-size: 0;
+    padding: 6px 1px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+  }
+  .sidebar .nav [data-page]:after {
+    content: attr(data-mobile-label);
+    font-size: 10px;
+    font-weight: 650;
+    line-height: 1.2;
+    letter-spacing: 0;
+    color: inherit;
+  }
+  .sidebar .nav [data-page] > span {
+    display: none;
+  }
+  .sidebar .nav .yuma-nav-group {
+    width: 100%;
+    position: static;
+  }
+  .sidebar .nav .yuma-nav-group > [data-page] .yuma-chevron {
+    display: none;
+  }
+  .sidebar .nav .yuma-nav-group .lesson-nav {
+    position: fixed;
+    top: auto;
+    bottom: calc(78px + env(safe-area-inset-bottom, 0px));
+    left: 12px;
+    right: 12px;
+    width: auto;
+    max-height: 50vh;
+    margin: 0;
+    padding: 10px;
+    overflow-y: auto;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+  }
+  .sidebar .nav .yuma-nav-group .lesson-nav button {
+    font-size: 13px;
+    min-height: 44px;
+  }
+  main {
+    padding: 12px 16px calc(95px + env(safe-area-inset-bottom, 0px));
+  }
+  .topbar {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    margin: 0;
+    z-index: 2;
+    min-height: 44px;
+  }
+  .topbar .tiny-label {
+    display: none;
+  }
+  .topbar #themeBtn {
+    min-height: 42px;
+    min-width: 42px;
+    background: transparent;
+    border-color: transparent;
+  }
+  .study-preferences {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 42px;
+    gap: 7px;
+    align-items: center;
+    padding: 7px;
+    margin: 0 0 16px;
+    border-radius: 14px;
+    top: calc(7px + env(safe-area-inset-top, 0px));
+    box-shadow: 0 4px 15px #34344b0a;
+  }
+  .study-preferences .reading-identity {
+    display: none;
+  }
+  .study-preferences .reading-modes {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+    min-width: 0;
+    gap: 2px;
+    border: 0;
+    padding: 2px;
+    background: var(--bg);
+    border-radius: 9px;
+  }
+  .study-preferences .reading-modes button {
+    font-size: 11px;
+    min-height: 40px;
+    padding: 8px 2px;
+    white-space: nowrap;
+  }
+  .study-preferences .reading-modes button span {
+    font-size: 11px;
+  }
+  #readingSettingsToggle {
+    display: block;
+    min-height: 42px;
+    width: 42px;
+    padding: 4px;
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    background: var(--paper);
+    color: var(--green);
+    font-size: 14px;
+    font-weight: 750;
+  }
+  .study-preferences .text-size-control {
+    display: none;
+    grid-column: 1/-1;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 13px;
+    padding: 5px 4px 1px;
+  }
+  .study-preferences.size-options-open .text-size-control {
+    display: flex;
+  }
+  .study-preferences .text-size-control select {
+    min-height: 42px;
+    font-size: 16px;
+  }
+  .hero {
+    padding: 20px;
+    min-height: 0;
+    border-radius: 19px;
+  }
+  .hero h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+  .hero h1 br {
+    display: none;
+  }
+  .hero p {
+    font-size: 14px;
+    line-height: 1.65;
+    margin: 0;
+  }
+  .hero .hero-kicker {
+    font-size: 10px;
+  }
+  .hero .hero-chip,
+  .hero .hero-stickers,
+  .hero:after {
+    display: none;
+  }
+  .reference-shortcuts {
+    display: none;
+  }
+  #libraryPage > .section-title {
+    margin: 22px 0 14px;
+    align-items: center;
+  }
+  #libraryPage > .section-title h2 {
+    font-size: 22px;
+  }
+  #collectionDescription {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  #randomWordBtn {
+    font-size: 11px;
+    padding: 8px;
+    min-height: 42px;
+    flex-shrink: 0;
+  }
+  .toolbar {
+    gap: 8px;
+    margin: 12px 0;
+  }
+  .searchbox {
+    flex-basis: 100%;
+    min-height: 46px;
+  }
+  .searchbox input {
+    font-size: 16px;
+  }
+  .categories {
+    margin: 12px 0;
+    gap: 6px;
+    padding-bottom: 4px;
+  }
+  .catbtn {
+    min-height: 40px;
+    font-size: 12px;
+    padding: 8px 11px;
+  }
+  .resultsbar {
+    font-size: 12px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .resultsbar select {
+    font-size: 12px;
+    min-height: 40px;
+  }
+  .word-category-section {
+    margin: 20px 0 28px;
+  }
+  .word-category-heading {
+    margin-bottom: 12px;
+  }
+  .word-category-heading h3 {
+    font-size: 18px;
+  }
+  .word-card,
+  .lv-card {
+    padding: 18px;
+    border-radius: 16px;
+  }
+  .word-kanji {
+    font-size: calc(1.8rem * var(--study-text-scale, 1));
+  }
+  .card-footer .card-more {
+    min-height: 44px;
+    padding: 8px 0;
+  }
+  .mini-icon {
+    min-width: 40px;
+    min-height: 40px;
+  }
+  .lesson-hero {
+    padding: 23px 20px;
+    min-height: 0;
+    border-radius: 19px;
+    gap: 8px;
+    align-items: center;
+  }
+  .lesson-hero h1 {
+    font-size: 28px;
+  }
+  .lesson-hero p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+  .lesson-hero .hero-chip {
+    font-size: 11px;
+    padding: 7px 10px;
+    margin-top: 14px;
+  }
+  .yuma-portrait {
+    flex-basis: 132px;
+    width: 132px;
+    height: 132px;
+    margin: 4px auto 0;
+  }
+  .yuma-portrait .portrait-lady {
+    width: 118px;
+    height: 130px;
+  }
+  .yuma-portrait .portrait-cat {
+    width: 65px;
+    height: 75px;
+  }
+  .lesson-notice {
+    font-size: 11px;
+    line-height: 1.7;
+  }
+  .lesson-milestones {
+    margin: 16px 0 22px;
+    gap: 7px;
+  }
+  .milestone {
+    padding: 12px;
+  }
+  .milestone strong {
+    font-size: 22px;
+  }
+  .milestone span {
+    font-size: 10px;
+  }
+  .lesson-list {
+    gap: 10px;
+  }
+  .lesson-tile {
+    padding: 16px;
+    min-height: 125px;
+  }
+  .lesson-tile h3 {
+    font-size: 17px;
+  }
+  .lesson-tile p {
+    font-size: 12px;
+  }
+  .kana-tabs {
+    margin: 0 0 12px;
+    gap: 6px;
+  }
+  .kana-tabs button {
+    min-height: 44px;
+    padding: 9px 14px;
+    font-size: 13px;
+  }
+  .kana-set-toggle {
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  .kana-set-toggle button {
+    font-size: 11px;
+    padding: 8px;
+    min-height: 40px;
+  }
+  .kana-view-toggle {
+    margin-bottom: 14px;
+    padding: 3px;
+  }
+  .kana-view-toggle button {
+    min-height: 40px;
+    font-size: 12px;
+    padding: 8px 13px;
+  }
+  .kana-compact-view #kanaPanel {
+    padding: 15px 11px;
+  }
+  .kana-compact-view .kana-section-heading h2 {
+    font-size: 17px;
+  }
+  .kana-compact-chart {
+    gap: 4px;
+  }
+  .kana-compact-cell {
+    min-height: 37px;
+    padding: 2px 1px;
+  }
+  .kana-compact-cell > span[lang] {
+    font-size: calc(1.15rem * var(--study-text-scale));
+  }
+  .kana-compact-cell > span:last-child {
+    font-size: 10px;
+  }
+  #numbersPage > .kana-hero {
+    padding: 3px 2px 12px;
+  }
+  #numbersPage > .kana-hero h1 {
+    font-size: 23px;
+  }
+  #numbersPage > .kana-hero .hero-kicker {
+    font-size: 9px;
+  }
+  #numbersTimeTabs {
+    margin: 0 0 13px;
+  }
+  .time-playground {
+    padding: 18px 16px;
+    gap: 17px;
+    border-radius: 18px;
+  }
+  .clock-digital-display #timeDigital {
+    font-size: calc(2rem * var(--study-text-scale));
+  }
+  .clock-digital-display {
+    margin-bottom: 8px;
+  }
+  .interactive-clock-panel h2 {
+    font-size: 16px;
+  }
+  .time-help {
+    font-size: 11px;
+    margin: 4px 0 10px;
+  }
+  #learningClock {
+    max-width: 205px;
+  }
+  .clock-mode {
+    font-size: 11px;
+    margin: 8px 0 0;
+  }
+  .clock-mode select {
+    min-height: 40px;
+    font-size: 12px;
+  }
+  #timeJapanese {
+    font-size: calc(1.35rem * var(--study-text-scale));
+    margin-top: 0;
+  }
+  #timeKana {
+    font-size: calc(0.9rem * var(--study-text-scale));
+  }
+  #timeRomaji {
+    font-size: calc(0.8rem * var(--study-text-scale));
+  }
+  .clock-settings {
+    margin-top: 14px;
+    padding-top: 13px;
+  }
+  .clock-study-tip {
+    margin-top: 10px;
+  }
+  #wordDetailsDialog {
+    width: calc(100vw - 20px);
+    max-height: calc(100dvh - 28px);
+    border-radius: 18px;
+  }
+  #wordDetailsDialog .modal-head {
+    padding: 14px 16px;
+  }
+  .modal-head h2 {
+    margin: 0;
+  }
+  #wordDetailsDialog .modal-form {
+    padding: 16px;
+    max-height: calc(100dvh - 115px);
+  }
+  .verb-form-list {
+    gap: 9px;
+  }
+  .verb-form-row {
+    padding: 13px;
+  }
+  .verb-form-example summary {
+    min-height: 40px;
+  }
+  .grammar-chapter .section-title {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .grammar-chapter .section-title h2 {
+    font-size: 20px;
+  }
+  .footer {
+    font-size: 10px;
+    line-height: 1.7;
+    margin-top: 24px;
+  }
+}
+@media (max-width: 360px) {
+  .sidebar {
+    padding-left: 14px;
+  }
+  .sidebar .brand-title {
+    font-size: 23px;
+  }
+  .sidebar .brand-mark {
+    display: none;
+  }
+  main {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .study-preferences .reading-modes button,
+  .study-preferences .reading-modes button span {
+    font-size: 10px;
+  }
+  .sidebar .nav [data-page]:after {
+    font-size: 9px;
+  }
+  .kana-set-toggle button {
+    font-size: 10px;
+    padding: 7px;
+  }
+  .kana-tabs button {
+    padding: 9px 11px;
+  }
+}
+@media (max-width: 850px) {
+  #numbersPage .interactive-clock-panel h2 {
+    display: none;
+  }
+  #numbersPage #learningClock {
+    max-width: 185px;
+  }
+  #numbersPage .time-help {
+    margin: 2px 0 9px;
+  }
+  #numbersPage .clock-digital-display {
+    margin-bottom: 5px;
+  }
+  #numbersPage .clock-controls-panel .time-reading {
+    margin-bottom: 9px;
+  }
+}
+/* A small persistent reading switch, without the helper banner. */
+#studyPreferences.study-preferences {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 0 20px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  box-shadow: none;
+  top: calc(8px + env(safe-area-inset-top, 0px));
+}
+#studyPreferences .reading-modes {
+  display: flex;
+  gap: 3px;
+  width: auto;
+  padding: 5px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
+  box-shadow: 0 3px 12px #34344b08;
+}
+#studyPreferences .reading-modes button {
+  min-height: 40px;
+  padding: 8px 14px;
+  font-size: 12px;
+}
+#studyPreferences .reading-modes button.active {
+  background: var(--lavender);
+  color: var(--playful-purple);
+  box-shadow: none;
+}
+#settingsPage .text-size-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  max-width: 340px;
+  width: 100%;
+  margin: 16px 0 20px;
+  font-size: 14px;
+}
+#settingsPage .text-size-control select {
+  font-size: 16px;
+  min-height: 44px;
+}
+@media (max-width: 850px) {
+  #studyPreferences.study-preferences {
+    margin-bottom: 16px;
+  }
+  #studyPreferences .reading-modes button {
+    padding: 8px 11px;
+    font-size: 11px;
+  }
+  #studyPreferences .reading-modes button span {
+    font-size: 11px;
+  }
+}

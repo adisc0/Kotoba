@@ -1,0 +1,2753 @@
+{
+  "entries": {
+    "早い": {
+      "diagram": "timeline",
+      "focus": "early",
+      "antonym": "遅い",
+      "sentence": {
+        "jp": "今日はいつもより早く起きました。",
+        "romaji": "Kyou wa itsumo yori hayaku okimashita.",
+        "en": "I got up earlier than usual today.",
+        "target": "早く",
+        "targetStart": 8
+      }
+    },
+    "遅い": {
+      "diagram": "timeline",
+      "focus": "late",
+      "antonym": "早い",
+      "sentence": {
+        "jp": "今日はいつもより遅く起きました。",
+        "romaji": "Kyou wa itsumo yori osoku okimashita.",
+        "en": "I got up later than usual today.",
+        "target": "遅く",
+        "targetStart": 8
+      }
+    },
+    "大きい": {
+      "diagram": "size",
+      "focus": "large",
+      "antonym": "小さい",
+      "sentence": {
+        "jp": "このかばんは大きいです。",
+        "romaji": "Kono kaban wa ookii desu.",
+        "en": "This bag is big.",
+        "target": "大きい",
+        "targetStart": 6
+      }
+    },
+    "小さい": {
+      "diagram": "size",
+      "focus": "small",
+      "antonym": "大きい",
+      "sentence": {
+        "jp": "このかばんは小さいです。",
+        "romaji": "Kono kaban wa chiisai desu.",
+        "en": "This bag is small.",
+        "target": "小さい",
+        "targetStart": 6
+      }
+    },
+    "暑い": {
+      "diagram": "temperature",
+      "focus": "hot",
+      "antonym": "寒い",
+      "sentence": {
+        "jp": "今日は暑いです。",
+        "romaji": "Kyou wa atsui desu.",
+        "en": "It is hot today.",
+        "target": "暑い",
+        "targetStart": 3
+      }
+    },
+    "寒い": {
+      "diagram": "temperature",
+      "focus": "cold",
+      "antonym": "暑い",
+      "sentence": {
+        "jp": "今日は寒いです。",
+        "romaji": "Kyou wa samui desu.",
+        "en": "It is cold today.",
+        "target": "寒い",
+        "targetStart": 3
+      }
+    },
+    "涼しい": {
+      "diagram": "temperature",
+      "focus": "cool",
+      "sentence": {
+        "jp": "今日は涼しいです。",
+        "romaji": "Kyou wa suzushii desu.",
+        "en": "It is cool today.",
+        "target": "涼しい",
+        "targetStart": 3
+      }
+    },
+    "同じ": {
+      "diagram": "equal",
+      "sentence": {
+        "jp": "友達と同じクラスです。",
+        "romaji": "Tomodachi to onaji kurasu desu.",
+        "en": "I am in the same class as my friend.",
+        "target": "同じ",
+        "targetStart": 3
+      },
+      "pos": {
+        "key": "special-adjective",
+        "label": "Adjective · special"
+      },
+      "usage": "同じ + noun (no な) · 同じです",
+      "note": "同じ is a special adjectival word: use 同じ directly before a noun (同じクラス), and 同じです at the end of a polite sentence. Do not use 同じな before an ordinary noun. 同じなのです is a separate explanatory construction."
+    },
+    "面白い": {
+      "antonym": "つまらない",
+      "sentence": {
+        "jp": "この映画は面白いです。",
+        "romaji": "Kono eiga wa omoshiroi desu.",
+        "en": "This movie is interesting.",
+        "target": "面白い",
+        "targetStart": 5
+      }
+    },
+    "つまらない": {
+      "antonym": "面白い",
+      "sentence": {
+        "jp": "その映画はつまらなかったです。",
+        "romaji": "Sono eiga wa tsumaranakatta desu.",
+        "en": "That movie was boring.",
+        "target": "つまらなかった",
+        "targetStart": 5
+      }
+    },
+    "おいしい": {
+      "sentence": {
+        "jp": "このラーメンはおいしいです。",
+        "romaji": "Kono raamen wa oishii desu.",
+        "en": "This ramen is delicious.",
+        "target": "おいしい",
+        "targetStart": 7
+      }
+    },
+    "元気": {
+      "sentence": {
+        "jp": "今日は元気です。",
+        "romaji": "Kyou wa genki desu.",
+        "en": "I feel well today.",
+        "target": "元気",
+        "targetStart": 3
+      }
+    },
+    "仕事": {
+      "sentence": {
+        "jp": "明日は仕事です。",
+        "romaji": "Ashita wa shigoto desu.",
+        "en": "I have work tomorrow.",
+        "target": "仕事",
+        "targetStart": 3
+      }
+    },
+    "忙しい": {
+      "sentence": {
+        "jp": "明日は忙しいです。",
+        "romaji": "Ashita wa isogashii desu.",
+        "en": "I will be busy tomorrow.",
+        "target": "忙しい",
+        "targetStart": 3
+      }
+    },
+    "お疲れ様": {
+      "sentence": {
+        "jp": "今日もお疲れ様でした。",
+        "romaji": "Kyou mo otsukaresama deshita.",
+        "en": "Thanks for your hard work today, too.",
+        "target": "お疲れ様",
+        "targetStart": 3
+      }
+    },
+    "お昼ご飯": {
+      "sentence": {
+        "jp": "お昼ご飯を食べましょう。",
+        "romaji": "Ohirugohan o tabemashou.",
+        "en": "Let's have lunch.",
+        "target": "お昼ご飯",
+        "targetStart": 0
+      }
+    },
+    "昼ご飯": {
+      "sentence": {
+        "jp": "昼ご飯はうどんです。",
+        "romaji": "Hirugohan wa udon desu.",
+        "en": "Lunch is udon.",
+        "target": "昼ご飯",
+        "targetStart": 0
+      }
+    },
+    "何": {
+      "sentence": {
+        "jp": "これは何ですか。",
+        "romaji": "Kore wa nan desu ka.",
+        "en": "What is this?",
+        "target": "何",
+        "targetStart": 3
+      }
+    },
+    "食べる": {
+      "sentence": {
+        "jp": "うどんを食べます。",
+        "romaji": "Udon o tabemasu.",
+        "en": "I eat udon.",
+        "target": "食べます",
+        "targetStart": 4
+      }
+    },
+    "飲む": {
+      "sentence": {
+        "jp": "コーヒーを飲みました。",
+        "romaji": "Koohii o nomimashita.",
+        "en": "I drank coffee.",
+        "target": "飲みました",
+        "targetStart": 5
+      }
+    },
+    "見る": {
+      "sentence": {
+        "jp": "ネットフリックスを見ます。",
+        "romaji": "Nettofurikkusu o mimasu.",
+        "en": "I watch Netflix.",
+        "target": "見ます",
+        "targetStart": 9
+      }
+    },
+    "聞く": {
+      "sentence": {
+        "jp": "音楽を聞きます。",
+        "romaji": "Ongaku o kikimasu.",
+        "en": "I listen to music.",
+        "target": "聞きます",
+        "targetStart": 3
+      }
+    },
+    "読む": {
+      "sentence": {
+        "jp": "本を読みます。",
+        "romaji": "Hon o yomimasu.",
+        "en": "I read a book.",
+        "target": "読みます",
+        "targetStart": 2
+      }
+    },
+    "する": {
+      "sentence": {
+        "jp": "明日、仕事をします。",
+        "romaji": "Ashita, shigoto o shimasu.",
+        "en": "I will work tomorrow.",
+        "target": "します",
+        "targetStart": 6
+      }
+    },
+    "行く": {
+      "sentence": {
+        "jp": "明日、ジムに行きます。",
+        "romaji": "Ashita, jimu ni ikimasu.",
+        "en": "I will go to the gym tomorrow.",
+        "target": "行きます",
+        "targetStart": 6
+      }
+    },
+    "来る": {
+      "sentence": {
+        "jp": "友達が来ます。",
+        "romaji": "Tomodachi ga kimasu.",
+        "en": "A friend is coming.",
+        "target": "来ます",
+        "targetStart": 3
+      }
+    },
+    "帰る": {
+      "sentence": {
+        "jp": "家に帰ります。",
+        "romaji": "Ie ni kaerimasu.",
+        "en": "I am going home.",
+        "target": "帰ります",
+        "targetStart": 2
+      }
+    },
+    "話す": {
+      "sentence": {
+        "jp": "日本語を少し話します。",
+        "romaji": "Nihongo o sukoshi hanashimasu.",
+        "en": "I speak a little Japanese.",
+        "target": "話します",
+        "targetStart": 6
+      }
+    },
+    "休む": {
+      "sentence": {
+        "jp": "明日は休みます。",
+        "romaji": "Ashita wa yasumimasu.",
+        "en": "I will take tomorrow off.",
+        "target": "休みます",
+        "targetStart": 3
+      }
+    },
+    "走る": {
+      "sentence": {
+        "jp": "公園で走ります。",
+        "romaji": "Kouen de hashirimasu.",
+        "en": "I run in the park.",
+        "target": "走ります",
+        "targetStart": 3
+      }
+    },
+    "始める": {
+      "sentence": {
+        "jp": "勉強を始めます。",
+        "romaji": "Benkyou o hajimemasu.",
+        "en": "I will start studying.",
+        "target": "始めます",
+        "targetStart": 3
+      }
+    },
+    "作る": {
+      "sentence": {
+        "jp": "晩ご飯を作ります。",
+        "romaji": "Bangohan o tsukurimasu.",
+        "en": "I make dinner.",
+        "target": "作ります",
+        "targetStart": 4
+      }
+    },
+    "遊ぶ": {
+      "sentence": {
+        "jp": "週末に友達と遊びます。",
+        "romaji": "Shuumatsu ni tomodachi to asobimasu.",
+        "en": "I hang out with friends on the weekend.",
+        "target": "遊びます",
+        "targetStart": 6
+      }
+    },
+    "寝る": {
+      "sentence": {
+        "jp": "十一時に寝ます。",
+        "romaji": "Juuichi-ji ni nemasu.",
+        "en": "I go to bed at eleven.",
+        "target": "寝ます",
+        "targetStart": 4
+      }
+    },
+    "起きる": {
+      "sentence": {
+        "jp": "五時に起きます。",
+        "romaji": "Go-ji ni okimasu.",
+        "en": "I get up at five.",
+        "target": "起きます",
+        "targetStart": 3
+      }
+    },
+    "ある": {
+      "sentence": {
+        "jp": "机の上に本があります。",
+        "romaji": "Tsukue no ue ni hon ga arimasu.",
+        "en": "There is a book on the desk.",
+        "target": "あります",
+        "targetStart": 6
+      }
+    },
+    "いる": {
+      "sentence": {
+        "jp": "猫がいます。",
+        "romaji": "Neko ga imasu.",
+        "en": "There is a cat.",
+        "target": "います",
+        "targetStart": 2
+      }
+    },
+    "好き": {
+      "sentence": {
+        "jp": "日本語が好きです。",
+        "romaji": "Nihongo ga suki desu.",
+        "en": "I like Japanese.",
+        "target": "好き",
+        "targetStart": 4
+      }
+    },
+    "大好き": {
+      "sentence": {
+        "jp": "猫が大好きです。",
+        "romaji": "Neko ga daisuki desu.",
+        "en": "I love cats.",
+        "target": "大好き",
+        "targetStart": 2
+      }
+    },
+    "まあまあ": {
+      "sentence": {
+        "jp": "テストはまあまあでした。",
+        "romaji": "Tesuto wa maamaa deshita.",
+        "en": "The test went so-so.",
+        "target": "まあまあ",
+        "targetStart": 4
+      }
+    },
+    "めっちゃ": {
+      "sentence": {
+        "jp": "このラーメン、めっちゃおいしい。",
+        "romaji": "Kono raamen, meccha oishii.",
+        "en": "This ramen is super delicious.",
+        "target": "めっちゃ",
+        "targetStart": 7
+      }
+    },
+    "少し": {
+      "sentence": {
+        "jp": "日本語を少し話します。",
+        "romaji": "Nihongo o sukoshi hanashimasu.",
+        "en": "I speak a little Japanese.",
+        "target": "少し",
+        "targetStart": 4
+      }
+    },
+    "あまり": {
+      "sentence": {
+        "jp": "お酒はあまり飲みません。",
+        "romaji": "Osake wa amari nomimasen.",
+        "en": "I don't drink much alcohol.",
+        "target": "あまり",
+        "targetStart": 3
+      }
+    },
+    "特に": {
+      "sentence": {
+        "jp": "果物は特にバナナが好きです。",
+        "romaji": "Kudamono wa toku ni banana ga suki desu.",
+        "en": "Of all fruits, I especially like bananas.",
+        "target": "特に",
+        "targetStart": 3
+      }
+    },
+    "今日": {
+      "sentence": {
+        "jp": "今日は忙しいです。",
+        "romaji": "Kyou wa isogashii desu.",
+        "en": "I am busy today.",
+        "target": "今日",
+        "targetStart": 0
+      }
+    },
+    "昨日": {
+      "sentence": {
+        "jp": "昨日はジムに行きました。",
+        "romaji": "Kinou wa jimu ni ikimashita.",
+        "en": "I went to the gym yesterday.",
+        "target": "昨日",
+        "targetStart": 0
+      }
+    },
+    "明日": {
+      "sentence": {
+        "jp": "明日は勉強します。",
+        "romaji": "Ashita wa benkyou shimasu.",
+        "en": "I will study tomorrow.",
+        "target": "明日",
+        "targetStart": 0
+      }
+    },
+    "今朝": {
+      "sentence": {
+        "jp": "今朝、コーヒーを飲みました。",
+        "romaji": "Kesa, koohii o nomimashita.",
+        "en": "I drank coffee this morning.",
+        "target": "今朝",
+        "targetStart": 0
+      }
+    },
+    "朝": {
+      "sentence": {
+        "jp": "朝、散歩します。",
+        "romaji": "Asa, sanpo shimasu.",
+        "en": "I take a walk in the morning.",
+        "target": "朝",
+        "targetStart": 0
+      }
+    },
+    "夜": {
+      "sentence": {
+        "jp": "夜は家で休みます。",
+        "romaji": "Yoru wa ie de yasumimasu.",
+        "en": "I rest at home at night.",
+        "target": "夜",
+        "targetStart": 0
+      }
+    },
+    "今": {
+      "sentence": {
+        "jp": "今、何をしていますか。",
+        "romaji": "Ima, nani o shite imasu ka.",
+        "en": "What are you doing now?",
+        "target": "今",
+        "targetStart": 0
+      }
+    },
+    "毎日": {
+      "sentence": {
+        "jp": "毎日、日本語を勉強します。",
+        "romaji": "Mainichi, nihongo o benkyou shimasu.",
+        "en": "I study Japanese every day.",
+        "target": "毎日",
+        "targetStart": 0
+      }
+    },
+    "週末": {
+      "sentence": {
+        "jp": "週末に映画を見ます。",
+        "romaji": "Shuumatsu ni eiga o mimasu.",
+        "en": "I will watch a movie on the weekend.",
+        "target": "週末",
+        "targetStart": 0
+      }
+    },
+    "休み": {
+      "sentence": {
+        "jp": "明日は休みです。",
+        "romaji": "Ashita wa yasumi desu.",
+        "en": "Tomorrow is a day off.",
+        "target": "休み",
+        "targetStart": 3
+      }
+    },
+    "猫": {
+      "sentence": {
+        "jp": "猫がいます。",
+        "romaji": "Neko ga imasu.",
+        "en": "There is a cat.",
+        "target": "猫",
+        "targetStart": 0
+      }
+    },
+    "雲 / 蜘蛛": {
+      "sentence": {
+        "jp": "空に白い雲があります。",
+        "romaji": "Sora ni shiroi kumo ga arimasu.",
+        "en": "There are white clouds in the sky.",
+        "target": "雲",
+        "targetStart": 4
+      }
+    },
+    "音楽": {
+      "sentence": {
+        "jp": "音楽を聞きます。",
+        "romaji": "Ongaku o kikimasu.",
+        "en": "I listen to music.",
+        "target": "音楽",
+        "targetStart": 0
+      }
+    },
+    "日本語": {
+      "sentence": {
+        "jp": "日本語を勉強しています。",
+        "romaji": "Nihongo o benkyou shite imasu.",
+        "en": "I am studying Japanese.",
+        "target": "日本語",
+        "targetStart": 0
+      }
+    },
+    "勉強": {
+      "sentence": {
+        "jp": "日本語の勉強は楽しいです。",
+        "romaji": "Nihongo no benkyou wa tanoshii desu.",
+        "en": "Studying Japanese is fun.",
+        "target": "勉強",
+        "targetStart": 4
+      }
+    },
+    "ゲーム": {
+      "sentence": {
+        "jp": "友達とゲームをします。",
+        "romaji": "Tomodachi to geemu o shimasu.",
+        "en": "I play games with friends.",
+        "target": "ゲーム",
+        "targetStart": 3
+      }
+    },
+    "サッカー": {
+      "sentence": {
+        "jp": "公園でサッカーをします。",
+        "romaji": "Kouen de sakkaa o shimasu.",
+        "en": "I play soccer in the park.",
+        "target": "サッカー",
+        "targetStart": 3
+      }
+    },
+    "しゃしん": {
+      "sentence": {
+        "jp": "猫のしゃしんを撮りました。",
+        "romaji": "Neko no shashin o torimashita.",
+        "en": "I took a photo of a cat.",
+        "target": "しゃしん",
+        "targetStart": 2
+      }
+    },
+    "ラーメン": {
+      "sentence": {
+        "jp": "ラーメンを食べたいです。",
+        "romaji": "Raamen o tabetai desu.",
+        "en": "I want to eat ramen.",
+        "target": "ラーメン",
+        "targetStart": 0
+      }
+    },
+    "牛肉": {
+      "sentence": {
+        "jp": "今日は牛肉を焼きます。",
+        "romaji": "Kyou wa gyuuniku o yakimasu.",
+        "en": "I will grill beef today.",
+        "target": "牛肉",
+        "targetStart": 3
+      }
+    },
+    "鶏肉": {
+      "sentence": {
+        "jp": "鶏肉を買いました。",
+        "romaji": "Toriniku o kaimashita.",
+        "en": "I bought chicken.",
+        "target": "鶏肉",
+        "targetStart": 0
+      }
+    },
+    "卵": {
+      "sentence": {
+        "jp": "卵を二つください。",
+        "romaji": "Tamago o futatsu kudasai.",
+        "en": "Two eggs, please.",
+        "target": "卵",
+        "targetStart": 0
+      }
+    },
+    "スクランブルエッグ": {
+      "sentence": {
+        "jp": "朝ご飯はスクランブルエッグです。",
+        "romaji": "Asagohan wa sukuranburu eggu desu.",
+        "en": "Breakfast is scrambled eggs.",
+        "target": "スクランブルエッグ",
+        "targetStart": 4
+      }
+    },
+    "水": {
+      "sentence": {
+        "jp": "水を飲みます。",
+        "romaji": "Mizu o nomimasu.",
+        "en": "I drink water.",
+        "target": "水",
+        "targetStart": 0
+      }
+    },
+    "コーヒー": {
+      "sentence": {
+        "jp": "コーヒーを飲みます。",
+        "romaji": "Koohii o nomimasu.",
+        "en": "I drink coffee.",
+        "target": "コーヒー",
+        "targetStart": 0
+      }
+    },
+    "お酒": {
+      "sentence": {
+        "jp": "お酒は飲みません。",
+        "romaji": "Osake wa nomimasen.",
+        "en": "I don't drink alcohol.",
+        "target": "お酒",
+        "targetStart": 0
+      }
+    },
+    "天気": {
+      "sentence": {
+        "jp": "今日はいい天気です。",
+        "romaji": "Kyou wa ii tenki desu.",
+        "en": "The weather is nice today.",
+        "target": "天気",
+        "targetStart": 5
+      }
+    },
+    "晴れ": {
+      "sentence": {
+        "jp": "明日は晴れです。",
+        "romaji": "Ashita wa hare desu.",
+        "en": "It will be sunny tomorrow.",
+        "target": "晴れ",
+        "targetStart": 3
+      }
+    },
+    "雨": {
+      "sentence": {
+        "jp": "今日は雨が降っています。",
+        "romaji": "Kyou wa ame ga futte imasu.",
+        "en": "It is raining today.",
+        "target": "雨",
+        "targetStart": 3
+      }
+    },
+    "曇り": {
+      "sentence": {
+        "jp": "今日は曇りです。",
+        "romaji": "Kyou wa kumori desu.",
+        "en": "It is cloudy today.",
+        "target": "曇り",
+        "targetStart": 3
+      }
+    },
+    "眠い": {
+      "sentence": {
+        "jp": "昨日はとても眠かったです。",
+        "romaji": "Kinou wa totemo nemukatta desu.",
+        "en": "I was very sleepy yesterday.",
+        "target": "眠かった",
+        "targetStart": 6
+      }
+    },
+    "疲れる": {
+      "sentence": {
+        "jp": "今日は疲れました。",
+        "romaji": "Kyou wa tsukaremashita.",
+        "en": "I got tired today.",
+        "target": "疲れました",
+        "targetStart": 3
+      }
+    },
+    "家": {
+      "sentence": {
+        "jp": "家に帰ります。",
+        "romaji": "Ie ni kaerimasu.",
+        "en": "I am going home.",
+        "target": "家",
+        "targetStart": 0
+      }
+    },
+    "駅": {
+      "sentence": {
+        "jp": "駅まで歩きます。",
+        "romaji": "Eki made arukimasu.",
+        "en": "I walk to the station.",
+        "target": "駅",
+        "targetStart": 0
+      }
+    },
+    "公園": {
+      "sentence": {
+        "jp": "公園で散歩します。",
+        "romaji": "Kouen de sanpo shimasu.",
+        "en": "I take a walk in the park.",
+        "target": "公園",
+        "targetStart": 0
+      }
+    },
+    "ジム": {
+      "sentence": {
+        "jp": "明日、ジムに行きます。",
+        "romaji": "Ashita, jimu ni ikimasu.",
+        "en": "I will go to the gym tomorrow.",
+        "target": "ジム",
+        "targetStart": 3
+      }
+    },
+    "コンビニ": {
+      "sentence": {
+        "jp": "コンビニで水を買います。",
+        "romaji": "Konbini de mizu o kaimasu.",
+        "en": "I buy water at a convenience store.",
+        "target": "コンビニ",
+        "targetStart": 0
+      }
+    },
+    "フィリピン": {
+      "sentence": {
+        "jp": "フィリピンに住んでいます。",
+        "romaji": "Firipin ni sunde imasu.",
+        "en": "I live in the Philippines.",
+        "target": "フィリピン",
+        "targetStart": 0
+      }
+    },
+    "大阪": {
+      "sentence": {
+        "jp": "大阪に行きたいです。",
+        "romaji": "Oosaka ni ikitai desu.",
+        "en": "I want to go to Osaka.",
+        "target": "大阪",
+        "targetStart": 0
+      }
+    },
+    "日本": {
+      "sentence": {
+        "jp": "日本に行きたいです。",
+        "romaji": "Nihon ni ikitai desu.",
+        "en": "I want to go to Japan.",
+        "target": "日本",
+        "targetStart": 0
+      }
+    },
+    "友達": {
+      "sentence": {
+        "jp": "友達と映画を見ます。",
+        "romaji": "Tomodachi to eiga o mimasu.",
+        "en": "I watch a movie with a friend.",
+        "target": "友達",
+        "targetStart": 0
+      }
+    },
+    "兄": {
+      "sentence": {
+        "jp": "兄は会社員です。",
+        "romaji": "Ani wa kaishain desu.",
+        "en": "My older brother is an office worker.",
+        "target": "兄",
+        "targetStart": 0
+      }
+    },
+    "お母さん": {
+      "sentence": {
+        "jp": "お母さんはお元気ですか。",
+        "romaji": "Okaasan wa ogenki desu ka.",
+        "en": "How is your mother?",
+        "target": "お母さん",
+        "targetStart": 0
+      }
+    },
+    "お父さん": {
+      "sentence": {
+        "jp": "お父さんはお元気ですか。",
+        "romaji": "Otousan wa ogenki desu ka.",
+        "en": "How is your father?",
+        "target": "お父さん",
+        "targetStart": 0
+      }
+    },
+    "そうですか": {
+      "sentence": {
+        "jp": "そうですか。ありがとうございます。",
+        "romaji": "Sou desu ka. Arigatou gozaimasu.",
+        "en": "I see. Thank you.",
+        "target": "そうですか",
+        "targetStart": 0
+      }
+    },
+    "いいですね": {
+      "sentence": {
+        "jp": "そのかばん、いいですね。",
+        "romaji": "Sono kaban, ii desu ne.",
+        "en": "That's a nice bag.",
+        "target": "いいですね",
+        "targetStart": 6
+      }
+    },
+    "こっち": {
+      "sentence": {
+        "jp": "こっちに来て。",
+        "romaji": "Kocchi ni kite.",
+        "en": "Come this way.",
+        "target": "こっち",
+        "targetStart": 0
+      }
+    },
+    "でも": {
+      "sentence": {
+        "jp": "行きたいです。でも、忙しいです。",
+        "romaji": "Ikitai desu. Demo, isogashii desu.",
+        "en": "I want to go. But I am busy.",
+        "target": "でも",
+        "targetStart": 7
+      }
+    },
+    "けど": {
+      "sentence": {
+        "jp": "疲れましたけど、勉強します。",
+        "romaji": "Tsukaremashita kedo, benkyou shimasu.",
+        "en": "I am tired, but I will study.",
+        "target": "けど",
+        "targetStart": 5
+      }
+    },
+    "それから": {
+      "sentence": {
+        "jp": "朝ご飯を食べます。それから、仕事に行きます。",
+        "romaji": "Asagohan o tabemasu. Sorekara, shigoto ni ikimasu.",
+        "en": "I eat breakfast. Then I go to work.",
+        "target": "それから",
+        "targetStart": 9
+      }
+    },
+    "そして": {
+      "sentence": {
+        "jp": "本を読みました。そして、寝ました。",
+        "romaji": "Hon o yomimashita. Soshite, nemashita.",
+        "en": "I read a book. And then I went to bed.",
+        "target": "そして",
+        "targetStart": 8
+      }
+    },
+    "こんにちは": {
+      "sentence": {
+        "jp": "先生、こんにちは。",
+        "romaji": "Sensei, konnichiwa.",
+        "en": "Hello, teacher.",
+        "target": "こんにちは",
+        "targetStart": 3
+      }
+    },
+    "こんばんは": {
+      "sentence": {
+        "jp": "皆さん、こんばんは。",
+        "romaji": "Minasan, konbanwa.",
+        "en": "Good evening, everyone.",
+        "target": "こんばんは",
+        "targetStart": 4
+      }
+    },
+    "ありがとう": {
+      "sentence": {
+        "jp": "手伝ってくれて、ありがとう。",
+        "romaji": "Tetsudatte kurete, arigatou.",
+        "en": "Thank you for helping me.",
+        "target": "ありがとう",
+        "targetStart": 8
+      }
+    },
+    "おやすみ": {
+      "sentence": {
+        "jp": "また明日。おやすみ。",
+        "romaji": "Mata ashita. Oyasumi.",
+        "en": "See you tomorrow. Good night.",
+        "target": "おやすみ",
+        "targetStart": 5
+      }
+    },
+    "もう一度": {
+      "sentence": {
+        "jp": "もう一度言ってください。",
+        "romaji": "Mou ichido itte kudasai.",
+        "en": "Please say it one more time.",
+        "target": "もう一度",
+        "targetStart": 0
+      }
+    },
+    "おすすめ": {
+      "sentence": {
+        "jp": "大阪のおすすめは何ですか。",
+        "romaji": "Oosaka no osusume wa nan desu ka.",
+        "en": "What do you recommend in Osaka?",
+        "target": "おすすめ",
+        "targetStart": 3
+      },
+      "pos": {
+        "key": "noun",
+        "label": "Noun"
+      }
+    },
+    "どういう意味": {
+      "sentence": {
+        "jp": "この言葉はどういう意味ですか。",
+        "romaji": "Kono kotoba wa dou iu imi desu ka.",
+        "en": "What does this word mean?",
+        "target": "どういう意味",
+        "targetStart": 5
+      }
+    },
+    "頼む": {
+      "sentence": {
+        "jp": "友達に頼みました。",
+        "romaji": "Tomodachi ni tanomimashita.",
+        "en": "I asked a friend for a favor.",
+        "target": "頼みました",
+        "targetStart": 3
+      }
+    },
+    "動く": {
+      "sentence": {
+        "jp": "猫が動いています。",
+        "romaji": "Neko ga ugoite imasu.",
+        "en": "The cat is moving.",
+        "target": "動いています",
+        "targetStart": 2
+      }
+    },
+    "引っ越す": {
+      "sentence": {
+        "jp": "日本に引っ越したいです。",
+        "romaji": "Nihon ni hikkoshitai desu.",
+        "en": "I want to move to Japan.",
+        "target": "引っ越したい",
+        "targetStart": 3
+      }
+    },
+    "住む": {
+      "sentence": {
+        "jp": "大阪に住んでいます。",
+        "romaji": "Oosaka ni sunde imasu.",
+        "en": "I live in Osaka.",
+        "target": "住んでいます",
+        "targetStart": 3
+      }
+    },
+    "もらう": {
+      "sentence": {
+        "jp": "姉からプレゼントをもらいました。",
+        "romaji": "Ane kara purezento o moraimashita.",
+        "en": "I received a present from my older sister.",
+        "target": "もらいました",
+        "targetStart": 9
+      }
+    },
+    "聞こえる": {
+      "sentence": {
+        "jp": "声が聞こえますか。",
+        "romaji": "Koe ga kikoemasu ka.",
+        "en": "Can you hear my voice?",
+        "target": "聞こえます",
+        "targetStart": 2
+      }
+    },
+    "できる": {
+      "sentence": {
+        "jp": "料理ができます。",
+        "romaji": "Ryouri ga dekimasu.",
+        "en": "I can cook.",
+        "target": "できます",
+        "targetStart": 3
+      }
+    },
+    "なる": {
+      "sentence": {
+        "jp": "先生になりたいです。",
+        "romaji": "Sensei ni naritai desu.",
+        "en": "I want to become a teacher.",
+        "target": "なりたい",
+        "targetStart": 3
+      }
+    },
+    "信じる": {
+      "sentence": {
+        "jp": "あなたを信じます。",
+        "romaji": "Anata o shinjimasu.",
+        "en": "I believe in you.",
+        "target": "信じます",
+        "targetStart": 4
+      }
+    },
+    "忘れる": {
+      "sentence": {
+        "jp": "かばんを忘れました。",
+        "romaji": "Kaban o wasuremashita.",
+        "en": "I forgot my bag.",
+        "target": "忘れました",
+        "targetStart": 4
+      }
+    },
+    "掃除する": {
+      "sentence": {
+        "jp": "部屋を掃除します。",
+        "romaji": "Heya o souji shimasu.",
+        "en": "I clean my room.",
+        "target": "掃除します",
+        "targetStart": 3
+      }
+    },
+    "料理する": {
+      "sentence": {
+        "jp": "今日は料理します。",
+        "romaji": "Kyou wa ryouri shimasu.",
+        "en": "I will cook today.",
+        "target": "料理します",
+        "targetStart": 3
+      }
+    },
+    "勉強する": {
+      "sentence": {
+        "jp": "毎日、日本語を勉強します。",
+        "romaji": "Mainichi, nihongo o benkyou shimasu.",
+        "en": "I study Japanese every day.",
+        "target": "勉強します",
+        "targetStart": 7
+      }
+    },
+    "働く": {
+      "sentence": {
+        "jp": "今日は家で働きます。",
+        "romaji": "Kyou wa ie de hatarakimasu.",
+        "en": "I will work at home today.",
+        "target": "働きます",
+        "targetStart": 5
+      }
+    },
+    "手伝う": {
+      "sentence": {
+        "jp": "手伝ってください。",
+        "romaji": "Tetsudatte kudasai.",
+        "en": "Please help me.",
+        "target": "手伝って",
+        "targetStart": 0
+      }
+    },
+    "書く": {
+      "sentence": {
+        "jp": "漢字を書きます。",
+        "romaji": "Kanji o kakimasu.",
+        "en": "I write kanji.",
+        "target": "書きます",
+        "targetStart": 3
+      }
+    },
+    "思う": {
+      "sentence": {
+        "jp": "そう思います。",
+        "romaji": "Sou omoimasu.",
+        "en": "I think so.",
+        "target": "思います",
+        "targetStart": 2
+      }
+    },
+    "会う": {
+      "sentence": {
+        "jp": "友達に会いました。",
+        "romaji": "Tomodachi ni aimashita.",
+        "en": "I met a friend.",
+        "target": "会いました",
+        "targetStart": 3
+      }
+    },
+    "言う": {
+      "sentence": {
+        "jp": "日本語で言います。",
+        "romaji": "Nihongo de iimasu.",
+        "en": "I say it in Japanese.",
+        "target": "言います",
+        "targetStart": 4
+      }
+    },
+    "話せる": {
+      "sentence": {
+        "jp": "日本語が少し話せます。",
+        "romaji": "Nihongo ga sukoshi hanasemasu.",
+        "en": "I can speak a little Japanese.",
+        "target": "話せます",
+        "targetStart": 6
+      }
+    },
+    "続ける": {
+      "sentence": {
+        "jp": "日本語の勉強を続けます。",
+        "romaji": "Nihongo no benkyou o tsuzukemasu.",
+        "en": "I will keep studying Japanese.",
+        "target": "続けます",
+        "targetStart": 7
+      }
+    },
+    "戻る": {
+      "sentence": {
+        "jp": "六時に家に戻ります。",
+        "romaji": "Roku-ji ni ie ni modorimasu.",
+        "en": "I will return home at six.",
+        "target": "戻ります",
+        "targetStart": 5
+      }
+    },
+    "覚える": {
+      "sentence": {
+        "jp": "新しい言葉を覚えます。",
+        "romaji": "Atarashii kotoba o oboemasu.",
+        "en": "I learn new words.",
+        "target": "覚えます",
+        "targetStart": 6
+      }
+    },
+    "分かる": {
+      "sentence": {
+        "jp": "日本語が少し分かります。",
+        "romaji": "Nihongo ga sukoshi wakarimasu.",
+        "en": "I understand a little Japanese.",
+        "target": "分かります",
+        "targetStart": 6
+      }
+    },
+    "買う": {
+      "sentence": {
+        "jp": "プレゼントを買います。",
+        "romaji": "Purezento o kaimasu.",
+        "en": "I will buy a present.",
+        "target": "買います",
+        "targetStart": 6
+      }
+    },
+    "歌う": {
+      "sentence": {
+        "jp": "友達と歌います。",
+        "romaji": "Tomodachi to utaimasu.",
+        "en": "I sing with friends.",
+        "target": "歌います",
+        "targetStart": 3
+      }
+    },
+    "見せる": {
+      "sentence": {
+        "jp": "写真を見せてください。",
+        "romaji": "Shashin o misete kudasai.",
+        "en": "Please show me the photo.",
+        "target": "見せて",
+        "targetStart": 3
+      }
+    },
+    "待つ": {
+      "sentence": {
+        "jp": "駅で友達を待ちます。",
+        "romaji": "Eki de tomodachi o machimasu.",
+        "en": "I wait for a friend at the station.",
+        "target": "待ちます",
+        "targetStart": 5
+      }
+    },
+    "歩く": {
+      "sentence": {
+        "jp": "駅まで歩きます。",
+        "romaji": "Eki made arukimasu.",
+        "en": "I walk to the station.",
+        "target": "歩きます",
+        "targetStart": 3
+      }
+    },
+    "姉": {
+      "sentence": {
+        "jp": "姉からプレゼントをもらいました。",
+        "romaji": "Ane kara purezento o moraimashita.",
+        "en": "I received a present from my older sister.",
+        "target": "姉",
+        "targetStart": 0
+      }
+    },
+    "お姉さん": {
+      "sentence": {
+        "jp": "お姉さんはお元気ですか。",
+        "romaji": "Oneesan wa ogenki desu ka.",
+        "en": "How is your older sister?",
+        "target": "お姉さん",
+        "targetStart": 0
+      }
+    },
+    "話": {
+      "sentence": {
+        "jp": "その話は面白いです。",
+        "romaji": "Sono hanashi wa omoshiroi desu.",
+        "en": "That story is interesting.",
+        "target": "話",
+        "targetStart": 2
+      }
+    },
+    "事": {
+      "sentence": {
+        "jp": "日本語を話すことが好きです。",
+        "romaji": "Nihongo o hanasu koto ga suki desu.",
+        "en": "I like speaking Japanese.",
+        "target": "こと",
+        "targetStart": 6
+      }
+    },
+    "物": {
+      "sentence": {
+        "jp": "大切な物です。",
+        "romaji": "Taisetsu na mono desu.",
+        "en": "It is something important to me.",
+        "target": "物",
+        "targetStart": 3
+      }
+    },
+    "食べ物": {
+      "sentence": {
+        "jp": "好きな食べ物は何ですか。",
+        "romaji": "Suki na tabemono wa nan desu ka.",
+        "en": "What food do you like?",
+        "target": "食べ物",
+        "targetStart": 3
+      }
+    },
+    "飲み物": {
+      "sentence": {
+        "jp": "飲み物を買いましょう。",
+        "romaji": "Nomimono o kaimashou.",
+        "en": "Let's buy something to drink.",
+        "target": "飲み物",
+        "targetStart": 0
+      }
+    },
+    "自分": {
+      "sentence": {
+        "jp": "自分で料理します。",
+        "romaji": "Jibun de ryouri shimasu.",
+        "en": "I cook for myself.",
+        "target": "自分",
+        "targetStart": 0
+      }
+    },
+    "部屋": {
+      "sentence": {
+        "jp": "部屋を掃除します。",
+        "romaji": "Heya o souji shimasu.",
+        "en": "I clean my room.",
+        "target": "部屋",
+        "targetStart": 0
+      }
+    },
+    "朝ご飯": {
+      "sentence": {
+        "jp": "朝ご飯にバナナを食べました。",
+        "romaji": "Asagohan ni banana o tabemashita.",
+        "en": "I ate a banana for breakfast.",
+        "target": "朝ご飯",
+        "targetStart": 0
+      }
+    },
+    "晩ご飯": {
+      "sentence": {
+        "jp": "晩ご飯を作ります。",
+        "romaji": "Bangohan o tsukurimasu.",
+        "en": "I make dinner.",
+        "target": "晩ご飯",
+        "targetStart": 0
+      }
+    },
+    "ご飯": {
+      "sentence": {
+        "jp": "ご飯を食べましょう。",
+        "romaji": "Gohan o tabemashou.",
+        "en": "Let's have a meal.",
+        "target": "ご飯",
+        "targetStart": 0
+      }
+    },
+    "うどん": {
+      "sentence": {
+        "jp": "うどんを食べます。",
+        "romaji": "Udon o tabemasu.",
+        "en": "I eat udon.",
+        "target": "うどん",
+        "targetStart": 0
+      }
+    },
+    "親子丼": {
+      "sentence": {
+        "jp": "親子丼を一つください。",
+        "romaji": "Oyakodon o hitotsu kudasai.",
+        "en": "One chicken-and-egg rice bowl, please.",
+        "target": "親子丼",
+        "targetStart": 0
+      }
+    },
+    "バナナ": {
+      "sentence": {
+        "jp": "バナナを食べました。",
+        "romaji": "Banana o tabemashita.",
+        "en": "I ate a banana.",
+        "target": "バナナ",
+        "targetStart": 0
+      }
+    },
+    "パンダサル": {
+      "sentence": {
+        "jp": "朝ご飯にパンダサルを食べます。",
+        "romaji": "Asagohan ni pandasaru o tabemasu.",
+        "en": "I eat pandesal for breakfast.",
+        "target": "パンダサル",
+        "targetStart": 4
+      }
+    },
+    "出身": {
+      "sentence": {
+        "jp": "フィリピン出身です。",
+        "romaji": "Firipin shusshin desu.",
+        "en": "I am from the Philippines.",
+        "target": "出身",
+        "targetStart": 5
+      }
+    },
+    "先生": {
+      "sentence": {
+        "jp": "先生に質問します。",
+        "romaji": "Sensei ni shitsumon shimasu.",
+        "en": "I ask the teacher a question.",
+        "target": "先生",
+        "targetStart": 0
+      }
+    },
+    "風": {
+      "sentence": {
+        "jp": "今日は風が強いです。",
+        "romaji": "Kyou wa kaze ga tsuyoi desu.",
+        "en": "The wind is strong today.",
+        "target": "風",
+        "targetStart": 3
+      }
+    },
+    "大雨": {
+      "sentence": {
+        "jp": "今日は大雨です。",
+        "romaji": "Kyou wa ooame desu.",
+        "en": "There is heavy rain today.",
+        "target": "大雨",
+        "targetStart": 3
+      }
+    },
+    "漢字": {
+      "sentence": {
+        "jp": "漢字を書きます。",
+        "romaji": "Kanji o kakimasu.",
+        "en": "I write kanji.",
+        "target": "漢字",
+        "targetStart": 0
+      }
+    },
+    "平仮名": {
+      "sentence": {
+        "jp": "平仮名が読めます。",
+        "romaji": "Hiragana ga yomemasu.",
+        "en": "I can read hiragana.",
+        "target": "平仮名",
+        "targetStart": 0
+      }
+    },
+    "片仮名": {
+      "sentence": {
+        "jp": "片仮名が読めます。",
+        "romaji": "Katakana ga yomemasu.",
+        "en": "I can read katakana.",
+        "target": "片仮名",
+        "targetStart": 0
+      }
+    },
+    "週": {
+      "sentence": {
+        "jp": "一週間、休みます。",
+        "romaji": "Isshuukan, yasumimasu.",
+        "en": "I will take a week off.",
+        "target": "週",
+        "targetStart": 1
+      },
+      "pos": {
+        "key": "noun",
+        "label": "Noun / counter"
+      }
+    },
+    "先週": {
+      "sentence": {
+        "jp": "先週、映画を見ました。",
+        "romaji": "Senshuu, eiga o mimashita.",
+        "en": "I watched a movie last week.",
+        "target": "先週",
+        "targetStart": 0
+      }
+    },
+    "来週": {
+      "sentence": {
+        "jp": "来週、日本に行きます。",
+        "romaji": "Raishuu, nihon ni ikimasu.",
+        "en": "I will go to Japan next week.",
+        "target": "来週",
+        "targetStart": 0
+      }
+    },
+    "午後": {
+      "sentence": {
+        "jp": "午後に勉強します。",
+        "romaji": "Gogo ni benkyou shimasu.",
+        "en": "I study in the afternoon.",
+        "target": "午後",
+        "targetStart": 0
+      }
+    },
+    "午前": {
+      "sentence": {
+        "jp": "午前九時に仕事を始めます。",
+        "romaji": "Gozen ku-ji ni shigoto o hajimemasu.",
+        "en": "I start work at nine in the morning.",
+        "target": "午前",
+        "targetStart": 0
+      }
+    },
+    "今夜": {
+      "sentence": {
+        "jp": "今夜は早く寝ます。",
+        "romaji": "Konya wa hayaku nemasu.",
+        "en": "I will go to bed early tonight.",
+        "target": "今夜",
+        "targetStart": 0
+      }
+    },
+    "昨日の夜": {
+      "sentence": {
+        "jp": "昨日の夜、映画を見ました。",
+        "romaji": "Kinou no yoru, eiga o mimashita.",
+        "en": "I watched a movie last night.",
+        "target": "昨日の夜",
+        "targetStart": 0
+      }
+    },
+    "音": {
+      "sentence": {
+        "jp": "何の音ですか。",
+        "romaji": "Nan no oto desu ka.",
+        "en": "What is that sound?",
+        "target": "音",
+        "targetStart": 2
+      }
+    },
+    "意味": {
+      "sentence": {
+        "jp": "この言葉の意味は何ですか。",
+        "romaji": "Kono kotoba no imi wa nan desu ka.",
+        "en": "What does this word mean?",
+        "target": "意味",
+        "targetStart": 5
+      }
+    },
+    "映画": {
+      "sentence": {
+        "jp": "友達と映画を見ます。",
+        "romaji": "Tomodachi to eiga o mimasu.",
+        "en": "I watch a movie with a friend.",
+        "target": "映画",
+        "targetStart": 3
+      }
+    },
+    "嬉しい": {
+      "sentence": {
+        "jp": "会えて嬉しいです。",
+        "romaji": "Aete ureshii desu.",
+        "en": "I am happy to see you.",
+        "target": "嬉しい",
+        "targetStart": 3
+      }
+    },
+    "楽しい": {
+      "sentence": {
+        "jp": "日本語の勉強は楽しいです。",
+        "romaji": "Nihongo no benkyou wa tanoshii desu.",
+        "en": "Studying Japanese is fun.",
+        "target": "楽しい",
+        "targetStart": 7
+      }
+    },
+    "美味しい": {
+      "sentence": {
+        "jp": "このラーメンは美味しいです。",
+        "romaji": "Kono raamen wa oishii desu.",
+        "en": "This ramen is delicious.",
+        "target": "美味しい",
+        "targetStart": 7
+      }
+    },
+    "綺麗": {
+      "sentence": {
+        "jp": "この花は綺麗です。",
+        "romaji": "Kono hana wa kirei desu.",
+        "en": "This flower is beautiful.",
+        "target": "綺麗",
+        "targetStart": 4
+      }
+    },
+    "大丈夫": {
+      "sentence": {
+        "jp": "もう大丈夫です。",
+        "romaji": "Mou daijoubu desu.",
+        "en": "I am all right now.",
+        "target": "大丈夫",
+        "targetStart": 2
+      }
+    },
+    "大変": {
+      "sentence": {
+        "jp": "今日は仕事が大変でした。",
+        "romaji": "Kyou wa shigoto ga taihen deshita.",
+        "en": "Work was tough today.",
+        "target": "大変",
+        "targetStart": 6
+      }
+    },
+    "簡単": {
+      "sentence": {
+        "jp": "この問題は簡単です。",
+        "romaji": "Kono mondai wa kantan desu.",
+        "en": "This question is easy.",
+        "target": "簡単",
+        "targetStart": 5
+      }
+    },
+    "多い": {
+      "sentence": {
+        "jp": "今日は人が多いです。",
+        "romaji": "Kyou wa hito ga ooi desu.",
+        "en": "There are a lot of people today.",
+        "target": "多い",
+        "targetStart": 5
+      }
+    },
+    "ちょっと": {
+      "sentence": {
+        "jp": "ちょっと待ってください。",
+        "romaji": "Chotto matte kudasai.",
+        "en": "Please wait a moment.",
+        "target": "ちょっと",
+        "targetStart": 0
+      }
+    },
+    "たくさん": {
+      "sentence": {
+        "jp": "写真をたくさん撮りました。",
+        "romaji": "Shashin o takusan torimashita.",
+        "en": "I took a lot of photos.",
+        "target": "たくさん",
+        "targetStart": 3
+      }
+    },
+    "よく": {
+      "sentence": {
+        "jp": "よく音楽を聞きます。",
+        "romaji": "Yoku ongaku o kikimasu.",
+        "en": "I often listen to music.",
+        "target": "よく",
+        "targetStart": 0
+      }
+    },
+    "なんとなく": {
+      "sentence": {
+        "jp": "なんとなく疲れています。",
+        "romaji": "Nantonaku tsukarete imasu.",
+        "en": "I feel tired for some reason.",
+        "target": "なんとなく",
+        "targetStart": 0
+      }
+    },
+    "さっき": {
+      "sentence": {
+        "jp": "さっき昼ご飯を食べました。",
+        "romaji": "Sakki hirugohan o tabemashita.",
+        "en": "I ate lunch a little while ago.",
+        "target": "さっき",
+        "targetStart": 0
+      }
+    },
+    "まだ": {
+      "sentence": {
+        "jp": "宿題はまだ終わっていません。",
+        "romaji": "Shukudai wa mada owatte imasen.",
+        "en": "I haven't finished my homework yet.",
+        "target": "まだ",
+        "targetStart": 3
+      }
+    },
+    "もう": {
+      "sentence": {
+        "jp": "昼ご飯はもう食べました。",
+        "romaji": "Hirugohan wa mou tabemashita.",
+        "en": "I have already eaten lunch.",
+        "target": "もう",
+        "targetStart": 4
+      }
+    },
+    "いつも": {
+      "sentence": {
+        "jp": "朝はいつもコーヒーを飲みます。",
+        "romaji": "Asa wa itsumo koohii o nomimasu.",
+        "en": "I always drink coffee in the morning.",
+        "target": "いつも",
+        "targetStart": 2
+      }
+    },
+    "とても": {
+      "sentence": {
+        "jp": "この花はとても綺麗です。",
+        "romaji": "Kono hana wa totemo kirei desu.",
+        "en": "This flower is very beautiful.",
+        "target": "とても",
+        "targetStart": 4
+      }
+    },
+    "だけ": {
+      "sentence": {
+        "jp": "水だけください。",
+        "romaji": "Mizu dake kudasai.",
+        "en": "Just water, please.",
+        "target": "だけ",
+        "targetStart": 1
+      }
+    },
+    "しか": {
+      "sentence": {
+        "jp": "水しかありません。",
+        "romaji": "Mizu shika arimasen.",
+        "en": "There is only water.",
+        "target": "しか",
+        "targetStart": 1
+      }
+    },
+    "から": {
+      "sentence": {
+        "jp": "八時から仕事をします。",
+        "romaji": "Hachi-ji kara shigoto o shimasu.",
+        "en": "I work from eight.",
+        "target": "から",
+        "targetStart": 2
+      }
+    },
+    "まで": {
+      "sentence": {
+        "jp": "五時まで働きます。",
+        "romaji": "Go-ji made hatarakimasu.",
+        "en": "I work until five.",
+        "target": "まで",
+        "targetStart": 2
+      }
+    },
+    "は": {
+      "sentence": {
+        "jp": "私はアルケンです。",
+        "romaji": "Watashi wa Aruken desu.",
+        "en": "I am Alken.",
+        "target": "は",
+        "targetStart": 1
+      }
+    },
+    "が": {
+      "sentence": {
+        "jp": "猫がいます。",
+        "romaji": "Neko ga imasu.",
+        "en": "There is a cat.",
+        "target": "が",
+        "targetStart": 1
+      }
+    },
+    "を": {
+      "sentence": {
+        "jp": "水を飲みます。",
+        "romaji": "Mizu o nomimasu.",
+        "en": "I drink water.",
+        "target": "を",
+        "targetStart": 1
+      }
+    },
+    "に": {
+      "sentence": {
+        "jp": "日本に行きます。",
+        "romaji": "Nihon ni ikimasu.",
+        "en": "I go to Japan.",
+        "target": "に",
+        "targetStart": 2
+      }
+    },
+    "で": {
+      "sentence": {
+        "jp": "公園で走ります。",
+        "romaji": "Kouen de hashirimasu.",
+        "en": "I run in the park.",
+        "target": "で",
+        "targetStart": 2
+      }
+    },
+    "と": {
+      "sentence": {
+        "jp": "友達と映画を見ます。",
+        "romaji": "Tomodachi to eiga o mimasu.",
+        "en": "I watch a movie with a friend.",
+        "target": "と",
+        "targetStart": 2
+      }
+    },
+    "の": {
+      "sentence": {
+        "jp": "私の猫です。",
+        "romaji": "Watashi no neko desu.",
+        "en": "This is my cat.",
+        "target": "の",
+        "targetStart": 1
+      }
+    },
+    "も": {
+      "sentence": {
+        "jp": "日本語も勉強します。",
+        "romaji": "Nihongo mo benkyou shimasu.",
+        "en": "I study Japanese, too.",
+        "target": "も",
+        "targetStart": 3
+      }
+    },
+    "か": {
+      "sentence": {
+        "jp": "学生ですか。",
+        "romaji": "Gakusei desu ka.",
+        "en": "Are you a student?",
+        "target": "か",
+        "targetStart": 4
+      }
+    },
+    "より": {
+      "sentence": {
+        "jp": "今日は昨日より暑いです。",
+        "romaji": "Kyou wa kinou yori atsui desu.",
+        "en": "It is hotter today than yesterday.",
+        "target": "より",
+        "targetStart": 5
+      }
+    },
+    "ながら": {
+      "sentence": {
+        "jp": "音楽を聞きながら勉強します。",
+        "romaji": "Ongaku o kikinagara benkyou shimasu.",
+        "en": "I study while listening to music.",
+        "target": "ながら",
+        "targetStart": 5
+      }
+    },
+    "てから": {
+      "sentence": {
+        "jp": "ご飯を食べてから寝ます。",
+        "romaji": "Gohan o tabete kara nemasu.",
+        "en": "I go to bed after eating.",
+        "target": "てから",
+        "targetStart": 5
+      }
+    },
+    "ないといけません": {
+      "sentence": {
+        "jp": "勉強しないといけません。",
+        "romaji": "Benkyou shinai to ikemasen.",
+        "en": "I have to study.",
+        "target": "ないといけません",
+        "targetStart": 3
+      }
+    },
+    "てもいいですか": {
+      "sentence": {
+        "jp": "ここに座ってもいいですか。",
+        "romaji": "Koko ni suwatte mo ii desu ka.",
+        "en": "May I sit here?",
+        "target": "てもいいですか",
+        "targetStart": 5
+      }
+    },
+    "ましょう": {
+      "sentence": {
+        "jp": "一緒に食べましょう。",
+        "romaji": "Issho ni tabemashou.",
+        "en": "Let's eat together.",
+        "target": "ましょう",
+        "targetStart": 5
+      }
+    },
+    "たい": {
+      "sentence": {
+        "jp": "日本に行きたいです。",
+        "romaji": "Nihon ni ikitai desu.",
+        "en": "I want to go to Japan.",
+        "target": "たい",
+        "targetStart": 5
+      }
+    },
+    "ています": {
+      "sentence": {
+        "jp": "今、勉強しています。",
+        "romaji": "Ima, benkyou shite imasu.",
+        "en": "I am studying now.",
+        "target": "ています",
+        "targetStart": 5
+      }
+    },
+    "だから": {
+      "sentence": {
+        "jp": "明日は休みです。だから、ゆっくり寝ます。",
+        "romaji": "Ashita wa yasumi desu. Dakara, yukkuri nemasu.",
+        "en": "Tomorrow is a day off. So I will sleep in.",
+        "target": "だから",
+        "targetStart": 8
+      }
+    },
+    "この後": {
+      "sentence": {
+        "jp": "この後、ジムに行きます。",
+        "romaji": "Kono ato, jimu ni ikimasu.",
+        "en": "I am going to the gym after this.",
+        "target": "この後",
+        "targetStart": 0
+      }
+    },
+    "後で": {
+      "sentence": {
+        "jp": "後で電話します。",
+        "romaji": "Ato de denwa shimasu.",
+        "en": "I will call later.",
+        "target": "後で",
+        "targetStart": 0
+      }
+    },
+    "前に": {
+      "sentence": {
+        "jp": "寝る前に本を読みます。",
+        "romaji": "Neru mae ni hon o yomimasu.",
+        "en": "I read a book before going to bed.",
+        "target": "前に",
+        "targetStart": 2
+      }
+    },
+    "お腹いっぱい": {
+      "sentence": {
+        "jp": "もうお腹いっぱいです。",
+        "romaji": "Mou onaka ippai desu.",
+        "en": "I am full now.",
+        "target": "お腹いっぱい",
+        "targetStart": 2
+      }
+    },
+    "分かりました": {
+      "sentence": {
+        "jp": "はい、分かりました。",
+        "romaji": "Hai, wakarimashita.",
+        "en": "Yes, I understand.",
+        "target": "分かりました",
+        "targetStart": 3
+      }
+    },
+    "頑張ります": {
+      "sentence": {
+        "jp": "日本語の勉強を頑張ります。",
+        "romaji": "Nihongo no benkyou o ganbarimasu.",
+        "en": "I will do my best studying Japanese.",
+        "target": "頑張ります",
+        "targetStart": 7
+      }
+    },
+    "お願いします": {
+      "sentence": {
+        "jp": "水をお願いします。",
+        "romaji": "Mizu o onegai shimasu.",
+        "en": "Water, please.",
+        "target": "お願いします",
+        "targetStart": 2
+      }
+    },
+    "初めまして": {
+      "sentence": {
+        "jp": "初めまして。アルケンです。",
+        "romaji": "Hajimemashite. Aruken desu.",
+        "en": "Nice to meet you. I am Alken.",
+        "target": "初めまして",
+        "targetStart": 0
+      }
+    },
+    "よろしくお願いします": {
+      "sentence": {
+        "jp": "アルケンです。よろしくお願いします。",
+        "romaji": "Aruken desu. Yoroshiku onegai shimasu.",
+        "en": "I am Alken. It is a pleasure to meet you.",
+        "target": "よろしくお願いします",
+        "targetStart": 7
+      }
+    },
+    "おすすめは何ですか": {
+      "sentence": {
+        "jp": "この店のおすすめは何ですか。",
+        "romaji": "Kono mise no osusume wa nan desu ka.",
+        "en": "What do you recommend at this restaurant?",
+        "target": "おすすめは何ですか",
+        "targetStart": 4
+      }
+    },
+    "どこ": {
+      "sentence": {
+        "jp": "どこに住んでいますか。",
+        "romaji": "Doko ni sunde imasu ka.",
+        "en": "Where do you live?",
+        "target": "どこ",
+        "targetStart": 0
+      }
+    },
+    "どれ": {
+      "sentence": {
+        "jp": "あなたのかばんはどれですか。",
+        "romaji": "Anata no kaban wa dore desu ka.",
+        "en": "Which bag is yours?",
+        "target": "どれ",
+        "targetStart": 8
+      }
+    },
+    "どうして": {
+      "sentence": {
+        "jp": "どうして日本語を勉強していますか。",
+        "romaji": "Doushite nihongo o benkyou shite imasu ka.",
+        "en": "Why are you studying Japanese?",
+        "target": "どうして",
+        "targetStart": 0
+      }
+    },
+    "なんで": {
+      "sentence": {
+        "jp": "なんで来なかったの。",
+        "romaji": "Nande konakatta no.",
+        "en": "Why didn't you come?",
+        "target": "なんで",
+        "targetStart": 0
+      }
+    },
+    "いつ": {
+      "sentence": {
+        "jp": "いつ日本に行きますか。",
+        "romaji": "Itsu nihon ni ikimasu ka.",
+        "en": "When will you go to Japan?",
+        "target": "いつ",
+        "targetStart": 0
+      }
+    },
+    "どんな": {
+      "sentence": {
+        "jp": "どんな音楽が好きですか。",
+        "romaji": "Donna ongaku ga suki desu ka.",
+        "en": "What kind of music do you like?",
+        "target": "どんな",
+        "targetStart": 0
+      }
+    },
+    "これ": {
+      "sentence": {
+        "jp": "これは私の本です。",
+        "romaji": "Kore wa watashi no hon desu.",
+        "en": "This is my book.",
+        "target": "これ",
+        "targetStart": 0
+      }
+    },
+    "それ": {
+      "sentence": {
+        "jp": "それは何ですか。",
+        "romaji": "Sore wa nan desu ka.",
+        "en": "What is that?",
+        "target": "それ",
+        "targetStart": 0
+      }
+    },
+    "あれ": {
+      "sentence": {
+        "jp": "あれは学校です。",
+        "romaji": "Are wa gakkou desu.",
+        "en": "That building over there is a school.",
+        "target": "あれ",
+        "targetStart": 0
+      }
+    },
+    "ここ": {
+      "sentence": {
+        "jp": "ここに座ってください。",
+        "romaji": "Koko ni suwatte kudasai.",
+        "en": "Please sit here.",
+        "target": "ここ",
+        "targetStart": 0
+      }
+    },
+    "そこ": {
+      "sentence": {
+        "jp": "そこに置いてください。",
+        "romaji": "Soko ni oite kudasai.",
+        "en": "Please put it there.",
+        "target": "そこ",
+        "targetStart": 0
+      }
+    },
+    "あそこ": {
+      "sentence": {
+        "jp": "駅はあそこです。",
+        "romaji": "Eki wa asoko desu.",
+        "en": "The station is over there.",
+        "target": "あそこ",
+        "targetStart": 2
+      }
+    },
+    "こちら": {
+      "sentence": {
+        "jp": "こちらは先生です。",
+        "romaji": "Kochira wa sensei desu.",
+        "en": "This is my teacher.",
+        "target": "こちら",
+        "targetStart": 0
+      }
+    },
+    "私": {
+      "sentence": {
+        "jp": "私はアルケンです。",
+        "romaji": "Watashi wa Aruken desu.",
+        "en": "I am Alken.",
+        "target": "私",
+        "targetStart": 0
+      }
+    },
+    "あなた": {
+      "sentence": {
+        "jp": "これはあなたのかばんですか。",
+        "romaji": "Kore wa anata no kaban desu ka.",
+        "en": "Is this your bag?",
+        "target": "あなた",
+        "targetStart": 3
+      }
+    },
+    "おはよう": {
+      "sentence": {
+        "jp": "おはよう。よく眠れた？",
+        "romaji": "Ohayou. Yoku nemureta.",
+        "en": "Good morning. Did you sleep well?",
+        "target": "おはよう",
+        "targetStart": 0
+      }
+    },
+    "おはようございます": {
+      "sentence": {
+        "jp": "先生、おはようございます。",
+        "romaji": "Sensei, ohayou gozaimasu.",
+        "en": "Good morning, teacher.",
+        "target": "おはようございます",
+        "targetStart": 3
+      }
+    },
+    "さようなら": {
+      "sentence": {
+        "jp": "先生、さようなら。",
+        "romaji": "Sensei, sayounara.",
+        "en": "Goodbye, teacher.",
+        "target": "さようなら",
+        "targetStart": 3
+      }
+    },
+    "またね": {
+      "sentence": {
+        "jp": "今日はありがとう。またね。",
+        "romaji": "Kyou wa arigatou. Mata ne.",
+        "en": "Thanks for today. See you later.",
+        "target": "またね",
+        "targetStart": 9
+      }
+    },
+    "いい": {
+      "sentence": {
+        "jp": "今日はいい天気です。",
+        "romaji": "Kyou wa ii tenki desu.",
+        "en": "The weather is nice today.",
+        "target": "いい",
+        "targetStart": 3
+      }
+    },
+    "すごい": {
+      "sentence": {
+        "jp": "この絵はすごいですね。",
+        "romaji": "Kono e wa sugoi desu ne.",
+        "en": "This drawing is amazing.",
+        "target": "すごい",
+        "targetStart": 4
+      }
+    },
+    "もちろん": {
+      "sentence": {
+        "jp": "もちろん、一緒に行きます。",
+        "romaji": "Mochiron, issho ni ikimasu.",
+        "en": "Of course I will go with you.",
+        "target": "もちろん",
+        "targetStart": 0
+      }
+    },
+    "蒸し暑い": {
+      "sentence": {
+        "jp": "今日は蒸し暑いです。",
+        "romaji": "Kyou wa mushiatsui desu.",
+        "en": "It is hot and humid today.",
+        "target": "蒸し暑い",
+        "targetStart": 3
+      }
+    },
+    "名前": {
+      "sentence": {
+        "jp": "お名前は何ですか。",
+        "romaji": "Onamae wa nan desu ka.",
+        "en": "What is your name?",
+        "target": "名前",
+        "targetStart": 1
+      }
+    },
+    "家族": {
+      "sentence": {
+        "jp": "家族と住んでいます。",
+        "romaji": "Kazoku to sunde imasu.",
+        "en": "I live with my family.",
+        "target": "家族",
+        "targetStart": 0
+      }
+    },
+    "フィリピン人": {
+      "sentence": {
+        "jp": "私はフィリピン人です。",
+        "romaji": "Watashi wa firipinjin desu.",
+        "en": "I am Filipino.",
+        "target": "フィリピン人",
+        "targetStart": 2
+      }
+    },
+    "趣味": {
+      "sentence": {
+        "jp": "趣味は料理です。",
+        "romaji": "Shumi wa ryouri desu.",
+        "en": "My hobby is cooking.",
+        "target": "趣味",
+        "targetStart": 0
+      }
+    },
+    "です": {
+      "sentence": {
+        "jp": "私は学生です。",
+        "romaji": "Watashi wa gakusei desu.",
+        "en": "I am a student.",
+        "target": "です",
+        "targetStart": 4
+      },
+      "pos": {
+        "key": "copula",
+        "label": "Polite copula"
+      }
+    },
+    "じゃないです": {
+      "sentence": {
+        "jp": "私は学生じゃないです。",
+        "romaji": "Watashi wa gakusei janai desu.",
+        "en": "I am not a student.",
+        "target": "じゃないです",
+        "targetStart": 4
+      }
+    },
+    "英語": {
+      "sentence": {
+        "jp": "英語が話せます。",
+        "romaji": "Eigo ga hanasemasu.",
+        "en": "I can speak English.",
+        "target": "英語",
+        "targetStart": 0
+      }
+    },
+    "わかりません": {
+      "sentence": {
+        "jp": "すみません、わかりません。",
+        "romaji": "Sumimasen, wakarimasen.",
+        "en": "Sorry, I don't understand.",
+        "target": "わかりません",
+        "targetStart": 6
+      }
+    },
+    "わからない": {
+      "sentence": {
+        "jp": "この漢字はわからない。",
+        "romaji": "Kono kanji wa wakaranai.",
+        "en": "I don't know this kanji.",
+        "target": "わからない",
+        "targetStart": 5
+      }
+    },
+    "わかりました": {
+      "sentence": {
+        "jp": "はい、わかりました。",
+        "romaji": "Hai, wakarimashita.",
+        "en": "Yes, I understand.",
+        "target": "わかりました",
+        "targetStart": 3
+      }
+    },
+    "旅行": {
+      "sentence": {
+        "jp": "来月、旅行に行きます。",
+        "romaji": "Raigetsu, ryokou ni ikimasu.",
+        "en": "I am going on a trip next month.",
+        "target": "旅行",
+        "targetStart": 3
+      }
+    },
+    "野球": {
+      "sentence": {
+        "jp": "友達と野球をします。",
+        "romaji": "Tomodachi to yakyuu o shimasu.",
+        "en": "I play baseball with friends.",
+        "target": "野球",
+        "targetStart": 3
+      }
+    },
+    "肉": {
+      "sentence": {
+        "jp": "肉を焼きます。",
+        "romaji": "Niku o yakimasu.",
+        "en": "I grill meat.",
+        "target": "肉",
+        "targetStart": 0
+      }
+    },
+    "愛": {
+      "sentence": {
+        "jp": "この歌は愛の歌です。",
+        "romaji": "Kono uta wa ai no uta desu.",
+        "en": "This song is a love song.",
+        "target": "愛",
+        "targetStart": 4
+      }
+    },
+    "上": {
+      "sentence": {
+        "jp": "机の上に本があります。",
+        "romaji": "Tsukue no ue ni hon ga arimasu.",
+        "en": "There is a book on the desk.",
+        "target": "上",
+        "targetStart": 2
+      }
+    },
+    "絵": {
+      "sentence": {
+        "jp": "猫の絵を描きました。",
+        "romaji": "Neko no e o kakimashita.",
+        "en": "I drew a picture of a cat.",
+        "target": "絵",
+        "targetStart": 2
+      }
+    },
+    "イカ": {
+      "sentence": {
+        "jp": "イカを焼きます。",
+        "romaji": "Ika o yakimasu.",
+        "en": "I grill squid.",
+        "target": "イカ",
+        "targetStart": 0
+      }
+    },
+    "貝": {
+      "sentence": {
+        "jp": "海で貝を拾いました。",
+        "romaji": "Umi de kai o hiroimashita.",
+        "en": "I picked up shells at the beach.",
+        "target": "貝",
+        "targetStart": 2
+      }
+    },
+    "焼く": {
+      "sentence": {
+        "jp": "魚を焼きます。",
+        "romaji": "Sakana o yakimasu.",
+        "en": "I grill fish.",
+        "target": "焼きます",
+        "targetStart": 2
+      }
+    },
+    "好きじゃないです": {
+      "sentence": {
+        "jp": "お酒は好きじゃないです。",
+        "romaji": "Osake wa suki janai desu.",
+        "en": "I don't like alcohol.",
+        "target": "好きじゃないです",
+        "targetStart": 3
+      }
+    },
+    "雲": {
+      "sentence": {
+        "jp": "空に白い雲があります。",
+        "romaji": "Sora ni shiroi kumo ga arimasu.",
+        "en": "There are white clouds in the sky.",
+        "target": "雲",
+        "targetStart": 4
+      }
+    },
+    "蜘蛛": {
+      "sentence": {
+        "jp": "部屋に蜘蛛がいます。",
+        "romaji": "Heya ni kumo ga imasu.",
+        "en": "There is a spider in the room.",
+        "target": "蜘蛛",
+        "targetStart": 3
+      }
+    },
+    "完璧": {
+      "sentence": {
+        "jp": "答えは完璧です。",
+        "romaji": "Kotae wa kanpeki desu.",
+        "en": "The answer is perfect.",
+        "target": "完璧",
+        "targetStart": 3
+      }
+    },
+    "疲れた": {
+      "sentence": {
+        "jp": "今日は疲れた。",
+        "romaji": "Kyou wa tsukareta.",
+        "en": "I got tired today.",
+        "target": "疲れた",
+        "targetStart": 3
+      }
+    },
+    "疲れました": {
+      "sentence": {
+        "jp": "今日は疲れました。",
+        "romaji": "Kyou wa tsukaremashita.",
+        "en": "I got tired today.",
+        "target": "疲れました",
+        "targetStart": 3
+      }
+    },
+    "牛乳": {
+      "sentence": {
+        "jp": "朝、牛乳を飲みます。",
+        "romaji": "Asa, gyuunyuu o nomimasu.",
+        "en": "I drink milk in the morning.",
+        "target": "牛乳",
+        "targetStart": 2
+      }
+    },
+    "時々": {
+      "sentence": {
+        "jp": "時々、映画を見ます。",
+        "romaji": "Tokidoki, eiga o mimasu.",
+        "en": "I sometimes watch movies.",
+        "target": "時々",
+        "targetStart": 0
+      }
+    },
+    "あんまり": {
+      "sentence": {
+        "jp": "今日はあんまり寒くない。",
+        "romaji": "Kyou wa anmari samukunai.",
+        "en": "It isn't very cold today.",
+        "target": "あんまり",
+        "targetStart": 3
+      }
+    },
+    "全然": {
+      "sentence": {
+        "jp": "この漢字は全然わかりません。",
+        "romaji": "Kono kanji wa zenzen wakarimasen.",
+        "en": "I don't understand this kanji at all.",
+        "target": "全然",
+        "targetStart": 5
+      }
+    },
+    "テレビ": {
+      "sentence": {
+        "jp": "夜、テレビを見ます。",
+        "romaji": "Yoru, terebi o mimasu.",
+        "en": "I watch TV at night.",
+        "target": "テレビ",
+        "targetStart": 2
+      }
+    },
+    "アニメ": {
+      "sentence": {
+        "jp": "日本のアニメが好きです。",
+        "romaji": "Nihon no anime ga suki desu.",
+        "en": "I like Japanese anime.",
+        "target": "アニメ",
+        "targetStart": 3
+      }
+    },
+    "旅行する": {
+      "sentence": {
+        "jp": "来年、日本を旅行します。",
+        "romaji": "Rainen, nihon o ryokou shimasu.",
+        "en": "I will travel around Japan next year.",
+        "target": "旅行します",
+        "targetStart": 6
+      }
+    },
+    "運転する": {
+      "sentence": {
+        "jp": "毎日、車を運転します。",
+        "romaji": "Mainichi, kuruma o unten shimasu.",
+        "en": "I drive a car every day.",
+        "target": "運転します",
+        "targetStart": 5
+      }
+    },
+    "歌": {
+      "sentence": {
+        "jp": "この歌が好きです。",
+        "romaji": "Kono uta ga suki desu.",
+        "en": "I like this song.",
+        "target": "歌",
+        "targetStart": 2
+      }
+    },
+    "踊り": {
+      "sentence": {
+        "jp": "この踊りは楽しいです。",
+        "romaji": "Kono odori wa tanoshii desu.",
+        "en": "This dance is fun.",
+        "target": "踊り",
+        "targetStart": 2
+      }
+    },
+    "車": {
+      "sentence": {
+        "jp": "車で仕事に行きます。",
+        "romaji": "Kuruma de shigoto ni ikimasu.",
+        "en": "I go to work by car.",
+        "target": "車",
+        "targetStart": 0
+      }
+    },
+    "今年": {
+      "sentence": {
+        "jp": "今年、日本に行きます。",
+        "romaji": "Kotoshi, nihon ni ikimasu.",
+        "en": "I am going to Japan this year.",
+        "target": "今年",
+        "targetStart": 0
+      }
+    },
+    "三回": {
+      "sentence": {
+        "jp": "この映画を三回見ました。",
+        "romaji": "Kono eiga o sankai mimashita.",
+        "en": "I have seen this movie three times.",
+        "target": "三回",
+        "targetStart": 5
+      },
+      "pos": {
+        "key": "counter",
+        "label": "Counter phrase"
+      }
+    },
+    "来年": {
+      "sentence": {
+        "jp": "来年、日本に行きたいです。",
+        "romaji": "Rainen, nihon ni ikitai desu.",
+        "en": "I want to go to Japan next year.",
+        "target": "来年",
+        "targetStart": 0
+      }
+    },
+    "名古屋": {
+      "sentence": {
+        "jp": "名古屋に友達がいます。",
+        "romaji": "Nagoya ni tomodachi ga imasu.",
+        "en": "I have a friend in Nagoya.",
+        "target": "名古屋",
+        "targetStart": 0
+      }
+    },
+    "ました": {
+      "sentence": {
+        "jp": "昨日、映画を見ました。",
+        "romaji": "Kinou, eiga o mimashita.",
+        "en": "I watched a movie yesterday.",
+        "target": "ました",
+        "targetStart": 7
+      }
+    },
+    "ませんでした": {
+      "sentence": {
+        "jp": "昨日は勉強しませんでした。",
+        "romaji": "Kinou wa benkyou shimasen deshita.",
+        "en": "I didn't study yesterday.",
+        "target": "ませんでした",
+        "targetStart": 6
+      }
+    },
+    "一": {
+      "sentence": {
+        "jp": "答えは一です。",
+        "romaji": "Kotae wa ichi desu.",
+        "en": "The answer is 1.",
+        "target": "一",
+        "targetStart": 3
+      }
+    },
+    "二": {
+      "sentence": {
+        "jp": "答えは二です。",
+        "romaji": "Kotae wa ni desu.",
+        "en": "The answer is 2.",
+        "target": "二",
+        "targetStart": 3
+      }
+    },
+    "三": {
+      "sentence": {
+        "jp": "答えは三です。",
+        "romaji": "Kotae wa san desu.",
+        "en": "The answer is 3.",
+        "target": "三",
+        "targetStart": 3
+      }
+    },
+    "四": {
+      "sentence": {
+        "jp": "答えは四です。",
+        "romaji": "Kotae wa yon desu.",
+        "en": "The answer is 4.",
+        "target": "四",
+        "targetStart": 3
+      }
+    },
+    "五": {
+      "sentence": {
+        "jp": "答えは五です。",
+        "romaji": "Kotae wa go desu.",
+        "en": "The answer is 5.",
+        "target": "五",
+        "targetStart": 3
+      }
+    },
+    "六": {
+      "sentence": {
+        "jp": "答えは六です。",
+        "romaji": "Kotae wa roku desu.",
+        "en": "The answer is 6.",
+        "target": "六",
+        "targetStart": 3
+      }
+    },
+    "七": {
+      "sentence": {
+        "jp": "答えは七です。",
+        "romaji": "Kotae wa nana desu.",
+        "en": "The answer is 7.",
+        "target": "七",
+        "targetStart": 3
+      }
+    },
+    "八": {
+      "sentence": {
+        "jp": "答えは八です。",
+        "romaji": "Kotae wa hachi desu.",
+        "en": "The answer is 8.",
+        "target": "八",
+        "targetStart": 3
+      }
+    },
+    "九": {
+      "sentence": {
+        "jp": "答えは九です。",
+        "romaji": "Kotae wa kyuu desu.",
+        "en": "The answer is 9.",
+        "target": "九",
+        "targetStart": 3
+      }
+    },
+    "十": {
+      "sentence": {
+        "jp": "十時に寝ます。",
+        "romaji": "Juu-ji ni nemasu.",
+        "en": "I go to bed at ten.",
+        "target": "十",
+        "targetStart": 0
+      }
+    },
+    "十一": {
+      "sentence": {
+        "jp": "十一時に寝ます。",
+        "romaji": "Juuichi-ji ni nemasu.",
+        "en": "I go to bed at eleven.",
+        "target": "十一",
+        "targetStart": 0
+      }
+    },
+    "十二": {
+      "sentence": {
+        "jp": "十二時に寝ます。",
+        "romaji": "Juuni-ji ni nemasu.",
+        "en": "I go to bed at twelve.",
+        "target": "十二",
+        "targetStart": 0
+      }
+    },
+    "時": {
+      "sentence": {
+        "jp": "九時に起きます。",
+        "romaji": "Ku-ji ni okimasu.",
+        "en": "I get up at nine.",
+        "target": "時",
+        "targetStart": 1
+      }
+    },
+    "半": {
+      "sentence": {
+        "jp": "九時半に寝ます。",
+        "romaji": "Ku-ji han ni nemasu.",
+        "en": "I go to bed at half past nine.",
+        "target": "半",
+        "targetStart": 2
+      }
+    },
+    "何時": {
+      "sentence": {
+        "jp": "今、何時ですか。",
+        "romaji": "Ima, nanji desu ka.",
+        "en": "What time is it now?",
+        "target": "何時",
+        "targetStart": 2
+      }
+    },
+    "乾燥している": {
+      "sentence": {
+        "jp": "冬は空気が乾燥しています。",
+        "romaji": "Fuyu wa kuuki ga kansou shite imasu.",
+        "en": "The air is dry in winter.",
+        "target": "乾燥しています",
+        "targetStart": 5
+      }
+    },
+    "料理": {
+      "sentence": {
+        "jp": "母の料理が好きです。",
+        "romaji": "Haha no ryouri ga suki desu.",
+        "en": "I like my mother's cooking.",
+        "target": "料理",
+        "targetStart": 2
+      }
+    },
+    "えさをやる": {
+      "sentence": {
+        "jp": "毎朝、猫にえさをやります。",
+        "romaji": "Maiasa, neko ni esa o yarimasu.",
+        "en": "I feed the cat every morning.",
+        "target": "えさをやります",
+        "targetStart": 5
+      }
+    }
+  },
+  "naAdjectives": [
+    "元気",
+    "好き",
+    "大好き",
+    "綺麗",
+    "大丈夫",
+    "大変",
+    "簡単",
+    "完璧"
+  ],
+  "iAdjectives": [
+    "忙しい",
+    "暑い",
+    "寒い",
+    "眠い",
+    "嬉しい",
+    "楽しい",
+    "面白い",
+    "つまらない",
+    "早い",
+    "遅い",
+    "大きい",
+    "小さい",
+    "涼しい",
+    "美味しい",
+    "おいしい",
+    "多い",
+    "いい",
+    "すごい",
+    "蒸し暑い"
+  ],
+  "examplesByReading": {
+    "家|うち": {
+      "jp": "うちで映画を見ます。",
+      "romaji": "Uchi de eiga o mimasu.",
+      "en": "I watch a movie at home.",
+      "target": "うち",
+      "targetStart": 0
+    }
+  }
+}

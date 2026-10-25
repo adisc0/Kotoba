@@ -8,17 +8,51 @@ import { transform as stylesheet } from "lightningcss";
 const root = path.dirname(fileURLToPath(import.meta.url));
 const read = (file) => fs.readFile(path.join(root, file), "utf8");
 const datasets = {
+  CARD_LEARNING: "card-learning",
   BASE_WORDS: "words",
   YUMA_LESSONS: "lessons",
   VERB_FORMS: "forms",
   GRAMMAR_SEGMENTS: "grammar",
 };
 let code = "";
+const loaded = {};
 for (const [constant, name] of Object.entries(datasets)) {
   const data = JSON.parse(await read(`src/data/${name}.json`));
+  loaded[constant] = data;
   code += `const ${constant}=${JSON.stringify(data)};\n`;
 }
-for (const file of ["app", "kana", "numbers-time"])
+// A newly added word must not silently lose its contextual learning section.
+for (const word of [
+  ...loaded.BASE_WORDS,
+  ...loaded.YUMA_LESSONS.flatMap((lesson) => lesson.vocab),
+]) {
+  const sentence =
+    loaded.CARD_LEARNING.examplesByReading?.[word.word + "|" + word.reading] ||
+    loaded.CARD_LEARNING.entries[word.word]?.sentence;
+  if (
+    !sentence?.jp ||
+    !sentence.romaji ||
+    !sentence.en ||
+    !sentence.target ||
+    !Number.isInteger(sentence.targetStart) ||
+    sentence.targetStart < 0 ||
+    sentence.jp.slice(
+      sentence.targetStart,
+      sentence.targetStart + sentence.target.length,
+    ) !== sentence.target
+  )
+    throw new Error(
+      `Add a complete, highlighted card example for ${word.word} (${word.reading}).`,
+    );
+}
+for (const file of [
+  "learning-cards",
+  "lessons-journal",
+  "app",
+  "kana",
+  "numbers-time",
+  "i18n",
+])
   code += (await read(`src/${file}.js`)) + "\n";
 const js = (
   await javascript(code, {
@@ -29,9 +63,17 @@ const js = (
     legalComments: "none",
   })
 ).code;
+const font = await fs.readFile(path.join(root, "src/fonts/zen-maru-study.ttf"));
 const css = stylesheet({
   filename: "styles.css",
-  code: Buffer.from(await read("src/styles.css")),
+  code: Buffer.from(
+    (await read("src/styles.css"))
+      .concat(await read("src/design.css"))
+      .replace(
+        "./fonts/zen-maru-study.ttf",
+        `data:font/ttf;base64,${font.toString("base64")}`,
+      ),
+  ),
   minify: true,
 }).code;
 const hash = (value) =>
@@ -55,6 +97,10 @@ for (const directory of [root, path.join(root, "dist")]) {
   for (const name of await fs.readdir(assets))
     if (/^reference\.[a-f0-9]{10}\.(js|css)$/.test(name))
       await fs.unlink(path.join(assets, name));
+  await fs.copyFile(
+    path.join(root, "src/fonts/OFL.txt"),
+    path.join(assets, "FONT-LICENSE.txt"),
+  );
   await fs.writeFile(path.join(assets, jsName), js);
   await fs.writeFile(path.join(assets, cssName), css);
   await fs.writeFile(path.join(directory, "index.html"), html);

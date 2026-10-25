@@ -287,15 +287,94 @@ function artFor(w) {
     }[w.category] || "flower"
   );
 }
+
+// Original doodles, shared by the cover and vocabulary illustrations.
+function vividArt(markup) {
+  const colors = {
+    "#edbcaa": "#fa786b",
+    "#fce9dc": "#fff8e9",
+    "#f3b18e": "#ffba36",
+    "#b4cfc0": "#53be9a",
+    "#f9d9be": "#ffce3c",
+    "#f2b8ba": "#ff759f",
+    "#f2d17f": "#ffcd3c",
+    "#f3d58d": "#ffcf32",
+    "#f1a7a4": "#fa696d",
+    "#b4dbdf": "#44b8ee",
+    "#c9d9df": "#65c1f1",
+    "#b4dad1": "#57c8ad",
+    "#f1cf68": "#ffdb42",
+    "#f0b4aa": "#f77e99",
+    "#e6e3c9": "#aab4fb",
+    "#ecc49b": "#ffb64e",
+    "#f0c7b2": "#ff9d62",
+    "#e58e86": "#f35162",
+  };
+  return markup.replace(
+    /#[a-f0-9]{6}/gi,
+    (color) => colors[color.toLowerCase()] || color,
+  );
+}
+
+function retroArtShape(key, original) {
+  const shapes = {
+    book: '<path d="m19 15 36-3q7 0 8 8l3 40q0 7-8 8l-35 2q-6 0-7-7l-3-40q-1-7 6-8Z" fill="#ffd13d"/><path d="m24 15 3 54m5-45 21-2m-20 8 13-1" fill="none"/><ellipse cx="38" cy="42" rx="5" ry="8" fill="white"/><ellipse cx="52" cy="41" rx="5" ry="8" fill="white"/><path d="m39 42 1 4m13-5 1 4" stroke-width="3.5"/><path d="M38 55q9 7 18-2-2 14-10 10Z" fill="#202b38"/><path d="m40 57 12-2" stroke="white" stroke-width="3"/>',
+    coffee:
+      '<path d="M18 29h36l-1 23q-1 13-16 13-17 0-18-13Z" fill="#ffce3c"/><path d="M54 33q19-1 12 14-4 8-13 4" fill="none" stroke-width="4"/><path d="M27 20q-5-6 2-12m13 12q-5-6 2-12" fill="none"/><ellipse cx="29" cy="43" rx="4" ry="7" fill="white"/><ellipse cx="43" cy="43" rx="4" ry="7" fill="white"/><path d="m30 43 1 4m13-4 1 4" stroke-width="3"/><path d="M29 55q8 7 17-1" fill="none"/><path d="m28 65-4 6m21-6 4 6" fill="none"/><path d="M18 72h12m15 0h12" stroke-width="4"/>',
+    cat: '<path d="m19 34 1-17 17 10q7-2 13 0l14-13-1 23q9 16-2 26-12 12-30 5Q12 62 15 46Z" fill="#fa786b"/><path d="m25 25 6 8m25-5-3 7" stroke="#fff8e9" stroke-width="4"/><ellipse cx="32" cy="43" rx="5" ry="8" fill="white"/><path d="m33 43 1 5m13-6q5-6 10-1" fill="none" stroke-width="3"/><path d="m39 53 5 3 4-4m-4 4q8 14 15 1m-15-1q-6 11-12 2" fill="none"/><path d="m12 51 12 1M12 60l12-3m35-4 10-2m-9 7 9 2" fill="none"/>',
+    flower:
+      '<path d="M29 25q-5-15 8-16 11 0 12 12 11-12 19-1 6 10-7 17 16 4 10 17-6 11-20 3 3 15-10 16-12-1-10-15-13 8-21-4-6-12 8-19-14-7-8-17 8-9 19 7Z" fill="#ff759f"/><circle cx="40" cy="41" r="17" fill="#ffcd3c"/><ellipse cx="35" cy="38" rx="4" ry="6" fill="white"/><ellipse cx="47" cy="38" rx="4" ry="6" fill="white"/><path d="m36 39 1 3m11-3 1 3M32 48q10 10 20-1" fill="none"/>',
+    water:
+      '<path d="M40 11Q29 29 22 41 10 66 38 69q28 2 24-23Q58 29 40 11Z" fill="#44b8ee"/><path d="M29 39q2-8 8-16" stroke="white" stroke-width="4" fill="none"/><ellipse cx="34" cy="47" rx="4" ry="7" fill="white"/><ellipse cx="48" cy="46" rx="4" ry="7" fill="white"/><path d="m35 47 1 4m13-5 1 4M33 59q10 8 20-3" fill="none"/>',
+    happy:
+      '<circle cx="40" cy="40" r="29" fill="#ffcd3c"/><ellipse cx="29" cy="33" rx="6" ry="10" fill="white"/><ellipse cx="48" cy="33" rx="6" ry="10" fill="white"/><path d="m31 34 1 6m18-6 1 6" stroke-width="4"/><path d="M24 50q16 10 33-3-4 22-18 18Z" fill="#202b38"/><path d="m29 53 22-2" stroke="white" stroke-width="4"/>',
+  };
+  return shapes[key] || original;
+}
+
+function doodleScene() {
+  return (
+    '<svg class="doodle-scene reading-nook" viewBox="0 0 480 390" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">' +
+    '<path d="M69 207C41 119 106 53 195 73 273 23 396 61 414 149c54 85-10 174-106 170-104 39-219 9-239-112Z" fill="#e7edf3"/>' +
+    '<g stroke="#514957" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">' +
+    '<ellipse cx="240" cy="329" rx="178" ry="10" fill="#514957" opacity=".08" stroke="none"/>' +
+    '<path d="M124 282h205q13 0 13 13v17q0 12-13 12H124q-13 0-13-12v-17q0-13 13-13Z" fill="#458af3"/>' +
+    '<path d="M138 292h182v21H138Z" fill="#fff8e9" stroke-width="3"/><path d="M148 302h160" stroke="#c6b9b6" stroke-width="2"/>' +
+    '<path d="m137 249 185-10q14-1 15 12l1 18q0 12-13 13l-185 10q-12 0-13-12l-1-18q-1-12 11-13Z" fill="#ff779b"/>' +
+    '<path d="m151 258 168-9 1 23-168 9Z" fill="#fff8e9" stroke-width="3"/><path d="m164 270 141-8" stroke="#c6b9b6" stroke-width="2"/>' +
+    '<path d="M137 226h174q12 0 12 12v13H125v-13q0-12 12-12Z" fill="#ffd13d"/>' +
+    '<path d="M278 282v27l10-7 10 7v-28" fill="#ffd13d" stroke-width="3"/>' +
+    '<path d="M158 201q5-48 63-48 62-3 68 49l5 26H160Z" fill="#a5a5b2"/>' +
+    '<path d="M287 204q46-18 42 13-4 26-52 11" fill="none" stroke="#93939f" stroke-width="18"/>' +
+    '<path d="M165 181q-4-12-4-29l24 12q18-8 37-1l23-13q2 19-3 32 8 31-36 32-45 0-41-33Z" fill="#b8b8c4"/>' +
+    '<path d="m167 160 5 13 11-6m55-8-4 13-11-6" fill="#e6bcc9" stroke="none"/>' +
+    '<path d="M177 182q6 6 12 0m25 0q6 6 12 0m-28 8 5 3 5-3m-5 3q-5 7-10 1m10-1q5 7 10 1" fill="none" stroke-width="3.5"/>' +
+    '<path d="m156 183 17 2m-17 8 17-2m61-6 16-3m-16 11 16 2" fill="none" stroke-width="3"/>' +
+    '<ellipse cx="175" cy="191" rx="9" ry="5" fill="#e6bcc9" stroke="none"/><ellipse cx="231" cy="191" rx="9" ry="5" fill="#e6bcc9" stroke="none"/>' +
+    '<ellipse cx="191" cy="222" rx="14" ry="8" fill="#b8b8c4" stroke-width="4"/><ellipse cx="221" cy="222" rx="14" ry="8" fill="#b8b8c4" stroke-width="4"/><path d="m187 222 0 3m7-3v3m24-3v3m7-3v3M198 165l2 6m8-7-1 7" fill="none" stroke="#93939f" stroke-width="2.5"/>' +
+    '<path d="M49 264h54l-4 41q-1 13-23 13-23 0-24-13Z" fill="#ffd13d"/>' +
+    '<path d="M103 273q25-3 22 13-2 14-24 12" fill="none"/><path d="M61 248q-8-11 2-22m20 22q-8-11 2-22" fill="none" stroke-width="3.5"/>' +
+    '<path d="M40 320h76" fill="none"/>' +
+    '<path d="M371 260q-8-54 5-95m-2 49 23-21m-24 1-23-20" fill="none" stroke-width="4"/>' +
+    '<path d="M375 185q-4-35 17-41 11 24-17 41Zm16 16q3-31 27-32 3 25-27 32Zm-24-13q-27-2-30-25 24-5 30 25Z" fill="#58bd9b" stroke-width="3.5"/>' +
+    '<path d="M346 251h57l-7 55q-1 12-22 12-20 0-21-12Z" fill="#cbbbdc"/>' +
+    '<path d="M343 251h63v12h-63Z" fill="#cbbbdc" stroke-width="4"/>' +
+    '<path d="M105 126q11-16 22 0" fill="none" stroke="#e5b653" stroke-width="3"/>' +
+    '<path d="m304 111 4-8 4 8 8 4-8 4-4 8-4-8-8-4Z" fill="#ffd13d" stroke-width="2.5"/>' +
+    '<circle cx="122" cy="174" r="3" fill="#cbbbdc" stroke="none"/><circle cx="344" cy="136" r="4" fill="#ff779b" stroke="none"/>' +
+    "</g></svg>"
+  );
+}
+
 function stickerSVG(w, cssClass = "sticker-svg") {
   const key = artFor(w),
-    shape = ART_SHAPES[key] || ART_SHAPES.flower;
-  return `<svg class="${cssClass}" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true"><circle cx="40" cy="40" r="38" fill="${ART_BG[key] || "#f8eee6"}"/><circle cx="64" cy="14" r="3" fill="#fffdf7"/><g stroke="#59645b" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round">${shape}</g></svg>`;
+    shape = retroArtShape(key, ART_SHAPES[key] || ART_SHAPES.flower);
+  return `<svg class="${cssClass}" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true"><circle cx="40" cy="40" r="38" fill="${ART_BG[key] || "#f8eee6"}"/><circle cx="64" cy="14" r="3" fill="#fffdf7"/><g stroke="#202b38" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">${vividArt(shape)}</g></svg>`;
 }
 function updatePictureControls() {
   document.body.classList.toggle("no-pictures", !state.illustrations);
   const b = el("pictureToggle");
-  ((b.textContent = state.illustrations ? "✿ Pictures on" : "✿ Pictures off"),
+  ((b.textContent = state.illustrations ? "Pictures on" : "Pictures off"),
     b.setAttribute("aria-pressed", String(state.illustrations)));
 }
 function togglePictures(value) {
@@ -339,6 +418,7 @@ if (!Object.keys(saved).length)
   }
 let state = {
     dark: !!saved.dark,
+    studyMode: !!saved.studyMode,
     illustrations: saved.illustrations !== !1,
     readingMode: ["furigana", "kana", "clean"].includes(saved.readingMode)
       ? saved.readingMode
@@ -410,7 +490,10 @@ function lessonBadge(l) {
   return l.date;
 }
 function lessonSideBar() {
-  const expanded = page === "lessons" && lessonsMenuOpen;
+  const expanded =
+    page === "lessons" &&
+    lessonsMenuOpen &&
+    !window.matchMedia("(max-width:850px)").matches;
   (el("lessonSideNav").classList.toggle("open", expanded),
     el("yumaNavToggle").setAttribute("aria-expanded", String(expanded)),
     (el("lessonSideNav").innerHTML = YUMA_LESSONS.map(
@@ -419,18 +502,11 @@ function lessonSideBar() {
     ).join("")));
 }
 function lessonOverview() {
-  let total = YUMA_LESSONS.length,
-    terms = new Set(YUMA_LESSONS.flatMap((l) => l.vocab.map((x) => x.word)))
-      .size;
-  return `<div class="lesson-hero"><div><div class="hero-kicker">✿ アルケン × ユマ先生</div><h1>Lessons with <em style="font-family:Georgia,serif;font-weight:500;color:var(--accent)">Yuma-san.</em></h1><p>Our little scrapbook of lessons, useful words, and sentences. Open a chapter to review, listen, and make each expression your own.</p><div class="hero-chip">小さな一歩 ♡ Every lesson counts</div></div><button type="button" class="yuma-portrait" aria-label="Yuma-san and her gray cat — send some hearts" title="A little hello from Yuma-san ♡"><span class="portrait-lady"><svg class="yuma-lady-doodle" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 35c-4 3-8 0-6-4 1-3-1-5 1-9-2-4-1-9 2-11-1-4 3-7 7-6 3-4 8-3 10-1 6-1 10 3 10 8 3 4 1 8 1 12-1 4 3 8 0 11-2 2-5 1-7 0l-8-5Z" fill="var(--lavender)"/><path d="M8 21c-2 6 1 8-1 12m25-12c2 6-1 9 1 12M11 26c-1 3 0 5-1 7m19-7c1 3 0 5 1 7" stroke="var(--playful-purple)" opacity=".6"/><path d="M10 17c-1 8 3 14 10 14 8 0 12-7 10-15-3 0-6-2-8-5 0 4-4 6-6 6l1-5c-2 3-4 5-7 5Z" fill="var(--peach)"/><path d="M9 19c-4-2-4 5 1 5m20-5c4-2 4 5-1 5" fill="var(--peach)"/><ellipse cx="14" cy="24" rx="3" ry="1.8" fill="var(--accent)" stroke="none" opacity=".3"/><ellipse cx="26" cy="24" rx="3" ry="1.8" fill="var(--accent)" stroke="none" opacity=".3"/><path d="M13 21q1.5-2 3 0m8 0q1.5-2 3 0M18 25q2 3 4 0"/><path d="M12 31c-4 1-6 3-6 6m22-6c4 1 6 3 6 6M14 30l6 5 6-5"/><path d="M28 8c-1-5-6-4-5-1l5 3c5 1 8-3 5-4-2-1-4 1-5 2Z" fill="var(--accentLite)"/><circle cx="28" cy="9" r="1.5" fill="var(--accent)" stroke="none"/><path d="m3 6 1-2 1 2m30 24 1 1 2-2" stroke="var(--accent)"/></svg></span><span class="portrait-cat"><svg viewBox="0 0 100 110" fill="none" stroke="#555568" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M70 91c27 6 27-25 17-24-6 0-1 10-9 12" stroke="#93939f" stroke-width="9"/><path d="M25 94c-4-24 4-40 24-40s28 17 24 40Z" fill="#a5a5b2"/><path d="M21 39 19 10 39 23q11-5 23 0l19-13-2 30c8 25-6 35-29 35S13 63 21 39Z" fill="#b8b8c4"/><path d="m25 23 1 14 9-8m40-6-1 14-9-8" fill="#e6bcc9" stroke="none"/><path d="M33 46q4-5 7 0m20 0q4-5 7 0m-21 8 4 3 4-3m-4 3q-5 7-9 1m9-1q5 7 9 1M17 53l13 2M17 61l13-2m40-4 13-2m-13 6 13 2M37 83v11m25-11v11"/><ellipse cx="31" cy="53" rx="5" ry="3" fill="#e6bcc9" stroke="none"/><ellipse cx="69" cy="53" rx="5" ry="3" fill="#e6bcc9" stroke="none"/></svg></span></button></div>
-<div class="lesson-notice">✎ <span>Lesson topics and vocabulary cross-checked against <b>Yuma-san’s Preply lesson notes (Aug 27–Oct 13)</b>. Examples marked “Extra practice” are additional study sentences.</span></div>
-<div class="lesson-milestones"><div class="milestone"><strong>${total}</strong><span>Chapters, including trial</span></div><div class="milestone"><strong>${terms}</strong><span>Unique lesson terms</span></div><div class="milestone"><strong>${YUMA_LESSONS.reduce((sum, l) => sum + l.sentences.length, 0)}</strong><span>Example sentences</span></div></div>
-<div class="section-title"><div><h2>Your lesson journey <span style="color:var(--accent)">.</span></h2><p>Tap a lesson to revisit the vocabulary and useful sentences.</p></div></div>
-<div class="lesson-list">${YUMA_LESSONS.map((l) => `<button type="button" class="lesson-tile" data-lesson-open="${esc(l.id)}"><div class="lesson-tile-art">${stickerSVG({ romaji: "", meaning: l.theme, category: "Nouns", artHint: l.art })}</div><div class="lesson-tile-data"><div class="lesson-tile-no">${esc(l.tag)} · ${esc(l.date)}</div><h3>${esc(l.title)}</h3><p>${esc(l.short)}</p><div class="lesson-tile-bottom">${l.vocab.length} words · ${l.sentences.length} sentences · ${esc(lessonBadge(l))} ↗</div></div></button>`).join("")}</div>
-<div class="lesson-notice" style="margin-top:23px"><span>🌱 <b>Next step from Lesson 6:</b> ～時から～時まで (from ... until ...). This is marked as the next topic, not content already taught.</span></div>`;
+  return lessonJournalOverview();
 }
+
 function lessonVocabCard(w) {
-  return `<article class="lv-card"><div class="lv-top"><span>${esc(w.category)}</span><button type="button" class="mini-icon" data-lesson-action="speak" data-word-id="${esc(w.id)}" aria-label="Listen to ${esc(w.word)}">${icons.speaker}</button></div><div class="lv-main"><div><button type="button" class="lv-jp word-open" data-word-open="${esc(w.id)}" aria-haspopup="dialog" lang="ja">${studyJapanese(w.word)}</button><div class="lv-reading" lang="ja">${esc(w.reading)}</div><div class="lv-romaji">${esc(w.romaji)}</div></div><div class="lv-art">${stickerSVG(w)}</div></div><div class="lv-meaning">${esc(w.meaning)}</div></article>`;
+  return vocabularyLearningCard(w, true);
 }
 const STUDY_READINGS = [
   ["明日", "あした"],
@@ -768,20 +844,9 @@ function setPage(p) {
 }
 const matches = (w, q) => !q || searchIndex.get(w.id).includes(q);
 function categoryNav() {
-  const categoryPics = {
-    Verbs: "👟",
-    Nouns: "🍡",
-    Adjectives: "🌷",
-    Adverbs: "✨",
-    Expressions: "💬",
-    Connectors: "🔗",
-    "Particles & grammar": "🧩",
-    "Questions & pronouns": "❔",
-    Numbers: "🕰️",
-  };
-  let html = `<button type="button" class="catbtn ${activeCategory === "All words" ? "active" : ""}" data-cat="All words">🌸 All words <span class="count">${words().length}</span></button>`;
+  let html = `<button type="button" class="catbtn ${activeCategory === "All words" ? "active" : ""}" data-cat="All words"><span class="category-label">All words</span><span class="count">${words().length}</span></button>`;
   for (const cat of CATEGORIES)
-    html += `<button type="button" class="catbtn ${activeCategory === cat ? "active" : ""}" data-cat="${esc(cat)}"><span class="cat-pic">${categoryPics[cat] || "✿"}</span>${esc(cat)} <span class="count">${words().filter((x) => x.category === cat).length}</span></button>`;
+    html += `<button type="button" class="catbtn ${activeCategory === cat ? "active" : ""}" data-cat="${esc(cat)}"><span class="category-label">${esc(cat)}</span><span class="count">${words().filter((x) => x.category === cat).length}</span></button>`;
   el("categories").innerHTML = html;
 }
 function filteredWords() {
@@ -807,8 +872,9 @@ function stableHash(s) {
   return h;
 }
 function renderCard(w) {
-  return `<article class="word-card" data-id="${esc(w.id)}"><div class="card-top"><span class="type-pill">${esc(w.category)}</span><button type="button" class="mini-icon" data-action="speak" data-id="${esc(w.id)}" aria-label="Listen to ${esc(w.word)}">${icons.speaker}</button></div><div class="word-heading"><div class="word-heading-text"><button type="button" class="word-kanji word-open" lang="ja" data-action="more" data-id="${esc(w.id)}" aria-haspopup="dialog">${esc(w.word)}</button><div class="word-reading" lang="ja">${w.word === w.reading ? "&nbsp;" : esc(w.reading)}</div><div class="word-romaji">${esc(w.romaji || "")}</div></div>${state.illustrations ? `<div class="word-sticker">${stickerSVG(w)}</div>` : ""}</div><div class="word-meaning">${esc(w.meaning)}</div><div class="card-footer"><span class="source-label">${esc(w.topic || w.source)}</span><button type="button" class="card-more" data-action="more" data-id="${esc(w.id)}" aria-haspopup="dialog">Details ↗</button></div></article>`;
+  return vocabularyLearningCard(w);
 }
+
 function verbFormsPanel(w) {
   const reference = VERB_FORMS[w.word];
   if (!reference) return "";
@@ -961,12 +1027,23 @@ function speak(w) {
     toast("Audio unavailable. Try installing a Japanese speech voice.");
   }
 }
+let themeTransitionTimer;
 function setTheme() {
-  ((state.dark = !state.dark),
-    document.body.classList.toggle("dark", state.dark),
-    (el("themeBtn").textContent = state.dark ? "☀" : "☾"),
-    persist());
+  clearTimeout(themeTransitionTimer);
+  const animate = !window.matchMedia("(prefers-reduced-motion: reduce)")
+    .matches;
+  document.body.classList.toggle("theme-changing", animate);
+  state.dark = !state.dark;
+  document.body.classList.toggle("dark", state.dark);
+  el("themeBtn").textContent = state.dark ? "☀" : "☾";
+  persist();
+  if (animate) {
+    themeTransitionTimer = setTimeout(() => {
+      document.body.classList.remove("theme-changing");
+    }, 220);
+  }
 }
+
 function randomWord() {
   const word = WORDS[Math.floor(Math.random() * WORDS.length)];
   word && openWordDetails(word.id);
@@ -974,11 +1051,18 @@ function randomWord() {
 (document.querySelectorAll("[data-page]").forEach((b) =>
   b.addEventListener("click", () => {
     if (b.dataset.page === "lessons") {
+      if (window.matchMedia("(max-width:850px)").matches) {
+        activeLessonId = null;
+        lessonsMenuOpen = false;
+        setPage("lessons");
+        return;
+      }
       if (page === "lessons") {
         ((lessonsMenuOpen = !lessonsMenuOpen), lessonSideBar());
         return;
       }
-      ((activeLessonId = null), (lessonsMenuOpen = !0));
+      ((activeLessonId = null),
+        (lessonsMenuOpen = !window.matchMedia("(max-width:850px)").matches));
     }
     setPage(b.dataset.page);
   }),
@@ -1012,6 +1096,7 @@ function randomWord() {
       e.currentTarget.close();
   }));
 function handleWordAction(e) {
+  if (handleLearningAction(e)) return;
   const b = e.target.closest("[data-action]");
   if (!b) return;
   const w = getWord(b.dataset.id);
@@ -1021,6 +1106,7 @@ function handleWordAction(e) {
 }
 (el("wordDetailsContent").addEventListener("click", handleWordAction),
   el("wordGrid").addEventListener("click", handleWordAction));
+initializeLearningCards();
 let searchTimer;
 (el("searchInput").addEventListener("input", (e) => {
   ((search = e.target.value.trim()),
@@ -1031,10 +1117,7 @@ let searchTimer;
     ((sort = e.target.value), renderLibrary());
   }),
   el("randomWordBtn").addEventListener("click", randomWord),
-  el("studyPreferences").addEventListener("click", (e) => {
-    const b = e.target.closest("[data-reading-mode]");
-    b && setReadingMode(b.dataset.readingMode);
-  }),
+  void 0,
   el("pictureToggle").addEventListener("click", () =>
     togglePictures(!state.illustrations),
   ),
@@ -1105,8 +1188,7 @@ let searchTimer;
   }),
   document.body.classList.toggle("dark", state.dark),
   (el("themeBtn").textContent = state.dark ? "☀" : "☾"),
-  (el("heroStickers").innerHTML =
-    `<div class="hero-sticker cat">${stickerSVG({ romaji: "neko" })}</div><div class="hero-sticker ramen">${stickerSVG({ romaji: "raamen" })}</div><div class="hero-sticker flower2">${stickerSVG({ romaji: "kirei" })}</div><span class="hero-label">small steps ♡</span>`),
+  (el("heroStickers").innerHTML = doodleScene()),
   updatePictureControls(),
   categoryNav(),
   renderLibrary());
@@ -1228,11 +1310,16 @@ function studyJapanese(text, parts = []) {
   );
 }
 function renderWordExtra(w) {
-  const example = w.example
+  const learning = learningForWord(w);
+  const sentence = learning.sentence;
+  const referenceNote = [w.note, learning.note].filter(Boolean).join(" ");
+  const example = sentence
     ? '<section class="study-example"><div class="study-caption">EXAMPLE SENTENCE · 例文</div><div class="study-example-jp" lang="ja">' +
-      studyJapanese(w.example) +
-      '</div><div class="study-example-en"><p>' +
-      esc(w.translation) +
+      highlightedCardSentence(w, sentence.jp) +
+      '</div><p class="card-context-romaji">' +
+      esc(sentence.romaji) +
+      '</p><div class="study-example-en"><p>' +
+      esc(sentence.en) +
       "</p></div></section>"
     : '<p class="word-forms-note">No example recorded for this entry yet.</p>';
   let forms = verbFormsPanel(w);
@@ -1258,9 +1345,9 @@ function renderWordExtra(w) {
         "</div></section>"),
     example +
       forms +
-      (w.note
+      (referenceNote
         ? '<div class="study-note"><span>REFERENCE NOTE</span><p>' +
-          esc(w.note) +
+          esc(referenceNote) +
           "</p></div>"
         : "")
   );
@@ -1305,3 +1392,8 @@ try {
         setTimeout(() => URL.revokeObjectURL(url), 1e3));
     }));
 } catch {}
+
+window.matchMedia("(max-width:850px)").addEventListener("change", () => {
+  if (window.matchMedia("(max-width:850px)").matches) lessonsMenuOpen = false;
+  lessonSideBar();
+});
