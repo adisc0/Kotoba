@@ -57,8 +57,14 @@ test("reference navigation, word popup, lessons, kana, clock and display prefere
       );
       await page.locator("[data-lesson-home]").first().click();
     }
-    await page.locator('[data-page="grammar"]').click();
-    assert.equal(await page.locator(".grammar-chapter").count(), 7);
+    assert.equal(
+      await page
+        .locator(
+          '[data-page="grammar"],#grammarPage,[data-reference="grammar"]',
+        )
+        .count(),
+      0,
+    );
     await page.locator('[data-page="kana"]').click();
     for (const [set, count] of [
       ["basic", 46],
@@ -118,7 +124,7 @@ test("reference navigation, word popup, lessons, kana, clock and display prefere
       path: path.join(root, ".history", "qa", "reference-desktop.png"),
     });
     await page.setViewportSize({ width: 390, height: 844 });
-    for (const name of ["library", "grammar", "kana", "numbers", "settings"]) {
+    for (const name of ["library", "kana", "numbers", "verbs", "settings"]) {
       await page.locator('[data-page="' + name + '"]').click();
       assert(
         await page.evaluate(

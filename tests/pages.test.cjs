@@ -99,9 +99,9 @@ test("production build works beneath the GitHub Pages repository path", async ()
       );
       for (const name of [
         "lessons",
-        "grammar",
         "kana",
         "numbers",
+        "verbs",
         "settings",
         "library",
       ]) {

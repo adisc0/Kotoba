@@ -89,9 +89,9 @@ test("Japanese interface is reversible, persists, and translates dynamic views",
     for (const name of [
       "library",
       "lessons",
-      "grammar",
       "kana",
       "numbers",
+      "verbs",
       "settings",
     ]) {
       await page.locator('[data-page="' + name + '"]').click();

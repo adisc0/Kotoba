@@ -2440,25 +2440,29 @@ body.no-pictures .journal-subtitle {
   }
 }
 .brand-instagram {
-  display: none;
+  display: block;
+  width: fit-content;
+  margin-top: 3px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 550;
+  line-height: 16px;
+  text-decoration: none;
 }
-@media (max-width: 1100px) {
+.brand-instagram:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.brand-instagram:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+@media (max-width: 850px) {
   .brand-instagram {
-    display: block;
-    width: fit-content;
-    color: var(--accent);
-    font-size: 10px;
+    margin-top: 0;
+    font-size: 11px;
     line-height: 14px;
-    text-decoration: none;
-  }
-  .brand-instagram:hover {
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
-  .brand-instagram:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-    border-radius: 2px;
   }
 }
 @media (max-width: 850px) {
@@ -2499,4 +2503,643 @@ body.no-pictures .journal-subtitle {
     padding: 8px 11px;
     font-size: 10px;
   }
+}
+
+/* Four homepage destinations and five mobile navigation tabs. */
+.reference-shortcuts {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+@media (max-width: 850px) {
+  .sidebar .nav {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .reference-shortcuts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+/* Verb Explorer — scoped workspace using Kotoba’s existing surfaces and type. */
+.sidebar [data-page="verbs"] small {
+  display: block;
+  color: var(--sub);
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+.ve {
+  min-width: 0;
+}
+.ve h1 {
+  font-size: clamp(27px, 3.2vw, 40px);
+  letter-spacing: -0.04em;
+  margin: 8px 0;
+}
+.ve h2 {
+  font-size: 22px;
+  margin: 0;
+  font-weight: 600;
+}
+.ve h3 {
+  font-size: 13px;
+  margin: 15px 0 7px;
+  font-weight: 600;
+}
+.ve p {
+  line-height: 1.7;
+}
+.ve-heading,
+.ve-practice-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.ve-heading > div {
+  min-width: 0;
+}
+.ve-heading p {
+  font-size: 13px;
+  color: var(--sub);
+  margin: 0;
+}
+.ve-note {
+  font-size: 11px;
+  color: var(--sub);
+  line-height: 1.7;
+}
+.ve-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.ve-search-label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: var(--sub);
+}
+.ve-search-wrap {
+  position: relative;
+}
+#veSearch {
+  width: 100%;
+  height: 48px;
+  font-size: 15px;
+  background: var(--paper);
+}
+#veSuggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 320px;
+  overflow: auto;
+  z-index: 30;
+  padding: 5px;
+  margin: 5px 0 0;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  box-shadow: var(--shadow);
+  list-style: none;
+}
+#veSuggestions li {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 11px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#veSuggestions li small {
+  font-size: 11px;
+  color: var(--sub);
+}
+#veSuggestions li > span:last-child {
+  font-size: 12px;
+  color: var(--sub);
+}
+#veSuggestions li:hover,
+#veSuggestions li[aria-selected="true"] {
+  background: var(--accentLite);
+}
+#veSearchStatus {
+  min-height: 16px;
+  margin: 5px 0 10px;
+}
+.ve-common,
+.ve-saved-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+.ve-common button,
+.ve-saved-row button {
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 12px;
+}
+.ve-common button:hover,
+.ve-saved-row button:hover {
+  background: var(--accentLite);
+}
+.ve-saved {
+  margin: 13px 0 19px;
+}
+.ve-saved summary {
+  font-size: 11px;
+  color: var(--sub);
+  cursor: pointer;
+  padding: 7px 0;
+}
+.ve-saved-row {
+  margin: 10px 0;
+}
+.ve-saved-row > span {
+  font-size: 11px;
+  min-width: 60px;
+  color: var(--sub);
+}
+.ve-saved-row small {
+  font-size: 11px;
+  color: var(--sub);
+}
+.ve-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 12px;
+}
+.ve-summary h2 {
+  margin: 20px 0 4px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.ve-summary p {
+  margin: 3px 0;
+  font-size: 14px;
+}
+.ve-summary .ve-group-note {
+  flex-basis: 100%;
+  color: var(--sub);
+  font-size: 11px;
+}
+.ve-group {
+  display: inline-block;
+  font-size: 11px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background: var(--accentLite);
+  color: var(--accent);
+}
+.ve-group-1 {
+  background: #e0e9df;
+  color: #36533f;
+}
+.ve-group-2 {
+  background: #e5def0;
+  color: #66507c;
+}
+.ve-group-3 {
+  background: #efdfd8;
+  color: #80513e;
+}
+.ve-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 22px 0 14px;
+}
+.ve-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.ve-tabs button {
+  border: 1px solid var(--line);
+  padding: 10px 13px;
+  font-size: 12px;
+  color: var(--sub);
+  background: var(--paper);
+  border-radius: 7px;
+}
+.ve-tabs [aria-selected="true"] {
+  background: var(--accentLite);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.ve-display {
+  display: flex;
+  gap: 14px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 11px;
+  color: var(--sub);
+}
+.ve-display label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 32px;
+}
+.ve-display input {
+  width: 15px;
+  height: 15px;
+  min-height: 0;
+  padding: 0;
+  accent-color: var(--accent);
+}
+.ve ruby {
+  font-family: var(--font-japanese);
+  font-weight: 500;
+}
+.ve rt {
+  font-size: 0.5em;
+  font-weight: 400;
+  color: var(--sub);
+}
+#verbsPage[data-readings="false"] rt {
+  display: none;
+}
+#verbsPage[data-romaji="false"] .ve-romaji {
+  display: none;
+}
+.ve-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.ve-table th,
+.ve-table td {
+  padding: 12px;
+  text-align: left;
+  overflow-wrap: anywhere;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--line);
+}
+.ve-table thead th {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--sub);
+  background: var(--cream);
+}
+.ve-table thead th:first-child {
+  width: 26%;
+}
+.ve-table thead th:last-child {
+  width: 46px;
+}
+.ve-table th > button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 0;
+  background: none;
+  padding: 3px 0;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 550;
+}
+.ve-main {
+  cursor: pointer;
+}
+.ve-main:hover {
+  background: var(--accentLite);
+}
+.ve-row-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+  font-size: 9px;
+  color: var(--sub);
+  font-weight: 400;
+}
+.ve-register-polite {
+  color: var(--accent);
+}
+.ve-japanese {
+  font-size: 20px;
+  line-height: 2;
+}
+.ve-table .ve-romaji {
+  font-size: 11px;
+  color: var(--sub);
+}
+.ve-gloss {
+  font-size: 11px;
+  line-height: 1.65;
+}
+.ve-unavailable {
+  font-family: inherit;
+  font-size: 11px;
+  color: var(--sub);
+}
+.ve-copy-cell .mini-icon {
+  width: 30px;
+  height: 32px;
+}
+.ve-detail[hidden],
+.ve [hidden] {
+  display: none !important;
+}
+.ve-detail > td {
+  padding: 0;
+}
+.ve-explanation {
+  padding: 20px;
+  border-left: 2px solid var(--accent);
+  background: var(--bg);
+}
+.ve-explanation-grid,
+.ve-example-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+.ve-explanation p {
+  font-size: 12px;
+  margin: 5px 0 12px;
+  overflow-wrap: anywhere;
+}
+.ve-explanation .ve-formation {
+  font-family: var(--font-japanese);
+  font-size: 17px;
+}
+.ve-explanation .ve-example-jp {
+  font-size: 18px;
+  line-height: 2.2;
+  margin-top: 13px;
+}
+.ve-example {
+  padding: 4px 0 0;
+  border-top: 1px solid var(--line);
+  min-width: 0;
+}
+.ve-example .ve-romaji {
+  font-size: 11px;
+}
+.ve-practice {
+  margin: 25px 0;
+  padding: 22px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  scroll-margin-top: 15px;
+}
+.ve-practice-filters {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+.ve-practice-filters label,
+.ve-answer-label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--sub);
+}
+.ve-practice select {
+  width: 100%;
+  max-width: none;
+  min-height: 40px;
+  padding: 8px;
+  font-size: 12px;
+}
+.ve-question-prompt {
+  margin: 22px 0 15px;
+}
+.ve-question-prompt > p:first-child {
+  font-size: 24px;
+  line-height: 2;
+}
+.ve-question-prompt p {
+  font-size: 13px;
+}
+.ve-question-prompt .ve-romaji {
+  font-size: 12px;
+  color: var(--sub);
+}
+#veAnswer {
+  width: 100%;
+  max-width: 420px;
+  min-height: 44px;
+  font-family: var(--font-japanese);
+  font-size: 18px;
+}
+.ve-practice-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 15px;
+}
+.ve-answer-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+}
+.ve-answer-choices button {
+  min-height: 44px;
+  padding: 9px;
+  font-family: var(--font-japanese);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.ve-answer-choices [aria-pressed="true"] {
+  background: var(--accentLite);
+  border-color: var(--accent);
+}
+.ve-feedback {
+  border-left: 3px solid var(--accent);
+  background: var(--bg);
+  padding: 13px 16px;
+  margin-top: 18px;
+}
+.ve-feedback .ve-example-jp {
+  font-size: 23px;
+  line-height: 2;
+}
+.ve-feedback p {
+  font-size: 12px;
+}
+.ve-correct {
+  border-color: var(--green);
+}
+.ve-sources {
+  margin-top: 25px;
+}
+.ve-sources a {
+  color: var(--accent);
+}
+@media (max-width: 1100px) {
+  .ve-explanation-grid,
+  .ve-example-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+  .ve-practice-filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 850px) {
+  .sidebar .nav {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  .ve-heading {
+    align-items: flex-start;
+  }
+  .ve-heading .btn {
+    flex-shrink: 0;
+    padding: 10px;
+  }
+  .ve-common button,
+  .ve-saved-row button {
+    min-height: 40px;
+  }
+  .ve-summary {
+    padding: 18px;
+  }
+  .ve-summary h2 {
+    font-size: 29px;
+  }
+  .ve-table,
+  .ve-table tbody {
+    display: block;
+  }
+  .ve-table thead {
+    display: none;
+  }
+  .ve-table tr.ve-main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 40px;
+    gap: 4px 9px;
+    padding: 13px 15px;
+    border-bottom: 1px solid var(--line);
+  }
+  .ve-table tr.ve-main > th,
+  .ve-table tr.ve-main > td {
+    display: block;
+    padding: 0;
+    border: 0;
+    min-width: 0;
+  }
+  .ve-table tr.ve-main > th {
+    grid-column: 1 / -1;
+  }
+  .ve-table tr.ve-main > .ve-japanese {
+    grid-column: 1;
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .ve-table tr.ve-main > .ve-romaji,
+  .ve-table tr.ve-main > .ve-gloss {
+    grid-column: 1;
+  }
+  .ve-table tr.ve-main > .ve-copy-cell {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .ve-table th > button {
+    font-size: 13px;
+    min-height: 40px;
+  }
+  .ve-row-meta {
+    display: inline-flex;
+    margin-left: 8px;
+  }
+  .ve-table .ve-copy-cell .mini-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .ve-table tr.ve-detail,
+  .ve-table tr.ve-detail > td {
+    display: block;
+    width: 100%;
+  }
+  .ve-table tr.ve-detail[hidden] {
+    display: none;
+  }
+  .ve-explanation {
+    padding: 17px;
+  }
+  .ve-practice {
+    padding: 17px;
+  }
+  .ve-practice h2 {
+    font-size: 20px;
+  }
+  .ve-tabs button {
+    min-height: 42px;
+    padding: 9px;
+    font-size: 11px;
+  }
+  .ve-display label {
+    min-height: 40px;
+  }
+  .ve-practice-heading {
+    align-items: flex-start;
+  }
+  .ve-practice-heading .btn {
+    font-size: 11px;
+    padding: 9px;
+  }
+  .ve-example-jp ruby {
+    ruby-position: over;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .ve-common button,
+  .ve-tabs button,
+  .ve-main {
+    transition: background-color 130ms ease;
+  }
+}
+#veSearch {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 13px;
+  color: var(--ink);
+  appearance: none;
+}
+.ve-copy-fallback {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding: 12px;
+  background: var(--accentLite);
+  color: var(--accent);
+  font-size: 12px;
+}
+.ve-copy-fallback input {
+  min-width: 0;
+  width: 100%;
+  max-width: 400px;
+  font-family: var(--font-japanese);
 }

@@ -60,7 +60,5 @@ function lessonJournalOverview() {
         <span class="journal-entry-footer"><span>${l.vocab.length} words · ${l.sentences.length} sentences</span><span class="journal-read">Open chapter <span aria-hidden="true">↗</span></span></span></span>
       </button>`;
     }).join("")}</div>
-    <aside class="journal-source-note"><span>From Yuma-san’s Preply lesson notes, Aug 27–Oct 13. “Extra practice” labels identify additional study sentences.</span></aside>
-    <aside class="journal-next"><span class="journal-next-label">Next in the notebook</span><p><span lang="ja">～時から～時まで</span> <span>— from … until …</span></p><span class="journal-next-note">The next topic from Lesson 6, not content already taught.</span></aside>
   </div>`;
 }

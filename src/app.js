@@ -725,9 +725,8 @@ function setReadingMode(mode) {
         (b.textContent = "✦ Hide breakdown ↑"));
     }
   }
-  (page === "grammar" && renderGrammar(),
-    el("wordDetailsDialog").open &&
-      openWordDetails(el("wordDetailsDialog").dataset.wordId));
+  el("wordDetailsDialog").open &&
+    openWordDetails(el("wordDetailsDialog").dataset.wordId);
 }
 function updateReadingControls() {
   (document.body.classList.toggle(
@@ -818,14 +817,7 @@ function stats() {
       WORDS.length + " words & expressions"));
 }
 function setPage(p) {
-  const pages = [
-    "library",
-    "lessons",
-    "grammar",
-    "kana",
-    "numbers",
-    "settings",
-  ];
+  const pages = ["library", "lessons", "kana", "numbers", "verbs", "settings"];
   if (pages.includes(p)) {
     ((page = p), p !== "lessons" && (lessonsMenuOpen = !1));
     for (const name of pages) {
@@ -836,9 +828,9 @@ function setPage(p) {
           ? tab.setAttribute("aria-current", "page")
           : tab.removeAttribute("aria-current"));
     }
-    (p === "library" && renderLibrary(),
+    (p === "verbs" && veInitialize(),
+      p === "library" && renderLibrary(),
       p === "lessons" ? renderLessons() : lessonSideBar(),
-      p === "grammar" && renderGrammar(),
       window.scrollTo({ top: 0, behavior: "auto" }));
   }
 }
@@ -1136,10 +1128,6 @@ let searchTimer;
     const b = e.target.closest("[data-lesson-side]");
     b && showLesson(b.dataset.lessonSide);
   }),
-  el("grammarContent").addEventListener("click", (e) => {
-    const b = e.target.closest("[data-lesson-open]");
-    b && showLesson(b.dataset.lessonOpen);
-  }),
   el("lessonsContent").addEventListener("click", (e) => {
     const word = e.target.closest("[data-word-open]");
     if (word) {
@@ -1351,25 +1339,6 @@ function renderWordExtra(w) {
           "</p></div>"
         : "")
   );
-}
-function renderGrammar() {
-  el("grammarContent").innerHTML = YUMA_LESSONS.filter((l) => l.focus?.length)
-    .map(
-      (l) =>
-        '<section class="grammar-chapter"><div class="section-title"><div><h2>' +
-        esc(l.title) +
-        "</h2><p>" +
-        esc(l.short) +
-        '</p></div><button type="button" class="btn small" data-lesson-open="' +
-        esc(l.id) +
-        '">Open lesson ↗</button></div>' +
-        lessonFocusPanel(l).replace(
-          'id="lesson-focus"',
-          'id="grammar-' + esc(l.id) + '"',
-        ) +
-        "</section>",
-    )
-    .join("");
 }
 try {
   const legacy = JSON.parse(

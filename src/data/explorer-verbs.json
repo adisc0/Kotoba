@@ -1,0 +1,743 @@
+[
+  {
+    "id": "食べる",
+    "jp": "食べる",
+    "kana": "たべる",
+    "group": 2,
+    "en": [
+      "eat",
+      "ate",
+      "eating",
+      "eaten"
+    ],
+    "frames": [
+      [
+        "ご飯を",
+        "ごはん を ",
+        "rice"
+      ],
+      [
+        "パンを",
+        "ぱん を ",
+        "bread"
+      ]
+    ],
+    "passive": true
+  },
+  {
+    "id": "飲む",
+    "jp": "飲む",
+    "kana": "のむ",
+    "group": 1,
+    "en": [
+      "drink",
+      "drank",
+      "drinking",
+      "drunk"
+    ],
+    "frames": [
+      [
+        "水を",
+        "みず を ",
+        "water"
+      ],
+      [
+        "お茶を",
+        "おちゃ を ",
+        "tea"
+      ]
+    ],
+    "passive": true
+  },
+  {
+    "id": "行く",
+    "jp": "行く",
+    "kana": "いく",
+    "group": 1,
+    "en": [
+      "go",
+      "went",
+      "going",
+      "gone"
+    ],
+    "frames": [
+      [
+        "学校に",
+        "がっこう に ",
+        "to school"
+      ],
+      [
+        "駅に",
+        "えき に ",
+        "to the station"
+      ]
+    ],
+    "aspect": "result"
+  },
+  {
+    "id": "来る",
+    "jp": "来る",
+    "kana": "くる",
+    "group": 3,
+    "en": [
+      "come",
+      "came",
+      "coming",
+      "come"
+    ],
+    "frames": [
+      [
+        "ここに",
+        "ここ に ",
+        "here"
+      ],
+      [
+        "学校に",
+        "がっこう に ",
+        "to school"
+      ]
+    ],
+    "aspect": "result"
+  },
+  {
+    "id": "する",
+    "jp": "する",
+    "kana": "する",
+    "group": 3,
+    "en": [
+      "do",
+      "did",
+      "doing",
+      "done"
+    ],
+    "frames": [
+      [
+        "宿題を",
+        "しゅくだい を ",
+        "homework"
+      ],
+      [
+        "掃除を",
+        "そうじ を ",
+        "the cleaning"
+      ]
+    ]
+  },
+  {
+    "id": "見る",
+    "jp": "見る",
+    "kana": "みる",
+    "group": 2,
+    "en": [
+      "watch",
+      "watched",
+      "watching",
+      "watched"
+    ],
+    "frames": [
+      [
+        "映画を",
+        "えいが を ",
+        "a movie"
+      ],
+      [
+        "テレビを",
+        "てれび を ",
+        "TV"
+      ]
+    ],
+    "passive": true
+  },
+  {
+    "id": "聞く",
+    "jp": "聞く",
+    "kana": "きく",
+    "group": 1,
+    "en": [
+      "listen to",
+      "listened to",
+      "listening to",
+      "listened to"
+    ],
+    "frames": [
+      [
+        "音楽を",
+        "おんがく を ",
+        "music"
+      ],
+      [
+        "ラジオを",
+        "らじお を ",
+        "the radio"
+      ]
+    ]
+  },
+  {
+    "id": "書く",
+    "jp": "書く",
+    "kana": "かく",
+    "group": 1,
+    "en": [
+      "write",
+      "wrote",
+      "writing",
+      "written"
+    ],
+    "frames": [
+      [
+        "漢字を",
+        "かんじ を ",
+        "kanji"
+      ],
+      [
+        "名前を",
+        "なまえ を ",
+        "a name"
+      ]
+    ],
+    "passive": true
+  },
+  {
+    "id": "読む",
+    "jp": "読む",
+    "kana": "よむ",
+    "group": 1,
+    "en": [
+      "read",
+      "read",
+      "reading",
+      "read"
+    ],
+    "frames": [
+      [
+        "本を",
+        "ほん を ",
+        "a book"
+      ],
+      [
+        "新聞を",
+        "しんぶん を ",
+        "a newspaper"
+      ]
+    ],
+    "passive": true
+  },
+  {
+    "id": "話す",
+    "jp": "話す",
+    "kana": "はなす",
+    "group": 1,
+    "en": [
+      "speak",
+      "spoke",
+      "speaking",
+      "spoken"
+    ],
+    "frames": [
+      [
+        "日本語を",
+        "にほんご を ",
+        "Japanese"
+      ],
+      [
+        "英語を",
+        "えいご を ",
+        "English"
+      ]
+    ],
+    "passive": true
+  },
+  {
+    "id": "買う",
+    "jp": "買う",
+    "kana": "かう",
+    "group": 1,
+    "en": [
+      "buy",
+      "bought",
+      "buying",
+      "bought"
+    ],
+    "frames": [
+      [
+        "本を",
+        "ほん を ",
+        "a book"
+      ],
+      [
+        "野菜を",
+        "やさい を ",
+        "vegetables"
+      ]
+    ],
+    "passive": true
+  },
+  {
+    "id": "帰る",
+    "jp": "帰る",
+    "kana": "かえる",
+    "group": 1,
+    "en": [
+      "return",
+      "returned",
+      "returning",
+      "returned"
+    ],
+    "frames": [
+      [
+        "家に",
+        "いえ に ",
+        "home"
+      ],
+      [
+        "部屋に",
+        "へや に ",
+        "to my room"
+      ]
+    ],
+    "aspect": "result"
+  },
+  {
+    "id": "出かける",
+    "jp": "出かける",
+    "kana": "でかける",
+    "group": 2,
+    "en": [
+      "go out",
+      "went out",
+      "going out",
+      "gone out"
+    ],
+    "frames": [
+      [
+        "公園に",
+        "こうえん に ",
+        "to the park"
+      ],
+      [
+        "町に",
+        "まち に ",
+        "into town"
+      ]
+    ],
+    "aspect": "result"
+  },
+  {
+    "id": "起きる",
+    "jp": "起きる",
+    "kana": "おきる",
+    "group": 2,
+    "en": [
+      "get up",
+      "got up",
+      "getting up",
+      "gotten up"
+    ],
+    "frames": [
+      [
+        "六時に",
+        "ろくじ に ",
+        "at six"
+      ],
+      [
+        "七時に",
+        "しちじ に ",
+        "at seven"
+      ]
+    ],
+    "aspect": "awake"
+  },
+  {
+    "id": "寝る",
+    "jp": "寝る",
+    "kana": "ねる",
+    "group": 2,
+    "en": [
+      "sleep",
+      "slept",
+      "sleeping",
+      "slept"
+    ],
+    "frames": [
+      [
+        "早く",
+        "はやく ",
+        "early"
+      ],
+      [
+        "家で",
+        "いえ で ",
+        "at home"
+      ]
+    ]
+  },
+  {
+    "id": "会う",
+    "jp": "会う",
+    "kana": "あう",
+    "group": 1,
+    "en": [
+      "meet",
+      "met",
+      "meeting",
+      "met"
+    ],
+    "frames": [
+      [
+        "友達に",
+        "ともだち に ",
+        "a friend"
+      ],
+      [
+        "先生に",
+        "せんせい に ",
+        "my teacher"
+      ]
+    ]
+  },
+  {
+    "id": "待つ",
+    "jp": "待つ",
+    "kana": "まつ",
+    "group": 1,
+    "en": [
+      "wait for",
+      "waited for",
+      "waiting for",
+      "waited for"
+    ],
+    "frames": [
+      [
+        "バスを",
+        "ばす を ",
+        "the bus"
+      ],
+      [
+        "友達を",
+        "ともだち を ",
+        "a friend"
+      ]
+    ]
+  },
+  {
+    "id": "泳ぐ",
+    "jp": "泳ぐ",
+    "kana": "およぐ",
+    "group": 1,
+    "en": [
+      "swim",
+      "swam",
+      "swimming",
+      "swum"
+    ],
+    "frames": [
+      [
+        "プールで",
+        "ぷうる で ",
+        "in the pool"
+      ],
+      [
+        "海で",
+        "うみ で ",
+        "in the sea"
+      ]
+    ]
+  },
+  {
+    "id": "遊ぶ",
+    "jp": "遊ぶ",
+    "kana": "あそぶ",
+    "group": 1,
+    "en": [
+      "play",
+      "played",
+      "playing",
+      "played"
+    ],
+    "frames": [
+      [
+        "公園で",
+        "こうえん で ",
+        "in the park"
+      ],
+      [
+        "友達と",
+        "ともだち と ",
+        "with a friend"
+      ]
+    ]
+  },
+  {
+    "id": "使う",
+    "jp": "使う",
+    "kana": "つかう",
+    "group": 1,
+    "en": [
+      "use",
+      "used",
+      "using",
+      "used"
+    ],
+    "frames": [
+      [
+        "パソコンを",
+        "ぱそこん を ",
+        "a computer"
+      ],
+      [
+        "辞書を",
+        "じしょ を ",
+        "a dictionary"
+      ]
+    ],
+    "passive": true
+  },
+  {
+    "id": "働く",
+    "jp": "働く",
+    "kana": "はたらく",
+    "group": 1,
+    "en": [
+      "work",
+      "worked",
+      "working",
+      "worked"
+    ],
+    "frames": [
+      [
+        "家で",
+        "いえ で ",
+        "at home"
+      ],
+      [
+        "店で",
+        "みせ で ",
+        "in a shop"
+      ]
+    ]
+  },
+  {
+    "id": "入る",
+    "jp": "入る",
+    "kana": "はいる",
+    "group": 1,
+    "en": [
+      "enter",
+      "entered",
+      "entering",
+      "entered"
+    ],
+    "frames": [
+      [
+        "部屋に",
+        "へや に ",
+        "the room"
+      ],
+      [
+        "店に",
+        "みせ に ",
+        "the shop"
+      ]
+    ],
+    "aspect": "result"
+  },
+  {
+    "id": "立つ",
+    "jp": "立つ",
+    "kana": "たつ",
+    "group": 1,
+    "en": [
+      "stand",
+      "stood",
+      "standing",
+      "stood"
+    ],
+    "frames": [
+      [
+        "ここに",
+        "ここ に ",
+        "here"
+      ],
+      [
+        "入口に",
+        "いりぐち に ",
+        "at the entrance"
+      ]
+    ]
+  },
+  {
+    "id": "勉強する",
+    "jp": "勉強する",
+    "kana": "べんきょうする",
+    "group": 3,
+    "en": [
+      "study",
+      "studied",
+      "studying",
+      "studied"
+    ],
+    "frames": [
+      [
+        "日本語を",
+        "にほんご を ",
+        "Japanese"
+      ],
+      [
+        "英語を",
+        "えいご を ",
+        "English"
+      ]
+    ],
+    "passive": true
+  },
+  {
+    "id": "料理する",
+    "jp": "料理する",
+    "kana": "りょうりする",
+    "group": 3,
+    "en": [
+      "cook",
+      "cooked",
+      "cooking",
+      "cooked"
+    ],
+    "frames": [
+      [
+        "家で",
+        "いえ で ",
+        "at home"
+      ],
+      [
+        "毎日",
+        "まいにち ",
+        "every day"
+      ]
+    ]
+  },
+  {
+    "id": "ある",
+    "jp": "ある",
+    "kana": "ある",
+    "group": 1,
+    "en": [
+      "exist",
+      "existed",
+      "existing",
+      "existed"
+    ],
+    "frames": [
+      [
+        "机の上に本が",
+        "つくえ の うえ に ほん が ",
+        "a book on the desk"
+      ],
+      [
+        "部屋に椅子が",
+        "へや に いす が ",
+        "a chair in the room"
+      ]
+    ],
+    "sense": "aru"
+  },
+  {
+    "id": "いる",
+    "jp": "いる",
+    "kana": "いる",
+    "group": 2,
+    "en": [
+      "be present",
+      "was present",
+      "being present",
+      "been present"
+    ],
+    "frames": [
+      [
+        "家に猫が",
+        "いえ に ねこ が ",
+        "a cat at home"
+      ],
+      [
+        "公園に友達が",
+        "こうえん に ともだち が ",
+        "a friend in the park"
+      ]
+    ],
+    "sense": "iru"
+  },
+  {
+    "id": "撮る",
+    "jp": "撮る",
+    "kana": "とる",
+    "group": 1,
+    "en": [
+      "take",
+      "took",
+      "taking",
+      "taken"
+    ],
+    "frames": [
+      [
+        "写真を",
+        "しゃしん を ",
+        "a photo"
+      ],
+      [
+        "ビデオを",
+        "びでお を ",
+        "a video"
+      ]
+    ],
+    "passive": true
+  },
+  {
+    "id": "着る",
+    "jp": "着る",
+    "kana": "きる",
+    "group": 2,
+    "en": [
+      "wear",
+      "wore",
+      "wearing",
+      "worn"
+    ],
+    "frames": [
+      [
+        "コートを",
+        "こおと を ",
+        "a coat"
+      ],
+      [
+        "シャツを",
+        "しゃつ を ",
+        "a shirt"
+      ]
+    ],
+    "aspect": "wear",
+    "passive": true
+  },
+  {
+    "id": "切る",
+    "jp": "切る",
+    "kana": "きる",
+    "group": 1,
+    "en": [
+      "cut",
+      "cut",
+      "cutting",
+      "cut"
+    ],
+    "frames": [
+      [
+        "紙を",
+        "かみ を ",
+        "paper"
+      ],
+      [
+        "野菜を",
+        "やさい を ",
+        "vegetables"
+      ]
+    ],
+    "passive": true
+  }
+]

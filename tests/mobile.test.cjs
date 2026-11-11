@@ -26,9 +26,9 @@ test("phone navigation, reading controls and word popup fit narrow touch screens
       for (const name of [
         "library",
         "lessons",
-        "grammar",
         "kana",
         "numbers",
+        "verbs",
         "settings",
       ]) {
         const tab = page.locator('[data-page="' + name + '"]');

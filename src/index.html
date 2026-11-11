@@ -146,10 +146,10 @@
           </button>
           <button
             type="button"
-            data-page="grammar"
-            data-mobile-label="Grammar"
-            title="Grammar reference"
-            aria-label="Grammar reference"
+            data-page="verbs"
+            data-mobile-label="Verbs"
+            title="Verb Explorer · 動詞活用"
+            aria-label="Verb Explorer · 動詞活用"
           >
             <svg
               viewBox="0 0 24 24"
@@ -157,9 +157,12 @@
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
+              aria-hidden="true"
             >
-              <path d="M4 5h16v14H4zM8 9h8M8 13h5" /></svg
-            >Grammar
+              <path
+                d="M4 5h6v14H4zM14 5h6v14h-6zM7 9v6m10-6v6M10 12h4m-2-2 2 2-2 2"
+              /></svg
+            ><span>Verb Explorer <small lang="ja">動詞活用</small></span>
           </button>
           <button
             type="button"
@@ -195,15 +198,7 @@
         </div>
 
         <div class="sidebar-bottom">
-          <span>ことば帳</span
-          ><a
-            class="sidebar-instagram"
-            href="https://www.instagram.com/alkn.co/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="@alkn.co on Instagram (opens in a new tab)"
-            >@alkn.co ↗</a
-          >
+          <span>ことば帳</span>
         </div>
       </aside>
       <main>
@@ -259,8 +254,6 @@
           >
             <button type="button" data-reference="library">
               Dictionary <span id="dictionaryCount"></span></button
-            ><button type="button" data-reference="grammar">
-              Grammar <span>Patterns & explanations</span></button
             ><button type="button" data-reference="lessons">
               Lessons <span>Yuma-san’s notebook</span></button
             ><button type="button" data-reference="kana">
@@ -607,14 +600,11 @@
             >
           </p>
         </section>
-        <section id="grammarPage" class="hidden" aria-label="Grammar reference">
-          <div class="kana-hero">
-            <div class="hero-kicker">文法 · GRAMMAR REFERENCE</div>
-            <h1>See how Japanese fits together.</h1>
-            <p>Patterns and explanations from your lessons, in one place.</p>
-          </div>
-          <div id="grammarContent"></div>
-        </section>
+        <section
+          id="verbsPage"
+          class="hidden"
+          aria-label="Japanese Verb Explorer"
+        ></section>
         <section
           id="settingsPage"
           class="hidden"

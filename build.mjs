@@ -9,6 +9,7 @@ const root = path.dirname(fileURLToPath(import.meta.url));
 const read = (file) => fs.readFile(path.join(root, file), "utf8");
 const datasets = {
   CARD_LEARNING: "card-learning",
+  EXPLORER_VERBS: "explorer-verbs",
   BASE_WORDS: "words",
   YUMA_LESSONS: "lessons",
   VERB_FORMS: "forms",
@@ -48,6 +49,9 @@ for (const word of [
 for (const file of [
   "learning-cards",
   "lessons-journal",
+  "verb-engine",
+  "verb-learning",
+  "verb-explorer",
   "app",
   "kana",
   "numbers-time",
