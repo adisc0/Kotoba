@@ -1,0 +1,112 @@
+[
+  {
+    "id": "教える",
+    "jp": "教える",
+    "kana": "おしえる",
+    "group": 2,
+    "en": ["teach", "", "", ""],
+    "frames": [],
+    "custom": true,
+    "library": true,
+    "usage": "action"
+  },
+  {
+    "id": "借りる",
+    "jp": "借りる",
+    "kana": "かりる",
+    "group": 2,
+    "en": ["borrow", "", "", ""],
+    "frames": [],
+    "custom": true,
+    "library": true,
+    "usage": "action"
+  },
+  {
+    "id": "開ける",
+    "jp": "開ける",
+    "kana": "あける",
+    "group": 2,
+    "en": ["open", "", "", ""],
+    "frames": [],
+    "custom": true,
+    "library": true,
+    "usage": "action"
+  },
+  {
+    "id": "忘れる",
+    "jp": "忘れる",
+    "kana": "わすれる",
+    "group": 2,
+    "en": ["forget", "", "", ""],
+    "frames": [],
+    "custom": true,
+    "library": true,
+    "usage": "action"
+  },
+  {
+    "id": "走る",
+    "jp": "走る",
+    "kana": "はしる",
+    "group": 1,
+    "en": ["run", "", "", ""],
+    "frames": [],
+    "custom": true,
+    "library": true,
+    "usage": "action"
+  },
+  {
+    "id": "知る",
+    "jp": "知る",
+    "kana": "しる",
+    "group": 1,
+    "en": ["know", "", "", ""],
+    "frames": [],
+    "custom": true,
+    "library": true,
+    "usage": "state"
+  },
+  {
+    "id": "掃除する",
+    "jp": "掃除する",
+    "kana": "そうじする",
+    "group": 3,
+    "en": ["clean", "", "", ""],
+    "frames": [],
+    "custom": true,
+    "library": true,
+    "usage": "action"
+  },
+  {
+    "id": "運動する",
+    "jp": "運動する",
+    "kana": "うんどうする",
+    "group": 3,
+    "en": ["exercise", "", "", ""],
+    "frames": [],
+    "custom": true,
+    "library": true,
+    "usage": "action"
+  },
+  {
+    "id": "旅行する",
+    "jp": "旅行する",
+    "kana": "りょこうする",
+    "group": 3,
+    "en": ["travel", "", "", ""],
+    "frames": [],
+    "custom": true,
+    "library": true,
+    "usage": "action"
+  },
+  {
+    "id": "死ぬ",
+    "jp": "死ぬ",
+    "kana": "しぬ",
+    "group": 1,
+    "en": ["die", "", "", ""],
+    "frames": [],
+    "custom": true,
+    "library": true,
+    "usage": "state"
+  }
+]

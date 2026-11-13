@@ -1,5 +1,6 @@
 const VE_KEY = "kotoba_verb_explorer_v1";
-const veById = new Map(EXPLORER_VERBS.map((v) => [v.id, v]));
+const veLibrary = [...EXPLORER_VERBS, ...VERB_LIBRARY_ADDITIONS];
+const veById = new Map(veLibrary.map((v) => [v.id, v]));
 const veCommon = [
   "食べる",
   "飲む",
@@ -24,10 +25,12 @@ const veNormalize = (s) =>
     .replace(/ō/g, "ou")
     .replace(/ū/g, "uu")
     .replace(/[\s’'.,。？！!?・-]/g, "");
-const veSearchIndex = EXPLORER_VERBS.map((v) => [
+const veSearchIndex = veLibrary.map((v) => [
   v,
   veNormalize([v.jp, v.kana, verbRomaji(v.kana), ...v.en].join(" ")),
 ]);
+veLoadCustom();
+let veReadingPreferenceSet = false;
 let veSaved = { favorites: [], recent: [], readings: true, romaji: true };
 try {
   const saved = JSON.parse(localStorage.getItem(VE_KEY) || "{}");
@@ -35,9 +38,12 @@ try {
     if (Array.isArray(saved[key]))
       veSaved[key] = [
         ...new Set(saved[key].filter((id) => veById.has(id))),
-      ].slice(0, key === "recent" ? 8 : EXPLORER_VERBS.length);
+      ].slice(0, key === "recent" ? 8 : veById.size);
   for (const key of ["readings", "romaji"])
-    if (typeof saved[key] === "boolean") veSaved[key] = saved[key];
+    if (typeof saved[key] === "boolean") {
+      veSaved[key] = saved[key];
+      if (key === "readings") veReadingPreferenceSet = true;
+    }
 } catch {}
 const veState = {
   selected: "食べる",
@@ -94,6 +100,10 @@ function veGroup(v) {
   ];
 }
 function veGroupNote(v) {
+  if (v.library)
+    return "Curated library classification. Forms use the shared conjugation engine; contextual examples use a reviewed reference verb.";
+  if (v.custom)
+    return "Group confirmed by you. Forms are calculated offline from that group; lexical meaning and usage are unreviewed.";
   return v.group === 1
     ? "A Godan verb: its last kana changes vowel rows. A final る does not make it Group 2."
     : v.group === 2
@@ -104,14 +114,15 @@ function veInitialize() {
   const root = el("verbsPage");
   if (root.dataset.ready) return;
   root.dataset.ready = "true";
-  root.innerHTML = `<div class="ve"><header class="ve-heading"><div><div class="hero-kicker">動詞活用 · KOTOBA</div><h1>Verb Explorer</h1><p>Find a verb. Understand its forms. Put them into practice.</p></div><button class="btn small" type="button" data-ve="practice">Practice</button></header>
- <label class="ve-search-label" for="veSearch">Search the curated verb dictionary</label><div class="ve-search-wrap"><input id="veSearch" type="search" autocomplete="off" placeholder="食べる · たべる · taberu · eat" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="veSuggestions"><ul id="veSuggestions" role="listbox" aria-label="Verb suggestions" hidden></ul></div><p id="veSearchStatus" class="ve-note" role="status"></p>
+  if (!veReadingPreferenceSet) veSaved.readings = state.readingMode !== "clean";
+  root.innerHTML = `<div class="ve"><header class="ve-heading"><div><div class="hero-kicker">動詞活用 · KOTOBA</div><h1>Verb Explorer</h1><p>Find a verb. Understand its forms. Put them into practice.</p></div><div class="ve-header-actions"><button class="btn small" type="button" data-ve="guide">Conjugation Guide</button><button class="btn small" type="button" data-ve="practice">Practice</button></div></header>
+ <div class="ve-search-heading"><label class="ve-search-label" for="veSearch">Search verbs</label><button type="button" class="btn small" data-ve="new-verb">New verb</button></div><div class="ve-search-wrap"><input id="veSearch" type="search" autocomplete="off" placeholder="食べる · たべる · taberu · eat" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="veSuggestions"><ul id="veSuggestions" role="listbox" aria-label="Verb suggestions" hidden></ul></div><p id="veSearchStatus" class="ve-note" role="status"></p>
  <div class="ve-common" aria-label="Commonly studied verbs">${veCommon.map((id) => `<button type="button" data-ve-select="${id}" lang="ja">${id}</button>`).join("")}</div>
  <details class="ve-saved"><summary>Favorites & recent verbs</summary><div id="veSaved"></div></details>
- <div id="veSummary"></div><div class="ve-controls"><div class="ve-tabs" role="tablist" aria-label="Conjugation study tiers">${[
+ ${veCustomMarkup()}<div id="veSummary"></div><div class="ve-controls"><div class="ve-tabs" role="tablist" aria-label="Conjugation study tiers">${[
    ["essentials", "N5 Essentials"],
    ["all", "All Forms"],
-   ["advanced", "Advanced"],
+   ["advanced", "Advanced · N4+"],
  ]
    .map(
      ([key, label]) =>
@@ -120,16 +131,20 @@ function veInitialize() {
    .join(
      "",
    )}</div><fieldset class="ve-display"><legend class="ve-sr">Reading display</legend><label><input type="checkbox" data-ve-display="readings" ${veSaved.readings ? "checked" : ""}> Readings</label><label><input type="checkbox" data-ve-display="romaji" ${veSaved.romaji ? "checked" : ""}> Romaji</label></fieldset></div>
- <div id="veForms" role="tabpanel" tabindex="0"></div>
+ <section id="veGuide" class="ve-practice ve-guide" hidden aria-labelledby="veGuideTitle"></section><div id="veForms" role="tabpanel" tabindex="0"></div>
  <section id="vePractice" class="ve-practice" hidden aria-labelledby="vePracticeTitle"><div class="ve-practice-heading"><h2 id="vePracticeTitle" tabindex="-1">Practice conjugations</h2><button type="button" class="btn small" data-ve="close-practice">Close practice</button></div><div class="ve-practice-filters"><label>Study tier<select id="vePracticeScope"><option value="essentials">N5 Essentials</option><option value="all">All Forms</option></select></label><label>Verb group<select id="vePracticeGroup"><option value="all">All groups</option><option value="1">Group 1 · う-verbs</option><option value="2">Group 2 · る-verbs</option><option value="3">Group 3 · Irregular</option></select></label><label>Form family<select id="vePracticeFamily"><option value="all">All registers</option><option value="polite">Polite forms</option><option value="plain">Casual forms</option><option value="te">て-form & continuous</option></select></label><label>Answer mode<select id="vePracticeMode"><option value="typed">Type Japanese</option><option value="choice">Multiple choice</option></select></label></div><div id="veQuestion"></div></section>
  <p class="ve-note ve-sources">${EXPLORER_VERBS.length} curated verbs · Works offline. Study tiers are learning guides; unverified JLPT word-level tags are omitted. <a href="https://tsunagarujp.mext.go.jp/assets/download/conjugation_of_verbs_2_ver202404.pdf" target="_blank" rel="noopener noreferrer">MEXT conjugation reference ↗</a> · <a href="https://guidetojapanese.org/learn/grammar/causepass" target="_blank" rel="noopener noreferrer">Usage reference ↗</a></p></div>`;
   root.addEventListener("click", veClick);
+  root.addEventListener("submit", (e) => {
+    if (e.target.id === "veCustomForm") veSaveCustom(e);
+  });
   // Keep combobox focus while a pointer selects a listbox option.
   root.addEventListener("pointerdown", (e) => {
     if (e.target.closest("#veSuggestions [data-ve-select]")) e.preventDefault();
   });
   root.addEventListener("input", (e) => {
     if (e.target.id === "veSearch") veSuggest(e.target.value);
+    if (["veCustomJP", "veCustomKana"].includes(e.target.id)) veCustomInfer();
   });
   root.addEventListener("keydown", veKeydown);
   root.addEventListener("change", (e) => {
@@ -177,7 +192,7 @@ function veSelect(id, remember = true) {
           ? "着ている describes wearing clothes, a resulting state, rather than putting them on."
           : "";
   el("veSummary").innerHTML =
-    `<section class="ve-summary"><div><span class="ve-group ve-group-${v.group}">${veGroup(v)}</span><h2 lang="ja">${veRuby(v.jp, v.kana)}</h2><p class="ve-romaji">${esc(verbRomaji(v.kana))}</p><p>${esc(v.en[0])}${v.sense === "iru" ? " · animate presence / staying" : v.sense === "aru" ? " · inanimate existence" : ""}</p></div><button type="button" class="btn small" data-ve="favorite" aria-pressed="${veSaved.favorites.includes(id)}">${veSaved.favorites.includes(id) ? "Saved to favorites" : "Save favorite"}</button><p class="ve-group-note">${veGroupNote(v)}${aspect ? " " + aspect : ""}</p></section>`;
+    `<section class="ve-summary"><div><span class="ve-group ve-group-${v.group}">${veGroup(v)}</span><h2 lang="ja">${veRuby(v.jp, v.kana)}</h2><p class="ve-romaji">${esc(verbRomaji(v.kana))}</p><p data-no-translate>${esc(v.en[0])}${v.sense === "iru" ? " · animate presence / staying" : v.sense === "aru" ? " · inanimate existence" : ""}</p></div><button type="button" class="btn small" data-ve="favorite" aria-pressed="${veSaved.favorites.includes(id)}">${veSaved.favorites.includes(id) ? "Saved to favorites" : "Save favorite"}</button><p class="ve-group-note">${veGroupNote(v)}${aspect ? " " + aspect : ""}</p>${v.custom ? '<p class="ve-custom-notice">' + (v.library ? "Library supplement." : "User-provided verb.") + " No meaning or context sentence has been inferred. Examples use a reviewed reference verb.</p>" : ""}</section>`;
   veRenderSaved();
   veRenderTable();
 }
@@ -211,7 +226,7 @@ function veSuggest(query) {
   el("veSearchStatus").textContent = q
     ? open
       ? `${veState.suggestions.length} suggestions. Use arrow keys and Enter, or tap a verb.`
-      : "Not in this curated dictionary yet. Try a listed dictionary form."
+      : "Not found. Use New verb to enter its reading and confirm the group."
     : "";
 }
 function veCloseSuggestions() {
@@ -284,14 +299,15 @@ function veRenderTable() {
     });
   el("veForms").setAttribute("aria-labelledby", "veTab-" + veState.tab);
   el("veForms").innerHTML =
-    `<p class="ve-note">${forms.length} entries · “Pattern” means grammar attached to a verb form, rather than a standalone conjugation. Expand a row to learn more.</p><table class="ve-table"><caption class="ve-sr">Conjugations of ${esc(v.jp)}</caption><thead><tr><th scope="col">Form</th><th scope="col">Japanese</th><th class="ve-romaji" scope="col">Romaji</th><th scope="col">English</th><th scope="col"><span class="ve-sr">Copy</span></th></tr></thead><tbody>${forms.map((f) => `<tr class="ve-main" data-ve-expand="${f.id}"><th scope="row"><button type="button" aria-expanded="false" aria-controls="veDetail-${f.id}">${esc(f.label)}<span class="ve-row-meta"><span class="ve-register-${f.register}">${f.register === "plain" ? "Plain" : f.register === "polite" ? "Polite" : "Neutral"}</span>${f.kind === "pattern" ? "<span>Pattern</span>" : ""}</span></button></th><td class="ve-japanese" lang="ja">${f.unavailable ? '<span class="ve-unavailable">Context-specific</span>' : veRuby(f.jp, f.kana)}</td><td class="ve-romaji">${esc(f.romaji)}</td><td class="ve-gloss">${f.unavailable ? "See usage note" : esc(verbGloss(v, f))}</td><td class="ve-copy-cell"><button type="button" class="mini-icon" data-ve-copy="${f.id}" aria-label="Copy Japanese: ${esc(f.label)}" ${f.unavailable ? "disabled" : ""}>⧉</button></td></tr><tr class="ve-detail" id="veDetail-${f.id}" hidden><td colspan="5"></td></tr>`).join("")}</tbody></table>`;
+    `<p class="ve-note">${forms.length} entries · “Pattern” means grammar attached to a verb form, rather than a standalone conjugation. Expand a row to learn more.</p><p class="ve-form-legend"><span class="g-verb">Base / stem</span><span class="g-ending">Ending / attached pattern</span></p><p class="ve-note">Colors show the base used for this form; it is not always the ます-stem.</p><table class="ve-table"><caption class="ve-sr">Conjugations of ${esc(v.jp)}</caption><thead><tr><th scope="col">Form</th><th scope="col">Japanese</th><th class="ve-romaji" scope="col">Romaji</th><th scope="col">English</th><th scope="col"><span class="ve-sr">Copy</span></th></tr></thead><tbody>${forms.map((f) => `<tr class="ve-main" data-ve-expand="${f.id}"><th scope="row"><button type="button" aria-expanded="false" aria-controls="veDetail-${f.id}">${esc(f.label)}<span class="ve-row-meta"><span class="ve-register-${f.register}">${f.register === "plain" ? "Plain" : f.register === "polite" ? "Polite" : "Neutral"}</span>${f.kind === "pattern" ? "<span>Pattern</span>" : ""}</span></button></th><td class="ve-japanese" lang="ja">${f.unavailable ? '<span class="ve-unavailable">Context-specific</span>' : veFormMarkup(v, f)}</td><td class="ve-romaji">${esc(f.romaji)}</td><td class="ve-gloss">${f.unavailable ? "See usage note" : esc(verbGloss(v, f))}</td><td class="ve-copy-cell"><button type="button" class="mini-icon" data-ve-copy="${f.id}" aria-label="Copy Japanese: ${esc(f.label)}" ${f.unavailable ? "disabled" : ""}>⧉</button></td></tr><tr class="ve-detail" id="veDetail-${f.id}" hidden><td colspan="5"></td></tr>`).join("")}</tbody></table>`;
 }
 function veRenderExplanation(v, f) {
   if (f.unavailable)
     return `<div class="ve-explanation"><p role="note">${esc(f.unavailable)}</p><p>${esc(f.caution)}</p></div>`;
   const formation = verbFormation(v, f),
-    examples = verbExamples(v, f);
-  return `<div class="ve-explanation"><div class="ve-explanation-grid"><section><h3>Meaning</h3><p>${esc(f.meaning)}</p><h3>Formation</h3><p class="ve-formation" lang="ja">${esc(formation.path)}</p><p>${esc(formation.rule)}</p>${f.variants.length ? `<p>Also standard: <span lang="ja">${f.variants.map((x) => veRuby(x.jp, x.kana)).join(" / ")}</span><span class="ve-romaji"> · ${f.variants.map((x) => esc(x.romaji)).join(" / ")}</span></p>` : ""}</section><section><h3>Grammar notes</h3><p>${f.register === "polite" ? "Polite style." : f.register === "plain" ? "Plain/casual style." : "A connecting construction; the rest of the sentence sets the politeness."} ${f.kind === "pattern" ? "This is an attached grammar pattern." : ""}</p>${v.aspect && f.id.startsWith("continuous") ? `<p>${esc(el("veSummary").querySelector(".ve-group-note").textContent)}</p>` : ""}<h3>Common mistakes</h3><p>${esc(f.caution)}</p></section></div><h3>Examples · practice wording</h3><div class="ve-example-grid">${examples.map((x) => `<div class="ve-example" data-no-translate><p class="ve-example-jp" lang="ja">${veRuby(x.jp, x.kana)}</p><p class="ve-romaji">${esc(x.romaji)}</p><p>${esc(x.en)}</p><button type="button" class="mini-icon" data-ve-speak="${esc(x.jp)}" aria-label="Listen to example sentence">${icons.speaker}</button></div>`).join("")}</div></div>`;
+    study = veReferenceExamples(v, f),
+    examples = study.examples;
+  return `<div class="ve-explanation"><div class="ve-explanation-grid"><section><h3>Meaning</h3><p>${esc(f.meaning)}</p><p class="ve-time-note">${esc(veTemporalNote(v, f))}</p><h3>Formation</h3><p class="ve-formation" lang="ja">${esc(formation.path)}</p><p>${esc(formation.rule)}</p>${f.variants.length ? `<p>Also standard: <span lang="ja">${f.variants.map((x) => veRuby(x.jp, x.kana)).join(" / ")}</span><span class="ve-romaji"> · ${f.variants.map((x) => esc(x.romaji)).join(" / ")}</span></p>` : ""}</section><section><h3>Grammar notes</h3><p>${f.register === "polite" ? "Polite style." : f.register === "plain" ? "Plain/casual style." : "A connecting construction; the rest of the sentence sets the politeness."} ${f.kind === "pattern" ? "This is an attached grammar pattern." : ""}</p>${v.aspect && f.id.startsWith("continuous") ? `<p>${esc(el("veSummary").querySelector(".ve-group-note").textContent)}</p>` : ""}<h3>Common mistakes</h3><p>${esc(f.caution)}</p></section></div><h3>Examples · practice wording</h3>${study.reference ? '<p class="ve-custom-notice">Reference examples with <span lang="ja">' + esc(study.verb.jp) + "</span>. These are not verified sentences for your new verb.</p>" : ""}<div class="ve-example-grid">${examples.map((x) => `<div class="ve-example" data-no-translate><p class="ve-example-jp" lang="ja">${veRuby(x.jp, x.kana)}</p><p class="ve-romaji">${esc(x.romaji)}</p><p>${esc(x.en)}</p><button type="button" class="mini-icon" data-ve-speak="${esc(x.jp)}" aria-label="Listen to example sentence">${icons.speaker}</button></div>`).join("")}</div></div>`;
 }
 async function veCopy(f, button) {
   try {
@@ -327,6 +343,24 @@ async function veCopy(f, button) {
 }
 
 function veClick(e) {
+  const guideTopic = e.target.closest("[data-ve-topic]");
+  if (guideTopic) {
+    const topic = el("veGuide-" + guideTopic.dataset.veTopic);
+    topic.open = true;
+    topic.scrollIntoView({ block: "start", behavior: "auto" });
+    return;
+  }
+  const guideForm = e.target.closest("[data-ve-guide-form]");
+  if (guideForm) {
+    veState.tab = "all";
+    veRenderTable();
+    const button = el("verbsPage").querySelector(
+      '[data-ve-expand="' + guideForm.dataset.veGuideForm + '"] th button',
+    );
+    button.click();
+    button.focus();
+    return;
+  }
   const select = e.target.closest("[data-ve-select]");
   if (select) {
     veSelect(select.dataset.veSelect);
@@ -378,6 +412,21 @@ function veClick(e) {
       : [...veSaved.favorites, id];
     vePersist();
     veSelect(id, false);
+  }
+  if (action === "new-verb") veOpenCustom();
+  if (action === "close-custom") {
+    el("veCustom").hidden = true;
+    el("verbsPage").querySelector('[data-ve="new-verb"]').focus();
+  }
+  if (action === "guide") {
+    veGuideRender();
+    el("veGuide").hidden = false;
+    el("veGuideTitle").focus();
+    el("veGuide").scrollIntoView({ block: "start", behavior: "auto" });
+  }
+  if (action === "close-guide") {
+    el("veGuide").hidden = true;
+    el("verbsPage").querySelector('[data-ve="guide"]').focus();
   }
   if (action === "practice") {
     el("vePractice").hidden = false;

@@ -10,6 +10,7 @@ const read = (file) => fs.readFile(path.join(root, file), "utf8");
 const datasets = {
   CARD_LEARNING: "card-learning",
   EXPLORER_VERBS: "explorer-verbs",
+  VERB_LIBRARY_ADDITIONS: "verb-library",
   BASE_WORDS: "words",
   YUMA_LESSONS: "lessons",
   VERB_FORMS: "forms",
@@ -51,7 +52,10 @@ for (const file of [
   "lessons-journal",
   "verb-engine",
   "verb-learning",
+  "verb-guide",
+  "verb-custom",
   "verb-explorer",
+  "verb-groups",
   "app",
   "kana",
   "numbers-time",

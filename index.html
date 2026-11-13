@@ -17,7 +17,7 @@
       type="image/svg+xml"
       href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTciIGZpbGw9IiNkMTZiNGQiLz48dGV4dCB4PSIzMiIgeT0iNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJOb3RvIFNhbnMgQ0pLIEpQLCBZdSBHb3RoaWMsIEhpcmFnaW5vIEtha3UgR290aGljIFByb04sIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjZmZmZmZmIj7oqIA8L3RleHQ+PC9zdmc+"
     />
-    <link rel="stylesheet" href="./assets/reference.a5ef24fa9f.css">
+    <link rel="stylesheet" href="./assets/reference.8540791dc5.css">
   </head>
   <body>
     <div class="app">
@@ -163,6 +163,24 @@
                 d="M4 5h6v14H4zM14 5h6v14h-6zM7 9v6m10-6v6M10 12h4m-2-2 2 2-2 2"
               /></svg
             ><span>Verb Explorer <small lang="ja">動詞活用</small></span>
+          </button>
+          <button
+            type="button"
+            data-page="verbGroups"
+            data-mobile-label="Groups"
+            title="Verb Groups · 動詞グループ"
+            aria-label="Verb Groups · 動詞グループ"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <rect x="3" y="4" width="7" height="7" rx="1" />
+              <rect x="14" y="4" width="7" height="7" rx="1" />
+              <rect x="8" y="15" width="8" height="6" rx="1" /></svg
+            ><span>Verb Groups <small lang="ja">動詞グループ</small></span>
           </button>
           <button
             type="button"
@@ -606,6 +624,11 @@
           aria-label="Japanese Verb Explorer"
         ></section>
         <section
+          id="verbGroupsPage"
+          class="hidden"
+          aria-label="Verb Groups library"
+        ></section>
+        <section
           id="settingsPage"
           class="hidden"
           aria-label="Display and about"
@@ -695,6 +718,6 @@
     </dialog>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script src="./assets/reference.6c54203ae3.js" defer></script>
+    <script src="./assets/reference.9da7d0bf14.js" defer></script>
   </body>
 </html>

@@ -817,7 +817,15 @@ function stats() {
       WORDS.length + " words & expressions"));
 }
 function setPage(p) {
-  const pages = ["library", "lessons", "kana", "numbers", "verbs", "settings"];
+  const pages = [
+    "library",
+    "lessons",
+    "kana",
+    "numbers",
+    "verbs",
+    "verbGroups",
+    "settings",
+  ];
   if (pages.includes(p)) {
     ((page = p), p !== "lessons" && (lessonsMenuOpen = !1));
     for (const name of pages) {
@@ -829,6 +837,7 @@ function setPage(p) {
           : tab.removeAttribute("aria-current"));
     }
     (p === "verbs" && veInitialize(),
+      p === "verbGroups" && vgInitialize(),
       p === "library" && renderLibrary(),
       p === "lessons" ? renderLessons() : lessonSideBar(),
       window.scrollTo({ top: 0, behavior: "auto" }));

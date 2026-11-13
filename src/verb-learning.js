@@ -1,6 +1,8 @@
 // Context-aware study examples. Each frame supplies its object/location and
 // reading; transformations use the same engine as the table and practice.
 function verbGloss(v, f) {
+  if (v.custom)
+    return f.unavailable || (f.id === "dictionary" ? v.en[0] : f.meaning);
   const basicExist = [
     "dictionary",
     "polite",
@@ -80,7 +82,7 @@ function verbFormation(v, f) {
           : "Use the irregular polite stem: する → し; 来る → き. Compounds keep their noun prefix.";
   else if (["te", "ta"].includes(f.base))
     rule =
-      v.jp === "行く"
+      v.jp.endsWith("行く") || v.jp === "いく" || v.ikuException
         ? "行く is exceptional: 行って / 行った, not 行いて / 行いた."
         : v.group === 2
           ? "Remove final る, then add て / た."
@@ -92,7 +94,7 @@ function verbFormation(v, f) {
       "Start with the ない-form, remove ない, then attach the shown ending.";
   else if (f.base === "negative")
     rule =
-      v.jp === "ある"
+      v.jp === "ある" || v.sense === "aru"
         ? "ある has the exceptional negative ない."
         : v.group === 1
           ? "Change the final kana to the a-row, then add ない. Final う becomes わない."
@@ -154,7 +156,7 @@ function verbFormation(v, f) {
   };
 }
 function verbExamples(v, f) {
-  if (f.unavailable) return [];
+  if (f.unavailable || v.custom) return [];
   const id = f.id;
   const sentence = (jp, kana, en) => ({
     jp,

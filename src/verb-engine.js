@@ -87,7 +87,8 @@ function verbBases(v) {
   if (v.group === 3) {
     const suru = v.kana.endsWith("する");
     const prefix = pair(v.jp.slice(0, -2), v.kana.slice(0, -2));
-    const form = (jp, kana = jp) => add(prefix, jp, kana);
+    const form = (jp, kana = jp) =>
+      add(prefix, !suru && !v.jp.endsWith("来る") ? kana : jp, kana);
     stem = suru ? form("し") : form("来", "き");
     te = suru ? form("して") : form("来て", "きて");
     ta = suru ? form("した") : form("来た", "きた");
@@ -115,9 +116,13 @@ function verbBases(v) {
     stem = add(root, row[1]);
     e = add(root, row[2]);
     o = add(root, row[3]);
-    te = add(root, v.jp === "行く" ? "って" : row[4]);
-    ta = add(root, v.jp === "行く" ? "った" : row[5]);
-    negative = v.jp === "ある" ? pair("ない", "ない") : add(a, "ない");
+    const iku = v.jp.endsWith("行く") || v.jp === "いく" || v.ikuException;
+    te = add(root, iku ? "って" : row[4]);
+    ta = add(root, iku ? "った" : row[5]);
+    negative =
+      v.jp === "ある" || v.sense === "aru"
+        ? pair("ない", "ない")
+        : add(a, "ない");
     potential = add(e, "る");
     passive = add(a, "れる");
     causative = add(a, "せる");
@@ -565,6 +570,33 @@ function verbConjugations(v) {
     const isContinuous = id.startsWith("continuous");
     let unavailable = "";
     if (
+      v.custom &&
+      v.usage !== "action" &&
+      ![
+        "dictionary",
+        "polite",
+        "politeNegative",
+        "politePast",
+        "politePastNegative",
+        "negative",
+        "past",
+        "pastNegative",
+        "te",
+        "ifBa",
+        "ifTo",
+        "ifTara",
+      ].includes(id)
+    )
+      unavailable =
+        "Confirm that this is a volitional action before using this construction. Its lexical usage has not been reviewed.";
+    if (
+      v.custom &&
+      ["わかる", "できる", "みえる", "きこえる"].includes(v.kana) &&
+      id === "potential"
+    )
+      unavailable =
+        "This verb already expresses understanding, ability, visibility, or audibility. Do not mechanically make another potential form.";
+    if (
       v.sense === "aru" &&
       ![
         "dictionary",
@@ -593,6 +625,7 @@ function verbConjugations(v) {
     if (
       id === "passive" &&
       !v.passive &&
+      !v.custom &&
       !["する", "来る"].includes(v.jp) &&
       !v.sense
     )
@@ -630,4 +663,156 @@ function verbConjugations(v) {
       unavailable,
     };
   });
+}
+
+function verbResolveGroup(jp, kana) {
+  if (
+    jp === "する" ||
+    (/[一-龯々ァ-ヶー]+する$/.test(jp) && kana.endsWith("する"))
+  )
+    return 3;
+  if (
+    jp === "来る" ||
+    jp === "くる" ||
+    (jp.endsWith("来る") && kana.endsWith("くる"))
+  )
+    return 3;
+  // Raw こする is Godan, unlike noun + する; raw まくる is not 来る.
+  if (kana.endsWith("る")) return 0;
+  return VENDINGS[kana.slice(-1)] ? 1 : 0;
+}
+function verbNewEntry(input) {
+  const jp = String(input.jp || "")
+    .normalize("NFKC")
+    .trim();
+  const kana = String(input.kana || "")
+    .normalize("NFKC")
+    .trim()
+    .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 96));
+  const group = Number(input.group),
+    meaning = String(input.meaning || "").trim();
+  if (!jp || jp.length > 40 || !/^[一-龯々ぁ-ゖァ-ヶー]+$/.test(jp))
+    return {
+      error: "Enter a Japanese dictionary form, without spaces or punctuation.",
+    };
+  if (!kana || kana.length > 70 || !/^[ぁ-ゖー]+$/.test(kana))
+    return { error: "Enter the complete reading in hiragana." };
+  if (meaning.length > 120)
+    return { error: "Keep the optional meaning under 120 characters." };
+  if (![1, 2, 3].includes(group))
+    return {
+      error:
+        "Select the verb group. A final る alone cannot determine the group.",
+    };
+  const jpEnd = jp
+    .slice(-1)
+    .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 96));
+  if (group === 1 && jpEnd !== kana.slice(-1))
+    return {
+      error: "The dictionary form and reading must have the same final kana.",
+    };
+  if (group === 1 && !VENDINGS[kana.slice(-1)])
+    return {
+      error:
+        "A Group 1 dictionary form must end in う, く, ぐ, す, つ, ぬ, ぶ, む, or る.",
+    };
+  if (group === 2 && (!jp.endsWith("る") || !kana.endsWith("る")))
+    return { error: "A Group 2 dictionary form must end in る." };
+  if (
+    group === 3 &&
+    !(jp.endsWith("する") && kana.endsWith("する")) &&
+    !((jp.endsWith("来る") || jp.endsWith("くる")) && kana.endsWith("くる"))
+  )
+    return { error: "Group 3 is for する, 来る, and their compounds." };
+  if (
+    [
+      "愛する",
+      "くださる",
+      "なさる",
+      "いらっしゃる",
+      "おっしゃる",
+      "ござる",
+      "問う",
+      "乞う",
+      "請う",
+    ].includes(jp) ||
+    jp.endsWith("である") ||
+    (jp === "得る" && kana === "うる")
+  )
+    return {
+      error:
+        "This verb has a lexical or honorific exception that needs a reviewed entry. It will not be guessed by the standard rules.",
+    };
+  const inferred = verbResolveGroup(jp, kana);
+  if (inferred && inferred !== group)
+    return {
+      error:
+        "The selected group conflicts with the supplied dictionary ending.",
+    };
+  return {
+    verb: {
+      id: "custom:" + jp + ":" + kana,
+      jp,
+      kana,
+      group,
+      custom: true,
+      usage: ["action", "state"].includes(input.usage)
+        ? input.usage
+        : "unknown",
+      en: [meaning || "Meaning not provided", "", "", ""],
+      frames: [],
+      ...(["有る", "在る"].includes(jp) && kana === "ある"
+        ? { sense: "aru" }
+        : {}),
+    },
+  };
+}
+
+function verbParts(v, f) {
+  if (f.unavailable)
+    return { stem: "", ending: "", stemKana: "", endingKana: "" };
+  let ending = f.suffix;
+  if (!ending)
+    ending =
+      {
+        dictionary:
+          v.group === 3 && v.kana.endsWith("する") ? "する" : v.jp.slice(-1),
+        negative: "ない",
+        pastNegative: "なかった",
+        te: f.jp.slice(-1),
+        past: f.jp.slice(-1),
+        potential:
+          v.group === 1 ? "る" : v.kana.endsWith("する") ? "できる" : "られる",
+        passive:
+          v.group === 1
+            ? "れる"
+            : v.kana.endsWith("する")
+              ? "される"
+              : "られる",
+        causative: v.group === 1 ? "せる" : "させる",
+        causativePassive:
+          v.group === 1
+            ? f.jp.endsWith("される")
+              ? "される"
+              : "せられる"
+            : "させられる",
+        imperative:
+          v.group === 1
+            ? ""
+            : v.group === 2
+              ? "ろ"
+              : v.kana.endsWith("する")
+                ? "ろ"
+                : "い",
+        volitional: v.group === 1 ? "う" : "よう",
+        ifBa: "ば",
+      }[f.id] || "";
+  if (!ending || !f.jp.endsWith(ending))
+    return { stem: f.jp, stemKana: f.kana, ending: "", endingKana: "" };
+  return {
+    stem: f.jp.slice(0, -ending.length),
+    stemKana: f.kana.slice(0, -ending.length),
+    ending,
+    endingKana: f.kana.slice(-ending.length),
+  };
 }
